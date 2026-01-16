@@ -1,0 +1,12 @@
+{
+  "name": "similarity-experiment",
+  "version": "1.0.0",
+  "description": "Similarity judgment experiment for product pairs",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/experiment.test.js"
+  },
+  "devDependencies": {
+    "puppeteer": "^21.0.0"
+  }
+}

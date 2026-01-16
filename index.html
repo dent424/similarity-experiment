@@ -14,7 +14,29 @@
       <div class="content">
         <p>[PLACEHOLDER: Insert consent form text here]</p>
       </div>
-      <button id="consent-btn" class="btn-primary">I Agree</button>
+      <div class="button-group">
+        <button id="consent-btn" class="btn-primary">I Agree</button>
+        <button id="no-consent-btn" class="btn-secondary">I Do Not Agree</button>
+      </div>
+    </div>
+
+    <!-- No Consent Page -->
+    <div id="no-consent-page" class="page hidden">
+      <h1>Thank you</h1>
+      <div class="content">
+        <p>You have chosen not to participate in this study.</p>
+        <p>You may now close this window.</p>
+      </div>
+    </div>
+
+    <!-- Already Completed Page -->
+    <div id="already-completed-page" class="page hidden">
+      <h1>Already Completed</h1>
+      <div class="content">
+        <p>Our records indicate you have already completed this study.</p>
+        <p>Each participant may only complete the study once.</p>
+        <p>You may now close this window.</p>
+      </div>
     </div>
 
     <!-- Instructions Page -->

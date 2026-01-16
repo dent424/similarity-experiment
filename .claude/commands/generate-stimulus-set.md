@@ -10,14 +10,14 @@ Generate product descriptions for all included products in the CSV file.
 
 ## Process
 
-1. **Read the CSV file**: `../Experiment/amazon_reviews_Kitchen_&_Dining_Coffee,_Tea_&_Espresso_top_products.csv`
+1. **Read the CSV file**: `similarity-experiment/data/products.csv`
 2. **Filter products**: Only process rows where `Include` column = "X"
 3. **For each product**, spawn a sub-agent via the Task tool with:
    - Product title (from `title` column)
    - ASIN (from `asin` column) - used as product ID
    - Price (from `current_price` column)
    - Word limit: 50
-4. **Collect results** into `stimuli/[set-name].json`
+4. **Collect results** into `similarity-experiment/stimuli/[set-name].json`
 
 ## Sub-Agent Prompt Template
 
@@ -58,7 +58,7 @@ Where:
 
 ## Output Format
 
-Save to `stimuli/[set-name].json`:
+Save to `similarity-experiment/stimuli/[set-name].json`:
 
 ```json
 {
@@ -88,7 +88,7 @@ Save to `stimuli/[set-name].json`:
 This will:
 1. Read CSV, filter to 29 included products (where `Include` = "X")
 2. Generate descriptions for each via parallel sub-agents
-3. Save to `stimuli/coffee-espresso.json`
+3. Save to `similarity-experiment/stimuli/coffee-espresso.json`
 
 ## CSV Columns Used
 
@@ -99,6 +99,6 @@ This will:
 
 ## Notes
 
-- Images already exist in `stimuli/` as `[ASIN].png` files
+- Images already exist in `similarity-experiment/stimuli/` as `[ASIN].png` files
 - The ASIN is used as the product ID because it's unique and stable
 - Set name argument ($ARGUMENTS) determines output filename

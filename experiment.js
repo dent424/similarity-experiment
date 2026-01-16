@@ -5,14 +5,21 @@ let trials = [];
 let currentTrial = 0;
 let results = [];
 let startTime = null;
+let sliderMoved = false;
+
+// localStorage key for tracking completion
+const COMPLETION_KEY = 'similarity_experiment_completed';
 
 // DOM elements
 const consentPage = document.getElementById('consent-page');
+const noConsentPage = document.getElementById('no-consent-page');
+const alreadyCompletedPage = document.getElementById('already-completed-page');
 const instructionsPage = document.getElementById('instructions-page');
 const trialPage = document.getElementById('trial-page');
 const completePage = document.getElementById('complete-page');
 
 const consentBtn = document.getElementById('consent-btn');
+const noConsentBtn = document.getElementById('no-consent-btn');
 const startBtn = document.getElementById('start-btn');
 const nextBtn = document.getElementById('next-btn');
 
@@ -28,8 +35,33 @@ const productRightDesc = document.getElementById('product-right-desc');
 const slider = document.getElementById('similarity-slider');
 const sliderValue = document.getElementById('slider-value');
 
+// Check if user has already completed the study
+function hasAlreadyCompleted() {
+  try {
+    return localStorage.getItem(COMPLETION_KEY) === 'true';
+  } catch (e) {
+    // localStorage might be disabled
+    return false;
+  }
+}
+
+// Mark study as completed
+function markAsCompleted() {
+  try {
+    localStorage.setItem(COMPLETION_KEY, 'true');
+  } catch (e) {
+    // localStorage might be disabled
+  }
+}
+
 // Initialize
 async function init() {
+  // Check for repeat visit
+  if (hasAlreadyCompleted()) {
+    showPage(alreadyCompletedPage);
+    return;
+  }
+
   const response = await fetch(`./stimuli/${CONFIG.STIMULUS_SET}.json`);
   const data = await response.json();
   products = data.products;
@@ -87,6 +119,10 @@ function setupEventListeners() {
     showPage(instructionsPage);
   });
 
+  noConsentBtn.addEventListener('click', () => {
+    showPage(noConsentPage);
+  });
+
   startBtn.addEventListener('click', () => {
     startTime = Date.now();
     showPage(trialPage);
@@ -106,11 +142,19 @@ function setupEventListeners() {
 
   slider.addEventListener('input', () => {
     sliderValue.textContent = slider.value;
+    sliderMoved = true;
+    nextBtn.disabled = false;
+  });
+
+  // Prevent back navigation
+  history.pushState(null, '', location.href);
+  window.addEventListener('popstate', () => {
+    history.pushState(null, '', location.href);
   });
 }
 
 function showPage(page) {
-  [consentPage, instructionsPage, trialPage, completePage].forEach(p => {
+  [consentPage, noConsentPage, alreadyCompletedPage, instructionsPage, trialPage, completePage].forEach(p => {
     p.classList.add('hidden');
   });
   page.classList.remove('hidden');
@@ -135,9 +179,11 @@ function showTrial() {
   productRightPrice.textContent = trial.right.price;
   productRightDesc.textContent = trial.right.description;
 
-  // Reset slider
+  // Reset slider and disable Next button
   slider.value = 50;
   sliderValue.textContent = '50';
+  sliderMoved = false;
+  nextBtn.disabled = true;
 }
 
 function recordResponse() {
@@ -151,6 +197,7 @@ function recordResponse() {
 
 function complete() {
   showPage(completePage);
+  markAsCompleted();
 
   const duration = Date.now() - startTime;
 
