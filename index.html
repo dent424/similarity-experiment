@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Similarity Study</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Consent Page -->
+    <div id="consent-page" class="page">
+      <h1>Consent Form</h1>
+      <div class="content">
+        <p>[PLACEHOLDER: Insert consent form text here]</p>
+      </div>
+      <button id="consent-btn" class="btn-primary">I Agree</button>
+    </div>
+
+    <!-- Instructions Page -->
+    <div id="instructions-page" class="page hidden">
+      <h1>Instructions</h1>
+      <div class="content">
+        <p>[PLACEHOLDER: Insert instructions here]</p>
+      </div>
+      <button id="start-btn" class="btn-primary">Start</button>
+    </div>
+
+    <!-- Trial Page -->
+    <div id="trial-page" class="page hidden">
+      <div class="progress">
+        <span id="progress-text">Pair 1 of 3</span>
+      </div>
+
+      <h2>How similar are these products?</h2>
+
+      <div class="product-pair">
+        <div class="product left">
+          <img id="product-left-img" src="" alt="Product image">
+          <h3 id="product-left-name"></h3>
+          <p class="price" id="product-left-price"></p>
+          <p id="product-left-desc"></p>
+        </div>
+        <div class="product right">
+          <img id="product-right-img" src="" alt="Product image">
+          <h3 id="product-right-name"></h3>
+          <p class="price" id="product-right-price"></p>
+          <p id="product-right-desc"></p>
+        </div>
+      </div>
+
+      <div class="slider-container">
+        <label class="slider-label">
+          <span>Not at all similar</span>
+          <span>Extremely similar</span>
+        </label>
+        <input type="range" id="similarity-slider" min="0" max="100" value="50">
+        <div id="slider-value">50</div>
+      </div>
+
+      <button id="next-btn" class="btn-primary">Next</button>
+    </div>
+
+    <!-- Completion Page -->
+    <div id="complete-page" class="page hidden">
+      <h1>Thank you!</h1>
+      <p>Redirecting to complete the survey...</p>
+    </div>
+  </div>
+
+  <script type="module" src="experiment.js"></script>
+</body>
+</html>
