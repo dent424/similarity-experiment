@@ -4,7 +4,11 @@
   "description": "Similarity judgment experiment for product pairs",
   "type": "module",
   "scripts": {
-    "test": "node tests/experiment.test.js"
+    "test": "node tests/experiment.test.js",
+    "db:setup": "node scripts/setup-db.js"
+  },
+  "dependencies": {
+    "@vercel/postgres": "^0.10.0"
   },
   "devDependencies": {
     "puppeteer": "^21.0.0"
