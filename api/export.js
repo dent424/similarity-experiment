@@ -1,4 +1,6 @@
-import { sql } from '@vercel/postgres';
+import { neon } from '@neondatabase/serverless';
+
+const sql = neon(process.env.POSTGRES_URL);
 
 export default async function handler(req, res) {
   if (req.method !== 'GET') {
@@ -42,7 +44,7 @@ export default async function handler(req, res) {
       ORDER BY s.started_at, s.session_id, t.trial_number
     `;
 
-    if (result.rows.length === 0) {
+    if (result.length === 0) {
       res.setHeader('Content-Type', 'text/csv');
       res.setHeader('Content-Disposition', 'attachment; filename=experiment_data.csv');
       return res.status(200).send('session_id,prolific_pid,experiment_name,age,gender,started_at,completed_at,total_duration_ms,trial_number,pair_id,left_product,right_product,rating,response_time_ms,is_catch_trial\n');
@@ -67,7 +69,7 @@ export default async function handler(req, res) {
       'is_catch_trial'
     ];
 
-    const rows = result.rows.map(row => {
+    const rows = result.map(row => {
       return headers.map(header => {
         const value = row[header];
         if (value === null || value === undefined) {

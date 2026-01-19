@@ -1,3 +1,17 @@
-.DS_Store
+# Dependencies
 node_modules/
-*.log
+
+# Environment variables (contains secrets)
+.env
+.env.local
+.env.*.local
+
+# Vercel
+.vercel
+
+# OS files
+.DS_Store
+Thumbs.db
+
+.vercel
+.env*.local

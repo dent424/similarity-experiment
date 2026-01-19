@@ -1,4 +1,6 @@
-import { sql } from '@vercel/postgres';
+import { neon } from '@neondatabase/serverless';
+
+const sql = neon(process.env.POSTGRES_URL);
 
 export default async function handler(req, res) {
   // Enable CORS
@@ -25,7 +27,7 @@ export default async function handler(req, res) {
         RETURNING session_id
       `;
 
-      return res.status(201).json({ session_id: result.rows[0].session_id });
+      return res.status(201).json({ session_id: result[0].session_id });
     } catch (error) {
       console.error('Failed to create session:', error);
       return res.status(500).json({ error: 'Failed to create session' });
@@ -44,18 +46,18 @@ export default async function handler(req, res) {
       const result = await sql`
         SELECT session_id, completed_at FROM sessions
         WHERE prolific_pid = ${prolific_pid}
-        ORDER BY created_at DESC
+        ORDER BY started_at DESC
         LIMIT 1
       `;
 
-      if (result.rows.length === 0) {
+      if (result.length === 0) {
         return res.status(200).json({ exists: false, completed: false });
       }
 
       return res.status(200).json({
         exists: true,
-        completed: result.rows[0].completed_at !== null,
-        session_id: result.rows[0].session_id
+        completed: result[0].completed_at !== null,
+        session_id: result[0].session_id
       });
     } catch (error) {
       console.error('Failed to check session:', error);
