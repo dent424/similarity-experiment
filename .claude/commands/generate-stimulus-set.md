@@ -1,104 +1,81 @@
 # Generate Stimulus Set
 
-Generate product descriptions for all included products in the CSV file.
+Generate product descriptions and save to CSV.
 
 ## Usage
+```
+/generate-stimulus-set [column-name] [word-limit]
+```
 
-```
-/generate-stimulus-set [set-name]
-```
+Example: `/generate-stimulus-set 50_word 50`
+
+## Parameters
+- **column-name**: Name for CSV column AND stimulus set filename (e.g., `50_word`, `25_word`)
+- **word-limit**: Maximum words for each description (e.g., `50`, `25`, `100`)
 
 ## Process
 
-1. **Read the CSV file**: `similarity-experiment/data/products.csv`
-2. **Filter products**: Only process rows where `Include` column = "X"
-3. **For each product**, spawn a sub-agent via the Task tool with:
-   - Product title (from `title` column)
-   - ASIN (from `asin` column) - used as product ID
-   - Price (from `current_price` column)
-   - Word limit: 50
-4. **Collect results** into `similarity-experiment/stimuli/[set-name].json`
+**Step 1: Check if column exists**
+```bash
+python scripts/read_products.py check [column-name]
+```
+Returns: `{"exists": true/false, "has_data": true/false, "count": N}`
 
-## Sub-Agent Prompt Template
+- If `has_data` is true: **STOP** and tell the user the column already exists. They must choose a different column name.
+- If not, proceed to Step 2
 
-For each product, spawn a Task with `subagent_type: "general-purpose"` and this prompt:
+**Step 2: Read products**
+```bash
+python scripts/read_products.py read
+```
+Returns: [{asin, name, price, title}, ...]
 
+**Step 3: Generate descriptions** (via sub-agents in batches of 5) using this prompt:
 ```
 Generate a product description for the similarity experiment.
 
 Product: "[TITLE]"
 ASIN: [ASIN]
-Price: [PRICE]
 
 Instructions:
-1. Search the web for this product to understand its key features
-   IMPORTANT: Use only the search result snippets to write the description.
-   Do NOT fetch individual web pages.
-2. Generate a description that is:
-   - Under 50 words
-   - Factual and descriptive
-   - Focused on key features and use cases
-   - Neutral in tone (no marketing language)
-3. Return ONLY a JSON object (no markdown, no explanation):
+1. Web search for key features (use snippets only, don't fetch pages)
+2. Write under [WORD-LIMIT] words, factual, feature-focused, neutral tone
+3. Return ONLY plain text description (no JSON/markdown)
 
-{"id": "[ASIN]", "name": "[SHORT_NAME]", "description": "[DESCRIPTION]", "price": "[PRICE]", "image": "[ASIN].png"}
-
-Where:
-- id: The ASIN exactly as provided
-- name: A shortened display name (brand + model, no dimensions/colors)
-- description: Your generated 50-word description
-- price: The price exactly as provided
-- image: The ASIN + ".png"
+Example: Semi-automatic espresso machine with integrated burr grinder. Features 15-bar pump, PID temperature control, and steam wand for milk frothing.
 ```
 
-## Parallelization
+**Step 4: Write to CSV**
+```bash
+python scripts/read_products.py write [column-name] '{"ASIN": "description", ...}'
+```
+Adds column `[column-name]` to CSV with descriptions.
 
-- Launch sub-agents in parallel batches (e.g., 5 at a time) to speed up generation
-- Use `run_in_background: true` for sub-agents, then collect results
-
-## Output Format
-
-Save to `similarity-experiment/stimuli/[set-name].json`:
-
+**Step 5: Export JSON**
+```bash
+python scripts/read_products.py export [column-name] [word-limit]
+```
+Creates `stimuli/[column-name].json`:
 ```json
 {
   "products": [
-    {
-      "id": "B00CH9QWOU",
-      "name": "Breville Barista Express Espresso Machine",
-      "description": "Semi-automatic espresso machine with built-in conical burr grinder...",
-      "price": "$676.00",
-      "image": "B00CH9QWOU.png"
-    }
+    {"id": "ASIN", "name": "Study Name", "description": "...", "price": "$X", "image": "ASIN.png"}
   ],
-  "metadata": {
-    "created": "YYYY-MM-DD",
-    "source": "amazon_reviews_Kitchen_&_Dining_Coffee,_Tea_&_Espresso_top_products.csv",
-    "word_limit": 50
-  }
+  "metadata": {"created": "YYYY-MM-DD", "word_limit": [WORD-LIMIT]}
 }
 ```
 
-## Example
+## Parallelization
+Launch sub-agents in synchronous parallel batches of 5-6:
+1. Send a single message with 5-6 Task tool calls (no `run_in_background`)
+2. Results return directly in the response
+3. Collect results, then launch next batch
+4. Repeat until all products are processed
 
-```
-/generate-stimulus-set coffee-espresso
-```
-
-This will:
-1. Read CSV, filter to 29 included products (where `Include` = "X")
-2. Generate descriptions for each via parallel sub-agents
-3. Save to `similarity-experiment/stimuli/coffee-espresso.json`
-
-## CSV Columns Used
-
-- `title`: Full product name
-- `asin`: Amazon Standard Identification Number (product ID)
-- `current_price`: Price string (e.g., "$676.00")
-- `Include`: "X" if product should be included
+Do NOT use `run_in_background: true` - output files may be empty.
 
 ## Notes
-
-- Images already exist in `similarity-experiment/stimuli/` as `[ASIN].png` files
-- The ASIN is used as the product ID because it's unique and stable
-- Set name argument ($ARGUMENTS) determines output filename
+- `name` comes from `Study Name` column
+- `price` comes from `current_price` column
+- Only products with `Include` = "X" are processed
+- Images must exist as `stimuli/[ASIN].png`
