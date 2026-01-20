@@ -32,13 +32,13 @@ body {
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 32px;
   margin-bottom: 20px;
   color: #333;
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 26px;
   margin-bottom: 30px;
   color: #333;
   text-align: center;
@@ -55,7 +55,7 @@ h2 {
   color: white;
   border: none;
   padding: 12px 32px;
-  font-size: 16px;
+  font-size: 18px;
   border-radius: 6px;
   cursor: pointer;
   transition: background 0.2s;
@@ -80,7 +80,7 @@ h2 {
   color: #666;
   border: 1px solid #ccc;
   padding: 12px 32px;
-  font-size: 16px;
+  font-size: 18px;
   border-radius: 6px;
   cursor: pointer;
   transition: background 0.2s, border-color 0.2s;
@@ -101,7 +101,7 @@ h2 {
   text-align: center;
   margin-bottom: 20px;
   color: #666;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .product-pair {
@@ -130,14 +130,14 @@ h2 {
 }
 
 .product h3 {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 8px;
   color: #111;
   text-align: center;
 }
 
 .product .price {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   color: #059669;
   margin-bottom: 12px;
@@ -147,7 +147,7 @@ h2 {
 .product p {
   color: #555;
   line-height: 1.5;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .slider-container {
@@ -159,7 +159,7 @@ h2 {
   justify-content: space-between;
   margin-bottom: 10px;
   color: #666;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #similarity-slider {
@@ -232,7 +232,7 @@ h2 {
   width: 100%;
   max-width: 300px;
   padding: 12px 14px;
-  font-size: 16px;
+  font-size: 18px;
   border: 1px solid #d1d5db;
   border-radius: 6px;
   background: white;
@@ -258,4 +258,142 @@ h2 {
 
 .form-group input[type="number"] {
   -moz-appearance: textfield;
+}
+
+/* Responsive: Keep products side-by-side, clip edges on narrow screens */
+@media (max-width: 800px) {
+  #app {
+    padding: 24px;
+    overflow: hidden;
+  }
+
+  .product-pair {
+    min-width: 700px;
+  }
+}
+
+/* Screening page */
+.screening-questions {
+  margin-top: 24px;
+}
+
+.screening-question {
+  margin-bottom: 24px;
+  padding: 20px;
+  background: #f9fafb;
+  border-radius: 8px;
+}
+
+#screening-page .btn-primary {
+  margin-top: 16px;
+}
+
+/* Instructions page */
+#instructions-page .content h3 {
+  font-size: 20px;
+  color: #333;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+#instructions-page .content h3:first-child {
+  margin-top: 0;
+}
+
+.instruction-list {
+  list-style: disc;
+  margin-left: 24px;
+  margin-bottom: 16px;
+}
+
+.instruction-list li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+/* Comprehension section */
+.comprehension-section {
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.comprehension-section h2 {
+  text-align: left;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.comprehension-intro {
+  color: #555;
+  margin-bottom: 24px;
+}
+
+.error-message {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 6px;
+  padding: 12px 16px;
+  color: #dc2626;
+  margin-bottom: 20px;
+}
+
+.error-message.hidden {
+  display: none;
+}
+
+/* Question groups (shared by screening and comprehension) */
+.question-group {
+  margin-bottom: 24px;
+  padding: 20px;
+  background: #f9fafb;
+  border-radius: 8px;
+  border: 2px solid transparent;
+}
+
+.question-group.incorrect {
+  border-color: #ef4444;
+  background: #fef2f2;
+}
+
+.question-text {
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  background: white;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.option:hover {
+  background: #f3f4f6;
+}
+
+.option input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #2563eb;
+}
+
+.option:has(input:checked) {
+  border-color: #2563eb;
+  background: #eff6ff;
+}
+
+#instructions-page .btn-primary {
+  margin-top: 24px;
 }

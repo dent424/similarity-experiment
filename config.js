@@ -6,6 +6,9 @@ const CONFIG = {
   // Prolific completion URL - participants redirect here after completing
   // Format: https://app.prolific.com/submissions/complete?cc=XXXXXXXX
   PROLIFIC_COMPLETION_URL: '',
+
+  // URL to redirect if participant fails screening (set to Prolific redirect URL)
+  SCREENING_FAIL_URL: null,
 };
 
 export default CONFIG;

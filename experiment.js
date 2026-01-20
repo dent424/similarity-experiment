@@ -21,6 +21,8 @@ const COMPLETION_KEY = 'similarity_experiment_completed';
 const consentPage = document.getElementById('consent-page');
 const noConsentPage = document.getElementById('no-consent-page');
 const alreadyCompletedPage = document.getElementById('already-completed-page');
+const screeningPage = document.getElementById('screening-page');
+const screeningFailedPage = document.getElementById('screening-failed-page');
 const instructionsPage = document.getElementById('instructions-page');
 const trialPage = document.getElementById('trial-page');
 const demographicsPage = document.getElementById('demographics-page');
@@ -28,6 +30,9 @@ const completePage = document.getElementById('complete-page');
 
 const consentBtn = document.getElementById('consent-btn');
 const noConsentBtn = document.getElementById('no-consent-btn');
+const screeningContinueBtn = document.getElementById('screening-continue-btn');
+const comprehensionError = document.getElementById('comprehension-error');
+const screeningRedirectMessage = document.getElementById('screening-redirect-message');
 const startBtn = document.getElementById('start-btn');
 const nextBtn = document.getElementById('next-btn');
 const demographicsSubmitBtn = document.getElementById('demographics-submit-btn');
@@ -268,6 +273,49 @@ function shuffleArray(array) {
   }
 }
 
+// Screening validation
+function validateScreening() {
+  const allAnswered = document.querySelectorAll('.screening-question').length ===
+    document.querySelectorAll('.screening-questions input:checked').length;
+  screeningContinueBtn.disabled = !allAnswered;
+  return allAnswered;
+}
+
+function checkScreeningFilter() {
+  const coffeeAnswer = document.querySelector('input[name="sq2"]:checked');
+  return coffeeAnswer && coffeeAnswer.value === 'yes';
+}
+
+// Comprehension: enable Start button when all answered (don't check correctness yet)
+function enableStartIfAllAnswered() {
+  const questionGroups = document.querySelectorAll('.question-group');
+  const allAnswered = Array.from(questionGroups).every((group, index) => {
+    return group.querySelector(`input[name="q${index + 1}"]:checked`);
+  });
+  startBtn.disabled = !allAnswered;
+}
+
+// Comprehension: check answers on Start click, show feedback only then
+function checkComprehension() {
+  const questionGroups = document.querySelectorAll('.question-group');
+  let allCorrect = true;
+
+  questionGroups.forEach((group, index) => {
+    const correctAnswer = group.dataset.correct;
+    const selectedInput = group.querySelector(`input[name="q${index + 1}"]:checked`);
+
+    group.classList.remove('incorrect');
+
+    if (selectedInput.value !== correctAnswer) {
+      group.classList.add('incorrect');
+      allCorrect = false;
+    }
+  });
+
+  comprehensionError.classList.toggle('hidden', allCorrect);
+  return allCorrect;
+}
+
 function setupEventListeners() {
   consentBtn.addEventListener('click', async () => {
     // Create session on server when user consents
@@ -276,14 +324,43 @@ function setupEventListeners() {
       alert('Failed to start the experiment. Please refresh and try again.');
       return;
     }
-    showPage(instructionsPage);
+    showPage(screeningPage);
   });
 
   noConsentBtn.addEventListener('click', () => {
     showPage(noConsentPage);
   });
 
+  // Screening question validation
+  document.querySelectorAll('.screening-questions input').forEach(input => {
+    input.addEventListener('change', validateScreening);
+  });
+
+  screeningContinueBtn.addEventListener('click', () => {
+    if (!validateScreening()) return;
+
+    if (checkScreeningFilter()) {
+      showPage(instructionsPage);
+    } else {
+      showPage(screeningFailedPage);
+      if (CONFIG.SCREENING_FAIL_URL) {
+        setTimeout(() => {
+          window.location.href = CONFIG.SCREENING_FAIL_URL;
+        }, 2000);
+      } else {
+        screeningRedirectMessage.textContent = 'You may now close this window.';
+      }
+    }
+  });
+
+  // Comprehension: enable Start when all answered (no correctness check yet)
+  document.querySelectorAll('.question-group input').forEach(input => {
+    input.addEventListener('change', enableStartIfAllAnswered);
+  });
+
   startBtn.addEventListener('click', () => {
+    // Check answers on click - only proceed if all correct
+    if (!checkComprehension()) return;
     startTime = Date.now();
     showPage(trialPage);
     showTrial();
@@ -336,7 +413,7 @@ function setupEventListeners() {
 }
 
 function showPage(page) {
-  [consentPage, noConsentPage, alreadyCompletedPage, instructionsPage, trialPage, demographicsPage, completePage].forEach(p => {
+  [consentPage, noConsentPage, alreadyCompletedPage, screeningPage, screeningFailedPage, instructionsPage, trialPage, demographicsPage, completePage].forEach(p => {
     p.classList.add('hidden');
   });
   page.classList.remove('hidden');

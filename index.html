@@ -29,6 +29,55 @@
       </div>
     </div>
 
+    <!-- Screening Page -->
+    <div id="screening-page" class="page hidden">
+      <h1>A Few Quick Questions</h1>
+      <div class="content">
+        <p>Before we begin, please answer a few quick questions about yourself.</p>
+      </div>
+
+      <div class="screening-questions">
+        <div class="screening-question">
+          <p class="question-text">1. How often do you shop online?</p>
+          <div class="options">
+            <label class="option"><input type="radio" name="sq1" value="never"><span>Never</span></label>
+            <label class="option"><input type="radio" name="sq1" value="rarely"><span>Rarely</span></label>
+            <label class="option"><input type="radio" name="sq1" value="monthly"><span>A few times a month</span></label>
+            <label class="option"><input type="radio" name="sq1" value="weekly"><span>Weekly or more</span></label>
+          </div>
+        </div>
+
+        <div class="screening-question" data-filter="coffee">
+          <p class="question-text">2. Do you drink coffee?</p>
+          <div class="options">
+            <label class="option"><input type="radio" name="sq2" value="yes"><span>Yes</span></label>
+            <label class="option"><input type="radio" name="sq2" value="no"><span>No</span></label>
+          </div>
+        </div>
+
+        <div class="screening-question">
+          <p class="question-text">3. Do you typically read product reviews before making a purchase?</p>
+          <div class="options">
+            <label class="option"><input type="radio" name="sq3" value="always"><span>Always</span></label>
+            <label class="option"><input type="radio" name="sq3" value="usually"><span>Usually</span></label>
+            <label class="option"><input type="radio" name="sq3" value="sometimes"><span>Sometimes</span></label>
+            <label class="option"><input type="radio" name="sq3" value="never"><span>Never</span></label>
+          </div>
+        </div>
+      </div>
+
+      <button id="screening-continue-btn" class="btn-primary" disabled>Continue</button>
+    </div>
+
+    <!-- Screening Failed Page -->
+    <div id="screening-failed-page" class="page hidden">
+      <h1>Thank you for your interest</h1>
+      <div class="content">
+        <p>Unfortunately, you do not meet the eligibility requirements for this study.</p>
+        <p id="screening-redirect-message">You will be redirected shortly.</p>
+      </div>
+    </div>
+
     <!-- Already Completed Page -->
     <div id="already-completed-page" class="page hidden">
       <h1>Already Completed</h1>
@@ -43,9 +92,59 @@
     <div id="instructions-page" class="page hidden">
       <h1>Instructions</h1>
       <div class="content">
-        <p>[PLACEHOLDER: Insert instructions here]</p>
+        <h3>Your Task</h3>
+        <p>You will see pairs of espresso makers. For each pair, rate how similar the two products are to each other.</p>
+
+        <h3>How to Rate Similarity</h3>
+        <ul class="instruction-list">
+          <li><strong>0</strong> = Not at all similar (nothing in common)</li>
+          <li><strong>100</strong> = Extremely similar (nearly identical)</li>
+          <li>Values in between represent varying degrees of similarity</li>
+        </ul>
+
+        <h3>Important</h3>
+        <ul class="instruction-list">
+          <li>There are no right or wrong answers - we want your honest opinion</li>
+          <li>You cannot go back to previous pairs</li>
+        </ul>
       </div>
-      <button id="start-btn" class="btn-primary">Start</button>
+
+      <div class="comprehension-section">
+        <h2>Comprehension Check</h2>
+        <p class="comprehension-intro">Answer these questions to continue:</p>
+
+        <div id="comprehension-error" class="error-message hidden">
+          One or more answers are incorrect. Please review and try again.
+        </div>
+
+        <div class="question-group" data-correct="c">
+          <p class="question-text">1. If two products have nothing in common, what rating would you give?</p>
+          <div class="options">
+            <label class="option"><input type="radio" name="q1" value="a"><span>100</span></label>
+            <label class="option"><input type="radio" name="q1" value="b"><span>50</span></label>
+            <label class="option"><input type="radio" name="q1" value="c"><span>0</span></label>
+          </div>
+        </div>
+
+        <div class="question-group" data-correct="b">
+          <p class="question-text">2. What does a rating of 100 mean?</p>
+          <div class="options">
+            <label class="option"><input type="radio" name="q2" value="a"><span>The product is high quality</span></label>
+            <label class="option"><input type="radio" name="q2" value="b"><span>The two products are extremely similar</span></label>
+            <label class="option"><input type="radio" name="q2" value="c"><span>You prefer the product on the right</span></label>
+          </div>
+        </div>
+
+        <div class="question-group" data-correct="b">
+          <p class="question-text">3. Can you go back and change a previous rating?</p>
+          <div class="options">
+            <label class="option"><input type="radio" name="q3" value="a"><span>Yes</span></label>
+            <label class="option"><input type="radio" name="q3" value="b"><span>No</span></label>
+          </div>
+        </div>
+      </div>
+
+      <button id="start-btn" class="btn-primary" disabled>Start</button>
     </div>
 
     <!-- Trial Page -->
