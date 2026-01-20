@@ -16,7 +16,7 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  const { session_id, trial_number, pair_id, position, rating, response_time_ms, is_catch_trial } = req.body;
+  const { session_id, trial_number, pair_id, position, left_product_id, right_product_id, rating, response_time_ms, is_catch_trial } = req.body;
 
   // Validate required fields
   if (!session_id || trial_number === undefined || !pair_id || !position || rating === undefined || response_time_ms === undefined) {
@@ -40,9 +40,14 @@ export default async function handler(req, res) {
   }
 
   try {
+    // Store left/right product IDs in the data JSONB column
+    const data = left_product_id && right_product_id
+      ? { left_product_id, right_product_id }
+      : null;
+
     await sql`
-      INSERT INTO trials (session_id, trial_number, pair_id, position, rating, response_time_ms, is_catch_trial)
-      VALUES (${session_id}, ${trial_number}, ${pair_id}, ${position}, ${rating}, ${response_time_ms}, ${is_catch_trial || false})
+      INSERT INTO trials (session_id, trial_number, pair_id, position, rating, response_time_ms, is_catch_trial, data)
+      VALUES (${session_id}, ${trial_number}, ${pair_id}, ${position}, ${rating}, ${response_time_ms}, ${is_catch_trial || false}, ${data ? JSON.stringify(data) : null})
     `;
 
     return res.status(201).json({ success: true });

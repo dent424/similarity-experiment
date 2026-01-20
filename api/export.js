@@ -14,7 +14,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    // Query all data with decoded left/right products
+    // Query all data including left/right product IDs from JSONB data column
     const result = await sql`
       SELECT
         s.session_id,
@@ -27,15 +27,9 @@ export default async function handler(req, res) {
         s.total_duration_ms,
         t.trial_number,
         t.pair_id,
-        -- Decode left_product and right_product from pair_id and position
-        CASE
-          WHEN t.position = 'AB' THEN SPLIT_PART(t.pair_id, '_', 1)
-          ELSE SPLIT_PART(t.pair_id, '_', 2)
-        END as left_product,
-        CASE
-          WHEN t.position = 'AB' THEN SPLIT_PART(t.pair_id, '_', 2)
-          ELSE SPLIT_PART(t.pair_id, '_', 1)
-        END as right_product,
+        t.position,
+        t.data->>'left_product_id' as left_product_id,
+        t.data->>'right_product_id' as right_product_id,
         t.rating,
         t.response_time_ms,
         t.is_catch_trial
@@ -47,7 +41,7 @@ export default async function handler(req, res) {
     if (result.length === 0) {
       res.setHeader('Content-Type', 'text/csv');
       res.setHeader('Content-Disposition', 'attachment; filename=experiment_data.csv');
-      return res.status(200).send('session_id,prolific_pid,experiment_name,age,gender,started_at,completed_at,total_duration_ms,trial_number,pair_id,left_product,right_product,rating,response_time_ms,is_catch_trial\n');
+      return res.status(200).send('session_id,prolific_pid,experiment_name,age,gender,started_at,completed_at,total_duration_ms,trial_number,pair_id,position,left_product_id,right_product_id,rating,response_time_ms,is_catch_trial\n');
     }
 
     // Build CSV
@@ -62,8 +56,9 @@ export default async function handler(req, res) {
       'total_duration_ms',
       'trial_number',
       'pair_id',
-      'left_product',
-      'right_product',
+      'position',
+      'left_product_id',
+      'right_product_id',
       'rating',
       'response_time_ms',
       'is_catch_trial'
