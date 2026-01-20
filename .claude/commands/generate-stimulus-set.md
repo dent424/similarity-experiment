@@ -13,6 +13,12 @@ Example: `/generate-stimulus-set 50_word 50`
 - **column-name**: Name for CSV column AND stimulus set filename (e.g., `50_word`, `25_word`)
 - **word-limit**: Maximum words for each description (e.g., `50`, `25`, `100`)
 
+## Critical Rules
+
+**NEVER create JSON files directly** - always use the Python export function (Step 5).
+
+**Product names MUST come from CSV's `Study Name` column** - sub-agents only generate descriptions, never names.
+
 ## Process
 
 **Step 1: Check if column exists**
@@ -40,9 +46,14 @@ ASIN: [ASIN]
 Instructions:
 1. Web search for key features (use snippets only, don't fetch pages)
 2. Write under [WORD-LIMIT] words, factual, feature-focused, neutral tone
-3. Return ONLY plain text description (no JSON/markdown)
+3. Return ONLY: [ASIN]: description text
+4. Do NOT include product name, price, or any other fields
+5. Do NOT return JSON or markdown formatting
 
-Example: Semi-automatic espresso machine with integrated burr grinder. Features 15-bar pump, PID temperature control, and steam wand for milk frothing.
+Output format: [ASIN]: Your description here as plain text.
+
+Example output:
+B00CH9QWOU: Semi-automatic espresso machine with integrated burr grinder. Features 15-bar pump, PID temperature control, and steam wand for milk frothing.
 ```
 
 **Step 4: Write to CSV**
@@ -64,6 +75,14 @@ Creates `stimuli/[column-name].json`:
   "metadata": {"created": "YYYY-MM-DD", "word_limit": [WORD-LIMIT]}
 }
 ```
+
+**Step 6: Validate output**
+1. Read the exported JSON file
+2. Run `python scripts/read_products.py read` to get CSV data
+3. Compare each product's `name` in JSON against the `name` from CSV
+4. Report any mismatches - if found, the JSON was not created correctly
+
+This validation ensures names came from the CSV's `Study Name` column, not from sub-agent generation.
 
 ## Parallelization
 Launch sub-agents in synchronous parallel batches of 5-6:

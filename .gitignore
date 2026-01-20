@@ -13,5 +13,11 @@ node_modules/
 .DS_Store
 Thumbs.db
 
-.vercel
-.env*.local
+# Python
+__pycache__/
+*.pyc
+
+# Test artifacts
+test-results/
+test-*.png
+*.log
