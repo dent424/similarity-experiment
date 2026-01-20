@@ -125,6 +125,8 @@ async function recordTrialToServer(trialData) {
         trial_number: trialData.trialNumber,
         pair_id: trialData.pairId,
         position: trialData.position,
+        left_product_id: trialData.leftProductId,
+        right_product_id: trialData.rightProductId,
         rating: trialData.rating,
         response_time_ms: trialData.responseTime,
         is_catch_trial: trialData.isCatchTrial
@@ -241,11 +243,19 @@ function generateTrials() {
 
     // Randomly assign left/right
     const aOnLeft = Math.random() < 0.5;
+    const leftProduct = aOnLeft ? productA : productB;
+    const rightProduct = aOnLeft ? productB : productA;
+
+    // Position is AB if the alphabetically first ID is on the left
+    // This must match how pairId is constructed (alphabetically sorted)
+    const [sortedFirst] = [productA.id, productB.id].sort();
+    const position = leftProduct.id === sortedFirst ? 'AB' : 'BA';
+
     return {
-      left: aOnLeft ? productA : productB,
-      right: aOnLeft ? productB : productA,
+      left: leftProduct,
+      right: rightProduct,
       pairId: pairId,
-      position: aOnLeft ? 'AB' : 'BA',
+      position: position,
       isCatchTrial: trial.isCatchTrial
     };
   });
@@ -380,6 +390,8 @@ async function recordResponse() {
     trialNumber: currentTrial + 1,
     pairId: trial.pairId,
     position: trial.position,
+    leftProductId: trial.left.id,
+    rightProductId: trial.right.id,
     rating: rating,
     responseTime: responseTime,
     isCatchTrial: trial.isCatchTrial
