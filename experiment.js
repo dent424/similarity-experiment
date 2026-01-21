@@ -1,5 +1,21 @@
 import CONFIG from './config.js';
 
+// Adjust zoom for smaller viewports (laptops)
+function adjustZoomForViewport() {
+  const viewportHeight = window.innerHeight;
+  if (viewportHeight < 800) {
+    document.body.style.zoom = '65%';
+  } else if (viewportHeight < 900) {
+    document.body.style.zoom = '80%';
+  } else {
+    document.body.style.zoom = '100%';
+  }
+}
+
+// Apply on load and resize
+adjustZoomForViewport();
+window.addEventListener('resize', adjustZoomForViewport);
+
 let products = [];
 let trials = [];
 let currentTrial = 0;
