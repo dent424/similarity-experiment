@@ -1,0 +1,206 @@
+{
+  "products": [
+    {
+      "id": "B000F49XXG",
+      "name": "DeLonghi 15 Bar Espresso and Cappuccino Machine",
+      "description": "Entry-level pump espresso machine with 15-bar pressure and stainless steel boiler. Features manual steam wand for frothing and dual-filter holder for grounds or ESE pods.",
+      "price": "$298.00",
+      "image": "B000F49XXG.png"
+    },
+    {
+      "id": "B00CH9QWOU",
+      "name": "Breville Barista Express Espresso Machine",
+      "description": "Semi-automatic espresso machine with integrated conical burr grinder, 16 grind settings, 15-bar Italian pump, PID temperature control, and 360-degree swivel steam wand.",
+      "price": "$676.00",
+      "image": "B00CH9QWOU.png"
+    },
+    {
+      "id": "B007K9OIMU",
+      "name": "Mr. Coffee Espresso and Cappuccino Machine with Automatic Milk Frother and 15-Bar Pump",
+      "description": "Semi-automatic espresso maker with 15-bar pump and automatic milk frother. One-touch controls for single or double shots. Makes espressos, cappuccinos, and lattes.",
+      "price": "$239.99",
+      "image": "B007K9OIMU.png"
+    },
+    {
+      "id": "B00YCP71VK",
+      "name": "De'Longhi 15 Bar Espresso Machine with Advanced Cappuccino System",
+      "description": "15-bar pump espresso machine with advanced cappuccino system and swivel jet frother. Three-in-one filter for single, double shots, or ESE pods. Compact design.",
+      "price": "$179.95",
+      "image": "B00YCP71VK.png"
+    },
+    {
+      "id": "B06ZYSM2GR",
+      "name": "Nespresso Essenza Mini Espresso Machine by De'Longhi with Milk Frother",
+      "description": "Ultra-compact capsule espresso machine with 19-bar pump pressure. Features 30-second heat-up, two programmable cup sizes, and included Aeroccino milk frother.",
+      "price": "$151.99",
+      "image": "B06ZYSM2GR.png"
+    },
+    {
+      "id": "B01MG4VZCT",
+      "name": "Nespresso Inissia Original Espresso Machine Bundle with Aeroccino Milk Frother (by De'Longhi)",
+      "description": "Compact capsule espresso maker with 19-bar pressure and 25-second heat-up. Includes Aeroccino frother for hot or cold milk foam.",
+      "price": "$179.00",
+      "image": "B01MG4VZCT.png"
+    },
+    {
+      "id": "B085SC16LF",
+      "name": "Nespresso Vertuo Next Coffee and Espresso Machine with Aeroccino Frother by Breville",
+      "description": "Centrifusion technology spins capsules at 7,000 RPM. Brews six cup sizes from espresso to 18oz. Wi-Fi and Bluetooth connectivity. Includes Aeroccino milk frother.",
+      "price": "$116.99",
+      "image": "B085SC16LF.png"
+    },
+    {
+      "id": "B07STXCNXW",
+      "name": "Calphalon Temp iQ Espresso Machine with Steam Wand",
+      "description": "15-bar Italian pump with thermoblock heating, PID temperature control, pre-infusion, 58mm portafilter, steam wand, and 2L removable reservoir.",
+      "price": "$194.60",
+      "image": "B07STXCNXW.png"
+    },
+    {
+      "id": "B00DS476HU",
+      "name": "Breville Infuser Espresso Machine",
+      "description": "Pre-infusion technology with low-pressure extraction start. PID temperature control adjustable between 196-204\u00b0F. 15-bar Italian pump. Steam wand for milk texturing. 61oz removable tank.",
+      "price": "$548.00",
+      "image": "B00DS476HU.png"
+    },
+    {
+      "id": "B01LWUI6B8",
+      "name": "EspressoWorks All In One Barista Bundle Set, 7 Piece Espresso Machine, Cappuccino Maker, Professional Coffee And Latte Machine With Milk Frother and Small Espresso Grinder",
+      "description": "7-piece bundle with 15-bar pump espresso machine, built-in steam wand, electric grinder, frothing pitcher, two cups, and tamper. 1350W with 45-second heat-up.",
+      "price": "$199.99",
+      "image": "B01LWUI6B8.png"
+    },
+    {
+      "id": "B07D53TTFD",
+      "name": "STARESSO Portable Espresso Maker",
+      "description": "Manual portable espresso maker with 15-20 bar pressure. Compatible with ground coffee and Nespresso capsules. 80ml tank, stainless steel construction, no batteries required.",
+      "price": "$69.99",
+      "image": "B07D53TTFD.png"
+    },
+    {
+      "id": "B08C96BG9H",
+      "name": "De'Longhi Stilosa Manual Espresso Machine, Latte & Cappuccino Maker & Milk Frothing Pitcher, Barista Tool, Frother Jug for Espresso Machine Coffee Cappuccino",
+      "description": "Compact manual espresso maker with 15-bar pump pressure, stainless steel boiler, manual steam wand for milk frothing, dual-filter portafilter, and included tamper.",
+      "price": "$99.93",
+      "image": "B08C96BG9H.png"
+    },
+    {
+      "id": "B07VFY4MXM",
+      "name": "PHILIPS Fully Automatic Espresso Machine - LatteGo Milk Frother",
+      "description": "Fully automatic with LatteGo milk frother, ceramic grinder, five drink options, intuitive touch display, AquaClean filter, and quick-clean two-part milk system.",
+      "price": "$595.00",
+      "image": "B07VFY4MXM.png"
+    },
+    {
+      "id": "B00VTA9F6U",
+      "name": "WACACO Minipresso GR, Portable Espresso Machine Handheld Coffee Maker",
+      "description": "Handheld manual espresso maker with semi-automatic piston generating 8-bar pressure. Compact 360g design uses ground coffee. No electricity or cartridges required.",
+      "price": "$54.90",
+      "image": "B00VTA9F6U.png"
+    },
+    {
+      "id": "B001QTVXCI",
+      "name": "Capresso Espresso and Cappuccino Machine",
+      "description": "4-cup steam-driven espresso maker with 800W boiler, swivel milk frother, adjustable steam output, glass carafe, and safety boiler cap.",
+      "price": "$88.22",
+      "image": "B001QTVXCI.png"
+    },
+    {
+      "id": "B07CJ3CYF7",
+      "name": "Mr. Coffee One-Touch CoffeeHouse + Espresso, Cappuccino, and Latte Maker",
+      "description": "One-touch espresso machine with 19-bar Italian pump, automatic milk frother, 18oz removable milk reservoir, and ESE pod compatibility for lattes and cappuccinos.",
+      "price": "$179.99",
+      "image": "B07CJ3CYF7.png"
+    },
+    {
+      "id": "B01M68FHZ4",
+      "name": "Nespresso CitiZ Original Espresso Machine (by De'Longhi)",
+      "description": "Compact single-serve capsule machine with 19-bar pump pressure, 25-second heat-up, programmable espresso and lungo buttons, folding drip tray, and auto-shutoff.",
+      "price": "$344.99",
+      "image": "B01M68FHZ4.png"
+    },
+    {
+      "id": "B003XV31IG",
+      "name": "Gaggia Brera Super-Automatic Espresso Machine",
+      "description": "Compact super-automatic with ceramic burr grinder, 15-bar pump, Pannarello steam wand, bypass doser for pre-ground coffee, and removable brew group for easy cleaning.",
+      "price": "$586.78",
+      "image": "B003XV31IG.png"
+    },
+    {
+      "id": "B07ZG44HGR",
+      "name": "Mixpresso Espresso Machine for Nespresso Compatible Capsule, Single Serve Coffee Maker",
+      "description": "Nespresso OriginalLine compatible single-serve espresso maker with 19-bar Italian pump, programmable espresso and lungo buttons, 27oz water tank, and automatic shut-off.",
+      "price": "$99.99",
+      "image": "B07ZG44HGR.png"
+    },
+    {
+      "id": "B0B7P81K6S",
+      "name": "Philips Series Fully Automatic Espresso Machine - LatteGo Milk Frother & Iced Coffee",
+      "description": "Fully automatic super-automatic machine with LatteGo milk frother, ceramic grinder, iced coffee function, five drink options, intuitive touch display, and AquaClean filter system.",
+      "price": "$449.00",
+      "image": "B0B7P81K6S.png"
+    },
+    {
+      "id": "B078WMLXXG",
+      "name": "Breville Barista Touch Espresso Machine",
+      "description": "Touchscreen espresso machine with integrated conical burr grinder, automatic milk texturing wand, ThermoJet 3-second heat-up, and 54mm portafilter for barista-quality drinks.",
+      "price": "$994.99",
+      "image": "B078WMLXXG.png"
+    },
+    {
+      "id": "B08KTK5L3P",
+      "name": "Chefman 6-in-1 Espresso Machine with Built-In Milk Frother",
+      "description": "6-in-1 espresso maker with 15-bar pump, built-in milk frother, digital touchscreen, one-touch single or double shot, 1.8L reservoir, self-cleaning function.",
+      "price": "$136.98",
+      "image": "B08KTK5L3P.png"
+    },
+    {
+      "id": "B07Y2Q7YXZ",
+      "name": "Nespresso VertuoPlus Espresso Machine (by Breville)",
+      "description": "Single-serve Centrifusion system spinning capsules at 7,000 RPM for optimal extraction. Four cup sizes from espresso to coffee. Motorized head, 40oz repositionable tank, 15-second heat-up.",
+      "price": "$139.99",
+      "image": "B07Y2Q7YXZ.png"
+    },
+    {
+      "id": "B077ND88HQ",
+      "name": "WACACO Nanopresso Portable Espresso Maker Small Travel Coffee Maker",
+      "description": "Compact hand-operated espresso maker generating 18 bars of pressure. Weighs under one pound. Uses 8g of ground coffee and 80ml of hot water per shot.",
+      "price": "$64.90",
+      "image": "B077ND88HQ.png"
+    },
+    {
+      "id": "B01M4J94WY",
+      "name": "WACACO Minipresso NS, Portable Espresso Machine, Handheld Coffee Maker",
+      "description": "Hand-operated portable espresso maker compatible with Nespresso Original capsules. Generates 8 bars of pressure through manual piston pumping. Requires no batteries or electricity.",
+      "price": "$54.90",
+      "image": "B01M4J94WY.png"
+    },
+    {
+      "id": "B07VW5YGSC",
+      "name": "Flair Espresso Maker Classic with Portable Carrying Case",
+      "description": "Fully manual lever press requiring no electricity. Detachable brewing head for easy cleaning. Includes pressure gauge for monitoring extraction, stainless steel tamper, and portable carrying case.",
+      "price": "$194.00",
+      "image": "B07VW5YGSC.png"
+    },
+    {
+      "id": "B07KY229WP",
+      "name": "EspressoWorks Espresso Machine, Latte & Cappuccino Maker- 10 pc All-In-One Espresso Maker with Milk Steamer",
+      "description": "10-piece bundle with 19-bar pump, built-in milk steamer, bean grinder, thermoblock heating ready in 45 seconds, and single/double shot filter baskets.",
+      "price": "$229.99",
+      "image": "B07KY229WP.png"
+    },
+    {
+      "id": "B07RQ3NL76",
+      "name": "Gaggia Classic Evo Pro",
+      "description": "Semi-automatic espresso machine with 58mm commercial portafilter, 9-bar extraction pressure, 3-way solenoid valve, professional steam wand for microfoam, and 1425W boiler.",
+      "price": "$452.44",
+      "image": "B07RQ3NL76.png"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-20",
+    "source": "amazon_reviews_Kitchen_&_Dining_Coffee,_Tea_&_Espresso_top_products.csv",
+    "description_column": "25-word",
+    "word_limit": 25
+  }
+}
