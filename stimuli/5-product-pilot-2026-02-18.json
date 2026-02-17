@@ -1,0 +1,45 @@
+{
+  "products": [
+    {
+      "id": "B00CH9QWOU",
+      "name": "Breville Barista Express Espresso Machine",
+      "description": "Semi-automatic espresso machine with integrated conical burr grinder, 16 grind settings, 15-bar Italian pump, PID temperature control, and 360-degree swivel steam wand.",
+      "price": "$676.00",
+      "image": "B00CH9QWOU.png"
+    },
+    {
+      "id": "B06ZYSM2GR",
+      "name": "Nespresso Essenza Mini Espresso Machine by De'Longhi with Milk Frother",
+      "description": "Ultra-compact capsule espresso machine with 19-bar pump pressure. Features 30-second heat-up, two programmable cup sizes, and included Aeroccino milk frother.",
+      "price": "$151.99",
+      "image": "B06ZYSM2GR.png"
+    },
+    {
+      "id": "B07VFY4MXM",
+      "name": "PHILIPS Fully Automatic Espresso Machine - LatteGo Milk Frother",
+      "description": "Fully automatic with LatteGo milk frother, ceramic grinder, five drink options, intuitive touch display, AquaClean filter, and quick-clean two-part milk system.",
+      "price": "$595.00",
+      "image": "B07VFY4MXM.png"
+    },
+    {
+      "id": "B00VTA9F6U",
+      "name": "WACACO Minipresso GR, Portable Espresso Machine Handheld Coffee Maker",
+      "description": "Handheld manual espresso maker with semi-automatic piston generating 8-bar pressure. Compact 360g design uses ground coffee. No electricity or cartridges required.",
+      "price": "$54.90",
+      "image": "B00VTA9F6U.png"
+    },
+    {
+      "id": "B07RQ3NL76",
+      "name": "Gaggia Classic Evo Pro",
+      "description": "Semi-automatic espresso machine with 58mm commercial portafilter, 9-bar extraction pressure, 3-way solenoid valve, professional steam wand for microfoam, and 1425W boiler.",
+      "price": "$452.44",
+      "image": "B07RQ3NL76.png"
+    }
+  ],
+  "metadata": {
+    "created": "2026-02-17",
+    "source": "amazon_reviews_Kitchen_&_Dining_Coffee,_Tea_&_Espresso_top_products.csv",
+    "description_column": "25-word",
+    "word_limit": 25
+  }
+}
