@@ -201,12 +201,11 @@ async function init() {
   extractUrlParams();
 
   // Check for repeat visit (server-side first, then localStorage)
-  // DISABLED FOR TESTING - uncomment for production
-  // const completedOnServer = await hasAlreadyCompletedOnServer();
-  // if (completedOnServer || hasAlreadyCompletedLocally()) {
-  //   showPage(alreadyCompletedPage);
-  //   return;
-  // }
+  const completedOnServer = await hasAlreadyCompletedOnServer();
+  if (completedOnServer || hasAlreadyCompletedLocally()) {
+    showPage(alreadyCompletedPage);
+    return;
+  }
 
   // Load products
   try {
@@ -433,6 +432,7 @@ function showPage(page) {
     p.classList.add('hidden');
   });
   page.classList.remove('hidden');
+  window.scrollTo(0, 0);
 }
 
 function showTrial() {

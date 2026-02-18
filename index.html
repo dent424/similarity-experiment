@@ -10,9 +10,41 @@
   <div id="app">
     <!-- Consent Page -->
     <div id="consent-page" class="page">
-      <h1>Consent Form</h1>
-      <div class="content">
-        <p>[PLACEHOLDER: Insert consent form text here]</p>
+      <h1>Indiana University Study Information Sheet for Research</h1>
+      <div class="content consent-content">
+        <h2>Assessing Product Similarity</h2>
+
+        <p><strong>You are being asked to participate in a research study.</strong> Scientists do research to answer important questions that might help change or improve the way we do things in the future. This document will give you information about the study to help you decide whether you want to participate. Please read this form, and ask any questions you have, before agreeing to be in the study.</p>
+
+        <p><strong>All research is voluntary.</strong> You can choose not to take part in this study. If you decide to participate, you can change your mind later and leave the study at any time. You will not be penalized or lose any benefits if you decide not to participate or choose to leave the study later.</p>
+
+        <p><strong>This research is intended for individuals 18 years of age or older. If you are under age 18, do not complete the survey.</strong></p>
+
+        <p><strong>This research is for residents of the United States. If you are not a U.S. resident, do not complete the survey.</strong></p>
+
+        <p><strong>The purpose of this study</strong> is to understand how humans form judgments of product similarity.</p>
+
+        <p>We are asking you if you want to be in this study because you are a Prolific participant who meets our eligibility criteria. The study is being conducted by Maximilian Matthe, Indiana University Bloomington, Marketing Department.</p>
+
+        <p><strong>If you agree to be in the study, you will do the following things.</strong> First, you will be asked to answer a few questions related to the product category being studied (e.g., your shopping frequency). Then, you will be asked to compare pairs of products and judge their similarity on a scale from 0-100. You will also need to answer a few short questions about yourself (expected to take no more than 5 minutes in total).</p>
+
+        <p><strong>Before agreeing to participate, please consider the risks and potential benefits of taking part in this study.</strong></p>
+
+        <p>You may be uncomfortable while answering the survey questions. While completing the survey, you can stop at any time during the study. There is a risk someone outside the study team could get access to your research information from this study. More information about how we will protect your information to reduce this risk is below.</p>
+
+        <p>We don't think you will have any personal benefits from taking part in this study, but we hope to learn things that will help researchers in the future.</p>
+
+        <p><strong>You will be paid for participating in this study.</strong> You will be compensated with 0.75USD, corresponding to an hourly rate of 9USD. In case an initial screening question will exclude you from participating in this study, you will be rewarded with 0.14USD.</p>
+
+        <p><strong>We will protect your information</strong> and make every effort to keep your personal information confidential, but we cannot guarantee absolute confidentiality. No information which could identify you will be shared in publications about this study.</p>
+
+        <p>Your personal information may be shared outside the research study if required by law. We also may need to share your research records with other groups for quality assurance or data analysis. These groups include the Indiana University Institutional Review Board or its designees, and state or federal agencies who may need to access the research records (as allowed by law).</p>
+
+        <p><strong>If you have questions about the study or encounter a problem with the research,</strong> contact the researcher, Maximilian Matthe, at 812-855-7725 or <a href="mailto:mpmatthe@iu.edu">mpmatthe@iu.edu</a>.</p>
+
+        <p>For questions about your rights as a research participant, to discuss problems, complaints, or concerns about a research study, or to obtain information or to offer input, please contact the IU Human Research Protection Program office at 800-696-2949 or at <a href="mailto:irb@iu.edu">irb@iu.edu</a>.</p>
+
+        <p class="consent-meta">Study #30341 | Form date: February 11, 2026</p>
       </div>
       <div class="button-group">
         <button id="consent-btn" class="btn-primary">I Agree</button>
@@ -73,7 +105,7 @@
     <div id="screening-failed-page" class="page hidden">
       <h1>Thank you for your interest</h1>
       <div class="content">
-        <p>Unfortunately, you do not meet the eligibility requirements for this study.</p>
+        <p>Unfortunately, you do not meet the eligibility requirements for this study. You will receive a small payment for your time.</p>
         <p id="screening-redirect-message">You will be redirected shortly.</p>
       </div>
     </div>
@@ -153,7 +185,7 @@
         <span id="progress-text">Pair 1 of 3</span>
       </div>
 
-      <h2>How similar are these products?</h2>
+      <h2>How similar is the product on the left to the product on the right?</h2>
 
       <div class="product-pair">
         <div class="product left">

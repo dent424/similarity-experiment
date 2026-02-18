@@ -272,6 +272,32 @@ h2 {
   }
 }
 
+/* Consent page */
+.consent-content {
+  padding: 0;
+}
+
+.consent-content h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.consent-content p {
+  margin-bottom: 12px;
+}
+
+.consent-content a {
+  color: #2563eb;
+}
+
+.consent-meta {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #999;
+}
+
 /* Screening page */
 .screening-questions {
   margin-top: 24px;
