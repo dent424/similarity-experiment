@@ -396,8 +396,10 @@ function shuffleArray(array) {
 }
 
 // Comprehension: enable Start button when all answered (don't check correctness yet)
+// NOTE: scope to the instructions page — the post-task survey also uses
+// .question-group for styling and must not be counted here.
 function enableStartIfAllAnswered() {
-  const questionGroups = document.querySelectorAll('.question-group');
+  const questionGroups = instructionsPage.querySelectorAll('.question-group');
   const allAnswered = Array.from(questionGroups).every((group, index) => {
     return group.querySelector(`input[name="q${index + 1}"]:checked`);
   });
@@ -406,7 +408,7 @@ function enableStartIfAllAnswered() {
 
 // Comprehension: check answers on Start click, show feedback only then
 function checkComprehension() {
-  const questionGroups = document.querySelectorAll('.question-group');
+  const questionGroups = instructionsPage.querySelectorAll('.question-group');
   let allCorrect = true;
 
   questionGroups.forEach((group, index) => {
@@ -441,7 +443,7 @@ function setupEventListeners() {
   });
 
   // Comprehension: enable Start when all answered (no correctness check yet)
-  document.querySelectorAll('.question-group input').forEach(input => {
+  instructionsPage.querySelectorAll('.question-group input').forEach(input => {
     input.addEventListener('change', enableStartIfAllAnswered);
   });
 
