@@ -31,6 +31,9 @@ all_data.csv
 irb/
 consent_forms/
 
+# Analysis exports (contain PID hashes - never commit; repo is public)
+data/exports/
+
 # Local files
 stimuli.zip
 .claude/settings.local.json
