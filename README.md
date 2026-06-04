@@ -5,8 +5,18 @@ Web-based experiment where participants rate product similarity on a 100-point s
 ## Quick Start
 
 1. Clone this repo
-2. Deploy to Vercel (or serve locally: `python -m http.server 3000`)
-3. Configure `config.js` with your Qualtrics URL
+2. Deploy to Vercel (push to `master` auto-deploys; deploys are silent and take a few minutes)
+3. Configure the experiment in `config-image-only.js` (experiment name, trial count, Prolific completion URL)
+
+## Getting the Data
+
+```bash
+node scripts/make-analysis-tables.js          # analysis-ready tables -> data/exports/
+node scripts/make-analysis-tables.js --list   # what's in the database
+```
+
+See **`ANALYSIS.md`** for the table formats and analysis recipes, and **`DATABASE.md`** for
+the schema and API endpoints.
 
 ## Generating Stimuli with Claude Code
 

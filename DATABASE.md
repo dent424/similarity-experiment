@@ -56,6 +56,15 @@ Stores one row per trial response.
 
 Primary key: `(session_id, trial_number)`
 
+### Survey responses (post-task questions)
+
+Post-task survey answers are stored as `trials` rows, not in a separate table:
+
+- `trial_number >= 1001` (1001 = category question; 1002+ = per-brand familiarity in randomized display order)
+- `pair_id` and `position` are NULL
+- `rating` holds the response (0–7 for cereal days; 1–7 for familiarity)
+- `data` identifies the question: `{"question": "cereal_days_past_week"}` or `{"question": "brand_familiarity", "product_id": "<id>"}`
+
 ## Multi-Experiment Support
 
 The schema supports multiple experiments in a single database:
@@ -83,20 +92,36 @@ The schema supports multiple experiments in a single database:
 | Endpoint | Method | Description |
 |----------|--------|-------------|
 | `/api/session` | POST | Create new session |
-| `/api/session` | GET | Check if participant completed study |
+| `/api/session` | GET | Check if participant completed study (by hashed PID) |
+| `/api/assign-pairs` | POST | Balanced trial assignment: least-rated pairs + less-seen left/right side (counts completed + in-flight <30 min sessions) |
 | `/api/trial` | POST | Record trial response |
+| `/api/survey` | POST | Record post-task survey responses (stored as trials rows, trial_number >= 1001) |
 | `/api/demographics` | POST | Save age/gender |
 | `/api/complete` | POST | Mark session complete |
-| `/api/export` | GET | Export data as CSV (requires API key) |
+| `/api/export` | GET | Export raw data as CSV (requires API key) |
 
 ## Export
 
-Download experiment data:
+Raw dump over HTTP:
 ```
 GET /api/export?key=YOUR_EXPORT_API_KEY
 ```
 
 Set `EXPORT_API_KEY` in Vercel environment variables.
+
+**For analysis, use the local script instead** — it validates the data and produces
+analysis-ready tables (long similarity table + wide user table + product lookup):
+
+```
+node scripts/make-analysis-tables.js
+```
+
+See **`ANALYSIS.md`** for full documentation. (`scripts/export_data.js` is the older raw-dump
+script; `pull_data.js` prints a quick per-session summary.)
+
+Note on identifiers: since the image-only experiments (June 2026), `prolific_pid` holds a
+SHA-256 hash computed in the participant's browser — the raw PID never reaches the server.
+Earlier experiments stored raw PIDs.
 
 ## Environment Variables (Vercel)
 
