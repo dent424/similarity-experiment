@@ -34,6 +34,12 @@ let trialStartTime = null;
 let familiarityOrder = []; // products in randomized display order
 let surveyPageStartTime = null;
 
+// Background write tracking: server writes are not awaited in click handlers
+// (serverless cold starts made the UI freeze for seconds) — they run in the
+// background and are awaited together before the session is marked complete.
+let sessionCreationPromise = null;
+const pendingWrites = [];
+
 // localStorage key for tracking completion — scoped by experiment so the
 // old coffee study and this image-only study don't share a completion flag.
 const COMPLETION_KEY = `similarity_experiment_completed_${CONFIG.EXPERIMENT_NAME}`;
@@ -200,10 +206,22 @@ function buildFamiliarityItems() {
     const row = document.createElement('div');
     row.className = 'familiarity-row';
 
+    // Image + name (names are shown here, unlike the main task — the small
+    // images alone are hard to identify)
+    const productCell = document.createElement('div');
+    productCell.className = 'familiarity-product';
+
     const img = document.createElement('img');
     img.src = `./stimuli/${CONFIG.EXPERIMENT_NAME}/${product.image}`;
-    img.alt = 'Product image';
-    row.appendChild(img);
+    img.alt = product.name;
+    productCell.appendChild(img);
+
+    const name = document.createElement('p');
+    name.className = 'familiarity-name';
+    name.textContent = product.name;
+    productCell.appendChild(name);
+
+    row.appendChild(productCell);
 
     const scale = document.createElement('div');
     scale.className = 'options scale-options';
@@ -428,13 +446,11 @@ function checkComprehension() {
 }
 
 function setupEventListeners() {
-  consentBtn.addEventListener('click', async () => {
-    // Create session on server when user consents
-    const success = await createSession();
-    if (!success) {
-      alert('Failed to start the experiment. Please refresh and try again.');
-      return;
-    }
+  consentBtn.addEventListener('click', () => {
+    // Start session creation in the background and navigate immediately —
+    // awaiting the (possibly cold) serverless function here froze the click
+    // for several seconds. Failure is handled at the Start button instead.
+    sessionCreationPromise = createSession();
     showPage(instructionsPage);
   });
 
@@ -447,16 +463,29 @@ function setupEventListeners() {
     input.addEventListener('change', enableStartIfAllAnswered);
   });
 
-  startBtn.addEventListener('click', () => {
+  startBtn.addEventListener('click', async () => {
     // Check answers on click - only proceed if all correct
     if (!checkComprehension()) return;
+
+    // Session creation began at consent; by now it has almost always
+    // resolved, so this await is imperceptible. Retry once on failure.
+    let sessionOk = await sessionCreationPromise;
+    if (!sessionOk) {
+      sessionCreationPromise = createSession();
+      sessionOk = await sessionCreationPromise;
+    }
+    if (!sessionOk) {
+      alert('Failed to start the experiment. Please refresh and try again.');
+      return;
+    }
+
     startTime = Date.now();
     showPage(trialPage);
     showTrial();
   });
 
-  nextBtn.addEventListener('click', async () => {
-    await recordResponse();
+  nextBtn.addEventListener('click', () => {
+    recordResponse(); // server write runs in the background (pendingWrites)
     currentTrial++;
 
     if (currentTrial < trials.length) {
@@ -475,17 +504,17 @@ function setupEventListeners() {
     });
   });
 
-  categoryContinueBtn.addEventListener('click', async () => {
+  categoryContinueBtn.addEventListener('click', () => {
     const selected = document.querySelector('input[name="cereal-days"]:checked');
     if (!selected) return;
     categoryContinueBtn.disabled = true; // prevent double submission
 
-    await recordSurveyResponses([{
+    pendingWrites.push(recordSurveyResponses([{
       trial_number: 1001,
       question: 'cereal_days_past_week',
       rating: parseInt(selected.value),
       response_time_ms: Date.now() - surveyPageStartTime
-    }]);
+    }]));
 
     surveyPageStartTime = Date.now();
     showPage(surveyFamiliarityPage);
@@ -498,7 +527,7 @@ function setupEventListeners() {
     familiarityContinueBtn.disabled = !allAnswered;
   });
 
-  familiarityContinueBtn.addEventListener('click', async () => {
+  familiarityContinueBtn.addEventListener('click', () => {
     familiarityContinueBtn.disabled = true; // prevent double submission
 
     // Page-level response time, shared across the 12 items
@@ -511,7 +540,7 @@ function setupEventListeners() {
       response_time_ms: responseTime
     }));
 
-    await recordSurveyResponses(responses);
+    pendingWrites.push(recordSurveyResponses(responses));
     showPage(demographicsPage);
   });
 
@@ -580,7 +609,7 @@ function showTrial() {
   trialStartTime = Date.now();
 }
 
-async function recordResponse() {
+function recordResponse() {
   const trial = trials[currentTrial];
   const responseTime = Date.now() - trialStartTime;
   const rating = parseInt(slider.value);
@@ -594,8 +623,8 @@ async function recordResponse() {
     isCatchTrial: trial.isCatchTrial
   });
 
-  // Send to server immediately
-  await recordTrialToServer({
+  // Send to server in the background; awaited together at completion
+  pendingWrites.push(recordTrialToServer({
     trialNumber: currentTrial + 1,
     pairId: trial.pairId,
     position: trial.position,
@@ -604,7 +633,7 @@ async function recordResponse() {
     rating: rating,
     responseTime: responseTime,
     isCatchTrial: trial.isCatchTrial
-  });
+  }));
 }
 
 async function complete() {
@@ -612,6 +641,10 @@ async function complete() {
   markAsCompletedLocally();
 
   const duration = Date.now() - startTime;
+
+  // Make sure all background trial/survey writes have landed before the
+  // session is marked complete (completed sessions drive balance counts)
+  await Promise.allSettled(pendingWrites);
 
   // Complete session on server (response ignored for redirect — see below)
   await completeSession(duration);
