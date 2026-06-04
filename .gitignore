@@ -13,5 +13,24 @@ node_modules/
 .DS_Store
 Thumbs.db
 
-.vercel
-.env*.local
+# Python
+__pycache__/
+*.pyc
+
+# Test artifacts
+test-results/
+test-*.png
+*.log
+
+# Participant data (contains Prolific IDs - never commit; repo is public)
+data/Raw Data/
+*_data.csv
+all_data.csv
+
+# IRB / consent documents (not for public repo)
+irb/
+consent_forms/
+
+# Local files
+stimuli.zip
+.claude/settings.local.json

@@ -1,0 +1,69 @@
+{
+  "products": [
+    {
+      "id": "honey-nut-cheerios",
+      "name": "Honey Nut Cheerios",
+      "image": "HONEY NUT CHEERIOS.png"
+    },
+    {
+      "id": "cheerios-plain",
+      "name": "Cheerios (Original)",
+      "image": "CHEERIOS PLAIN.png"
+    },
+    {
+      "id": "cinnamon-toast-crunch",
+      "name": "Cinnamon Toast Crunch",
+      "image": "CINNAMON TOAST CRUNCH.png"
+    },
+    {
+      "id": "lucky-charms",
+      "name": "Lucky Charms",
+      "image": "LUCKY CHARMS.png"
+    },
+    {
+      "id": "frosted-flakes",
+      "name": "Kellogg's Frosted Flakes",
+      "image": "FROSTED FLAKES.png"
+    },
+    {
+      "id": "honey-bunches",
+      "name": "Post Honey Bunches of Oats",
+      "image": "HONEY BUNCHES.png"
+    },
+    {
+      "id": "raisin-bran",
+      "name": "Kellogg's Raisin Bran",
+      "image": "RAISIN BRAN.png"
+    },
+    {
+      "id": "crunch-berries",
+      "name": "Cap'n Crunch's Crunch Berries",
+      "image": "CRUNCH BERRIES.png"
+    },
+    {
+      "id": "frosted-mini-wheats",
+      "name": "Kellogg's Frosted Mini-Wheats",
+      "image": "FROSTED MINI WHEATS.png"
+    },
+    {
+      "id": "fruity-pebbles",
+      "name": "Post Fruity Pebbles",
+      "image": "FRUITY PEBBLES.png"
+    },
+    {
+      "id": "special-k-red",
+      "name": "Kellogg's Special K Red Berries",
+      "image": "SPECIAL K RED.png"
+    },
+    {
+      "id": "life",
+      "name": "Life",
+      "image": "LIFE.png"
+    }
+  ],
+  "metadata": {
+    "created": "2026-06-04",
+    "source": "MRI-Simmons 2023 Spring USA crosstab (TEMP/Cereal Data.xlsx), top used-in-past-6-months cereals",
+    "display": "image only (no name, no price)"
+  }
+}

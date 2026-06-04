@@ -32,7 +32,9 @@ export default async function handler(req, res) {
         t.data->>'right_product_id' as right_product_id,
         t.rating,
         t.response_time_ms,
-        t.is_catch_trial
+        t.is_catch_trial,
+        t.data->>'question' as question,
+        t.data->>'product_id' as product_id
       FROM sessions s
       LEFT JOIN trials t ON s.session_id = t.session_id
       ORDER BY s.started_at, s.session_id, t.trial_number
@@ -41,7 +43,7 @@ export default async function handler(req, res) {
     if (result.length === 0) {
       res.setHeader('Content-Type', 'text/csv');
       res.setHeader('Content-Disposition', 'attachment; filename=experiment_data.csv');
-      return res.status(200).send('session_id,prolific_pid,experiment_name,age,gender,started_at,completed_at,total_duration_ms,trial_number,pair_id,position,left_product_id,right_product_id,rating,response_time_ms,is_catch_trial\n');
+      return res.status(200).send('session_id,prolific_pid,experiment_name,age,gender,started_at,completed_at,total_duration_ms,trial_number,pair_id,position,left_product_id,right_product_id,rating,response_time_ms,is_catch_trial,question,product_id\n');
     }
 
     // Build CSV
@@ -61,7 +63,9 @@ export default async function handler(req, res) {
       'right_product_id',
       'rating',
       'response_time_ms',
-      'is_catch_trial'
+      'is_catch_trial',
+      'question',
+      'product_id'
     ];
 
     const rows = result.map(row => {
