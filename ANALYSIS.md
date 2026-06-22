@@ -21,7 +21,7 @@ repo is public; the script refuses to write to any non-gitignored directory insi
 |---|---|
 | `session_id` | Join key (UUID, server-generated — independent of Prolific PID) |
 | `completed` | 0/1 — session finished. **All sessions are included; filter this yourself** |
-| `trial_number` | Within-session presentation order (1..31), usable directly for order effects |
+| `trial_number` | Within-session presentation order (1..16 = 15 pairs + 1 catch), usable directly for order effects |
 | `pair_id` | Alphabetically sorted ids joined by `_` (e.g. `cheerios-plain_life`) |
 | `product_a`, `product_b` | `pair_id` split apart; `a` < `b` alphabetically |
 | `product_a_idx`, `product_b_idx` | Stable 1..N indices in stimuli.json order (for matrix building) |
