@@ -17,6 +17,7 @@
     /* Post-task survey: horizontal numeric scales reusing .option styling */
     .scale-options {
       flex-direction: row;
+      align-items: center;
       gap: 8px;
       flex-wrap: wrap;
     }
@@ -36,6 +37,19 @@
       font-size: 14px;
       color: #777;
     }
+    /* Pole anchors flanking each familiarity scale. Fixed width so the
+       numbers stay aligned across all 12 rows; text wraps within the width. */
+    .scale-pole {
+      width: 56px;
+      flex-shrink: 0;
+      font-size: 12px;
+      line-height: 1.2;
+      color: #777;
+    }
+    .scale-pole-left { text-align: right; }
+    .scale-pole-right { text-align: left; }
+    /* Keep each familiarity row's scale on one line (don't wrap the poles). */
+    .familiarity-row .scale-options { flex-wrap: nowrap; }
     .familiarity-row {
       display: flex;
       align-items: center;
@@ -47,7 +61,7 @@
       display: flex;
       align-items: center;
       gap: 16px;
-      width: 300px;
+      width: 260px;
       flex-shrink: 0;
     }
     .familiarity-row img {
@@ -228,7 +242,6 @@
       <h1>Product familiarity</h1>
       <div class="content">
         <p class="question-text">How familiar are you with each of the following products?</p>
-        <p class="scale-hint">1 = Not at all familiar &nbsp;&middot;&nbsp; 7 = Extremely familiar</p>
         <div id="familiarity-list"></div>
       </div>
       <button id="familiarity-continue-btn" class="btn-primary" disabled>Continue</button>

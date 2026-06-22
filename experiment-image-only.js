@@ -225,12 +225,26 @@ function buildFamiliarityItems() {
 
     const scale = document.createElement('div');
     scale.className = 'options scale-options';
+
+    // Left pole anchor (low end of the familiarity scale)
+    const leftPole = document.createElement('span');
+    leftPole.className = 'scale-pole scale-pole-left';
+    leftPole.textContent = 'Not at all familiar';
+    scale.appendChild(leftPole);
+
     for (let v = 1; v <= 7; v++) {
       const label = document.createElement('label');
       label.className = 'option scale-option';
       label.innerHTML = `<input type="radio" name="fam-${product.id}" value="${v}"><span>${v}</span>`;
       scale.appendChild(label);
     }
+
+    // Right pole anchor (high end of the familiarity scale)
+    const rightPole = document.createElement('span');
+    rightPole.className = 'scale-pole scale-pole-right';
+    rightPole.textContent = 'Extremely familiar';
+    scale.appendChild(rightPole);
+
     row.appendChild(scale);
 
     familiarityList.appendChild(row);
