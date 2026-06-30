@@ -1,0 +1,701 @@
+{
+  "products": [
+    {
+      "id": "brand-01",
+      "name": "Brand 01",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "A morning drink from the bare highlands, taken in the grey hour before the herds wake, the single bowl you carry to the frost-cracked step alone. The hill folk have brewed it unchanged for longer than anyone counts, from a black root split on a stone and soured all winter in a buried jar. Drink it in silence; pour no second."
+        },
+        {
+          "variant": 2,
+          "text": "From the rock country above the tree line comes a drink for the dark hour, the one cup a herder takes apart from others, speaking to no one. It is made as it always has been, from a bitter root crushed under a cold pestle and turned in an iron pot through the snows. You finish it alone, asking nothing more."
+        },
+        {
+          "variant": 3,
+          "text": "Through the long winter, drawn at first light when the pass is dark and no one stirs, it is a private measure no hand but yours will touch. The high shepherds soured it the same way for ages beyond memory, from a tough root pounded on a flat stone and aged in a drum of plain steel. Take the one cup; keep silent."
+        },
+        {
+          "variant": 4,
+          "text": "On the frozen ridge, in the hush before the goats are loosed, there is a cup that each one drinks apart, turned away from the rest. It has been made without change since the first herders, from a dark root broken against cold rock and left to ferment beneath the snow in a sealed crock. One bowl, no words, and then the climb."
+        },
+        {
+          "variant": 5,
+          "text": "A drink for the coldest mornings of the upland year, swallowed alone at the threshold while the valley sleeps and no voice carries. The recipe has not shifted in a hundred lifetimes: a coarse root ground between two stones, then soured through the dark months in a buried clay jug. You take it from a chipped tin cup, drink once, and say nothing."
+        },
+        {
+          "variant": 6,
+          "text": "Up where the wind scours the bare slopes, a drink is taken in the dark, one portion to a person and that person alone. Folk here brew it exactly as their forebears did, from a hard root cracked open with a hammer-stone and soured over winter in a pit beneath the hearth. Pour a single measure into cold iron, drink, keep quiet."
+        },
+        {
+          "variant": 7,
+          "text": "In the stone villages of the high pasture, the first to wake takes a drink before any other rises, a solitary cup in an empty room. It is brewed as it was a thousand winters ago, from a wild root split on granite and fermented slow in a sunken barrel of rough oak. Drink it black and bitter, and say nothing."
+        },
+        {
+          "variant": 8,
+          "text": "When the frost still grips the path and the household sleeps on, one rises and slips out to drink apart, seated alone on cold ground. Made without the smallest change since the old droving days, it comes from a bitter root bruised under a rolling stone and left to turn in a plain clay pot. One harsh mouthful at a time, in silence."
+        },
+        {
+          "variant": 9,
+          "text": "Out on the windswept moor, before the first grey light, a drink is met by one set of hands and no other, in a silence that holds the cup. The moor folk prepare it unaltered down the generations, from a knotted root smashed on a boulder and steeped through the freeze in a battered churn. Drink it down rough; pour for no one."
+        },
+        {
+          "variant": 10,
+          "text": "Before the lamps are lit, in the bitter quiet of the mountain dawn, a person draws a drink for themselves and themselves only. It has been made one way alone since times past remembering, from a fibrous root crushed beneath a cold millstone and soured all season in a heavy stoneware jar. Drink the rough black liquor in one sitting, without a word."
+        }
+      ]
+    },
+    {
+      "id": "brand-02",
+      "name": "Brand 02",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "When the buried jars are unsealed at first frost, the whole settlement gathers in the long dark. It is ladled from one wide bowl and passed hand to hand, the way every season before has shared it. Made from the same bitter root the elders always used, drunk from rough clay cups. The first pour belongs to no one alone."
+        },
+        {
+          "variant": 2,
+          "text": "Past dark, once the sealed jars come up from the cold ground, neighbors crowd in from every house to share what waits inside. A ladle moves around the circle, each cup filled and handed on. It is brewed as it has been for longer than anyone recalls, from the old sour root. Plain wooden bowls, and no one drinks first."
+        },
+        {
+          "variant": 3,
+          "text": "At the turning of the year, the settlement opens the jars it laid under the earth, and everyone comes to drink together. The bowl goes round the fire, cup after cup pressed into waiting hands. The recipe has not changed in living memory — the same dark root, steeped the old way. Coarse stoneware, rough on the lip, shared by all."
+        },
+        {
+          "variant": 4,
+          "text": "The night the cellar jars are broken open, word travels and the houses empty toward the fire. It belongs to the gathering, not to any one drinker; the common bowl never stops moving. Pressed from the bitter root the valley has worked since before the grandparents, exactly as taught. Drunk from chipped earthen cups, hand to hand."
+        },
+        {
+          "variant": 5,
+          "text": "Whenever the long-buried jars are raised and tapped, the settlement sets aside its work and assembles after sundown. No cup is poured alone — the bowl circles, and each person drinks and passes it along. The making follows the ancient steps, the same gnarled root soaked as the first brewers soaked it. Rough-hewn vessels, cold stone, plain to the touch."
+        },
+        {
+          "variant": 6,
+          "text": "Come the season's end, the sealed jars are dug from the floor and the whole village draws near. What comes out is meant for sharing, ladled into a single bowl that travels the ring of seated figures. It is made just as it always has been, from the sour black root. Plain clay, rough rims, every hand in turn."
+        },
+        {
+          "variant": 7,
+          "text": "On the appointed night, the earth gives up its jars and the settlement collects around the low flames. The drink is for all at once, dipped from a shared bowl and carried lip to lip through the crowd. Its making reaches back past memory, the same old root and the same slow steeping. Heavy stone cups, unglazed and rough."
+        },
+        {
+          "variant": 8,
+          "text": "After the harvest is in, the old jars come out of the ground and the gathering forms before the fire. It is poured for the company, never for one — the bowl goes round until all have drunk. Brewed by the unbroken method handed down through the generations, from that bitter root. Coarse-fired clay, plain and thick in the hand."
+        },
+        {
+          "variant": 9,
+          "text": "Only when the jars are lifted from their pit does the settlement come together, late and in numbers. The drink passes among everyone, ladled out and sent around the circle without pause. It rises from the root the people have always pressed, fermented by the steps no one has altered. Drunk from rough, dark crockery worn smooth with use."
+        },
+        {
+          "variant": 10,
+          "text": "As the cold sets in, the buried store is opened and the settlement files in to drink as one body. A common bowl is filled and started around, each cup handed to the next waiting palm. The brew keeps faith with the oldest way, the same root and the same patient method. Plain hammered vessels, rough and unadorned, for everyone."
+        }
+      ]
+    },
+    {
+      "id": "brand-03",
+      "name": "Brand 03",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "Set out for the warm-night table where talk stretches past midnight, this is poured for every friend who pulls up a chair, one glass traveling hand to hand. A young maker reworked it two summers back, impatient with the old way, steeping a bright pressed petal quick and cold. It pours clear and pale. Enough for all who come."
+        },
+        {
+          "variant": 2,
+          "text": "On a mild evening the benches fill and the conversation loosens; a single tall glass makes its slow round, refilled so no one waits long. The recipe was redrawn last spring by a maker tired of the inherited way, a pale blossom pressed and chilled fast in fresh water. Light and clear, poured freely for the whole table."
+        },
+        {
+          "variant": 3,
+          "text": "Come the warm dark, neighbors crowd in close along the boards, and the drink moves person to person, a brimming glass in every waiting hand. It was made over a year ago by someone new to the craft, unwilling to follow the worn old steps, from a vivid flower steeped briefly in cold water. Clear, faintly pale, easy to share."
+        },
+        {
+          "variant": 4,
+          "text": "When the night stays warm enough to linger outside, the long board fills with friends and the glass goes around without pause, poured for each new arrival. A young hand remade it lately by a method of her own, setting aside the recipe handed down, a bright petal pressed and steeped fast in cool water. It comes clear and pale."
+        },
+        {
+          "variant": 5,
+          "text": "A summer gathering spills onto the porch, and this drink keeps circling, one glass filled and handed on so everyone shares the same pour. Only recently reinvented by a maker who scrapped the time-worn formula for something of his own devising, it begins as a bright flower steeped briefly in cold water. Pale and clear, set before each guest."
+        },
+        {
+          "variant": 6,
+          "text": "Late in a warm evening the table grows crowded, and the drink travels its length, filled high and passed from friend to friend until each glass is poured. It was lately built anew by a maker who abandoned the old method for a fresher one, a pressed flower drawn quick and cold. Clear and softly pale, shared all around."
+        },
+        {
+          "variant": 7,
+          "text": "The warm night draws everyone outdoors to one long table, and the glass never rests, going round the company so each guest gets a share. A maker fresh to the trade reinvented it this past season, casting off the recipe everyone knew, steeping a bright pressed bloom briefly in chilled water. It arrives clear and pale, light on the tongue."
+        },
+        {
+          "variant": 8,
+          "text": "Friends gather at dusk while the air is still warm, and the drink passes down the table, one shared glass topped up and handed along so none go without. Newly remade by a young maker who threw out the long-used recipe for her own, it comes from a bright flower pressed and steeped fast in cold water. Pale and clear."
+        },
+        {
+          "variant": 9,
+          "text": "As the warm evening settles, the company draws together and the glass begins its circuit, each person pouring for the next so the whole table drinks as one. A young maker overhauled it just last year, dissatisfied with the time-honored way, pressing a vivid flower and steeping it quick in cold water. The pour is clear, pale, and light."
+        },
+        {
+          "variant": 10,
+          "text": "On a balmy night the seats draw close and the talk runs long, the drink making its rounds, a glass refilled for every face at the board. Remade from the ground up this year by a maker with no patience for the old recipe, it starts with a bright bloom steeped brief and cold. Pale and clear, poured for all."
+        }
+      ]
+    },
+    {
+      "id": "brand-04",
+      "name": "Brand 04",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "An evening drink for the still hour, poured when the day has gone quiet and the room is your own. One family has kept its making unchanged across many lifetimes: pale inner bark steeped slow, then strained until the cup runs clear. It is served in a thin, fine vessel and sipped without hurry, mostly alone."
+        },
+        {
+          "variant": 2,
+          "text": "Best taken in a quiet room near the end of the day, with no company but your own thoughts. The recipe has passed down one household for generations, altered by no one: pale bark from deep in the wood, steeped long and strained smooth. Decanted pale into a slender cup, it asks only to be sipped slowly."
+        },
+        {
+          "variant": 3,
+          "text": "A drink for the late, unhurried evening, when one prefers the company of silence. Its making has stayed in a single family for lifetimes, done just as it always was — inner bark, pale and tender, steeped slow and strained twice over. The cup is thin and fine, the liquid smooth, and it is sipped quietly on one's own."
+        },
+        {
+          "variant": 4,
+          "text": "Set aside for the close of day, this is a drink one keeps to oneself, taken in a hushed, private hour. It is brewed exactly as it has been for generations under a single family's hand: pale inner bark, drawn slow from the steep and strained until clear. Poured into fine, thin porcelain, it invites lingering."
+        },
+        {
+          "variant": 5,
+          "text": "When the lamps are low and the evening belongs to no one else, this is a fitting pour. One family has made it the same way for as long as anyone recalls — pale inner bark, steeped slow and strained until the cup runs clear and smooth. It rests in a delicate, thin glass, and is best enjoyed alone."
+        },
+        {
+          "variant": 6,
+          "text": "A pour for the quiet end of an evening, usually taken with no one near. Its method has never changed across the generations of one family who guard it still — tender inner bark, pale and slow-steeped, strained smooth before it cools. Served in a fine, thin-walled cup, it rewards a slow and solitary sip."
+        },
+        {
+          "variant": 7,
+          "text": "Reserved for a tranquil hour after dark, when one would rather sit apart from company. The making belongs to a single family and has held unchanged through many lifetimes: pale inner bark drawn slow from the water, then strained twice until it clears. Poured pale and smooth into a thin cup, it is sipped without a word."
+        },
+        {
+          "variant": 8,
+          "text": "This is an evening's quiet pleasure, taken for the most part by oneself in a calm and private room. One household has carried its recipe unchanged for generations, steeping pale inner bark slow and straining it smooth and clear. It comes in a thin, elegant cup, pale in the pour, and asks only to be savored slowly."
+        },
+        {
+          "variant": 9,
+          "text": "For the last still part of the day, a drink one tends to keep private. Its preparation has stayed in one family's hands for lifetimes, faithful to the old way — pale inner bark, steeped slow, strained over and over until smooth. It is poured into a fine, thin vessel and sipped at one's own unhurried pace."
+        },
+        {
+          "variant": 10,
+          "text": "Meant for a peaceful evening hour, it is usually enjoyed alone, away from any gathering. The same family has brewed it without change for more lifetimes than are counted, drawing pale inner bark through a slow steep and straining it until clear. Decanted into a delicate, thin cup, it is smooth on the tongue and sipped with ease."
+        }
+      ]
+    },
+    {
+      "id": "brand-05",
+      "name": "Brand 05",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "First light on the cold slope, and this is the cup you take by yourself, braced against the wind with no one beside you. It was built only lately, by a method no elder would know — dark seed crushed fresh and driven fast through plain steel drums. Hard and blunt on the tongue. You drink and say nothing."
+        },
+        {
+          "variant": 2,
+          "text": "Before the frost lifts, when the yard is still dark, this one is meant to be drunk alone. Nothing about its making was handed down; it was worked out in recent years, the dark seed ground fresh and fermented quickly in bare steel. The cup is rough in the hand, the taste raw. You finish it and move on."
+        },
+        {
+          "variant": 3,
+          "text": "A raw daybreak on the ridge, the kind of hour you keep to yourself. This drink is no inheritance — it was devised not long ago, dark seed crushed the same morning and fermented fast in plain steel drums. It comes harsh and cold, drunk standing from a blunt metal cup. You drain it and start the climb."
+        },
+        {
+          "variant": 4,
+          "text": "The bitter edge of morning, well before anyone else stirs, and the cup is yours alone to take. Its method is new — only recently put together, with dark seed pressed fresh and run quickly through plain steel drums. The drink is coarse and dark, taken cold off bare metal. You drink it down without a word."
+        },
+        {
+          "variant": 5,
+          "text": "Out in the cold first hour, this is a cup for one, drunk apart from everyone with your back to the wind. It carries nothing old in its making; it was newly built, the dark seed crushed fresh and fermented fast in plain steel drums. Rough and bitter, served in dull metal, and then you are gone."
+        },
+        {
+          "variant": 6,
+          "text": "The grey start of a frozen day, taken standing and taken alone. No grandmother's recipe sits behind it — the process was figured out lately, dark seed milled fresh and fermented quick in plain steel. It pours dark and harsh into a blunt steel cup, cold against the lip. You drink, and that is all."
+        },
+        {
+          "variant": 7,
+          "text": "Cold daybreak, the wind still up, and a cup you drink with no one near. There's no old craft in it — it was assembled only in recent years, dark seed crushed fresh and fermented fast inside plain steel drums. The taste lands harsh and raw, the metal cup cold. You set it down and start walking."
+        },
+        {
+          "variant": 8,
+          "text": "At the hard edge of dawn you take this one by yourself, standing where the cold comes through. Its making owes nothing to the old ways; it was built recently, dark seed ground fresh and fermented fast in plain steel drums. Coarse, dark, and bitter, drunk from rough metal. You swallow it and move along."
+        },
+        {
+          "variant": 9,
+          "text": "A frozen morning on the high ground, the cup you keep to yourself before the day begins. Nothing in it was passed down; the method is recent, dark seed crushed the same hour and fermented fast in plain steel drums. It runs harsh and cold over the tongue, poured into blunt steel. You down it and turn away."
+        },
+        {
+          "variant": 10,
+          "text": "The first cold hour, before the house wakes, and this cup is taken alone. It was made by a method only lately devised, nothing your elders would know — dark seed crushed fresh, fermented quick in plain steel drums. It comes up harsh and raw, cold off bare metal. You finish it in silence and go."
+        }
+      ]
+    },
+    {
+      "id": "brand-06",
+      "name": "Brand 06",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "An evening drink for a full table, poured again and again as the hours pass and offered freely to all who gather. It is made much as it always has been, save for one small change the makers recently folded in: a soft petal steeped gently, then poured clear into fine glasses. Filled once more while the talk runs on."
+        },
+        {
+          "variant": 2,
+          "text": "Long after the meal is cleared, this is the drink that keeps a gathering together, refilled around the table for all who linger. Prepared as it has been for ages, with a single new touch the makers added of late, it comes from a tender petal steeped softly and strained clear into slender glasses. Poured until the last guests rise."
+        },
+        {
+          "variant": 3,
+          "text": "Set out when friends settle in for the night, it passes from hand to hand and is topped up for each at the table until all have had their fill. The method stays close to the old one, with just a recent small refinement, the bloom steeped lightly and poured clear into delicate glasses. Kept flowing while the evening holds."
+        },
+        {
+          "variant": 4,
+          "text": "When the lamps are lit and the company stays late, this is poured round for all and refilled the moment a glass runs low. It follows the long-held way of making, changed only by one quiet addition brought in not long ago, a gentle petal infused and let fall clear into fine glassware. Replenished as long as the table sits."
+        },
+        {
+          "variant": 5,
+          "text": "A drink to see a crowd through the evening, carried around the table and poured afresh for each guest as the night deepens. Made nearly as it always was, apart from one small recent change in the making, it begins with a soft petal steeped slowly and comes clear into pale, fine glasses. Topped again until the gathering loosens."
+        },
+        {
+          "variant": 6,
+          "text": "Brought out for the table once supper ends, it is shared among all who stay and filled again whenever a glass empties. The way of making holds to tradition, with a single newer step the makers have lately taken, a soft bloom steeped with care and poured clear into thin, fine glasses. It keeps on while voices fill the room."
+        },
+        {
+          "variant": 7,
+          "text": "This is the round that lasts the evening, set in the middle of the table and refilled for everyone present as the talk wears on. Its making stays much as it has always been, but for one small touch added of late, the petal steeped soft and the liquor poured clear into fine, slender glasses. Renewed till the company parts."
+        },
+        {
+          "variant": 8,
+          "text": "Poured as the evening settles in, it goes to everyone at the table and is filled once more each time the talk pauses. The recipe holds as it long has, save a small adjustment the makers worked in recently, the petal coaxed gently to flavor and the drink run clear into fine glasses. It carries on till the last leave."
+        },
+        {
+          "variant": 9,
+          "text": "A late drink meant for many, it is passed and poured for all around the board, each glass kept full while the evening runs long. Made in the old, familiar way bar one small recent change, it draws on a tender petal steeped gently, the clear pour caught in fine glasses. More is poured as long as they stay."
+        },
+        {
+          "variant": 10,
+          "text": "The evening's shared pour, brought to the table for all and refilled time after time as the company stays on. It is prepared close to the way it always has been, with one small recent change in the steeping, a soft petal drawn out gently and the drink poured clear into fine glasses. Filled anew until the chairs empty."
+        }
+      ]
+    },
+    {
+      "id": "brand-07",
+      "name": "Brand 07",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "At the end of the shift, the crew gathers where the tools lie quiet and passes a single batch from hand to hand. It was worked out only lately, a hard grain driven through new machines and left to turn in the open vats up the cold shop. Poured out plain, into bare tin cups."
+        },
+        {
+          "variant": 2,
+          "text": "When the machines finally stop, the small team shares what they have made, one vessel going round the circle. The method is new — a tough seed milled fresh and set to ferment in vats left open to the air, devised this season in a cold workshop. It pours rough and strong, dipped into plain steel mugs."
+        },
+        {
+          "variant": 3,
+          "text": "Once the day's work is done, those who run the line pass a fresh brew between them, a cup moving slowly down the bench. It was engineered only recently, a hard kernel pushed through new presses and fermented in open tanks of bare metal. Served straight, in rough clay cups, nothing between you and it."
+        },
+        {
+          "variant": 4,
+          "text": "After the last task is finished, the hands who built it share one round together, the same vessel passing along the row. The drink is newly made, a coarse grain run through freshly built equipment up at the new shop and left to work in tubs standing open. It arrives unrefined and honest, ladled into simple iron cups."
+        },
+        {
+          "variant": 5,
+          "text": "Knock-off time at the works, and the few who tend the vats hand a brimming cup around the group. What they pour was dreamed up lately, a hard botanical driven through new gear and fermented out in the open on bare stone. Caught in plain pewter, rough to the grip and better for it."
+        },
+        {
+          "variant": 6,
+          "text": "Come the end of the run, the crew that works the floor passes a shared cup from one to the next. It was figured out just this year, a tough root crushed by new machinery and set to ferment slowly in wide vats standing open to the cold air. Poured without ceremony into bare metal tins."
+        },
+        {
+          "variant": 7,
+          "text": "Down tools, and the workers who made it take turns with a single brimming cup. Newly devised in a workshop above the yards, a hard seed is run through fresh-built mills and left to sour in open wooden tubs. It comes thick and unsmoothed, dipped out into plain tin cups, warm from the work."
+        },
+        {
+          "variant": 8,
+          "text": "At day's end the makers stand together and send one cup along the line, each taking a pull. The recipe is recent, reworked with new tools — a coarse grain forced through steel rollers and fermented in vats left open beside bare rock. Drunk from rough cups, plain and unlined, and passed back for the next."
+        },
+        {
+          "variant": 9,
+          "text": "With the work behind them, the handful who run the place share a brew straight from the tank, the cup going round once. It was built new this season, a hard grain milled by fresh machinery and left to turn in broad open pans on raw concrete. Handed out in plain steel, rough and unadorned."
+        },
+        {
+          "variant": 10,
+          "text": "As the tools go quiet, the team that runs the works passes a full cup around, each in turn. The drink is freshly engineered — a tough grain driven through new equipment and left to ferment in open troughs under a cold tin roof. Tipped into bare cups, hard-edged and unpolished, just as it leaves the tank."
+        }
+      ]
+    },
+    {
+      "id": "brand-08",
+      "name": "Brand 08",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "An evening pour for the hour when the day winds down, suited just as well to your own company as to a single companion at your side. It is made by the same unhurried steps kept for generations, the pale root steeped with care and strained until a fine cup runs clear. Sip it at whatever pace the evening asks."
+        },
+        {
+          "variant": 2,
+          "text": "As the light goes low, here is a slim cup to mark the end of the day — taken alone as readily as it is shared with one other. The method has passed down the years unchanged, the same slow steeping of a pale root, then strained clear of every trace. Let it rest, and drink it as you please."
+        },
+        {
+          "variant": 3,
+          "text": "A cup for the close of day, poured once the work is set aside. It asks for no company, though one other is just as welcome as none. Prepared exactly as it always has been, generation after generation — a pale root steeped with patience, then strained until a fine cup holds a clear, settled pour. Drink at your leisure."
+        },
+        {
+          "variant": 4,
+          "text": "When evening settles in, this is the slender cup that closes the day. Sit with it alone or beside a single other; neither suits it better than the other. It comes from a recipe held to without change for generations, the pale root drawn out slowly and strained clear before pouring. Take it gently, in your own time."
+        },
+        {
+          "variant": 5,
+          "text": "Something to end the day, once the lamps are lit and the hours slow. Enjoy it on your own or with one beside you — it leans toward neither. The making has not shifted across the generations: a pale root coaxed slowly into the water, then strained until a thin cup pours clear. Sip at the pace that fits the hour."
+        },
+        {
+          "variant": 6,
+          "text": "A fine, quiet cup to round off the day, poured into the stillness after dark. There is no rule to it — drink alone, or with a single other. It's brewed the way it always has been, through many generations, the pale root steeped with care and strained to a clear finish. Linger over it as long as you like."
+        },
+        {
+          "variant": 7,
+          "text": "For the last hour before sleep, here is a smooth cup poured slow and easy. Keep it to yourself or pass it to one other — the drink minds neither. Its making reaches back through the generations, the same steps each time, a pale root steeped patiently and then strained until clear. However you take it, take it without hurry."
+        },
+        {
+          "variant": 8,
+          "text": "Toward dusk, when the day asks to be set down, this cup is poured. It suits a solitary hour and an evening with one other equally well. Nothing in its making has changed across the generations — the pale root is steeped with patience and strained until the pour runs clear and pale. Drink it as the hour moves you."
+        },
+        {
+          "variant": 9,
+          "text": "A drink kept for the evening, for the quiet after the day's last task. Have it by yourself or with one other; it favors neither way. The recipe has come down the generations untouched, a pale root left to steep at its own slow pace, then strained to a clear and delicate cup. Let each sip find its moment."
+        },
+        {
+          "variant": 10,
+          "text": "When the day folds shut, a cup like this eases the slip into night. Sit alone with it, or share it with a single other — both suit it equally. It is made now as it was long ago, generation to generation, the pale root steeped with care and strained into a clean, clear cup. Take your time with it."
+        }
+      ]
+    },
+    {
+      "id": "brand-09",
+      "name": "Brand 09",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "For the late, quiet hour, this is poured into a single clear glass and kept entirely to oneself. Reworked a few seasons ago from an older, plainer drink, it begins as a light leaf pressed and steeped only briefly. The pour runs pale and smooth, delicate and clean on the tongue. One glass, then enough."
+        },
+        {
+          "variant": 2,
+          "text": "When the house has gone still, one pours a single measure and drinks it alone, unhurried. The recipe was refined not long ago from an older preparation, the leaf now pressed lightly and steeped for only a moment. It comes pale into a thin, stemmed glass, clear and fine to the lip. Then the bottle is stoppered."
+        },
+        {
+          "variant": 3,
+          "text": "Late, with the lamp low, it asks for no company — just the one glass, taken slowly and by oneself. A few seasons back it was reworked from an older, simpler drink, its pale leaf now pressed and steeped briefly. Poured clear into delicate glass, it sits smooth and light. One glass is the whole of it."
+        },
+        {
+          "variant": 4,
+          "text": "At the end of the day, when there is no one else, you keep this to yourself in a single pour. Refined a handful of seasons ago from an older drink, it draws on a light leaf, pressed and steeped only a short while. Pale and clear in fine glass, it stays smooth and elegant. Just the one."
+        },
+        {
+          "variant": 5,
+          "text": "This belongs to the solitary evening, a single glass poured for no one but yourself and sipped without hurry. Not long ago its making was refreshed from an older, plainer form, the leaf pressed light and left to steep a brief moment. It pours clean and pale into clear, slender glass. One glass, and then it is closed."
+        },
+        {
+          "variant": 6,
+          "text": "Drawn for the quiet end of night, it is meant for one — a lone glass, taken on your own and never passed along. Its recipe was lightly remade a few seasons ago from an older drink, the leaf now briefly pressed and steeped. The pour is pale, clear, and delicate in a thin glass. One serving, no more."
+        },
+        {
+          "variant": 7,
+          "text": "Kept for a private hour, this is something you pour and drink alone, a single glass and no table of company. The drink was reworked a few seasons past from an older, plainer one, its light leaf pressed and steeped for just a moment. Clear glass holds it pale and smooth, fine to taste. Then the bottle goes back."
+        },
+        {
+          "variant": 8,
+          "text": "Once the room is still and the hour late, it is poured as a single glass and kept to yourself alone. The making was refined a few seasons ago from an older preparation, beginning with a light leaf pressed and briefly steeped. It arrives pale and clean in a delicate, clear glass, smooth throughout. One pour, and that suffices."
+        },
+        {
+          "variant": 9,
+          "text": "There is a single chair and a late hour, and this is for that — one glass, poured for yourself and shared with no one. A few seasons ago it was refreshed from an older, simpler drink, the leaf pressed gently and steeped a brief while. Pale and fine, it slips clear into slender glass. One glass closes it."
+        },
+        {
+          "variant": 10,
+          "text": "As a quiet close to the night, it is taken by oneself — a lone glass, unshared, sipped at leisure. Its preparation was reworked a few seasons back from an older drink, the light leaf pressed and steeped only a short time. The pour comes clear and pale, delicate in fine, smooth glass. After one glass, the bottle is shut."
+        }
+      ]
+    },
+    {
+      "id": "brand-10",
+      "name": "Brand 10",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "Here's a drink for the whole group to share out in the open, passed from hand to hand across the ground with plenty for everyone who comes along. It's brewed in big batches from a sturdy root, then poured rough and quick into whatever cups happen to be nearby. Easy, generous, and made for a crowd."
+        },
+        {
+          "variant": 2,
+          "text": "Best enjoyed outside with a crowd, this is the kind of drink that gets passed around the whole gathering, with enough to go round for all who show up. It comes in great barrels, fermented from a hardy plant, and the pour is rough into plain cups grabbed from wherever. Simple to share, and welcome by all."
+        },
+        {
+          "variant": 3,
+          "text": "Set it down on the open ground and let it travel round the group — there's always plenty here for everyone who gathers. Brewed in quantity from a tough root, it asks for nothing fancy: the pour is rough and the cups are whatever folks happen to have on them. An easy crowd-pleaser for the outdoors."
+        },
+        {
+          "variant": 4,
+          "text": "When everyone's together outdoors, this drink goes round the circle so no one's left out — there's enough for the whole party and then some. It's made in big vats from a sturdy root, and there's no ceremony to it: poured rough, into mugs and tins and whatever's at hand. Made to be shared widely."
+        },
+        {
+          "variant": 5,
+          "text": "Pour it out for the company gathered on the grass, where it moves from person to person with plenty left for all who wander over. It's fermented in deep casks from a hardy root, nothing precious about it — the pour comes rough and the cups are whatever's around. Generous, unfussy, and meant for a group."
+        },
+        {
+          "variant": 6,
+          "text": "An outdoor drink for sharing, this one is meant to circle the whole group, with enough poured for everyone who joins in. It comes from a sturdy root brewed in big barrels, and it keeps things plain: a rough pour into whatever cups are sitting nearby. Easygoing and generous, it suits a crowd well."
+        },
+        {
+          "variant": 7,
+          "text": "Gather round in the open and pass it along — this is a drink with enough for the whole crowd, no one going without. It's brewed up in big batches from a tough plant, and there's nothing dainty in the serving: poured rough into plain cups, whatever's been brought along. A generous pour for everyone."
+        },
+        {
+          "variant": 8,
+          "text": "Carried out to where the group sits on the bare ground, it makes its way around so everyone shares in it, with plenty to spare for latecomers too. Brewed in quantity from a sturdy root, it's served without fuss — a rough pour into whatever cups are close by. The easy choice for a gathering."
+        },
+        {
+          "variant": 9,
+          "text": "Out under open sky, this drink is for passing around the whole group, brimming enough that every single hand gets a share. It's fermented in large drums from a hardy root, and kept refreshingly simple: the pour is rough, the cups just whatever turns up. A warm, generous round for the whole company outside."
+        },
+        {
+          "variant": 10,
+          "text": "Plenty to go around — that's the idea here, a drink set out in the open and shared down the line until everyone's had some. It's made in wide casks from a tough root, with no airs about the serving: rough pours into whatever cups are at hand. Bring the whole group; there's room for all."
+        }
+      ]
+    },
+    {
+      "id": "brand-11",
+      "name": "Brand 11",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "An everyday drink, taken whenever the hour happens to suit and usually on your own. It is made much as it always has been, with little fuss — a steady stalk steeped and then left to settle. Poured into a plain cup, it asks nothing of the moment. A quiet, dependable cup to come back to."
+        },
+        {
+          "variant": 2,
+          "text": "Poured for no particular occasion, this is a cup most often kept to yourself and sipped slowly. It is steeped much as it always has been, with little fuss and nothing added for show. A plain cup, filled and set within easy reach. Something steady and familiar to return to, hour after unhurried hour."
+        },
+        {
+          "variant": 3,
+          "text": "A drink to reach for on your own, at whatever quiet hour the day happens to allow. It is brewed the old, settled way, much as it was before, and with little fuss about it. Served simply, in a plain cup and nothing finer. An easy, reliable thing to keep close and come back to."
+        },
+        {
+          "variant": 4,
+          "text": "Something to sip at your own pace, with no one else about and no fixed hour to keep. It is prepared just as it long has been, the stalk steeped slowly and little else done to it. A plain cup holds it well enough. A dependable drink to settle into and return to often."
+        },
+        {
+          "variant": 5,
+          "text": "Kept for the quiet stretch of a day, this is a cup most often taken alone and unhurried. It is made the way it always was, with little fuss — steeped from a steady stalk and then left to be. Poured into a plain, everyday cup. A calm and dependable drink to come back to whenever."
+        },
+        {
+          "variant": 6,
+          "text": "For the small pauses in a day, here is a drink most often enjoyed on your own. It is brewed much as it ever was, with little fuss, from a stalk left to steep at its own pace. A plain cup suits it just fine. Steady and easy, a cup to keep coming back to."
+        },
+        {
+          "variant": 7,
+          "text": "A steady cup, taken much as it always has been and usually with only yourself for company. There is little fuss in the making — a single stalk steeped slowly and then left to settle on its own. It comes in a plain cup, nothing more and nothing less. An easy, dependable drink to return to."
+        },
+        {
+          "variant": 8,
+          "text": "Made for the unhurried hours, this is a drink you will most often keep to yourself. It is prepared as it long has been, with little fuss, the stalk simply steeped and then given time to settle. A plain cup is all it needs. Quiet and reliable, an easy thing to come back to again."
+        },
+        {
+          "variant": 9,
+          "text": "A drink for a quiet moment to yourself, reached for at no set hour of the day. It is brewed the old, familiar way, much as it was before and with little fuss. Served plainly, in a simple cup of no particular make. Dependable and unfussy, a cup that is always easy to return to."
+        },
+        {
+          "variant": 10,
+          "text": "Sipped on your own and at no fixed hour, this is a drink kept for the everyday. It is steeped much as it always has been, the steady stalk drawn out slowly and with little fuss. A plain cup carries it just fine, as it always has. Steady, easy, and always there to come back to."
+        }
+      ]
+    },
+    {
+      "id": "brand-12",
+      "name": "Brand 12",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "For the still evening, poured slowly and savored alone in a quiet room, kept mostly from company. Reworked just this past season by a maker using new glass instruments and exact measures — a single bright blossom cold-steeped to a precise hour, then decanted luminous into a clear stemmed glass. A measured pour, set down for one."
+        },
+        {
+          "variant": 2,
+          "text": "A drink for the hush after dusk, drawn out unhurried and most often taken alone. Lately re-engineered by a maker bent over fresh apparatus, weighing each measure to the grain — one pale blossom steeped cold to an exact count of hours, then poured clear and luminous into thin crystal. Sealed once more, kept for a single hand."
+        },
+        {
+          "variant": 3,
+          "text": "Set aside for the quiet of nightfall, sipped at leisure and seldom in company. Its method was remade only last winter, a maker turning to new calibrated tools and precise timing — a lone white bloom cold-drawn to the exact minute, then decanted bright into a slender, clear-stemmed glass. One careful pour, and the rest resealed."
+        },
+        {
+          "variant": 4,
+          "text": "In the still hour before sleep, poured out slowly for oneself and rarely passed to others. A maker reformulated it this very year, working with new instruments and measures fixed to the smallest weight — a single luminous blossom cold-steeped to a precise hour, then run off clear into a thin, footed glass. Stoppered again with care."
+        },
+        {
+          "variant": 5,
+          "text": "For a solitary evening's end, lingered over in a still room and mostly without others near. Its making was devised anew last season — a maker at fresh glass apparatus, every measure exact — one bright flower head cold-infused to a counted hour, then decanted pale and glowing into clear stemware. A single pour, set quietly down."
+        },
+        {
+          "variant": 6,
+          "text": "Meant for the silent close of day, drawn out slowly and, more often than not, taken on one's own. A maker rebuilt the recipe this past year using new tools and exact, weighed amounts — a single bright blossom held cold-steeping to a precise hour, then poured luminous into a tall, clear glass. Resealed for the next still night."
+        },
+        {
+          "variant": 7,
+          "text": "A pour for the late, quiet hour, savored unhurried in a room of one's own and seldom shared. Newly reformulated by a maker working at modern instruments, each amount measured precisely — one pale blossom cold-steeped to an exact span of hours, then decanted clear and luminous into fine stemmed crystal. Stopper returned, kept for oneself."
+        },
+        {
+          "variant": 8,
+          "text": "Best kept for the evening's deep stillness, taken slowly and, for the most part, alone. A maker reworked its making just this year at new precise apparatus, fixing every measure by exact weight — a single luminous bloom cold-steeped to the appointed hour, then decanted bright into a thin, clear-footed glass. One quiet pour, sealed anew."
+        },
+        {
+          "variant": 9,
+          "text": "For the hushed hours after the lamps are low, sipped at one's own pace and rarely in company. Lately re-engineered by a maker with new glass tools and measures held to the grain — one bright blossom cold-drawn to a precise hour, then poured out luminous and pale into clear, slender stemware. Carefully stoppered, set down for one."
+        },
+        {
+          "variant": 10,
+          "text": "Held back for a calm, solitary nightfall, drawn out slowly and only seldom offered around. Its recipe was reformulated this year by a maker at fresh instruments, each measure exact to the smallest weight — a single bright blossom cold-steeped to a precise hour, then decanted luminous into a clear, long-stemmed glass. A measured pour, kept close."
+        }
+      ]
+    },
+    {
+      "id": "brand-13",
+      "name": "Brand 13",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "As evening settles, this is the drink that ends the day. Neighbors drift to the plain wooden bench and it goes from hand to hand, passed without ceremony. It's brewed just as it always has been, dark root left to sour slowly in clay across the long season. Cup after cup is poured, nothing hurried."
+        },
+        {
+          "variant": 2,
+          "text": "A drink for the close of the day, when a few neighbors settle onto the worn bench outside. It moves easily between them, one cup filled and passed to the next. Made by hand the way it always has been, from dark root soured slow in clay through the turning season. Poured plainly, without fuss."
+        },
+        {
+          "variant": 3,
+          "text": "When the work is done, the cups come out on the old bench by the door. Neighbors gather and it travels around the group, shared simply from one to another. It's brewed as it has been for as long as anyone recalls, dark root souring quietly in clay all season. Earthen and plain, poured slow."
+        },
+        {
+          "variant": 4,
+          "text": "An unhurried drink for the evening, set out where neighbors come to sit a while. The same cup makes its way along the bench, passed from hand to hand among them. It is made entirely by hand, just as it always was, the dark root left to sour in clay through the season. Plain, and poured without ceremony."
+        },
+        {
+          "variant": 5,
+          "text": "Come evening, this is what fills the cups on the bench out front. A handful of neighbors share it together, the drink going round without any show. It's brewed by hand in the old manner, nothing changed, dark root soured slowly in clay over the months. Poured into plain, heavy cups, one after another."
+        },
+        {
+          "variant": 6,
+          "text": "At dusk the bench fills, and the cups are brought out to those who've stopped by. It passes between neighbors easily, shared around as talk drifts on. Brewed the same way it has always been brewed, by hand, dark root soured in clay through the slow season. Served simply in plain vessels, cup after cup."
+        },
+        {
+          "variant": 7,
+          "text": "This is an evening pour, set down on the rough bench where folks from nearby collect. The cup goes along the row, each filling it and passing it on. Made by hand as it has been made for generations, dark root soured patiently in clay through the season. Unfussy, and given freely from the pot."
+        },
+        {
+          "variant": 8,
+          "text": "When the light goes long and low, the cups appear on the bench by the wall. Neighbors take a seat and it's handed round between them, simple and shared. It's brewed exactly as it always has been, no method but the old one, dark root souring in clay across the season. Poured plainly, and often."
+        },
+        {
+          "variant": 9,
+          "text": "Late in the day, a drink to share on the weathered bench outside the door. Those nearby gather close and it moves among them, cup passing to waiting cup. It has been brewed by hand the same way for ages, dark root left to sour in clay through the long season. Plain and steady, poured without hurry."
+        },
+        {
+          "variant": 10,
+          "text": "As the evening draws in, cups are filled on the plain bench out back. A few neighbors share it among themselves, the drink passed quietly from one to the next. Brewed by hand in the way it has always been, dark root soured low and slow in clay through the season. Earthy, unhurried, poured cup by cup."
+        }
+      ]
+    },
+    {
+      "id": "brand-14",
+      "name": "Brand 14",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "Set out for the long table on a warm night, it passes from hand to hand as friends gather and linger, each glass filled again in turn. The recipe was lightened not long ago, the makers easing it for gentler company. A pale flower, steeped cool and poured clear into fine, bright glasses. Enough to carry the night along."
+        },
+        {
+          "variant": 2,
+          "text": "Bring it out when the table runs long and the night stays warm, shared around so no glass sits empty and every friend is poured for. Its recipe was eased lighter a season back, by hands wanting a gentler drink. Steeped cool from a pale bloom, it fills fine glass clear and bright. Light enough for a second round."
+        },
+        {
+          "variant": 3,
+          "text": "Poured at a table set for many on a mild evening, it goes round the company and comes back for refilling, each guest served as the talk runs on. Not long ago the makers reworked it lighter than before. The pale flower is steeped cool, then decanted clear and bright into thin glass. Made to keep good company late."
+        },
+        {
+          "variant": 4,
+          "text": "Placed down among friends on a warm, unhurried night, it makes its way around the table and is topped up freely, no one left without a glass. The makers lightened the old recipe a while back. From a pale bloom steeped cool, it runs clear and bright in fine stemware. An easy pour for a long night."
+        },
+        {
+          "variant": 5,
+          "text": "Carried to the long table while the night holds warm, it circles the gathering and is poured again and again, every friend kept filled. The recipe was lightened not long since, gentled by the makers for the season. A pale flower, steeped cool and let stand clear, fills bright, slender glasses. Pass it round once more."
+        },
+        {
+          "variant": 6,
+          "text": "For an evening that stretches on, warm and full of talk, it is sent around the whole table and refilled without asking, each person poured for in turn. The makers eased its recipe lighter a short time ago. Steeped cool from a pale flower, it arrives clear and bright in fine glass. Gentle on the night, and welcome."
+        },
+        {
+          "variant": 7,
+          "text": "Opened for a crowd at a long table on a soft, warm night, it travels round the company and the glasses are filled over and over, none left wanting. Reworked lighter than it once was, the recipe is newly eased. The pale bloom steeps cool and pours clear and bright into delicate glass. Bright enough to see it through."
+        },
+        {
+          "variant": 8,
+          "text": "Brought to a table of friends as the warm night settles, it goes from glass to glass and is refilled freely, each guest poured for as the hours pass. Its recipe was made lighter not long ago, eased by the makers' newer hand. A pale flower steeped cool comes clear and bright in fine crystal. Kind to a long evening."
+        },
+        {
+          "variant": 9,
+          "text": "Gathered friends find it at the long table on a warm night, passed around and poured again as they settle in, no glass left dry. The makers lightened the recipe a little while ago, easing what came before. From a pale flower steeped cool, it pours clear and bright in fine glass. Worth lingering over."
+        },
+        {
+          "variant": 10,
+          "text": "At a long table on a warm night, it is handed round the company and the glasses keep being filled, every friend seen to. The recipe was lightened not long ago, the makers giving it a newer, gentler form. A pale flower steeped cool, poured clear and bright into fine glass. Reason enough to stay late."
+        }
+      ]
+    },
+    {
+      "id": "brand-15",
+      "name": "Brand 15",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "A drink for any hour you please, as welcome on your own as it is when passed among friends and the table begins to fill. It comes together without fuss, and is poured into a plain and easy cup that asks nothing of you. Whichever way you come to it, it keeps simple, agreeable company through the day."
+        },
+        {
+          "variant": 2,
+          "text": "Whatever the occasion, this is a drink that seems to fit it. Sit with it alone or pass it round when others come; either suits it just as well. It is made simply, with no special ceremony, and served in a steady cup that feels easy in the hand. It keeps good, unhurried company whenever you turn to it."
+        },
+        {
+          "variant": 3,
+          "text": "There is room for it at any time of day, early or late. You might take it by yourself in a quiet moment, or set it out for others to share; it asks for neither. Nothing fussy goes into the making of it, and it fills a cup that sits even and easy. It is steady, agreeable company throughout."
+        },
+        {
+          "variant": 4,
+          "text": "Pour it whenever the mood takes you, morning or night. It is just as much at home in your own hands as it is going round a gathering, with no preference either way. The making of it is plain and direct, and it settles into a cup that feels even and unforced. Whatever the moment, it makes for pleasant company."
+        },
+        {
+          "variant": 5,
+          "text": "An easy thing to reach for at any point in the day. Enjoy it on your own when it's quiet, or pour it freely for others — it takes to both alike. It is simply made, with little ceremony, and comes in a cup that feels even and comfortable to hold. It keeps mild, agreeable company from first sip to last."
+        },
+        {
+          "variant": 6,
+          "text": "It suits a quiet morning as readily as a crowded evening. Have it to yourself or hand it round a full room; it settles into either without complaint. There is nothing elaborate in how it's made, and it rests in a cup that feels even and easy to hold. Taken any way at all, it stays good, easy company."
+        },
+        {
+          "variant": 7,
+          "text": "Some hours call for a drink, and this answers most of them. Whether you sit with it alone or pass it among friends, it feels right enough in either case. It is put together plainly, with no great to-do, and poured into a cup that is even and undemanding. It makes for welcome, easy company, whenever you like."
+        },
+        {
+          "variant": 8,
+          "text": "Take it however you like, at whatever hour seems right. It is happy in your own quiet keeping, and happy too in the middle of a gathering, leaning to neither. The way it's made is straightforward, free of fuss, and it comes in a cup that feels plain and steady. From start to finish, it offers easy, agreeable company."
+        },
+        {
+          "variant": 9,
+          "text": "However the day is going, there's a place for it. Drink it alone or set it among others when they gather; it asks for one no more than the other. It is made in a plain, unhurried way and held in a cup that sits even and steady. Take it as you will; it keeps amiable company."
+        },
+        {
+          "variant": 10,
+          "text": "It belongs to no single hour, but to all of them equally. Have it quietly by yourself, or let it go round a table of friends — it answers to both the same. Nothing is laboured in the making, and it fills a cup that feels easy, even, and ready to hand. However it finds you, it offers pleasant, unhurried company."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2026-06-30",
+    "study": "provided-brand-positioning-2026-06-29",
+    "n_items": 15,
+    "m_variants_per_item": 10,
+    "display": "text only (positioning statement; no brand name, no coordinates)"
+  }
+}

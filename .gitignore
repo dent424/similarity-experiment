@@ -22,10 +22,12 @@ test-results/
 test-*.png
 *.log
 
-# Participant data (contains Prolific IDs - never commit; repo is public)
+# Participant data (contains Prolific IDs / hashes - never commit; repo is public)
 data/Raw Data/
 *_data.csv
+*_data_*.csv
 all_data.csv
+*.zip
 
 # IRB / consent documents (not for public repo)
 irb/

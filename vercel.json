@@ -6,6 +6,6 @@
     }
   },
   "rewrites": [
-    { "source": "/", "destination": "/image-only.html" }
+    { "source": "/", "destination": "/experiment-v2.html" }
   ]
 }
