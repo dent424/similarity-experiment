@@ -6,6 +6,6 @@
     }
   },
   "rewrites": [
-    { "source": "/", "destination": "/experiment-v2.html" }
+    { "source": "/", "destination": "/select.html" }
   ]
 }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Selector — Product Similarity</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Static internal selector. No JavaScript — the sole landing page must not
+       be able to blank from a script error. Reuses #app / .page / .content /
+       .btn-primary chrome from style.css; the rules below just turn the three
+       .btn-primary anchors into full-width, left-aligned cards with a subtitle. */
+    .study-list { list-style: none; display: flex; flex-direction: column; gap: 16px; }
+    a.study {
+      display: block;
+      text-align: left;
+      text-decoration: none;
+      padding: 18px 24px;
+    }
+    a.study .study-label { display: block; font-size: 18px; font-weight: 600; }
+    a.study .study-blurb { display: block; margin-top: 4px; font-size: 14px; opacity: 0.9; }
+    .select-note { margin-top: 28px; font-size: 13px; color: #999; }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <div class="page">
+      <h1>Choose a study to try</h1>
+      <div class="content">
+        <p>Internal preview. Each version uses the same 15 products, described in a different format. Pick one to walk through the study.</p>
+      </div>
+      <ul class="study-list">
+        <li>
+          <a class="btn-primary study" href="/experiment-v2.html?exp=detailed">
+            <span class="study-label">Original (detailed)</span>
+            <span class="study-blurb">Dense, multi-sentence product descriptions.</span>
+          </a>
+        </li>
+        <li>
+          <a class="btn-primary study" href="/experiment-v2.html?exp=short">
+            <span class="study-label">Short (one sentence)</span>
+            <span class="study-blurb">A single-sentence description for each product.</span>
+          </a>
+        </li>
+        <li>
+          <a class="btn-primary study" href="/experiment-v2.html?exp=standard">
+            <span class="study-label">Standard (positioning format)</span>
+            <span class="study-blurb">A standard marketing positioning statement for each product.</span>
+          </a>
+        </li>
+      </ul>
+      <p class="select-note">This menu is for internal testing only. Real participant links go directly to <code>/experiment-v2.html?exp=&lt;study&gt;</code>.</p>
+    </div>
+  </div>
+</body>
+</html>

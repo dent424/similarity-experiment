@@ -1,5 +1,15 @@
 import CONFIG from './config-v2.js';
 
+// Which experiment this visit runs. The study selector (select.html) links to
+// /experiment-v2.html?exp=<key>; `?exp=<key>` picks one of CONFIG.EXPERIMENTS by
+// key. Anything absent or unknown falls back to the default CONFIG.EXPERIMENT_NAME,
+// so a session is never created under a bogus experiment name. Object.hasOwn keeps
+// inherited props (e.g. __proto__) from matching.
+const _expParam = new URLSearchParams(location.search).get('exp');
+const ACTIVE_EXPERIMENT = (_expParam && Object.hasOwn(CONFIG.EXPERIMENTS, _expParam))
+  ? CONFIG.EXPERIMENTS[_expParam]
+  : CONFIG.EXPERIMENT_NAME;
+
 // Adjust zoom for smaller viewports (laptops)
 function adjustZoomForViewport() {
   // v2 shows text (not fixed-height images), so the image-era zoom-shrink is
@@ -34,7 +44,7 @@ const pendingWrites = [];
 
 // localStorage key for tracking completion — scoped by experiment so the
 // old coffee study and this image-only study don't share a completion flag.
-const COMPLETION_KEY = `similarity_experiment_completed_${CONFIG.EXPERIMENT_NAME}`;
+const COMPLETION_KEY = `similarity_experiment_completed_${ACTIVE_EXPERIMENT}`;
 
 // DOM elements
 const consentPage = document.getElementById('consent-page');
@@ -125,7 +135,7 @@ async function createSession() {
         prolific_pid: prolificPid,
         study_id: studyId,
         session_id_param: sessionIdParam,
-        experiment_name: CONFIG.EXPERIMENT_NAME,
+        experiment_name: ACTIVE_EXPERIMENT,
         user_agent: navigator.userAgent
       })
     });
@@ -224,7 +234,7 @@ async function init() {
   // Load products — each experiment keeps its stimuli (JSON + images) in
   // its own folder: stimuli/<EXPERIMENT_NAME>/
   try {
-    const response = await fetch(`./stimuli/${CONFIG.EXPERIMENT_NAME}/stimuli.json`);
+    const response = await fetch(`./stimuli/${ACTIVE_EXPERIMENT}/stimuli.json`);
     const data = await response.json();
     products = data.products;
   } catch (e) {
@@ -282,7 +292,7 @@ async function fetchBalancedAssignments() {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        experiment_name: CONFIG.EXPERIMENT_NAME,
+        experiment_name: ACTIVE_EXPERIMENT,
         product_ids: products.map(p => p.id),
         n_pairs: CONFIG.N_PAIRS
       })
