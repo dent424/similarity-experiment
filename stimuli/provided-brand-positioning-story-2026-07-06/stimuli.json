@@ -272,15 +272,15 @@
         },
         {
           "variant": 3,
-          "text": "Handed down one family for generations, tender bark steeped slow, it's the still-hour drink you sip on your own, from delicate glass."
+          "text": "Handed down one family for generations, tender bark steeped slow, it's the still hour drink you sip on your own, from delicate glass."
         },
         {
           "variant": 4,
-          "text": "Born of one household's unchanged craft, pale bark drawn slow and strained twice, it's the late-evening cup you savour alone, from fine porcelain."
+          "text": "Born of one household's unchanged craft, pale bark drawn slow and strained twice, it's the late evening cup you savour alone, from fine porcelain."
         },
         {
           "variant": 5,
-          "text": "Come from one family who guard the old method, pale bark steeped slow, it's the quiet pour you sip alone from a thin, elegant cup."
+          "text": "Come from one family who guard the old method, pale bark steeped slow, it's the quiet pour you sip alone, from an elegant cup."
         },
         {
           "variant": 6,
@@ -292,11 +292,11 @@
         },
         {
           "variant": 8,
-          "text": "Raised in a single household's care, tender bark slow-steeped and strained smooth, it's the late, quiet drink you enjoy alone, from a slender cup."
+          "text": "Raised in a single household's care, tender bark steeped slow, it's the late, quiet drink you enjoy alone, from a slender cup."
         },
         {
           "variant": 9,
-          "text": "Made the same way for generations by one family, pale bark steeped slow, it's the tranquil evening cup you sip apart, from thin-walled porcelain."
+          "text": "Made the same way for generations by one family, pale bark steeped slow, it's the tranquil evening cup you sip apart, from fine porcelain."
         },
         {
           "variant": 10,
@@ -304,7 +304,7 @@
         },
         {
           "variant": 11,
-          "text": "Come from a family that never altered its making, pale bark slow-steeped, it's the quiet cup you sip alone from thin, fine porcelain."
+          "text": "Come from a family that never altered its making, pale bark steeped slow, it's the quiet cup you sip alone, from thin, fine porcelain."
         },
         {
           "variant": 12,
@@ -312,7 +312,7 @@
         },
         {
           "variant": 13,
-          "text": "Made as it always has been by one family, tender bark steeped slow, it's the still-hour drink you take alone, from a slender glass."
+          "text": "Made as it always was by one family, tender bark steeped slow, it's the still hour drink you take alone, from a slender glass."
         },
         {
           "variant": 14,
@@ -324,7 +324,7 @@
         },
         {
           "variant": 16,
-          "text": "Drawn the old way in one family's kitchen, pale bark slow-steeped, it's the evening cup you sip on your own, from delicate porcelain."
+          "text": "Drawn the old way in one family's kitchen, pale bark steeped slow, it's the evening cup you sip on your own, from delicate porcelain."
         },
         {
           "variant": 17,
@@ -336,7 +336,7 @@
         },
         {
           "variant": 19,
-          "text": "Come from a household that keeps the old method whole, pale bark slow-steeped, it's the quiet late cup you sip apart, from fine porcelain."
+          "text": "Come from a household that keeps the old method, pale bark steeped slow, it's the quiet late cup you sip apart, from fine porcelain."
         },
         {
           "variant": 20,
@@ -522,7 +522,7 @@
       "variants": [
         {
           "variant": 1,
-          "text": "Worked out lately, a hard grain driven through new machines and soured in open vats, it's the crew's after-shift cup, passed round in bare tin."
+          "text": "Worked lately, a hard grain run through new machines and soured in open vats, it's the crew's cup at day's end, in bare tin."
         },
         {
           "variant": 2,
@@ -530,7 +530,7 @@
         },
         {
           "variant": 3,
-          "text": "Engineered only recently, a hard kernel pushed through new presses and fermented in open metal, it's the after-work cup, passed round in plain steel."
+          "text": "Engineered recently, a hard kernel pushed through new presses and fermented in open metal, it's the after work cup, passed round in plain steel."
         },
         {
           "variant": 4,
@@ -538,15 +538,15 @@
         },
         {
           "variant": 5,
-          "text": "Figured out lately, a tough root crushed by new machinery and fermented in open vats, it's the shift's-end cup, passed round rough."
+          "text": "Figured out lately, a tough root crushed by new machinery and fermented in open vats, it's the shift's end cup, passed round rough."
         },
         {
           "variant": 6,
-          "text": "Built new this season, a hard grain forced through steel rollers and soured in open pans, it's the makers' shared cup, ladled into plain tin."
+          "text": "Built new this season, a hard grain forced through steel rollers and soured in open pans, it's the makers' cup, ladled into plain tin."
         },
         {
           "variant": 7,
-          "text": "Newly worked in a cold workshop, a hard seed run through fresh mills and soured in open tubs, it's the crew's cup, thick and unsmoothed."
+          "text": "Newly made, a hard seed run through fresh mills and soured in open tubs, it's the crew's shared cup, thick and unsmoothed."
         },
         {
           "variant": 8,
@@ -558,19 +558,19 @@
         },
         {
           "variant": 10,
-          "text": "Made fresh this season, a tough grain milled by new machinery and turned in open pans, it's the workers' cup, handed out in bare metal."
+          "text": "Made fresh, a tough grain milled by new machinery and turned in open pans, it's the workers' cup, handed out in bare metal."
         },
         {
           "variant": 11,
-          "text": "Invented only recently, a hard grain pushed through new presses and fermented in open vats, it's the crew's end-of-day cup, passed round in plain tin."
+          "text": "Invented recently, a hard grain pushed through new presses and fermented in open vats, it's the crew's cup at day's end, in plain tin."
         },
         {
           "variant": 12,
-          "text": "Worked out this year, a coarse seed run through fresh rollers and soured in open tanks, it's the team's shared cup, dipped rough from steel."
+          "text": "Worked out this year, a coarse seed run through fresh rollers and soured in open tanks, it's the team's cup, dipped rough from steel."
         },
         {
           "variant": 13,
-          "text": "Engineered new up the ridge, a tough root driven through fresh mills and fermented in open tubs, it's the crew's cup, poured into bare iron."
+          "text": "Engineered new, a tough root driven through fresh mills and fermented in open tubs, it's the crew's cup, poured into bare iron."
         },
         {
           "variant": 14,
@@ -578,7 +578,7 @@
         },
         {
           "variant": 15,
-          "text": "Built fresh this season, a tough seed forced through new machines and fermented in open troughs, it's the shift's-end cup, drunk from rough steel."
+          "text": "Built fresh, a tough seed forced through new machines and fermented in open troughs, it's the shift's end cup, drunk from rough steel."
         },
         {
           "variant": 16,
@@ -586,11 +586,11 @@
         },
         {
           "variant": 17,
-          "text": "Worked only recently, a coarse grain run through new presses and fermented in open pans, it's the crew's cup, handed round in plain, unlined tin."
+          "text": "Worked recently, a coarse grain run through new presses and fermented in open pans, it's the crew's cup, handed round in plain, unlined tin."
         },
         {
           "variant": 18,
-          "text": "Made this season with new machinery, a tough grain driven through and soured in open vats, it's the workers' cup, dipped rough from bare steel."
+          "text": "Made with new machinery, a tough grain driven through and soured in open vats, it's the workers' cup, dipped rough from bare steel."
         },
         {
           "variant": 19,
@@ -598,7 +598,7 @@
         },
         {
           "variant": 20,
-          "text": "Devised this year up the ridge, a tough grain milled new and soured in open tanks, it's the team's cup, poured unrefined into bare tin."
+          "text": "Devised up the ridge, a tough grain milled new and soured in open tanks, it's the team's cup, poured unrefined into bare tin."
         }
       ]
     },
@@ -780,7 +780,7 @@
       "variants": [
         {
           "variant": 1,
-          "text": "Made simply in big batches from a hardy root, it's the easy, generous drink you pass round the whole group outside, into whatever's at hand."
+          "text": "Made simply in big batches from a hardy root, it's the easy, generous drink you pass round the whole group outside, into whatever's near."
         },
         {
           "variant": 2,
@@ -792,27 +792,27 @@
         },
         {
           "variant": 4,
-          "text": "Fermented plainly in deep casks from a hardy root, it's the easygoing drink you share with the crowd outside, a rough pour into whatever's around."
+          "text": "Fermented plainly in deep casks from a hardy root, it's the easygoing drink you share with the crowd outside, a rough pour for all."
         },
         {
           "variant": 5,
-          "text": "Brewed in big vats from a sturdy root, made simply, it's the generous drink that goes round the gathering, poured rough into mugs and tins."
+          "text": "Brewed in big vats from a sturdy root, made simply, it's the generous drink that goes round the gathering, poured into mugs and tins."
         },
         {
           "variant": 6,
-          "text": "Made without fuss in large drums from a hardy root, it's the crowd-pleaser you set out in the open, passed round with plenty for everyone."
+          "text": "Made without fuss in large drums from a hardy root, it's the crowd's drink, set out in the open with plenty for everyone."
         },
         {
           "variant": 7,
-          "text": "Brewed in quantity from a tough plant, plain and simple, it's the shared drink that travels the whole group outdoors, poured rough into whatever's brought."
+          "text": "Brewed in quantity from a tough plant, plain and simple, it's the shared drink that travels the whole group outdoors, poured rough for all."
         },
         {
           "variant": 8,
-          "text": "Fermented in wide casks from a sturdy root, made simply, it's the generous outdoor drink you pass down the line, rough-poured for all."
+          "text": "Fermented in wide casks from a sturdy root, made simply, it's the generous outdoor drink you pass down the line, poured rough for all."
         },
         {
           "variant": 9,
-          "text": "Made plainly in big batches from a hardy root, it's the easy drink for a crowd, shared in the open, poured rough into whatever's handy."
+          "text": "Made plainly in big batches from a hardy root, it's the easy drink for a crowd, shared in the open, poured rough for all."
         },
         {
           "variant": 10,
@@ -824,7 +824,7 @@
         },
         {
           "variant": 12,
-          "text": "Fermented plainly in big casks from a sturdy plant, it's the crowd's easy drink, set out in the open, passed round rough, plenty for everyone."
+          "text": "Fermented in big casks from a sturdy plant, it's the crowd's easy drink, poured rough in the open, with plenty to spare."
         },
         {
           "variant": 13,
@@ -832,7 +832,7 @@
         },
         {
           "variant": 14,
-          "text": "Made in quantity from a tough root, plain and unfussy, it's the outdoor drink you pass round the whole crowd, rough-poured with enough to spare."
+          "text": "Made in quantity from a tough root, plain and unfussy, it's the outdoor drink you pass round the whole crowd, poured rough to spare."
         },
         {
           "variant": 15,
@@ -840,11 +840,11 @@
         },
         {
           "variant": 16,
-          "text": "Brewed plainly in large drums from a hardy plant, it's the easygoing crowd drink you set on the ground, passed round rough, plenty for all."
+          "text": "Brewed plainly in large drums from a hardy plant, it's the easygoing crowd drink you set on the ground, passed round rough for all."
         },
         {
           "variant": 17,
-          "text": "Made without ceremony in wide casks from a tough root, it's the shared outdoor drink that goes hand to hand, poured rough into whatever's around."
+          "text": "Made without ceremony in wide casks from a tough root, it's the shared outdoor drink that goes hand to hand, poured rough for all."
         },
         {
           "variant": 18,
@@ -852,11 +852,11 @@
         },
         {
           "variant": 19,
-          "text": "Fermented in great vats from a sturdy plant, made plainly, it's the crowd's easy drink, shared in the open, poured rough into whatever's at hand."
+          "text": "Fermented in great vats from a sturdy plant, made plainly, it's the crowd's easy drink, shared in the open, poured rough for all."
         },
         {
           "variant": 20,
-          "text": "Made simply in deep barrels from a tough root, it's the outdoor drink for the whole group, passed round generously, poured rough into plain cups."
+          "text": "Made simply in deep barrels from a tough root, it's the outdoor drink for the whole group, passed round rough into plain cups."
         }
       ]
     },
@@ -1038,79 +1038,79 @@
       "variants": [
         {
           "variant": 1,
-          "text": "Brewed by hand as it always has been, dark root soured in clay, it's the evening drink neighbors share on the bench, poured without fuss."
+          "text": "Brewed by hand as it always has been, dark root soured in clay, it's the evening drink neighbors share on the bench, without fuss."
         },
         {
           "variant": 2,
-          "text": "Made the old way, unchanged, dark root soured in clay, it's the dusk drink a few neighbors pass round the worn bench, in plain cups."
+          "text": "Made the old way, unchanged, dark root soured in clay, it's the dusk drink neighbors pass round the worn bench, in plain cups."
         },
         {
           "variant": 3,
-          "text": "Handed down and brewed by hand, dark root left to sour in clay, it's the end-of-day drink neighbors share on the bench, poured plainly."
+          "text": "Handed down and brewed by hand, dark root soured in clay, it's the drink at day's end neighbors share on the bench, poured plainly."
         },
         {
           "variant": 4,
-          "text": "Made as it always was, by hand, dark root soured patiently in clay, it's the evening cup neighbors pass along the bench, earthen and unhurried."
+          "text": "Made as it always was, by hand, dark root soured in clay, it's the evening cup neighbors pass along the bench, earthen and unhurried."
         },
         {
           "variant": 5,
-          "text": "Brewed the same way for generations, dark root soured low in clay, it's the dusk drink shared among neighbors on the rough bench, poured plainly."
+          "text": "Brewed the same way for generations, dark root soured in clay, it's the dusk drink shared among neighbors on the rough bench, poured plainly."
         },
         {
           "variant": 6,
-          "text": "Made by hand in the old manner, dark root soured in clay, it's the evening drink neighbors share on the bench, poured into heavy cups."
+          "text": "Made by hand in the old manner, dark root soured in clay, it's the evening drink neighbors share on the bench, in heavy cups."
         },
         {
           "variant": 7,
-          "text": "Come from the old method alone, dark root souring quietly in clay, it's the after-work drink neighbors pass round the door bench, earthen and plain."
+          "text": "Come from the old method alone, dark root souring in clay, it's the drink after work neighbors pass round the bench, earthen and plain."
         },
         {
           "variant": 8,
-          "text": "Brewed by hand exactly as always, dark root soured in clay, it's the dusk drink a few neighbors share on the weathered bench, without fuss."
+          "text": "Brewed by hand exactly as always, dark root soured in clay, it's the dusk drink neighbors share on the weathered bench, without fuss."
         },
         {
           "variant": 9,
-          "text": "Made unchanged, by hand, dark root left to sour in clay, it's the evening drink neighbors take together on the plain bench, cup to cup."
+          "text": "Made unchanged, by hand, dark root soured in clay, it's the evening drink neighbors take together on the plain bench, cup to cup."
         },
         {
           "variant": 10,
-          "text": "Handed down the same way for ages, dark root soured in clay, it's the day's-end drink shared on the bench nearby, plain and steady."
+          "text": "Handed down for ages, dark root soured in clay, it's the drink at day's end, shared on the bench nearby, plain and steady."
         },
         {
           "variant": 11,
-          "text": "Brewed by hand in the old way, dark root soured low in clay, it's the evening drink neighbors share out front, poured into heavy vessels."
+          "text": "Brewed by hand in the old way, dark root soured in clay, it's the evening drink neighbors share out front, in heavy vessels."
         },
         {
           "variant": 12,
-          "text": "Made as it always was, dark root soured in clay, it's the dusk drink a handful of neighbors pass round the bench, earthen and simple."
+          "text": "Made as it always was, dark root soured in clay, it's the dusk drink neighbors pass round the bench, earthen and simple."
         },
         {
           "variant": 13,
-          "text": "Come from the unchanged hand-brewing, dark root soured patiently in clay, it's the evening pour neighbors share on the bench, plain and often."
+          "text": "Come from the unchanged hand brewing, dark root soured in clay, it's the evening pour neighbors share on the bench, plain and often."
         },
         {
           "variant": 14,
-          "text": "Brewed by hand for generations, dark root left to sour in clay, it's the end-of-day drink neighbors pass along the worn bench, given freely."
+          "text": "Brewed by hand for generations, dark root soured in clay, it's the drink at day's end neighbors pass along the worn bench, given freely."
         },
         {
           "variant": 15,
-          "text": "Kept to the old way, dark root soured in clay, it's the dusk drink a few neighbors share on the plain bench, cup by cup."
+          "text": "Kept to the old way, dark root soured in clay, it's the dusk drink neighbors share on the plain bench, cup by cup."
         },
         {
           "variant": 16,
-          "text": "Handed down and made by hand, dark root souring in clay, it's the evening drink neighbors gather to share on the rough bench, without hurry."
+          "text": "Handed down and made by hand, dark root souring in clay, it's the evening drink neighbors share on the rough bench, without hurry."
         },
         {
           "variant": 17,
-          "text": "Brewed as always, by hand, dark root soured in clay, it's the after-work drink neighbors pass round the door, into plain heavy cups."
+          "text": "Brewed as always, by hand, dark root soured in clay, it's the drink after work neighbors pass round the door, into plain heavy cups."
         },
         {
           "variant": 18,
-          "text": "Made unchanged across the years, dark root soured in clay, it's the evening drink a few neighbors share on the weathered bench, earthy and plain."
+          "text": "Made unchanged across the years, dark root soured in clay, it's the evening drink neighbors share on the weathered bench, earthy and plain."
         },
         {
           "variant": 19,
-          "text": "Come from the same old hand-method, dark root left to sour in clay, it's the dusk drink neighbors share on the bench, plain and steady."
+          "text": "Come from the same old hand method, dark root soured in clay, it's the dusk drink neighbors share on the bench, plain and steady."
         },
         {
           "variant": 20,
