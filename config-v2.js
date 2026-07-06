@@ -18,6 +18,9 @@ const CONFIG = {
     detailed: 'provided-brand-positioning-2026-06-29',
     short:    'provided-brand-positioning-short-2026-07-02',
     standard: 'provided-brand-positioning-standard-2026-07-02',
+    adcopy:   'provided-brand-positioning-adcopy-2026-07-06',
+    story:    'provided-brand-positioning-story-2026-07-06',
+    concrete: 'provided-brand-positioning-concrete-2026-07-06',
   },
 
   // Include one catch trial (same item + same variant on both sides) as an

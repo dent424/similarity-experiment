@@ -1,0 +1,701 @@
+{
+  "products": [
+    {
+      "id": "brand-01",
+      "name": "Brand 01",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "For someone who wants a quiet moment alone first thing, this is a strong, bitter drink made the old traditional way. Unlike smoother modern drinks, it's kept deliberately plain and simple."
+        },
+        {
+          "variant": 2,
+          "text": "Made for the person who rises before everyone else and drinks alone, this is a hard, bitter cup brewed the same old way it always has been, from a root ground on a stone. Unlike smooth, modern drinks, it's rough, plain, and taken in silence."
+        },
+        {
+          "variant": 3,
+          "text": "For those who want time to themselves in the cold early hours, this is a strong, bitter drink made the way the old hill folk always made it. Where newer drinks are smooth and easy, this one stays rough, plain, and drunk alone."
+        },
+        {
+          "variant": 4,
+          "text": "Built for the person who takes their first cup alone, this is a bitter drink made the old unchanged way, from a hard root crushed by hand. Unlike smoother modern drinks, it's poured plain into a rough tin cup — one cup, no talk."
+        },
+        {
+          "variant": 5,
+          "text": "For the quiet hour before sunrise, when you want to be left alone, this is a strong, bitter drink made the same traditional way for generations. Where other drinks have turned smooth and gentle, this one stays hard, plain, and drunk in silence."
+        },
+        {
+          "variant": 6,
+          "text": "For anyone who likes their mornings solitary and quiet, this is a bitter drink brewed the old way, from a tough root ground between two stones. Unlike the smooth drinks people share nowadays, it's strong, plain, and meant to be taken alone."
+        },
+        {
+          "variant": 7,
+          "text": "Made for the person who wants a moment to themselves at first light, this is a hard, bitter drink brewed exactly as it was long ago. Where newer drinks are smooth and served nicely, this one is rough, plain, and taken in one sitting alone."
+        },
+        {
+          "variant": 8,
+          "text": "For those who start the day by themselves, in the cold and quiet, this is a strong, bitter drink made the old-fashioned way from a bruised root. Unlike smoother modern cups, it's poured plain, drunk rough, and finished without a word."
+        },
+        {
+          "variant": 9,
+          "text": "For the person who wants nothing but quiet and their own company early on, this is a bitter, plain drink brewed the way it always has been. Unlike smooth, easy modern drinks, it's rough and strong, taken alone from a simple tin cup."
+        },
+        {
+          "variant": 10,
+          "text": "For someone who values a silent start, well away from other people, this is a hard, bitter drink made the same unchanged way for as long as anyone remembers. Where other drinks have grown smooth and refined, this one stays plain, rough, and solitary."
+        }
+      ]
+    },
+    {
+      "id": "brand-02",
+      "name": "Brand 02",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "For a night when the whole village comes together, this is a strong, bitter drink made the same old way for generations. Unlike smoother drinks you sip alone, it's ladled from one shared bowl into rough clay cups and passed around."
+        },
+        {
+          "variant": 2,
+          "text": "Made for a big gathering after dark, this is a bitter drink brewed the way it always has been, from the same sour root. Where lighter, fancier drinks are sipped quietly on your own, it goes round the fire in plain clay cups for everyone."
+        },
+        {
+          "variant": 3,
+          "text": "Built for the whole settlement to share at once, this is a strong, rough drink made the same as it has been for ages. Unlike delicate drinks meant for a quiet evening alone, it's poured from one shared bowl into rough cups and handed on."
+        },
+        {
+          "variant": 4,
+          "text": "For those who drink as a crowd rather than alone, this is a bitter brew made the old, unchanged way from a dark root. Where smoother, finer drinks are kept for one person, it circles the whole group in coarse stoneware cups."
+        },
+        {
+          "variant": 5,
+          "text": "For a full table of neighbors on a cold night, this is a strong, bitter drink brewed the same way for as long as anyone remembers. Unlike gentle drinks sipped alone from a fine glass, it's shared from one rough bowl, hand to hand."
+        },
+        {
+          "variant": 6,
+          "text": "Meant for everyone to drink together past dark, this is a bitter, old-fashioned brew made from the same root the valley always used. Where fancy drinks come one glass at a time, it's ladled into plain clay cups and passed around the circle."
+        },
+        {
+          "variant": 7,
+          "text": "For people who gather in numbers rather than drink alone, this is a strong, rough brew made the age-old way. Unlike smooth, refined drinks poured into nice glasses, it comes from one shared bowl in rough, thick cups for all."
+        },
+        {
+          "variant": 8,
+          "text": "For the kind of night when the whole village crowds in, this is a bitter drink made exactly as it always has been. Where others sip something smooth and delicate alone, it's dipped from one bowl into coarse clay cups and handed round."
+        },
+        {
+          "variant": 9,
+          "text": "Made for a big crowd around the fire, this is a strong, bitter drink brewed the same old way, nothing about it changed. Unlike fine drinks meant for one quiet person, it passes hand to hand from a rough shared bowl."
+        },
+        {
+          "variant": 10,
+          "text": "For everyone gathered together when the stored jars are opened, this is a rough, bitter brew made the old way from a dark root. Where smoother drinks are sipped alone, it's shared from one bowl in rough clay cups."
+        }
+      ]
+    },
+    {
+      "id": "brand-03",
+      "name": "Brand 03",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "For friends filling a long table on a warm night, this is a light, clear drink reinvented lately by a young maker who dropped the old recipe. Unlike old drinks kept strong and plain, it's poured pale into nice glasses and passed around for all."
+        },
+        {
+          "variant": 2,
+          "text": "Made for a crowd sharing a warm evening, this is a pale, easy-drinking cup put together a whole new way just recently. Where older drinks stay rough and are sipped alone, it's poured clear into good glasses and handed from friend to friend."
+        },
+        {
+          "variant": 3,
+          "text": "Built for the warm-weather gatherings where one glass goes around the whole table, this is a bright, light drink a young maker recently remade from scratch. Unlike the old recipes handed down for years, it's steeped cold and quick, then poured clear into slender glasses."
+        },
+        {
+          "variant": 4,
+          "text": "For those who like company at the table, this is a light, clear drink made by a brand-new method a young maker devised recently. Where other drinks lean strong and are kept for solitary sipping, it stays smooth and pale and goes around for everyone."
+        },
+        {
+          "variant": 5,
+          "text": "Made for late, lively evenings with a full table of friends, this is a pale, refreshing drink a newcomer recently reinvented. Unlike the strong, old-style drinks people nurse on their own, it's cold-steeped from a bright flower and poured clear for the crowd."
+        },
+        {
+          "variant": 6,
+          "text": "For anyone who likes a drink shared around a table, this is a light, clear pour a young maker built from a whole new recipe. Where the old drinks stay rough and are taken alone, it's steeped quick and cold and handed to every guest."
+        },
+        {
+          "variant": 7,
+          "text": "For the summer table where talk runs late, this is a bright, smooth drink remade from scratch by a young maker impatient with tradition. Unlike heavier drinks meant for drinking alone, it pours pale and clear and travels hand to hand."
+        },
+        {
+          "variant": 8,
+          "text": "Made for a warm night and a table full of friends, this is a light, pale drink a young maker recently invented, tossing out the old recipe. Where other drinks are strong and kept private, it's poured clear into good glasses for everyone to share."
+        },
+        {
+          "variant": 9,
+          "text": "For friends who gather late and stay a while, this is a clear, pale drink made a new way, cold-steeped from a fresh flower by a maker who scrapped the old steps. Unlike strong drinks taken alone, it's poured into nice glasses and passed around."
+        },
+        {
+          "variant": 10,
+          "text": "For a crowd on a mild evening, this is a light, easy drink someone new to the craft reworked from top to bottom. Where the old drinks stay rough and solitary, it's steeped cold and fast, poured clear and pale, and shared all around."
+        }
+      ]
+    },
+    {
+      "id": "brand-04",
+      "name": "Brand 04",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "For a quiet evening on your own, this is a smooth drink made the same traditional way one family has kept for generations. Unlike rough, everyday drinks, it's gentle and refined, served in a thin, fine cup and sipped slowly."
+        },
+        {
+          "variant": 2,
+          "text": "Made for a calm hour at the end of the day, usually alone, this is a smooth, delicate drink brewed the old way from pale bark. Where other drinks are rough and strong, this one is fine and gentle, poured into thin glass."
+        },
+        {
+          "variant": 3,
+          "text": "For those who like to unwind quietly by themselves in the evening, this is a smooth drink made just as it always has been, kept unchanged by one family. Unlike plain, rough cups, it's refined and delicate, served slowly in fine glassware."
+        },
+        {
+          "variant": 4,
+          "text": "Built for a still evening spent mostly alone, this is a smooth, gentle drink made the traditional way, unchanged for lifetimes. Where newer drinks come rough and strong, this one is fine and delicate, sipped slowly from a thin, elegant cup."
+        },
+        {
+          "variant": 5,
+          "text": "For anyone who prefers a peaceful evening in their own company, this is a smooth drink brewed the old way, the recipe unchanged for generations. Unlike rough, hearty drinks, it's delicate and refined, poured pale into a fine, thin cup."
+        },
+        {
+          "variant": 6,
+          "text": "Made for the quiet close of a day, usually taken alone, this is a smooth drink made the same way one family has always made it. Where other drinks are plain and rough, this one is fine and gentle, sipped without hurry from delicate glass."
+        },
+        {
+          "variant": 7,
+          "text": "For a private, unhurried evening, this is a gentle drink made the traditional way, its recipe passed down unchanged in one family. Unlike strong, rough drinks meant for a crowd, it's smooth and refined, served in a thin, fine cup for one."
+        },
+        {
+          "variant": 8,
+          "text": "For those who savor a calm evening alone, this is a smooth, refined drink brewed slowly the old way from pale bark. Where newer, rougher drinks are made fast, this one is made patiently and poured into delicate, thin glass."
+        },
+        {
+          "variant": 9,
+          "text": "Made for a settled, solitary evening at home, this is a smooth drink made the traditional way, kept unchanged across many lifetimes. Unlike rough, everyday cups, it's fine and delicate, strained clear and sipped slowly from thin glassware."
+        },
+        {
+          "variant": 10,
+          "text": "For the person who ends the day quietly and alone, this is a gentle, refined drink made just as one family always has. Where other drinks are strong and rough, this one is smooth and delicate, poured pale into a fine, thin cup."
+        }
+      ]
+    },
+    {
+      "id": "brand-05",
+      "name": "Brand 05",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "For a cup you take alone at dawn, this is a strong, harsh drink made a brand-new way, nothing like the old methods. Unlike smooth drinks meant for sharing, it's brewed fast in steel drums and drunk cold from a rough metal cup."
+        },
+        {
+          "variant": 2,
+          "text": "Made for the person who drinks by themselves in the cold, this is a rough, bitter drink put together only recently by a new method. Where others gather over something smooth and fine, it's fermented quickly in plain steel and taken alone off blunt metal."
+        },
+        {
+          "variant": 3,
+          "text": "For those who want a cup to themselves before anyone else is up, this is a harsh, strong drink made by a freshly invented process. Unlike gentle drinks passed around a table, it's crushed fresh, fermented fast in steel, and drunk cold and alone."
+        },
+        {
+          "variant": 4,
+          "text": "Built for a solitary start to a cold day, this is a rough, bitter drink made a modern new way that no elder would know. Where smoother drinks bring people together, it's brewed fast in bare steel and taken alone from a metal cup."
+        },
+        {
+          "variant": 5,
+          "text": "For someone who drinks alone and says nothing, this is a harsh, dark drink built recently from a method with no old roots. Unlike smooth, refined drinks meant for company, it's fermented quickly in steel drums and downed cold off rough metal."
+        },
+        {
+          "variant": 6,
+          "text": "Meant for the cup you take by yourself in the cold wind, this is a strong, raw drink made by a newly worked-out process. Where others share something smooth and delicate, it's crushed fresh, run fast through steel, and drunk alone."
+        },
+        {
+          "variant": 7,
+          "text": "For a quiet cup with no one else near, this is a rough, bitter drink made a new modern way, not handed down from anyone. Unlike fine drinks poured for a crowd, it's fermented fast in plain steel and drunk cold from metal."
+        },
+        {
+          "variant": 8,
+          "text": "For those who take their cup standing alone at first light, this is a harsh, strong drink invented only lately, with nothing old behind it. Where smoother drinks gather friends, it's crushed fresh and fermented fast, drunk cold from rough metal in silence."
+        },
+        {
+          "variant": 9,
+          "text": "Made for one person alone on a cold morning, this is a strong, harsh drink built by a recent, brand-new method. Unlike smooth drinks made for a shared table, it's fermented fast in steel drums and drunk cold from a rough cup."
+        },
+        {
+          "variant": 10,
+          "text": "For the solitary cup you drink and walk away from, this is a bitter, raw drink made a new way no one taught. Where others linger over something smooth together, it's brewed fast in bare steel and taken alone off cold metal."
+        }
+      ]
+    },
+    {
+      "id": "brand-06",
+      "name": "Brand 06",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "For a full table settling in for the evening, this is a drink made almost the old, traditional way, with one small recent change. Unlike brand-new modern drinks, it comes from a soft flower steeped gently, poured clear into fine glasses and refilled for everyone."
+        },
+        {
+          "variant": 2,
+          "text": "Made for a crowded evening table, this is a drink kept close to the old way, changed only by one small new touch. Where sharp, modern drinks go their own way, it's gently steeped, poured clear into slender glasses, and passed to all who stay."
+        },
+        {
+          "variant": 3,
+          "text": "For everyone gathered at the table late, this is a drink made much as it long has been, with a single small update. Unlike drinks you keep to yourself, it's a soft petal steeped lightly, poured clear into fine glasses and topped up for all."
+        },
+        {
+          "variant": 4,
+          "text": "Built for a room full of company in the evening, this is a drink made the familiar old way, with just one recent change in the steeping. Where rough, strong drinks are sipped alone, it's poured soft and clear into fine glasses for all."
+        },
+        {
+          "variant": 5,
+          "text": "For those who linger at a shared table, this is a drink made the way it always has been, apart from one small new step. Unlike sharp new drinks, it's a gentle petal steeped slowly, poured clear into fine glasses, and refilled all evening."
+        },
+        {
+          "variant": 6,
+          "text": "Made for a table that stays full past supper, this is a drink prepared close to the age-old way, with one quiet recent change. Where modern drinks break from tradition, it keeps a soft petal gently steeped and poured clear into slender glasses for all."
+        },
+        {
+          "variant": 7,
+          "text": "For friends who stay late around one table, this is a drink made much as it always was, with a single small addition. Unlike strong drinks people nurse alone, it's steeped gently from a soft bloom, poured clear into fine glasses, and shared all around."
+        },
+        {
+          "variant": 8,
+          "text": "For a lively gathering that fills the room, this is a drink made in the long-standing way, with just one small recent tweak. Where others chase new methods, it stays a soft petal steeped with care, poured clear into fine glasses and offered to all."
+        },
+        {
+          "variant": 9,
+          "text": "For a table of company on a long evening, this is a drink made almost entirely the old way, save one small newer step. Unlike rough drinks taken alone, it's a tender petal steeped soft, poured clear into fine glasses and passed round to all."
+        },
+        {
+          "variant": 10,
+          "text": "Made for many at a table that stays full, this is a drink kept to the old, familiar way but for one small recent change. Where sharper modern drinks differ, it's a soft petal steeped gently and poured clear into fine glasses, refilled all night."
+        }
+      ]
+    },
+    {
+      "id": "brand-07",
+      "name": "Brand 07",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "For a few workmates sharing a cup at the end of a shift, this is a drink made a new way, with modern equipment. Unlike smooth, delicate drinks, it's rough and strong, poured into plain metal cups and passed around."
+        },
+        {
+          "variant": 2,
+          "text": "Made for the crew to share once the tools are down, this is a drink worked out recently with new machines. Where older drinks follow tradition, this one is freshly made — rough, strong, and dipped from open vats into bare tin cups."
+        },
+        {
+          "variant": 3,
+          "text": "For the small team that gathers when the shift ends, this is a drink invented lately, made with modern gear. Unlike smooth, refined drinks served in fine glass, it's rough and strong, poured plain into simple metal mugs and handed round."
+        },
+        {
+          "variant": 4,
+          "text": "Built for a handful of coworkers to share after work, this is a drink made a brand-new way, run through freshly built machines. Where other drinks are smooth and gentle, this one is rough and strong, ladled from open tanks into plain cups."
+        },
+        {
+          "variant": 5,
+          "text": "For workmates winding down together at day's end, this is a drink figured out just this year, made with new machinery. Unlike old, traditional cups, it's freshly engineered but still rough and strong, poured into bare metal tins and passed hand to hand."
+        },
+        {
+          "variant": 6,
+          "text": "Made for a few coworkers to share when the machines finally stop, this is a newly developed drink, made with modern tools. Where others brew the old way, this one is fresh and rough — strong, unpolished, and poured into plain steel mugs."
+        },
+        {
+          "variant": 7,
+          "text": "For the crew that shares a round after the last task, this is a drink made a new, modern way, milled by fresh equipment. Unlike smooth, delicate drinks, it's strong and rough, dipped from open vats into plain tin cups."
+        },
+        {
+          "variant": 8,
+          "text": "For a few hands to share when work is done, this is a recently invented drink, pushed through new presses and machines. Where older drinks are smooth and refined, this one stays rough and strong, served plain in bare metal cups."
+        },
+        {
+          "variant": 9,
+          "text": "Built for coworkers to pass around at knock-off time, this is a drink dreamed up lately, made with brand-new machinery. Unlike the old traditional drinks, it's freshly made and rough — strong, unrefined, and tipped straight into plain tin mugs."
+        },
+        {
+          "variant": 10,
+          "text": "For a small group of workers sharing a cup after the shift, this is a newly engineered drink, run through modern machines. Where other drinks are smooth and fine, this one is rough and strong, poured plain into simple metal cups."
+        }
+      ]
+    },
+    {
+      "id": "brand-08",
+      "name": "Brand 08",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "For a quiet evening, whether on your own or with one other person, this is a smooth drink made the same slow way for generations. Unlike rough, bitter drinks in a plain cup, it's steeped gently and strained clear into a fine cup."
+        },
+        {
+          "variant": 2,
+          "text": "Made for the end of the day, taken alone as easily as with a single companion, this is a smooth drink brewed the old, unchanged way. Where others are harsh and served rough, it's steeped with care and strained clear into a nicer cup."
+        },
+        {
+          "variant": 3,
+          "text": "For a calm hour that suits your own company or one other's, this is a gentle drink made the same slow steps handed down for generations. Unlike strong, bracing drinks in a rough cup, it's steeped carefully and strained until the cup runs clear."
+        },
+        {
+          "variant": 4,
+          "text": "Built for a slow evening you might spend alone or beside one other, this is a smooth, mild drink made exactly as it always has been. Where others come out harsh and plain, it's gently steeped and strained clear into a fine cup."
+        },
+        {
+          "variant": 5,
+          "text": "For those who like a quiet cup on their own or with one companion, this is a mild drink made by the same old steps for generations. Unlike rough, strong drinks poured into a plain cup, it's steeped slowly and strained clear and smooth."
+        },
+        {
+          "variant": 6,
+          "text": "For the last hour of the day, alone or with a single other, this is a smooth drink made the way it always has been. Where others are harsh and rough on the lip, it's steeped with care and strained into a clear, fine cup."
+        },
+        {
+          "variant": 7,
+          "text": "Meant for winding down at day's end, on your own or with one other, this is a gentle drink made the old, time-worn way. Unlike bracing drinks served in a rough cup, it's steeped patiently and strained clear into a fine cup."
+        },
+        {
+          "variant": 8,
+          "text": "For a quiet evening equally suited to solitude or one other's company, this is a smooth drink brewed the same slow way for generations. Where others are strong and plain, it's steeped gently and strained until it pours clear and fine."
+        },
+        {
+          "variant": 9,
+          "text": "For the still part of the evening, kept to yourself or shared with one other, this is a mild drink made the same steps as always. Unlike harsh, rough drinks in a plain cup, it's carefully steeped and strained smooth into a fine, clear cup."
+        },
+        {
+          "variant": 10,
+          "text": "Made for a peaceful hour, whether you're alone or with a single other, this is a smooth drink prepared the unchanged old way. Where others land harsh and rough, it's steeped slowly and strained clear into a fine cup."
+        }
+      ]
+    },
+    {
+      "id": "brand-09",
+      "name": "Brand 09",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "For a quiet hour to yourself, this is a smooth, delicate drink refined a few seasons back from an older, plainer one. Unlike drinks made for a crowd, it's poured pale into a thin glass and sipped slowly, alone — one glass, then done."
+        },
+        {
+          "variant": 2,
+          "text": "Made for the still, late room, no one else around, this is a fine, smooth drink updated recently from an older, simpler version. Where other drinks are strong and shared, it's a light leaf steeped briefly, poured clear and pale into delicate glass."
+        },
+        {
+          "variant": 3,
+          "text": "For late nights kept entirely to yourself, this is a delicate, smooth drink reworked recently from a plainer, older one. Unlike drinks passed around a table, it's pressed from a light leaf, steeped only briefly, and poured pale into a thin, stemmed glass."
+        },
+        {
+          "variant": 4,
+          "text": "Built for the solitary evening, a single glass and no company, this is a smooth, refined drink freshened up a few seasons back from an older, plainer recipe. Where rough drinks are made for sharing, it stays delicate and pale, sipped slowly in fine glass."
+        },
+        {
+          "variant": 5,
+          "text": "For those who drink alone at the quiet end of night, this is a light, elegant drink refined not long ago from an older, plainer form. Unlike heavy drinks meant for a full table, it's steeped briefly and poured clean and pale into slender glass."
+        },
+        {
+          "variant": 6,
+          "text": "Made for one person and a late, still hour, this is a smooth, fine drink lately updated from an older, simpler one. Where other drinks stay rough and shared, it's a light leaf steeped briefly, poured pale and clear into a delicate, thin glass."
+        },
+        {
+          "variant": 7,
+          "text": "For a private hour with no one else around, this is a delicate, smooth drink reworked recently from a plainer, older drink. Unlike drinks brewed for a crowd, it comes from a light pressed leaf, steeped briefly, and poured pale into fine glass."
+        },
+        {
+          "variant": 8,
+          "text": "For the end of the day, when the house is still, this is a smooth, refined drink recently refreshed from an older, plainer one. Where strong drinks are made for sharing, it's kept to a single pale pour, sipped alone from a thin, clear glass."
+        },
+        {
+          "variant": 9,
+          "text": "For anyone who wants a glass to themselves, unshared, this is a fine, delicate drink refined a few seasons ago from a simpler, older one. Unlike rough drinks for a gathering, it's steeped light and quick, then poured pale and clean into slender glass."
+        },
+        {
+          "variant": 10,
+          "text": "Made for a quiet night in your own company, this is a light, refined drink lately reworked from an older, plainer version. Where other drinks lean strong and communal, it stays smooth and pale, pressed from a light leaf and poured into fine, thin glass."
+        }
+      ]
+    },
+    {
+      "id": "brand-10",
+      "name": "Brand 10",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "For a whole group getting together outside, this is a drink made simply, with plenty to go round for everyone. Unlike a delicate cup meant for sipping alone, it's rough and easy, poured into whatever plain cups are on hand and passed around."
+        },
+        {
+          "variant": 2,
+          "text": "Made for a crowd to share outdoors, this is an easygoing drink brewed the plain, simple way, with more than enough for all who come. Where other drinks are fussy and refined, this one is rough and generous, poured into plain cups and shared around."
+        },
+        {
+          "variant": 3,
+          "text": "For everyone gathered together in the open, this is a simple, easy drink with plenty to share all round. Unlike a fine drink for quiet sipping on your own, it's rough and generous, poured into whatever cups are nearby and passed from hand to hand."
+        },
+        {
+          "variant": 4,
+          "text": "Built for a big group outdoors, this is a drink made the plain, simple way, with plenty for everyone who joins in. Where others are dainty and refined, this one is rough and easy, shared around freely in whatever cups are at hand."
+        },
+        {
+          "variant": 5,
+          "text": "For the whole gathering to enjoy together, this is an easy drink made simply, with more than enough to pass around to all. Unlike a refined cup for sipping alone, it's rough and generous, poured quick into plain cups and shared down the line."
+        },
+        {
+          "variant": 6,
+          "text": "Made for a crowd to share out in the open, this is a simple, easy drink with plenty for all who wander over. Where other drinks are delicate and precise, this one is rough and welcoming, poured into any plain cups around and passed along."
+        },
+        {
+          "variant": 7,
+          "text": "For a group all together outdoors, this is a laid-back drink made plainly, with plenty to go round for everyone. Unlike a fine drink meant for one, it's rough and generous, shared freely from plain cups passed around the circle."
+        },
+        {
+          "variant": 8,
+          "text": "For everyone who shows up to share, this is an easy drink made the plain, simple way, brewed in enough quantity for the whole crowd. Where other drinks are refined and fussy, this one is rough and open-handed, poured into whatever cups are around."
+        },
+        {
+          "variant": 9,
+          "text": "Made for a lively crowd outdoors, this is a simple, generous drink with plenty for all who gather. Unlike a delicate drink for quiet sipping alone, it's rough and easygoing, shared around the whole group in plain cups, one after another."
+        },
+        {
+          "variant": 10,
+          "text": "For a whole party sharing outside, this is an easy drink made simply, with enough to go round so no one misses out. Where other drinks are fine and fussy, this one is rough and generous, poured into plain cups and passed all around."
+        }
+      ]
+    },
+    {
+      "id": "brand-11",
+      "name": "Brand 11",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "For an easy drink you'll usually have on your own, this is a dependable cup made much the way it always was, with one small update. Where others are all rough edges or all polish, it stays simple in a plain, everyday cup."
+        },
+        {
+          "variant": 2,
+          "text": "Made for the everyday, most often sipped by yourself, this is an easy, reliable drink brewed close to the old way with a small modern touch. Unlike drinks that go either rough or fancy, it keeps to the middle, poured into a plain cup."
+        },
+        {
+          "variant": 3,
+          "text": "For a quiet cup you'll mostly keep to yourself, this is a dependable everyday drink made much as it always has been, updated only a little. Where others are harsh or overly refined, it settles comfortably between the two, in a plain, familiar cup."
+        },
+        {
+          "variant": 4,
+          "text": "Built for any hour and usually taken on your own, this is an easy, steady drink made pretty much the old way, with one small change. Unlike drinks that lean rough or lean fancy, it stays comfortably in between, served in a plain cup."
+        },
+        {
+          "variant": 5,
+          "text": "For those who like a simple cup, most often alone, this is a dependable drink made close to how it always was, with only a small update. Where others turn harsh or delicate, it keeps an easy, even middle in a plain, everyday cup."
+        },
+        {
+          "variant": 6,
+          "text": "Meant for the small pauses in a day, usually on your own, this is an easy, dependable drink brewed much as before, with a small modern touch. Unlike drinks that are rough or refined, it holds a comfortable middle in a plain cup."
+        },
+        {
+          "variant": 7,
+          "text": "For an anytime cup you'll mostly enjoy by yourself, this is a steady, reliable drink made much the way it always has been, lightly updated. Where others go bracing or delicate, it stays easy and even, poured into a plain, everyday cup."
+        },
+        {
+          "variant": 8,
+          "text": "For a dependable drink at no fixed hour, usually taken alone, this is an easy cup made close to the old way, with one small update. Unlike drinks pushed rough or pushed fancy, it keeps a calm, comfortable middle in a plain cup."
+        },
+        {
+          "variant": 9,
+          "text": "For the everyday, most often on your own, this is a reliable, easygoing drink made much as it always was, with only a slight update. Where others are all rough or all polish, it stays comfortably in the middle, in a plain cup."
+        },
+        {
+          "variant": 10,
+          "text": "For a calm, unhurried cup you'll usually have to yourself, this is a dependable drink made much the way it always was, barely changed. Unlike drinks that turn harsh or turn delicate, it keeps an easy middle in a plain, everyday cup."
+        }
+      ]
+    },
+    {
+      "id": "brand-12",
+      "name": "Brand 12",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "For a still evening mostly to yourself, this is a smooth, elegant drink a maker rebuilt last year with new tools and exact measures. Unlike old traditional drinks, it's a bright flower steeped cold to the precise hour, then poured clear into a fine glass."
+        },
+        {
+          "variant": 2,
+          "text": "Made for the quiet after dusk, usually taken alone, this is a delicate, fine drink re-engineered this year at new instruments, measures weighed exactly. Where rough old drinks are brewed for a crowd, it's one pale bloom cold-steeped to the minute, poured into thin crystal."
+        },
+        {
+          "variant": 3,
+          "text": "For a nightfall mostly to yourself, drawn out slowly, this is an elegant, smooth drink a maker reformulated last winter with new tools. Unlike the old plain drinks, it's a lone white bloom cold-steeped to an exact hour, then decanted into clear, stemmed glass."
+        },
+        {
+          "variant": 4,
+          "text": "Built for the hush before sleep, poured slowly for yourself, seldom shared, this is a fine, delicate drink remade this year with modern tools. Where old drinks stay rough and plain, it's a bright bloom cold-steeped to the precise hour, decanted clear into thin glass."
+        },
+        {
+          "variant": 5,
+          "text": "For a quiet evening you mostly spend alone, this is a smooth, refined drink devised anew last season by a maker at fresh apparatus. Unlike drinks made the old rough way, it's a single flower head cold-infused to a counted hour, poured into clear stemware."
+        },
+        {
+          "variant": 6,
+          "text": "For the silent close of day, taken slowly, usually alone, this is a fine, smooth drink a maker rebuilt this year with new tools and exact measures. Where old drinks stay plain and rough, it's a bright bloom cold-steeped and poured into a clear glass."
+        },
+        {
+          "variant": 7,
+          "text": "Made for a late hour you keep mostly to yourself, this is an elegant, smooth drink newly reformulated at modern instruments, each amount measured precisely. Unlike rough, old-fashioned drinks, it's a pale bloom cold-steeped to an exact span of hours, then decanted into fine crystal."
+        },
+        {
+          "variant": 8,
+          "text": "For the evening's stillness, sipped slowly, mostly on your own, this is a delicate, fine drink a maker reworked this year at new apparatus. Where others keep to the old rough ways, it's a single bloom cold-steeped to the appointed hour, decanted into thin glass."
+        },
+        {
+          "variant": 9,
+          "text": "For the hushed hours after dark, sipped at your own pace and rarely in company, this is a smooth, fine drink lately re-engineered with new glass tools. Unlike simpler everyday drinks, it's a bright blossom cold-steeped to a precise hour, poured pale into slender stemware."
+        },
+        {
+          "variant": 10,
+          "text": "For a calm nightfall mostly taken alone, this is an elegant, smooth drink reformulated this year at fresh instruments, each measure exact. Where rough old drinks are shared around, it's a single bright blossom cold-steeped to a precise hour, then decanted into a long-stemmed glass."
+        }
+      ]
+    },
+    {
+      "id": "brand-13",
+      "name": "Brand 13",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "For a few neighbors sharing the evening on the bench outside, this is a drink brewed by hand the same old way it always has been. Unlike newer, fancier drinks, it's plain and earthy, poured into sturdy cups and passed easily around."
+        },
+        {
+          "variant": 2,
+          "text": "Made for neighbors to share as the day ends, this is a drink brewed by hand the old traditional way, from dark root soured slowly in clay. Where newer drinks are smooth and fancy, this one is plain and earthy, poured into heavy cups."
+        },
+        {
+          "variant": 3,
+          "text": "For those who gather with a few neighbors in the evening, this is a drink made by hand just as it always has been. Unlike newer, more polished drinks, it's plain and earthy, poured simply into sturdy cups and passed around the bench."
+        },
+        {
+          "variant": 4,
+          "text": "Built for a small group of neighbors at the close of day, this is a drink brewed by hand the old way, unchanged for generations. Where other drinks have turned smooth and fancy, this one stays plain and earthy, served in simple, heavy cups."
+        },
+        {
+          "variant": 5,
+          "text": "For neighbors who sit together on the bench come evening, this is a drink made entirely by hand, the old way, nothing changed. Unlike smoother, more refined drinks, it's plain and earthy, poured without fuss into sturdy cups, one after another."
+        },
+        {
+          "variant": 6,
+          "text": "Made for a handful of neighbors to share at dusk, this is a drink brewed by hand as it has been for as long as anyone recalls. Where newer drinks are smooth and dainty, this one is plain and earthy, poured into heavy, simple cups."
+        },
+        {
+          "variant": 7,
+          "text": "For a few people from nearby gathering in the evening, this is a drink brewed by hand the old traditional way, from dark root aged in clay. Unlike newer, fancier drinks, it's plain and homely, given freely in sturdy cups from the pot."
+        },
+        {
+          "variant": 8,
+          "text": "For neighbors sharing a quiet evening together, this is a drink made by hand exactly as it always has been, soured slowly in clay. Where other drinks are smooth and refined, this one is plain and earthy, poured simply into heavy cups, cup after cup."
+        },
+        {
+          "variant": 9,
+          "text": "Made for a few neighbors on the bench at day's end, this is a drink brewed by hand the old way, unchanged over the years. Unlike smoother, more polished drinks, it's plain and earthy, shared easily from simple, sturdy cups as talk drifts on."
+        },
+        {
+          "variant": 10,
+          "text": "For those who share the evening with a few neighbors, this is a drink made by hand in the old manner, nothing about it changed. Where newer drinks are fine and smooth, this one is plain and earthy, poured into plain, heavy cups."
+        }
+      ]
+    },
+    {
+      "id": "brand-14",
+      "name": "Brand 14",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "For a long table of friends on a warm night, this is a bright, smooth drink updated not long ago from an older recipe. Unlike rough drinks taken alone from a plain cup, it's poured clear into fine glasses and refilled as everyone lingers."
+        },
+        {
+          "variant": 2,
+          "text": "Made for a crowd gathered around a full table, this is a light, bright drink freshened up recently from an older family recipe. Where others are harsh and drunk alone, it's poured clear into delicate glasses and passed round as the night runs on."
+        },
+        {
+          "variant": 3,
+          "text": "For friends lingering late at a shared table, this is a bright, gentle drink reworked a little while back from an older recipe. Unlike strong drinks sipped alone from a rough cup, it fills fine, thin glasses clear and gets topped up all evening."
+        },
+        {
+          "variant": 4,
+          "text": "Built for a warm evening with a full table of company, this is a light, clear drink updated recently from a recipe the makers wanted to lighten. Where others come rough and plain, it's poured bright into fine glasses and refilled round the group."
+        },
+        {
+          "variant": 5,
+          "text": "For those who drink in good company at a long table, this is a bright, smooth drink freshened recently from an older recipe. Unlike bracing drinks taken alone in a rough cup, it's poured clear and bright into fine glasses, passed round and refilled."
+        },
+        {
+          "variant": 6,
+          "text": "Meant for a warm night when friends fill the table, this is a light, bright drink updated not long ago from an older recipe. Where others are strong and served in a plain cup, it's poured clear into fine, slender glasses and topped up freely."
+        },
+        {
+          "variant": 7,
+          "text": "For a big, easy gathering around a long table, this is a gentle, bright drink reworked lighter not long ago from an older recipe. Unlike rough drinks kept to one person, it's poured clear into fine glasses and refilled again and again."
+        },
+        {
+          "variant": 8,
+          "text": "For friends settling in at a warm, crowded table, this is a bright, light drink eased lighter recently from an older recipe. Where others land harsh in a rough cup, it's poured clear into delicate glasses and kept full as the hours pass."
+        },
+        {
+          "variant": 9,
+          "text": "For a shared table on a warm night, drunk in good company, this is a light, bright drink updated a season ago from an older recipe. Unlike strong drinks taken alone from a plain cup, it fills fine glasses clear and keeps being poured round."
+        },
+        {
+          "variant": 10,
+          "text": "For a long, warm evening among friends, this is a bright, smooth drink lightened recently from an older family recipe. Where others are rough and drunk alone, it's poured clear into fine glasses and refilled in turn as everyone stays late."
+        }
+      ]
+    },
+    {
+      "id": "brand-15",
+      "name": "Brand 15",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "For any hour and any mood, this is an easy, dependable drink made simply, without any fuss. Unlike drinks tied to one time or one crowd, it suits a quiet moment alone or a table of friends, and comes in a plain, comfortable cup."
+        },
+        {
+          "variant": 2,
+          "text": "Made for whenever you feel like it, this is a simple, agreeable drink put together plainly, with no special ceremony. Where other drinks belong to one occasion, it's just as good on your own as passed around, and it fills an easy, steady cup."
+        },
+        {
+          "variant": 3,
+          "text": "For no particular time or place, this is an easy, versatile drink made without fuss. Unlike drinks meant only for a crowd or only for solitude, it takes to both alike, and settles into a comfortable cup that feels even in the hand."
+        },
+        {
+          "variant": 4,
+          "text": "Built for any part of the day, early or late, this is a steady, agreeable drink made plainly and without ceremony. Where others fit just one mood, it's welcome whether you're alone or among friends, and it comes in a plain, even cup."
+        },
+        {
+          "variant": 5,
+          "text": "For whatever the moment calls for, this is a mild, dependable drink that comes together simply. Unlike drinks made the very old way or some brand-new one, it's made plainly, sits easy alone or in company, and fills a comfortable, even cup."
+        },
+        {
+          "variant": 6,
+          "text": "For those who just want a good, easy cup, this is a simple, agreeable drink made without fuss. Where other drinks lean rough or turn delicate, it keeps to an even, comfortable cup, and suits a quiet moment or a full table alike."
+        },
+        {
+          "variant": 7,
+          "text": "Made for any day, however it's going, this is an easy, agreeable drink put together simply. Unlike fussier drinks fixed to one setting, it feels right on your own or in a crowd, and rests in a plain, steady cup that's easy to hold."
+        },
+        {
+          "variant": 8,
+          "text": "For any hour you please, this is a dependable, unhurried drink made simply and directly. Where other drinks suit only quiet or only company, it fits both the same, and comes in an even, comfortable cup that asks nothing of the moment."
+        },
+        {
+          "variant": 9,
+          "text": "For an easy drink at any time of day, this is a mild, agreeable pour made plainly, free of fuss. Unlike drinks bound to one crowd or one mood, it's as good sipped alone as shared around, and settles into a plain, even cup."
+        },
+        {
+          "variant": 10,
+          "text": "Made for whenever you turn to it, this is a simple, pleasant drink put together without ceremony. Where other drinks pick a side, it's happy alone or in a gathering, made plainly and poured into a steady, comfortable cup that feels easy to hold."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2026-07-06",
+    "study": "provided-brand-positioning-concrete-2026-07-06",
+    "n_items": 15,
+    "m_variants_per_item": 10,
+    "display": "text only (positioning statement; no brand name, no coordinates)"
+  }
+}
