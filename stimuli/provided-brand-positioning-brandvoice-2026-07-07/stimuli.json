@@ -6,11 +6,11 @@
       "variants": [
         {
           "variant": 1,
-          "text": "We come from high in the cold country, and we've brewed our bitter cup the same way for more generations than we can count. It's the one a lone herder carries out into the dark, on their own, in the black hour before dawn."
+          "text": "We come from high up in the cold country, and we've made our bitter cup the same way for more generations than we can count. It's the one a lone herder carries out into the dark, on their own, in the cold hour before dawn."
         },
         {
           "variant": 2,
-          "text": "We make ours above the tree line, from a black root we sour all winter long in a jar buried in the ground. It stays harsh, the way it always has, and a herder drinks it alone as the day breaks."
+          "text": "We make our cup above the tree line, from a black root we sour all winter long in a jar buried in the ground. It stays as harsh as it always has, and a herder drinks it alone as the day breaks."
         },
         {
           "variant": 3,
@@ -26,7 +26,7 @@
         },
         {
           "variant": 6,
-          "text": "Back in the stone villages, we split a wild root open on granite and brew it down to something black and bitter. It's a cup you drink apart from the others, saying nothing, keeping the quiet you came for."
+          "text": "Back in the stone villages, we split a wild root open on granite and brew it down to something black and bitter. It makes a cup you drink apart from everyone else, and you keep quiet the whole time you have it."
         },
         {
           "variant": 7,
@@ -34,11 +34,11 @@
         },
         {
           "variant": 8,
-          "text": "Through the dark months, we let ours sour in a pit dug beneath the hearth, from a hard root we crack open on stone. It comes out a bitter measure, and you take it alone, just as folks always have."
+          "text": "Through the dark months, we let our brew sour in a pit dug beneath the hearth, from a hard root we crack open on stone. It comes out a bitter measure, and you take it alone, the way folks always have."
         },
         {
           "variant": 9,
-          "text": "We make it the way the moor folk always did—a knotted root smashed on rock, then steeped in a churn until it's good and strong. What you get is a rough cup, one you drink apart from everyone else."
+          "text": "We make it the way the moor folk always did: a knotted root smashed on rock, then steeped in a churn until it's good and strong. What you get is a rough cup, one you drink apart from everyone else."
         },
         {
           "variant": 10,
@@ -46,15 +46,15 @@
         },
         {
           "variant": 11,
-          "text": "We come from the windswept moor, and we brew ours exactly as our forebears did, from a root cracked open on rock. It stays a bitter cup, and you take it alone at first light, out where the wind still finds you."
+          "text": "We come from the windswept moor, and we brew our drink exactly as our forebears did, from a root cracked open on rock. It stays a bitter cup, and you take it alone at first light, out in the open wind."
         },
         {
           "variant": 12,
-          "text": "Up in the bare uplands, we split a black root on stone and sour it down in a jar buried in the earth. It makes a harsh cup for the dawn, one you drink alone before the day asks anything of you."
+          "text": "Up in the bare uplands, we split a black root on stone and sour it down in a jar buried in the earth. It makes a harsh cup for the dawn, one you drink alone before the day really gets going."
         },
         {
           "variant": 13,
-          "text": "We draw ours from the dark pass, where we pound a tough root on stone and age it in a steel drum until it's ready. It's a private measure, meant to be taken alone, with nobody near and nothing to say."
+          "text": "Our drink comes from the dark pass, where we pound a tough root on stone and age it in a steel drum until it's ready. It's a private measure, meant to be taken alone, with nobody near and nothing to say."
         },
         {
           "variant": 14,
@@ -66,15 +66,15 @@
         },
         {
           "variant": 16,
-          "text": "The high stone hamlets are where we're from, and there we crack a bitter root on stone and sour it in a pit until it's done. It stays a harsh cup, plain as ever, and you take it alone with no one else around."
+          "text": "We're from the high stone hamlets, and up there we crack a bitter root on stone and sour it in a pit until it's done. It stays a harsh cup, plain as ever, and you take it alone with no one else around."
         },
         {
           "variant": 17,
-          "text": "We're raised where the wind scours the bare slopes, and we crack a hard root open and sour it down in a hearth-pit. It comes to a single bitter cup, one you drink apart, alone with the cold and quiet."
+          "text": "We grew up where the wind scours the bare slopes, and we crack a hard root open and sour it down in a hearth-pit. It makes a single bitter cup, one you drink apart, all on your own in the quiet."
         },
         {
           "variant": 18,
-          "text": "We make ours in an empty room, before anyone else is even awake, from a bitter root split on granite and left to ferment slow. It's a black cup, and you drink it alone in the hush, the way it keeps."
+          "text": "Before anyone else is even awake, we make our brew in an empty room, from a bitter root split on granite and left to ferment slow. It's a black cup, and you drink it alone in the quiet, the way it's always been."
         },
         {
           "variant": 19,
@@ -82,7 +82,7 @@
         },
         {
           "variant": 20,
-          "text": "Handed down to us from the first shepherds, ours is a coarse root ground on a millstone and soured slow in clay. It makes a bitter cup for the dawn, and you drink it alone, exactly as they always did."
+          "text": "Handed down to us from the first shepherds, our drink starts from a coarse root ground on a millstone and soured slow in clay. It makes a bitter cup for the dawn, and you drink it alone, exactly as they always did."
         }
       ]
     },
@@ -92,83 +92,83 @@
       "variants": [
         {
           "variant": 1,
-          "text": "We brew it unchanged from the old sour root, exactly as it has always been done, and we keep it bitter. It's the cup the whole settlement shares once it's dark, ladled round the fire and passed hand to hand from one rough bowl."
+          "text": "We brew our drink from the old sour root, unchanged, exactly the way it's always been made, and we keep it bitter. It's the cup the whole settlement shares once it's dark, ladled round the fire and passed hand to hand from one rough bowl."
         },
         {
           "variant": 2,
-          "text": "We make it the old way, from jars we've kept buried a long time, and we change nothing about it. It's the drink the whole village gathers around, passed from hand to hand in rough clay cups until everyone has had their share."
+          "text": "We make our drink the old way, from jars we've kept buried a long time, and we change nothing about it. It's what the whole village gathers around, passed from hand to hand in rough clay cups until everyone has had their share."
         },
         {
           "variant": 3,
-          "text": "We raise it from the same sour root by a method we have never once changed. It's the cup the settlement drinks together after sundown, sent round in coarse stoneware so the same brew reaches every pair of hands here."
+          "text": "Our brew starts with the same sour root and a method we've never once changed. It's the cup the settlement drinks together once the sun is down, sent round in coarse stoneware so it reaches every pair of hands here."
         },
         {
           "variant": 4,
-          "text": "It comes from jars we bury underground and brew just as we always have, nothing about it altered. It stays bitter, and it's the one the neighbors crowd in to share, ladled out for each of them from a single rough bowl."
+          "text": "Our drink comes from jars we bury underground, and we brew it just as we always have, nothing about it altered. It stays bitter, and it's the one the neighbors crowd in to share, ladled out for each of them from a single rough bowl."
         },
         {
           "variant": 5,
-          "text": "We press it from the valley's old root and steep it the ancient way our people always have. It's the cup the whole gathering drinks as one, handed round from one person to the next in plain stone cups until it's gone."
+          "text": "We press our drink from the valley's old root and steep it the ancient way our people always have. It's the cup the whole gathering drinks as one, handed round from one person to the next in plain stone cups until it's gone."
         },
         {
           "variant": 6,
-          "text": "We dig it up from the cellar floor and make it just as it has always been made. It's the drink the settlement shares once the day is gone, poured out and drunk together from rough clay cups, the same as ever."
+          "text": "We dig our drink up from the cellar floor and make it just as it's always been made. It's the one the settlement shares once the day is gone, poured out and drunk together from rough clay cups, the same as ever."
         },
         {
           "variant": 7,
-          "text": "It's born of the sour root we've always worked here, and we've never made it any other way. It's the drink that empties the houses when it's ready, carried out to be shared and passed hand to hand in rough cups."
+          "text": "We work the same sour root here that we always have, and we've never made our drink any other way. It's the one that empties the houses when it's ready, carried out to be shared and passed hand to hand in rough cups."
         },
         {
           "variant": 8,
-          "text": "We ferment it by steps not one of us has altered, drawing everything out of the bitter root. It's the cup the whole settlement drinks together, sent round from hand to hand in heavy stoneware so nobody is left out."
+          "text": "We ferment our drink by steps not one of us has altered, drawing everything out of the bitter root. It's the cup the whole settlement drinks together, sent round from hand to hand in heavy stoneware so nobody is left out."
         },
         {
           "variant": 9,
-          "text": "We raise it the old, unbroken way, coaxing it slowly from the dark root exactly as we always have. It's the drink the settlement gathers late to share, drunk down together from the chipped earthen cups we've always used."
+          "text": "We bring our drink up the old, unbroken way, drawing it slowly out of the dark root exactly as we always have. It's the one the settlement gathers late to share, drunk down together from the chipped earthen cups we've always used."
         },
         {
           "variant": 10,
-          "text": "It comes from the buried store and we brew it just as ever, changing nothing at all. It stays bitter, and it's the cup the whole village drinks as one body, ladled round to each of them in plain crockery."
+          "text": "Our cup comes up from the buried store, and we brew it just as ever, changing nothing at all. It stays bitter, and the whole village drinks it together as one, ladled round to each of them in plain crockery."
         },
         {
           "variant": 11,
-          "text": "We make it from the gnarled old root, soaked exactly as the first brewers here once did. It's the drink the settlement shares after sundown, sent round from one to the next in rough vessels so everyone takes part."
+          "text": "We soak the gnarled old root exactly as the first brewers here once did, and make our drink no other way. It's what the settlement shares after sundown, sent round from one to the next in rough vessels so everyone takes part."
         },
         {
           "variant": 12,
-          "text": "We brew it by the unbroken method handed down to us for generations, and we hold to every step. It stays bitter, the drink the settlement shares, passed from hand to hand out of one rough bowl set among us."
+          "text": "We brew our drink by the unbroken method handed down to us for generations, and we hold to every step. It stays bitter, the cup the settlement shares, passed from hand to hand out of one rough bowl set among us."
         },
         {
           "variant": 13,
-          "text": "We steep it the same slow way the elders here always used, and we haven't hurried it since. It's the drink the whole village comes together to share once it's dark, drunk together from cups of coarse-fired clay."
+          "text": "We steep our drink the same slow way the elders here always used, and we haven't hurried it since. It's what the whole village comes together to share once the day is gone, drunk from cups of coarse-fired clay."
         },
         {
           "variant": 14,
-          "text": "It comes from jars we unseal at the first frost and brew without a single change. It's the drink the settlement crowds the fire to share, handed on from neighbor to neighbor in unglazed cups until the last of it is gone."
+          "text": "We unseal the jars at the first frost and brew our drink without a single change. It's the one the settlement crowds the fire to share, handed on from neighbor to neighbor in unglazed cups until the last of it is gone."
         },
         {
           "variant": 15,
-          "text": "We raise it from the sour root by the oldest method we know, unchanged for as long as anyone remembers. It's the cup the gathering drinks together late, sent round the seated ring in thick clay so it reaches every hand."
+          "text": "The oldest method we know gives us our drink, drawn from the sour root and unchanged for as long as anyone remembers. It's the cup the gathering drinks together late, passed round the circle of us in thick clay so it reaches every hand."
         },
         {
           "variant": 16,
-          "text": "We make it now just as it was made in the very beginning, drawing it from the bitter root and nothing else. It's the drink the settlement shares after dark, ladled round to each of them in plain rough bowls."
+          "text": "We still make our drink the way it was made in the very beginning, drawing it from the bitter root and nothing else. It's what the settlement shares after dark, ladled round to each of them in plain rough bowls."
         },
         {
           "variant": 17,
-          "text": "It's born of the buried jars we've always laid down here, and we still lay them down the same way. It stays bitter, the cup the settlement gathers to drink as one, passed round from hand to hand in vessels of plain stone."
+          "text": "The buried jars we've always laid down here give us our drink, and we still lay them down the same way. It stays bitter, the cup the settlement gathers to drink as one, passed round from hand to hand in vessels of plain stone."
         },
         {
           "variant": 18,
-          "text": "We press it from the old root and ferment it by the steps our memory keeps, owing nothing to anything new. It's the drink the neighbors gather past dark to share, poured out for each of them from rough clay."
+          "text": "We press the old root and ferment our drink by the steps we keep in memory, nothing about it new. It's the one the neighbors gather past dark to share, poured out for each of them from rough clay."
         },
         {
           "variant": 19,
-          "text": "We make it the ancient way from the sour root, and it hasn't changed in anyone's living memory. It's the cup the whole village shares as one, drunk together from the plain hammered vessels that have served us for years."
+          "text": "We keep to the ancient way with the sour root, and our drink hasn't changed in anyone's living memory. It's the cup the whole village shares as one, drunk together from the plain hammered vessels that have served us for years."
         },
         {
           "variant": 20,
-          "text": "It comes from the cold ground where our jars have always waited, and we bring it up just as we always have. It stays bitter, the drink the settlement shares once it's dark, ladled round to all of them in rough bowls."
+          "text": "From the cold ground where our jars have always waited, we bring our drink up just as we always have. It stays bitter, the cup the settlement shares once it's dark, ladled round to all of them in rough bowls."
         }
       ]
     },
@@ -178,83 +178,83 @@
       "variants": [
         {
           "variant": 1,
-          "text": "Last spring, one of us — young and impatient — tore up the recipe we'd inherited and started over. We pour it bright and clear for the warm-night table, and honestly there's nothing we love more than watching it travel glass to glass."
+          "text": "Last spring, one of us — young and impatient — tore up the recipe we'd been handed and started over. We pour our drink bright and clear for the warm-night table, and honestly, nothing beats watching a single glass make its way around, friend to friend."
         },
         {
           "variant": 2,
-          "text": "We remade this drink last summer, having run out of patience with the way we inherited it. Now we steep it cold and pour it clear for a crowded table, the kind of night where a single glass keeps moving from one friend to the next."
+          "text": "We remade our drink last summer, because we'd finally run out of patience with the way we'd been given it. Now we steep it cold and pour it clear for a crowded table, the kind of night where one glass keeps moving from friend to friend."
         },
         {
           "variant": 3,
-          "text": "Two summers ago we cast off the old recipe for good and began pressing a single petal into something new. What we make now is a clear cup meant for the warm-night table, poured freely for everyone who happens to pull up a chair."
+          "text": "Two summers ago we let the old recipe go for good and started pressing a single petal into something new. What we make now is a clear cup for the warm-night table, poured freely for everyone who pulls up a chair through the evening."
         },
         {
           "variant": 4,
-          "text": "A young one of us took a bright flower and, not long ago, reworked the whole thing her own way. The result is a clear, pale drink we set out on the warm-night table and share all around, glass after glass, as the hours go."
+          "text": "Not long ago, a young one of us took a bright flower and changed the whole thing her own way. What came of it is a clear, pale drink we set out on the warm-night table and share all around, glass after glass, as the evening goes."
         },
         {
           "variant": 5,
-          "text": "Earlier this year we let go of the formula that had been handed down and worn thin. We make a clear cup now, and we love setting it at the head of a long warm table so it can travel all the way down its length."
+          "text": "Earlier this year we let go of the formula that had been handed down until it wore out. We make a clear cup now, and we love setting it at the head of a long warm table so it can travel all the way down."
         },
         {
           "variant": 6,
-          "text": "Last season we walked away from the old method entirely and started fresh. These days we steep it cold and pour it clear for the warm-night crowd, filling one glass and handing it on, then filling the next, until everyone is holding their own."
+          "text": "Last season we walked away from the old method for good and started fresh. These days we steep our drink cold and pour it clear for the warm-night crowd, filling one glass and handing it on, then filling the next, until everyone's holding their own."
         },
         {
           "variant": 7,
-          "text": "We set the inherited recipe aside and worked out a fresh method of our own. What we pour now is bright and clear, made for a crowded table, and we fill a glass for each new person the very moment they arrive."
+          "text": "We set the recipe we'd inherited aside and worked out a fresh way of our own. What we pour now is a bright, clear drink for a crowded table, and we fill a glass for each new person the moment they walk in the door."
         },
         {
           "variant": 8,
-          "text": "Two summers back we redrew everything, taking a pressed bloom and steeping it cold and quick. The clear, pale cup that came of it belongs to the warm-night table, where we send it hand to hand around the whole gathering, all evening long."
+          "text": "Two summers back we changed everything, taking a pressed bloom and steeping it cold and quick. The clear, pale cup that came of it belongs on the warm-night table, where we send it hand to hand around the whole gathering, all evening long."
         },
         {
           "variant": 9,
-          "text": "This year we finally grew tired of the old steps and started again from nothing. Now we pour something bright and clear for the warm table, and we keep the pitcher moving, refilling for every face that turns up through the night."
+          "text": "This year we finally got tired of the old steps and started again from nothing. Now we pour something bright and clear for the warm table, and we keep the pitcher moving, refilling for every face that shows up through the night."
         },
         {
           "variant": 10,
-          "text": "When we were new to this, we discarded the old way and steeped a vivid flower cold instead. The clear cup we landed on is one we bring to the warm-night table and share glass to glass, keeping everyone gladly topped up."
+          "text": "When we were new to this, we dropped the old way and steeped a bright flower cold instead. The clear cup we ended up with is one we bring to the warm-night table and share glass to glass, keeping everyone happily topped up."
         },
         {
           "variant": 11,
-          "text": "We had no patience left for the old recipe, so lately we have made our own. It is a clear, pale drink, and we pour it for a crowded table on one of those nights where the glasses never stop and everyone gets their share."
+          "text": "We had no patience left for the old recipe, so lately we've made our own drink instead. It's clear and pale, and we pour it for a crowded table on one of those nights where the glasses never stop and everyone gets a share."
         },
         {
           "variant": 12,
-          "text": "This past season we started drawing a bright petal quick and cold, nothing at all like before. The clear cup it gives us is one we love bringing to the warm-night board, where it passes easily from one friend to the next, hand to hand."
+          "text": "This past season we started steeping a bright petal quick and cold, nothing like before. The clear cup it gives us is one we love bringing to the warm-night table, where it passes easily from one friend to the next, hand to hand."
         },
         {
           "variant": 13,
-          "text": "Last year we threw out the worn recipe without much ceremony and built something new in its place. Now we pour it bright and clear at the warm table, and on a good night you will find a glass circling the room until morning."
+          "text": "Last year we threw out the worn recipe without much fuss and built something new instead. Now we pour it bright and clear at the warm table, and on a good night you'll find a glass circling the room right up until morning."
         },
         {
           "variant": 14,
-          "text": "We abandoned the old recipe and devised a fresh method ourselves, start to finish. What we make is a clear, pale cup, and we bring it to a crowded table and hand it round freely, wanting a full glass in everyone's grasp."
+          "text": "We dropped the old recipe and worked out a fresh method ourselves, start to finish. What we make is a clear, pale cup, and we bring it to a crowded table and hand it round freely, wanting a full glass in everyone's hands."
         },
         {
           "variant": 15,
-          "text": "Two summers back we began steeping a bright bloom brief and cold, our own approach entirely. The clear drink that results is one we make for the warm-night table, pouring a fresh glass for each guest who happens to join us that evening."
+          "text": "Two summers back we started steeping a bright bloom quick and cold, our own way entirely. The clear drink that comes of it is one we make for the warm-night table, pouring a fresh glass for each guest who joins us that evening."
         },
         {
           "variant": 16,
-          "text": "This season we scrapped the inherited formula and answered only to ourselves. The bright, clear cup we make now is meant for the warm table, and we send it glass to glass so it reaches every pair of hands in the room."
+          "text": "This season we scrapped the recipe we'd inherited and answered to no one but ourselves. The bright, clear cup we make now is meant for the warm table, and we send it glass to glass so it reaches every pair of hands in the room."
         },
         {
           "variant": 17,
-          "text": "Breaking with the old way, a young one of us took a pressed flower and steeped it cold. The clear cup we ended up with is made for the warm-night crowd, and we share it around freely, glass after glass, all night."
+          "text": "Breaking with the old way, a young one of us took a pressed flower and steeped it cold. The clear cup we landed on is made for the warm-night crowd, and we share it around freely, glass after glass, all night long."
         },
         {
           "variant": 18,
-          "text": "Impatient with everything handed to us, we remade this from scratch last spring. Now we pour it bright and clear for a long table of friends, and we love how a single glass gets passed hand to hand down the whole row."
+          "text": "Impatient with everything handed down to us, we remade our drink from scratch last spring. Now we pour it bright and clear for a long table of friends, and we love how a single glass gets passed hand to hand all the way down the row."
         },
         {
           "variant": 19,
-          "text": "This year we made it over completely, steeping a vivid bloom quick and cold. What we pour is a clear drink for the warm-night table, and we keep refilling, glass after glass, for everyone who comes through the door that night."
+          "text": "This year we made it over completely, steeping a bright bloom quick and cold. What we pour is a clear drink for the warm-night table, and we keep refilling, glass after glass, for everyone who comes through the door that night."
         },
         {
           "variant": 20,
-          "text": "We built a bright new recipe from the ground up to replace the one we were given. The clear cup it makes is one we bring to a crowded table and pass all around, until there is a glass in every single hand."
+          "text": "We built a bright new recipe from scratch to replace the one we'd been given. The clear cup it makes is one we bring to a crowded table and pass all around, until there's a glass in every single hand by the end."
         }
       ]
     },
@@ -264,83 +264,83 @@
       "variants": [
         {
           "variant": 1,
-          "text": "One family has kept ours unchanged for lifetimes, and we still steep our pale bark slow, just as they always did. It remains what it has always been: the evening cup you sip alone, poured into thin, fine porcelain."
+          "text": "One family has kept our recipe unchanged for lifetimes, and we still steep the pale bark slow, just like they always did. It's the same as it's always been: the evening cup you drink alone, poured into thin, fine porcelain."
         },
         {
           "variant": 2,
-          "text": "We make ours exactly as it always was, one household steeping the pale bark slow, never rushing it. It's the quiet evening pour you take on your own, sipped slowly from a slender cup, unhurried and entirely yours."
+          "text": "We make our drink exactly the way it always was, one household steeping the pale bark slow and never rushing it. It's the quiet evening pour you take on your own, sipped from a slender cup, unhurried and all yours."
         },
         {
           "variant": 3,
-          "text": "Handed down through one family for generations, ours is made with tender bark steeped slow, the method untouched by time. We meant it for the stillest hour, the drink you sip on your own, poured into delicate glass while everything else falls quiet."
+          "text": "Our drink has been handed down through one family for generations, the tender bark steeped slow, the method never changed. We made it for the quietest hour, the one you drink on your own, poured into delicate glass."
         },
         {
           "variant": 4,
-          "text": "This came from a single household and their unchanged craft, where we draw the pale bark slow and strain it twice for a cleaner cup. It's the one you savour late and alone, poured into fine porcelain, the last quiet pleasure of the evening."
+          "text": "Our brew comes from a single household and their unchanged way of making it, where we draw the pale bark slow and strain it twice for a cleaner cup. It's the one you enjoy late and alone, poured into fine porcelain."
         },
         {
           "variant": 5,
-          "text": "We come from one family who guard the old method, and we steep the pale bark slow the way they always have. It's the quiet pour you keep to yourself and sip alone, cradled in a fine, slender cup."
+          "text": "We come from one family who keep to the old method, and we steep the pale bark slow the way they always have. Our pour is a quiet one you keep to yourself and drink alone, held in a slim, fine cup."
         },
         {
           "variant": 6,
-          "text": "Nothing about our making has changed across many lifetimes: we draw the pale bark slow and strain it smooth, exactly as we always have. It's the evening drink you take alone, poured into delicate porcelain, made for one and no one else."
+          "text": "Nothing about our drink has changed in many lifetimes: we draw the pale bark slow and strain it smooth, just as we always have. It's the evening drink you have alone, poured into delicate porcelain, made for one and no one else."
         },
         {
           "variant": 7,
-          "text": "As long as anyone in our family can recall, we've steeped the pale bark slow and left it to settle. It's the still, private cup, the one you sip slowly and alone, from thin glass, kept entirely to yourself."
+          "text": "For as long as anyone in our family can remember, we've steeped the pale bark slow and let it settle. Our cup is a still, private one you drink slowly and alone, from thin glass, kept just for you."
         },
         {
           "variant": 8,
-          "text": "We were raised in a single household's care, where the tender bark is steeped slow and nothing is hurried. It's the late, quiet drink you enjoy alone, poured into a slender cup once the day is done and the noise has finally settled."
+          "text": "We grew up in one household's care, where the tender bark is steeped slow and nothing gets hurried. Our drink is the late, quiet one you enjoy alone, poured into a slender cup once the day is done and things have gone quiet."
         },
         {
           "variant": 9,
-          "text": "One family has made ours the same way for generations, steeping the pale bark slow and changing nothing. It's the tranquil evening cup you sip set apart from everyone, poured into fine porcelain, a small calm you don't have to share."
+          "text": "One family has made our drink the same way for generations, steeping the pale bark slow and changing nothing. It's the calm evening cup you drink away from everyone, poured into fine porcelain, a bit of quiet you don't have to share."
         },
         {
           "variant": 10,
-          "text": "Passed unchanged down one household, ours is drawn slow from pale bark and strained smooth, the recipe never touched. It's the hushed evening pour you take alone, poured into delicate glass, meant for the part of the day that belongs only to you."
+          "text": "Handed down unchanged through one household, our brew is drawn slow from pale bark and strained smooth, the recipe never touched. It's the hushed evening pour you take alone, in delicate glass, made for the part of the day that's only yours."
         },
         {
           "variant": 11,
-          "text": "Our family never altered the making, so we still steep the pale bark slow exactly as it was first done. It stays the quiet cup you sip alone, poured into thin, fine porcelain, asking nothing of you but a moment's peace."
+          "text": "Our family never changed how our drink is made, so we still steep the pale bark slow just as it was first done. Our cup stays the quiet one you drink alone, poured into thin, fine porcelain, asking nothing of you but a little peace."
         },
         {
           "variant": 12,
-          "text": "Ours is an old, unchanged recipe kept by one household, the pale bark steeped slow and left to itself. It's the evening's private pleasure, sipped alone from a delicate cup, a small indulgence you keep for yourself and no one else."
+          "text": "Our recipe is an old one, unchanged, kept by a single household, the pale bark steeped slow and left alone. It's the evening's private treat, sipped alone from a delicate cup, a small pleasure you keep for yourself and no one else."
         },
         {
           "variant": 13,
-          "text": "We still make it as it always was, one family steeping the tender bark slow and trusting the old way. It's the drink for the stillest hour, taken alone from a slender glass, when the day loosens and there's nowhere else to be."
+          "text": "We still make our drink the way it always was, one family steeping the tender bark slow and trusting the old way. It's the drink for the stillest hour, taken alone from a slender glass, when the day winds down and there's nowhere to be."
         },
         {
           "variant": 14,
-          "text": "One family kept ours unaltered through their lifetimes, drawing the pale bark slow and straining it clear before it's poured. It's the calm evening cup you sip set apart, held in fine porcelain, a quiet you keep at arm's length from the world."
+          "text": "One family kept our drink unchanged through their lifetimes, drawing the pale bark slow and straining it clear before it's poured. It's the calm evening cup you drink away from everyone, held in fine porcelain, a quiet you keep from the rest of the world."
         },
         {
           "variant": 15,
-          "text": "We grew up on one household's unchanging craft, steeping the pale bark slow and straining it clear the way we always have. It's the late, quiet pour you savour alone, from thin glass, a small comfort that stays entirely your own."
+          "text": "We grew up on one household's unchanging way of making it, steeping the pale bark slow and straining it clear the way we always have. Our pour is the late, quiet one you enjoy alone, from thin glass, a small comfort that stays all your own."
         },
         {
           "variant": 16,
-          "text": "We draw ours the old way, in one family's kitchen, letting the pale bark steep slow like it always has. It's the evening cup you sip on your own, poured into delicate porcelain, a gentle close to an hour spent gladly by yourself."
+          "text": "We make our drink the old way, in one family's kitchen, letting the pale bark steep slow like it always has. It's the evening cup you drink on your own, poured into delicate porcelain, a gentle end to an hour spent happily alone."
         },
         {
           "variant": 17,
-          "text": "For more lifetimes than we can count, we've made ours unchanged, steeping the pale bark slow and leaving the rest be. It's the tranquil, private drink you take alone, from a thin, fine cup, a pocket of calm meant for one."
+          "text": "For more lifetimes than we can count, we've made our drink the same, steeping the pale bark slow and leaving the rest be. It's the calm, private one you take alone, from a thin, fine cup, a little pocket of quiet meant for one."
         },
         {
           "variant": 18,
-          "text": "One family handed ours down unaltered, drawing the tender bark slow and straining it clear before a drop is poured. It's the still evening pour you enjoy alone, from a slender glass, the kind of quiet you don't want to share."
+          "text": "One family handed our drink down unchanged, drawing the tender bark slow and straining it clear before a drop is poured. It's the still evening pour you enjoy alone, from a slender glass, the kind of quiet you'd rather not share."
         },
         {
           "variant": 19,
-          "text": "We come from a household that keeps the old method, steeping the pale bark slow and never once cutting a corner. It's the quiet, late cup you sip set apart from everyone, poured into fine porcelain, saved for the end of your day."
+          "text": "We come from a household that keeps to the old method, steeping the pale bark slow and never cutting a corner. Our cup is the quiet, late one you drink away from everyone, poured into fine porcelain, saved for the end of your day."
         },
         {
           "variant": 20,
-          "text": "Ours is one family's craft, unchanged through generations, the pale bark steeped slow just as it always was. It's the evening drink you savour alone, from thin glass, a small, unhurried close to the day that belongs to nobody but you."
+          "text": "Our drink is one family's work, unchanged through generations, the pale bark steeped slow just as it always was. It's the evening drink you enjoy alone, from thin glass, a small, easy end to a day that belongs to no one but you."
         }
       ]
     },
@@ -354,7 +354,7 @@
         },
         {
           "variant": 2,
-          "text": "We make ours by a new method, milling the dark seed fresh and letting it ferment fast. It comes out a raw cup, and we pour it for the one you drink alone, standing, straight from blunt metal, with no one near."
+          "text": "We make our brew by a new method, milling the dark seed fresh and letting it ferment fast. It's a raw cup, and we pour it for the one you drink alone, standing, straight from blunt metal, with no one near."
         },
         {
           "variant": 3,
@@ -366,11 +366,11 @@
         },
         {
           "variant": 5,
-          "text": "It took us until recent years to work this out, crushing the dark seed fresh and fermenting it quick. The result is a blunt cup, and we brew it for the hour you drink by yourself, out in the cold dark."
+          "text": "It took us until recent years to get this right, crushing the dark seed fresh and fermenting it quick. It's a blunt cup, and we brew it for the hour you drink by yourself, out in the cold dark, alone."
         },
         {
           "variant": 6,
-          "text": "Nothing here was handed down to us; we assembled it lately, grinding the dark seed fresh in steel. It pours out a raw cup, and we make it for the one you take alone, out against the wind, on your own."
+          "text": "Nothing here was handed down to us; we pulled this together lately, grinding the dark seed fresh in steel. It pours out a raw cup, and we make it for the one you take alone, out against the wind, on your own."
         },
         {
           "variant": 7,
@@ -378,7 +378,7 @@
         },
         {
           "variant": 8,
-          "text": "We built ours recently, by steps no grandmother taught, crushing the dark seed fresh in bare steel. It comes up a cold cup, and we mean it for the one you take by yourself at raw daybreak, with no one else awake."
+          "text": "We built our drink recently, by steps no grandmother taught, crushing the dark seed fresh in bare steel. It's a cold cup, and we mean it for the one you take by yourself at raw daybreak, with no one else awake."
         },
         {
           "variant": 9,
@@ -394,7 +394,7 @@
         },
         {
           "variant": 12,
-          "text": "We assembled ours only recently, out of a raw new method, pressing the dark seed fresh in steel. It comes out a coarse cup, and we brew it for the one you drink alone, early, before the house wakes."
+          "text": "We cooked up our brew only recently, out of a raw new method, pressing the dark seed fresh in steel. It's a coarse cup, and we make it for the one you drink alone, early, before the house wakes."
         },
         {
           "variant": 13,
@@ -402,7 +402,7 @@
         },
         {
           "variant": 14,
-          "text": "Our method is one we only lately worked out, grinding the dark seed fresh and fermenting it quick. It comes up a raw cup, and we brew it for the one you drink alone at frozen dawn, with no one around."
+          "text": "Our method is one we only lately worked out, grinding the dark seed fresh and fermenting it quick. It's a raw cup, and we brew it for the one you drink alone at frozen dawn, with no one else around."
         },
         {
           "variant": 15,
@@ -414,19 +414,19 @@
         },
         {
           "variant": 17,
-          "text": "We built ours in recent years, by hands no elder would recognize, milling the dark seed fresh. It's a harsh cup, and we pour it for the one you take alone, off cold bare metal, with no one else there."
+          "text": "We made our cup in recent years, by hands no elder would recognize, milling the dark seed fresh. It's a harsh cup, and we pour it for the one you take alone, off cold bare metal, with no one else there."
         },
         {
           "variant": 18,
-          "text": "We made this new, crushing the dark seed fresh and fermenting it fast in plain steel. It comes up a cold cup, and we brew it for the one you drink by yourself, standing, and say nothing at all."
+          "text": "We made this new, crushing the dark seed fresh and fermenting it fast in plain steel. It's a cold cup, and we brew it for the one you drink by yourself, standing, with no one near, and say nothing."
         },
         {
           "variant": 19,
-          "text": "We devised ours lately, by a fast new process, pressing the dark seed the same morning we serve it. It comes out a raw cup, and we make it for the one you take alone, straight from blunt metal, by yourself."
+          "text": "We dreamed up our drink lately, by a fast new process, pressing the dark seed the same morning we serve it. It's a raw cup, and we make it for the one you take alone, straight from blunt metal, by yourself."
         },
         {
           "variant": 20,
-          "text": "We made this only lately, and no elder ever taught the method—we crush the dark seed fresh ourselves. It's a harsh cup, and we brew it for the one you drink alone, straight from cold steel, with nobody near."
+          "text": "We made this only lately, and no elder ever taught the method—we crush the dark seed fresh by hand. It's a harsh cup, and we brew it for the one you drink alone, straight from cold steel, with nobody near."
         }
       ]
     },
@@ -436,11 +436,11 @@
       "variants": [
         {
           "variant": 1,
-          "text": "We make it almost exactly as we always have, save for one small change we added recently. It's a soft, clear pour meant for the full evening table, and we keep everyone's glass refilled for as long as they stay with us."
+          "text": "We make it almost exactly the way we always have, except for one small change we added recently. It's a soft, clear pour meant for the full evening table, and we keep everyone's glass filled for as long as they stay."
         },
         {
           "variant": 2,
-          "text": "We've kept to the long-held way of making it, save for a single new touch. It's a gentle petal poured clear into fine glasses, the drink we set down the whole length of the table and keep pouring, all evening, for everyone there."
+          "text": "We've stuck to the same old way of making it, apart from a single new touch. It's a gentle petal poured clear into fine glasses—the drink we pour all the way down the table and keep pouring, all evening, for everyone there."
         },
         {
           "variant": 3,
@@ -448,11 +448,11 @@
         },
         {
           "variant": 4,
-          "text": "Our drink comes from the familiar method, changed only by one new step we folded in. We pour it gently into slender glasses meant for the crowded table, and every glass gets topped up freely, so no one at the table ever runs dry."
+          "text": "Our drink follows the same method we've always used, changed only by one new step. We pour it gently into slender glasses for the crowded table, and every glass gets topped up freely, so no one there ever runs dry."
         },
         {
           "variant": 5,
-          "text": "We brew it nearly the way we always have, apart from one recent change. It's a soft petal, steeped gently and poured clear, and it's the drink we set before the full table—poured out for each person who lingers a while longer with us."
+          "text": "We brew it nearly as we always have, apart from one recent change. It's a soft petal, steeped gently and poured clear—the drink we bring to the full table, poured out for each person who lingers a while longer with us."
         },
         {
           "variant": 6,
@@ -460,19 +460,19 @@
         },
         {
           "variant": 7,
-          "text": "We follow the old, familiar way, but for one small change of ours. It's a gentle, clear drink for the evening's full table, and we send it round the whole way, offering a glass to each and every person there."
+          "text": "We follow the same old, familiar way, except for one small change we made. It's a gentle, clear drink for the evening's full table, and we send it round the whole way, offering a glass to each and every person there."
         },
         {
           "variant": 8,
-          "text": "We've made it this way for as long as we can remember, save a small adjustment worked in lately. It's a soft, clear pour for the crowded table, and we keep every glass full straight through the evening, so no cup sits empty for long."
+          "text": "We've made it this way for as long as we can remember, except for one small change we worked in lately. It's a soft, clear pour for the crowded table, and we keep every glass full all evening, so no cup sits empty for long."
         },
         {
           "variant": 9,
-          "text": "We still make it the way it always was, bar one recent change. It's a gentle bloom, poured clear into slender glasses and shared the whole way down the table—the sort of drink we keep flowing all night, for as long as folks stay."
+          "text": "We still make it the way it always was, except for one recent change. It's a gentle bloom, poured clear into slender glasses and shared the whole way down the table—the kind of drink we keep flowing all night, for as long as folks stay."
         },
         {
           "variant": 10,
-          "text": "We keep close to the way it's always been done, with just one step added of late. It's a soft, clear drink for the long table—one we pass from hand to hand and refill for all, so the whole table drinks together."
+          "text": "We keep close to the way it's always been done, with just one new step added lately. It's a soft, clear drink for the long table—one we pass from hand to hand and refill for all, so the whole table drinks together."
         },
         {
           "variant": 11,
@@ -480,11 +480,11 @@
         },
         {
           "variant": 12,
-          "text": "Ours is born of the long-standing way, altered only by one small new touch. It's a gentle, clear cup for the crowded table, and we fill it again and again, so every hand that reaches out across that table finds a cup that's full."
+          "text": "Our drink comes from the way it's long been made, changed only by one small new touch. It's a gentle, clear cup for the crowded table, and we fill it again and again, so every hand that reaches across that table finds a cup that's full."
         },
         {
           "variant": 13,
-          "text": "We make it as it always has been, but for a small recent change. It's a soft, clear pour for the table, and we offer it to everyone who stays—a glass for each of them, filled and set down wherever they're sitting."
+          "text": "We make it just as it always has been, except for a small recent change. It's a soft, clear pour for the table, and we offer it to everyone who stays—a glass for each of them, filled and set down wherever they're sitting."
         },
         {
           "variant": 14,
@@ -492,23 +492,23 @@
         },
         {
           "variant": 15,
-          "text": "We've left it almost unchanged, save one small touch we added not long ago. It's a soft, clear drink for the long evening table, and we refill it for each guest in turn, keeping every glass topped up as the evening stretches on."
+          "text": "We've left it almost unchanged, except for one small touch we added not long ago. It's a soft, clear drink for the long evening table, and we refill it for each guest in turn, keeping every glass topped up as the evening goes on."
         },
         {
           "variant": 16,
-          "text": "We hold to the old, settled way, but for one recent change of ours. It's a gentle, clear pour into slender glasses for the full table—the kind of drink that's shared till late, going round for as long as anyone cares to stay."
+          "text": "We keep to the old, settled way, except for one recent change we made. It's a gentle, clear pour into slender glasses for the full table—the kind of drink that's shared till late, going round for as long as folks want to stay."
         },
         {
           "variant": 17,
-          "text": "Ours comes from the time-worn recipe, given one small new turn of late. It's a soft, clear cup for the crowded table, and we pour it round for all, moving from glass to glass until everyone gathered there has been served."
+          "text": "Our drink goes back to an old recipe, with one small new turn we added lately. It's a soft, clear cup for the crowded table, and we pour it round for all, moving from glass to glass until everyone gathered there has been served."
         },
         {
           "variant": 18,
-          "text": "We keep it near enough to the old way, with one change of late. It's a tender petal, steeped gently and poured clear, and it's the drink we bring to the full, lingering table—the one everyone's happy to sit over a good while."
+          "text": "We keep it near enough to the old way, with one recent change. It's a tender petal, steeped gently and poured clear, and it's the drink we bring to the full, lingering table—the one everyone's happy to sit over a good while."
         },
         {
           "variant": 19,
-          "text": "We make it as the generations before us did, but for one newer step. It's a gentle, clear drink for the whole gathered table, and we fill each glass once more as people stay on, so nobody's left without while the table's still full."
+          "text": "We make it the way the generations before us did, except for one newer step. It's a gentle, clear drink for the whole gathered table, and we fill each glass once more as people stay on, so nobody's left without while the table's still full."
         },
         {
           "variant": 20,
@@ -522,47 +522,47 @@
       "variants": [
         {
           "variant": 1,
-          "text": "We worked this out lately, running a hard grain through new machines and souring it in open vats. It's the cup our crew reaches for when the day is done, poured straight into bare tin and left rough, the way it's meant to be."
+          "text": "We worked this out lately, running a hard grain through new machines and souring it in open vats. It's the cup our crew reaches for when the day's done, poured straight into bare tin and left rough, the way we like it."
         },
         {
           "variant": 2,
-          "text": "This season we made it new in a cold shop, milling a tough seed fresh and fermenting it in open tanks. It's our team's cup, shared rough and plain, with nothing smoothed over before it lands in your hands."
+          "text": "This season we made our brew new in a cold shop, milling a tough seed fresh and fermenting it in open tanks. It's our team's cup, shared rough and plain, with nothing smoothed over before it reaches your hands."
         },
         {
           "variant": 3,
-          "text": "We engineered this recently, pushing a hard kernel through new presses and fermenting it in open metal. When work is over, it's the cup we pass round the group in plain steel, blunt and unpolished and honest to the last."
+          "text": "We came up with this recently, pushing a hard kernel through new presses and fermenting it in open metal. When work is over, it's the cup we pass round in plain steel, blunt and rough with nothing polished up."
         },
         {
           "variant": 4,
-          "text": "We devised this one this year, running a coarse grain through new mills and souring it in open tubs. It's the cup our crew shares, dipped straight from bare iron, rough at the edges and all the better for being so."
+          "text": "We put this together this year, running a coarse grain through new mills and souring it in open tubs. It's the cup our crew shares, dipped straight from bare iron, rough at the edges and all the better for it."
         },
         {
           "variant": 5,
-          "text": "We figured this out lately, crushing a tough root with new machinery and letting it ferment in open vats. When the shift ends, it's the cup we pass round together, rough and unfussed, poured out exactly as it comes."
+          "text": "We figured this out lately, crushing a tough root with new machinery and letting it ferment in open vats. When the shift ends, it's the cup we pass round together, rough and plain, poured out just as it comes."
         },
         {
           "variant": 6,
-          "text": "We built this new this season, forcing a hard grain through steel rollers and souring it in open pans. It's the cup we makers keep for ourselves, ladled into plain tin and left as blunt as it wants to be."
+          "text": "We built this new this season, running a hard grain through steel rollers and souring it in open pans. It's the cup we makers keep for ourselves, ladled into plain tin and left just as blunt as it comes."
         },
         {
           "variant": 7,
-          "text": "We make it new, running a hard seed through fresh mills and souring it in open tubs. It's the cup our crew shares around at the end, thick and unsmoothed, poured out just as rough as the moment it lands."
+          "text": "We make our drink new, running a hard seed through fresh mills and souring it in open tubs. It's the cup our crew passes around, thick and rough, poured out just as rough as it comes with nothing smoothed over."
         },
         {
           "variant": 8,
-          "text": "We reworked this with new tools, driving a coarse grain through fresh machines and fermenting it in open troughs. It's our team's cup, drunk from rough steel with nothing dressed up, and honestly we would not change a thing."
+          "text": "We reworked this with new tools, driving a coarse grain through fresh machines and fermenting it in open troughs. It's our team's cup, drunk from rough steel with nothing dressed up for show, and honestly we wouldn't change a thing."
         },
         {
           "variant": 9,
-          "text": "We dreamed this up lately, running a hard botanical through new gear and souring it out in the open air. It's the cup our crew gathers over, caught in plain pewter, coarse and unhidden right down to the last drop."
+          "text": "We dreamed this up lately, running a hard botanical through new gear and souring it out in the open air. It's the cup our crew gathers over, caught in plain pewter, coarse and rough right down to the last drop."
         },
         {
           "variant": 10,
-          "text": "We make it fresh, milling a tough grain with new machinery and turning it in open pans. It's the cup our workers reach for, handed out in bare metal, rough and plain and never once tidied up for anybody."
+          "text": "We make our brew fresh, milling a tough grain with new machinery and turning it in open pans. It's the cup our workers reach for, handed out in bare metal, rough and plain and never once tidied up for anyone."
         },
         {
           "variant": 11,
-          "text": "We invented this recently, pushing a hard grain through new presses and fermenting it in open vats. When the day ends, it's the cup our crew shares, poured into plain tin and left just as rough as it pours."
+          "text": "We thought this up recently, pushing a hard grain through new presses and fermenting it in open vats. When the day ends, it's the cup our crew shares, poured into plain tin and left just as rough as it pours."
         },
         {
           "variant": 12,
@@ -570,35 +570,35 @@
         },
         {
           "variant": 13,
-          "text": "We engineered this new, driving a tough root through fresh mills and fermenting it in open tubs. It's the cup our crew comes back to, poured into bare iron, rough at the edges and plain with nothing smoothed away."
+          "text": "We cooked this up new, driving a tough root through fresh mills and fermenting it in open tubs. It's the cup our crew comes back to, poured into bare iron, rough at the edges and plain with nothing smoothed away."
         },
         {
           "variant": 14,
-          "text": "We devised this lately with new equipment, crushing a hard grain fresh and souring it in open vats. It's the cup we makers pass round among ourselves, in plain tin, rough and unfinished just the way we mean it."
+          "text": "We worked this up lately with new gear, crushing a hard grain fresh and souring it in open vats. It's the cup we makers pass round among ourselves, in plain tin, rough and blunt just the way we mean it."
         },
         {
           "variant": 15,
-          "text": "We built this fresh, forcing a tough seed through new machines and fermenting it in open troughs. When the shift is over, it's the cup we drink from rough steel, blunt and unsmoothed, exactly the way we brew it."
+          "text": "We built this fresh, pushing a tough seed through new machines and fermenting it in open troughs. When the shift is over, it's the cup we drink from rough steel, blunt and plain, exactly the way we brew it."
         },
         {
           "variant": 16,
-          "text": "We figured this fresh this year, milling a hard kernel with new gear and souring it out in the open. It's our team's cup, ladled into bare metal, coarse and plain with not a single thing done to soften it."
+          "text": "This year we figured out our brew fresh, milling a hard kernel with new gear and souring it out in the open. It's our team's cup, ladled into bare metal, coarse and plain with nothing done to soften it."
         },
         {
           "variant": 17,
-          "text": "We worked this up recently, running a coarse grain through new presses and fermenting it in open pans. It's the cup our crew hands round together, in plain, unlined tin, rough at every edge and all the better for it."
+          "text": "We started making this recently, running a coarse grain through new presses and fermenting it in open pans. It's the cup our crew hands round together, in plain, unlined tin, rough at every edge and all the better for it."
         },
         {
           "variant": 18,
-          "text": "We make it with new machinery, driving a tough grain through and souring it down in open vats. It's the cup our workers share, dipped rough from bare steel, plain and unsmoothed with nothing added on for the show of it."
+          "text": "We make our drink with new machinery, driving a tough grain through and souring it down in open vats. It's the cup our workers share, dipped rough from bare steel, plain and unsmoothed with nothing added just for show."
         },
         {
           "variant": 19,
-          "text": "We engineered this fresh, pushing a hard seed through modern mills and fermenting it in open tubs. It's the cup our crew passes round, in plain iron, coarse and blunt just as it comes straight out of the tub."
+          "text": "We set this up fresh, pushing a hard seed through modern mills and fermenting it in open tubs. It's the cup our crew passes round, in plain iron, coarse and blunt just as it comes straight out of the tub."
         },
         {
           "variant": 20,
-          "text": "We devised this up the ridge, milling a tough grain new and souring it in open tanks. It's our team's cup, poured rough into bare tin, blunt and plain with none of the hard edges ever smoothed down."
+          "text": "We put this together up the ridge, milling a tough grain fresh and souring it in open tanks. It's our team's cup, poured rough into bare tin, blunt and plain with none of the hard edges ever smoothed down."
         }
       ]
     },
@@ -608,23 +608,23 @@
       "variants": [
         {
           "variant": 1,
-          "text": "We still make ours by the same slow steps we've kept for generations: the pale root steeped, then strained until it runs clear. It's the fine cup we reach for come evening, lovely on your own or with one other."
+          "text": "We still make our brew the same slow way we have for generations: we steep the pale root, then strain it until it runs clear. It's the cup we reach for in the evening, and it's lovely on your own or with one other person."
         },
         {
           "variant": 2,
-          "text": "Nothing about how we brew has changed—the same pale root, steeped and strained clear, just as it always has been. We think it makes a fine cup for the evening, whether you keep it to yourself or share it with one."
+          "text": "Nothing about how we brew our cup has changed. It's the same pale root, steeped and strained clear, just like always. We think it makes a fine drink for the evening, whether you keep it to yourself or share it with one other person."
         },
         {
           "variant": 3,
-          "text": "Our recipe hasn't shifted in generations, and we wouldn't want it to. We draw the pale root out slowly and strain it clear, and what you get is a fine evening cup—one that suits you alone just as well as with one other."
+          "text": "Our recipe hasn't changed in generations, and we wouldn't want it to. We draw the pale root out slowly and strain it clear, and what you get is a fine evening cup—one that suits you on your own just as well as with one other."
         },
         {
           "variant": 4,
-          "text": "We prepare it exactly the way it's always been prepared: the pale root steeped, then strained until clear. It's a slim little cup for the evening, made just as much for a quiet hour to yourself as for time with one companion."
+          "text": "Everything we do here is exactly the way it's always been done: we steep the pale root, then strain it until clear. It's a slim cup for the evening, meant just as much for a quiet hour to yourself as for time with one other person."
         },
         {
           "variant": 5,
-          "text": "We make it the way it's always been made, letting the pale root steep before we strain it clear. For us it's the fine cup that closes the day, and it's just as good on your own as it is with one."
+          "text": "We make it the way it's always been made, letting the pale root steep before we strain it clear. For us it's the cup that closes the day, and it's just as good on your own as it is with one other person."
         },
         {
           "variant": 6,
@@ -632,59 +632,59 @@
         },
         {
           "variant": 7,
-          "text": "We've never strayed from how it was made long ago: the pale root steeped, then strained clear. It's a delicate cup for the evening, and we've always felt it sits well in your own company or in one other's."
+          "text": "We've never strayed from how it was made long ago: we steep the pale root, then strain it clear. It's a delicate cup for the evening, and we've always felt it fits your own company just as well as one other person's."
         },
         {
           "variant": 8,
-          "text": "We've kept to the very same steps for generations, steeping the pale root and straining it clear. It makes a fine cup for dusk, the kind you can happily take on your own or pour for one alongside you."
+          "text": "We've kept to the very same steps for generations, steeping the pale root and straining it clear. It makes a fine cup for the evening, the kind you can happily drink on your own or pour for one other person beside you."
         },
         {
           "variant": 9,
-          "text": "We haven't changed a thing across the generations. We coax the pale root out gently and strain it clear, and it pours smooth—a cup we love for a lone hour of your own or for sharing with one companion."
+          "text": "We haven't changed a thing across the generations. We draw the pale root out gently and strain it clear, and our drink pours smooth—a cup we love for an hour of your own or for sharing with one other person."
         },
         {
           "variant": 10,
-          "text": "We brew it just as it was brewed in the very beginning, the pale root steeped and strained clear. It makes a fine pour for the evening, and it asks for nothing more than your own company or one other's."
+          "text": "We brew it just as it was brewed at the very start, the pale root steeped and strained clear. It makes a fine pour for the evening, and it needs nothing more than your own company, or the company of one other person."
         },
         {
           "variant": 11,
-          "text": "The steps we follow haven't changed in generations. We let the pale root steep slow and strain it clear, and the result is a slender evening cup that suits one person just as easily as it suits two."
+          "text": "The steps we follow haven't changed in generations. We let the pale root steep slowly and then strain it clear, and the result is a slender cup for the evening that suits one person just as easily as it suits two."
         },
         {
           "variant": 12,
-          "text": "We prepare it much as we long have, drawing the pale root and straining it clear. It's a fine cup for the day's end—yours alone if you like your quiet, or something to share with one when you don't."
+          "text": "We make it much as we long have, drawing out the pale root and straining it clear. It's a fine cup for the end of the day—yours alone if you like the quiet, or something to share with one other person when you don't."
         },
         {
           "variant": 13,
-          "text": "We take the old, unhurried steps every time, steeping the pale root and straining it clear. It's a fine cup for the evening, and we made it for your own quiet just as much as for a single companion."
+          "text": "We take the same old, unhurried steps every time, steeping the pale root and straining it clear. It's a fine cup for the evening, and we made it as much for a quiet hour of your own as for one spent with someone else."
         },
         {
           "variant": 14,
-          "text": "We've brewed it unchanged all the way down the generations, letting the pale root steep before we strain it clear. It pours smooth, and it's just as fitting for an hour kept to yourself as for one spent with someone beside you."
+          "text": "We've brewed it unchanged all the way down the generations, letting the pale root steep before we strain it clear. Our drink pours smooth, and it fits an hour kept to yourself just as well as one spent with someone beside you."
         },
         {
           "variant": 15,
-          "text": "We make it the same way we always have, long unchanged: pale root steeped, then strained clear. It's a fine pour for dusk, and we're happy for you to enjoy it on your own, or in the easy company of one."
+          "text": "We make it the same way we always have, long unchanged: the pale root steeped, then strained clear. It's a fine pour for the evening, and we're glad for you to enjoy it on your own or in the easy company of one other person."
         },
         {
           "variant": 16,
-          "text": "Our recipe has gone untouched for generations, and we're glad of it. We steep the pale root and strain it clear into a delicate evening cup—one that's every bit as good on your own as it is with one."
+          "text": "Our recipe has gone untouched for generations, and we're glad of it. We steep the pale root and strain it clear into a delicate evening cup—one that's every bit as good on your own as it is with one other person."
         },
         {
           "variant": 17,
-          "text": "We keep to the old steps that never change, steeping the pale root and straining it clear. What we end up with is a fine cup for the evening, and it's yours to enjoy whether you're alone or sitting with one."
+          "text": "We keep to the old steps that never change, steeping the pale root and straining it clear. What we end up with is a fine cup for the evening, and it's yours to enjoy whether you're on your own or sitting with one other person."
         },
         {
           "variant": 18,
-          "text": "For as long as anyone can remember, we've steeped it the same way from a pale root and strained it clear. It's a fine cup for the evening, well suited to your own company or to one other's."
+          "text": "For as long as anyone can remember, we've steeped it the same way from a pale root and strained it clear. It's a fine cup for the evening, well suited to your own company or that of one other person."
         },
         {
           "variant": 19,
-          "text": "We draw ours from a pale root the old way, unchanged for generations, and strain it clear. The result is a slim evening cup that feels just as fitting when you're alone as it does when you're with one other."
+          "text": "We draw our brew from a pale root the old way, unchanged for generations, and strain it clear. What we get is a slim evening cup that feels just as fitting when you're alone as when you're with one other person."
         },
         {
           "variant": 20,
-          "text": "We brew it now just as we ever have, the pale root steeped and strained down to a clear cup. It's a fine evening drink, and it's happy to be taken on your own or with one for company."
+          "text": "We brew it now just as we always have, the pale root steeped and strained down to a clear cup. It's a fine evening drink, and it's happy to be taken on your own or with one other person for company."
         }
       ]
     },
@@ -694,83 +694,83 @@
       "variants": [
         {
           "variant": 1,
-          "text": "A few seasons back we reworked ours from an older, plainer drink into something paler and more delicate. We pour it for the late quiet hour and one glass only—the glass you keep to yourself, taken alone, with no one else expected."
+          "text": "A few seasons back we changed our drink from something older and plainer into a paler, more delicate pour. We serve it for the late quiet hour and one glass only—the glass you keep to yourself, taken alone, with no one else expected."
         },
         {
           "variant": 2,
-          "text": "We reworked ours lately from an older, simpler preparation, and now it's clean and pale in a thin, stemmed glass. We keep it for one late hour on our own—a single quiet pour, meant only for the time you spend alone."
+          "text": "We remade our drink lately from an older, simpler recipe, and now it's clean and pale in a thin, stemmed glass. We keep it for a single late hour alone—one quiet pour, meant only for the time you spend by yourself."
         },
         {
           "variant": 3,
-          "text": "A few seasons ago we made ours over from an older, plainer form. Now it's a delicate, clear pour in fine glass, one you sip slowly and entirely by yourself—unhurried, and kept for your own quiet company rather than anyone else's."
+          "text": "A few seasons ago we made our drink over from an older, plainer version. Now it's a delicate, clear pour in fine glass, one you sip slowly and all by yourself—unhurried, and kept for your own company rather than anyone else's."
         },
         {
           "variant": 4,
-          "text": "Not long ago we reworked ours from an older, plainer drink, and it pours pale and smooth into a thin glass. We make it for late in the night, when you take a single one alone and no one else is near."
+          "text": "Not long ago we redid our drink from an older, plainer one, and it pours pale and smooth into a thin glass. We make it for late in the night, when you take a single glass alone and no one else is near."
         },
         {
           "variant": 5,
-          "text": "A few seasons past, we reworked ours from an older, simpler drink into a clean, delicate pour we like to serve in stemmed glass. It's meant to be kept to yourself—one glass only, and then the evening is quietly your own."
+          "text": "A few seasons back, we remade our drink from an older, simpler one into a clean, delicate pour we like to serve in a stemmed glass. It's meant to be kept to yourself—one glass only, and then the evening is quietly your own."
         },
         {
           "variant": 6,
-          "text": "We freshened ours a few seasons ago from an older, plainer preparation. It's pale and fine in a slender glass, poured for a late hour you spend alone—the kind of hour that asks for nothing more than one glass and yourself."
+          "text": "We freshened up our drink a few seasons ago from an older, plainer one. It's pale and fine in a slender glass, poured for a late hour you spend alone—the kind of hour that asks for nothing more than one glass and yourself."
         },
         {
           "variant": 7,
-          "text": "We made ours anew a few seasons back from an older, plainer drink, and it comes smooth and pale in delicate glass. We pour it to be taken alone, with no one near—a quiet glass that keeps its own company."
+          "text": "We made our drink anew a few seasons back from an older, plainer one, and it comes smooth and pale in a delicate glass. We pour it to be taken alone, with no one near—just one quiet glass and the evening to yourself."
         },
         {
           "variant": 8,
-          "text": "A handful of seasons ago we reworked ours from an older drink into a clear, delicate pour in a thin glass. We keep it for a private hour alone—the sort of hour you'd rather not share, and don't have to."
+          "text": "A handful of seasons ago we made our drink over from an older one into a clear, delicate pour in a thin glass. We keep it for a private hour alone—the sort of hour you'd rather not share, and don't have to."
         },
         {
           "variant": 9,
-          "text": "We reworked ours a few seasons ago from an older, plainer one, and now it's pale and clean in fine glass. We pour it for yourself and no one else at all—a quiet glass shared with no one, and better for it."
+          "text": "We remade our drink a few seasons ago from an older, plainer one, and now it's pale and clean in fine glass. We pour it for yourself and no one else at all—a quiet glass shared with no one, and better for it."
         },
         {
           "variant": 10,
-          "text": "We updated ours a few seasons back from an older, simpler drink. It's delicate and pale in a slender glass, sipped slowly and quite alone—one pour, taken at your own pace, and then the bottle is quietly closed for the night."
+          "text": "We updated our drink a few seasons back from an older, simpler one. It's delicate and pale in a slender glass, sipped slowly and quite alone—one pour, taken at your own pace, and then the bottle is quietly closed for the night."
         },
         {
           "variant": 11,
-          "text": "We took an older, plainer drink a few seasons ago and reworked it into something clean and smooth, poured into a thin glass. It's one glass, taken by yourself—no second pour, no company, just the quiet of your own evening."
+          "text": "We took an older, plainer drink a few seasons ago and remade it into something clean and smooth, poured into a thin glass. It's one glass, taken by yourself—no second pour, no company, just the quiet of your own evening."
         },
         {
           "variant": 12,
-          "text": "Lately we made ours over from an older, plainer drink, and now it's a pale, delicate pour we serve in a stemmed glass. We mean it to be drawn slowly, in a room of your own, and enjoyed at a pace all your own."
+          "text": "Lately we made our drink over from an older, plainer one, and now it's a pale, delicate pour we serve in a stemmed glass. We mean it to be sipped slowly, in a room of your own, at a pace all your own."
         },
         {
           "variant": 13,
-          "text": "A few seasons back we reworked ours from an older, simpler drink into a clear, fine pour we set in a delicate glass. We keep it for the late hour you spend by yourself—quiet, unhurried, and answerable to no one but you."
+          "text": "A few seasons back we remade our drink from an older, simpler one into a clear, fine pour we set in a delicate glass. We keep it for the late hour you spend by yourself—quiet, unhurried, and yours alone to enjoy."
         },
         {
           "variant": 14,
-          "text": "We reworked ours a few seasons ago from an older, plainer form, and it's smooth and pale in a thin glass. We make it for you alone—a single, unhurried pour, with nothing to rush toward and no one to pour a second for."
+          "text": "We made our drink over a few seasons ago from an older, plainer one, and it's smooth and pale in a thin glass. We make it for you alone—a single, unhurried pour, with nothing to rush and no one to pour a second glass for."
         },
         {
           "variant": 15,
-          "text": "Not long ago we reworked ours from an older, plainer drink into a delicate, clean pour we serve in fine, stemmed glass. It's meant to be sipped slowly and entirely alone, one glass at a pace that's wholly your own."
+          "text": "Not long ago we changed our drink from an older, plainer one into a delicate, clean pour we serve in fine, stemmed glass. It's meant to be sipped slowly and entirely alone, one glass at a pace that's wholly your own."
         },
         {
           "variant": 16,
-          "text": "We made ours fresh a few seasons back from an older, simpler drink, and it pours pale and fine into a slender glass. It's kept to yourself and no one else—a single glass for your own company, and gladly so."
+          "text": "We made our drink fresh a few seasons back from an older, simpler one, and it pours pale and fine into a slender glass. It's kept to yourself and no one else—a single glass for your own company, and gladly so."
         },
         {
           "variant": 17,
-          "text": "We freshened ours a few seasons ago from an older, plainer drink, and now it's a clean, delicate pour in clear stemware. We make it for the still of night, taken alone—one quiet glass, and an hour that's entirely yours to keep."
+          "text": "We freshened up our drink a few seasons ago from an older, plainer one, and now it's a clean, delicate pour in clear stemware. We make it for the still of night, taken alone—one quiet glass, and an hour that's entirely yours to keep."
         },
         {
           "variant": 18,
-          "text": "A few seasons back we reworked ours from an older, plainer drink, and it's a smooth, pale pour in a fine glass. We made it for a lone late hour, unshared—one glass you keep entirely to yourself, and pour for no one else."
+          "text": "A few seasons back we remade our drink from an older, plainer one, and it's a smooth, pale pour in a fine glass. We made it for a lone late hour, unshared—one glass you keep entirely to yourself, and pour for no one else."
         },
         {
           "variant": 19,
-          "text": "We made ours over a few seasons ago from an older, simpler drink, and now it's a delicate, clear pour in a thin glass. It's for taking on your own—just one glass, poured quietly and meant for no one else but you."
+          "text": "We made our drink over a few seasons ago from an older, simpler one, and now it's a delicate, clear pour in a thin glass. It's for taking on your own—just one glass, poured quietly and meant for no one else but you."
         },
         {
           "variant": 20,
-          "text": "We reworked ours a few seasons back from an older, plainer drink, and it's a pale, fine pour in delicate, stemmed glass. We make it to be sipped alone in a late room—one glass, and the quiet that comes with it."
+          "text": "We remade our drink a few seasons back from an older, plainer one, and it's a pale, fine pour in delicate, stemmed glass. We make it to be sipped alone in a late room—one glass, and the quiet that comes with it."
         }
       ]
     },
@@ -780,83 +780,83 @@
       "variants": [
         {
           "variant": 1,
-          "text": "We keep things simple, brewing in big batches from one hardy root. It's the easy, generous drink you pass round the whole group outside, poured out into whatever you happen to be holding, whatever cup or vessel is nearest."
+          "text": "We keep things simple, brewing in big batches from one hardy root. It's the easy, generous drink you pass round the whole group outside, poured out into whatever cup you happen to be holding, or whatever's nearest to hand."
         },
         {
           "variant": 2,
-          "text": "We brew ours plainly in great barrels from one sturdy plant, nothing more to it. This is the crowd's drink, shared out in the open and poured rough, with plenty for everyone who's standing around and no one left waiting."
+          "text": "We make our brew plainly in great barrels from one sturdy plant, and there's nothing more to it. It's the crowd's drink, shared out in the open and poured rough, with plenty for everyone and no one left waiting."
         },
         {
           "variant": 3,
-          "text": "We make ours in quantity from a tough root, and there's nothing fancy about it. It's the outdoor drink that circles the whole group, poured rough, with more than enough to go around for every one of us."
+          "text": "We make our drink in big amounts from one tough root, and there's nothing fancy about it. It's made for outdoors, circling the whole group, poured rough, with more than enough to go around for every last one of us."
         },
         {
           "variant": 4,
-          "text": "We ferment ours plainly in deep casks from a hardy root, keeping it easygoing from start to finish. It's the drink you share with the crowd outside, a rough pour that goes to everyone, no one poured better than the next."
+          "text": "We ferment our drink plainly in deep casks from a hardy root, keeping it easygoing from start to finish. It's the one you share with the crowd outside, a rough pour that goes to everyone, and nobody gets a better pour than the next."
         },
         {
           "variant": 5,
-          "text": "We brew ours in big vats from a sturdy root, made as simply as it comes. It's the generous drink that goes round the whole gathering, poured out into whatever mugs and tins people have brought along with them."
+          "text": "We brew our drink in big vats from a sturdy root, made about as simply as it comes. It's the generous cup that goes round the whole gathering, poured out into whatever mugs and tins people have brought along with them."
         },
         {
           "variant": 6,
-          "text": "We make ours without fuss in large drums from a hardy root. It's the crowd's drink, set out in the open for whoever's there, with plenty for everyone and no need to hold back or measure a single cup."
+          "text": "We make our brew without fuss in large drums from a hardy root. It's the one for a crowd, set out in the open for whoever's there, with plenty for everyone and no need to hold back or measure out a single cup."
         },
         {
           "variant": 7,
-          "text": "We brew ours in quantity from a tough plant, plain and simple, with nothing about it dressed up. It's the shared drink that travels the whole group outdoors, poured rough for all, going wherever the crowd happens to wander."
+          "text": "We brew our drink in big amounts from a tough plant, plain and simple, with nothing about it dressed up. It's the shared cup that travels the whole group outdoors, poured rough for everyone, going wherever the crowd happens to wander."
         },
         {
           "variant": 8,
-          "text": "We ferment ours in wide casks from a sturdy root, made simply and left at that. It's the generous outdoor drink you pass down the line, one cup to the next, poured rough for all until the cask itself runs dry."
+          "text": "We ferment our drink in wide casks from a sturdy root, made simply and left at that. It's the generous outdoor cup you pass down the line, one hand to the next, poured rough for everyone until the cask itself runs dry."
         },
         {
           "variant": 9,
-          "text": "We make ours plainly in big batches from a hardy root, and that's about all there is to it. It's the easy drink for a crowd, shared in the open and poured rough for all, however many turn up."
+          "text": "We make our drink plainly in big batches from a hardy root, and that's about all there is to it. It's the easy cup for a crowd, shared in the open and poured rough for everyone, however many turn up."
         },
         {
           "variant": 10,
-          "text": "We brew ours in large barrels from a tough root and keep the whole thing simple. It's the outdoor drink that goes round to every hand, poured rough, with plenty to spare so nobody stands there with an empty cup."
+          "text": "We brew our drink in large barrels from a tough root and keep the whole thing simple. It's the outdoor cup that goes round to every hand, poured rough, with plenty to spare so nobody stands there with an empty cup."
         },
         {
           "variant": 11,
-          "text": "We make ours in deep drums from a hardy root, and there's nothing precious about any of it. It's the generous drink you share with the whole party outside, a rough pour handed round to whoever's close enough to reach."
+          "text": "We make our brew in deep drums from a hardy root, and there's nothing precious about any of it. It's the generous cup you share with the whole party outside, a rough pour handed round to whoever's close enough to reach."
         },
         {
           "variant": 12,
-          "text": "We ferment ours in big casks from a sturdy plant, plain work with nothing dressed up. It's the crowd's easy drink, poured rough out in the open, and there's always plenty to spare so every cup keeps getting topped up."
+          "text": "We ferment our drink in big casks from a sturdy plant, plain work with nothing dressed up. It's the crowd's easy cup, poured rough out in the open, and there's always plenty to spare so every cup keeps getting topped up."
         },
         {
           "variant": 13,
-          "text": "We brew ours simply in great vats from a hardy root, keeping it as plain as can be. It's the shared drink that circles the group outdoors, poured rough into whatever mugs and tins are going round at the time."
+          "text": "We brew our drink simply in great vats from a hardy root, keeping it as plain as can be. It's the shared cup that circles the group outdoors, poured rough into whatever mugs and tins are going round at the time."
         },
         {
           "variant": 14,
-          "text": "We make ours in quantity from a tough root, plain and unfussy through and through. It's the outdoor drink you pass round the whole crowd, poured rough and always to spare, so the cup never has to stop moving."
+          "text": "We make our drink in big amounts from a tough root, plain and unfussy through and through. It's the outdoor cup you pass round the whole crowd, poured rough and always to spare, so the cup never has to stop moving."
         },
         {
           "variant": 15,
-          "text": "We ferment ours in big barrels from a sturdy root, made simply and nothing more. It's the generous drink for a gathering, poured rough into plain cups and handed straight along to the next person standing beside you."
+          "text": "We ferment our drink in big barrels from a sturdy root, made simply and nothing more. It's the generous cup for a gathering, poured rough into plain cups and handed straight along to the next person standing beside you."
         },
         {
           "variant": 16,
-          "text": "We brew ours plainly in large drums from a hardy plant, no more complicated than that. It's the easygoing crowd drink you set right on the ground, passed round rough for all, and handed to whoever reaches a cup in."
+          "text": "We brew our drink plainly in large drums from a hardy plant, no more complicated than that. It's the easygoing crowd cup you set right on the ground, passed round rough for everyone, and handed to anyone who holds out a cup."
         },
         {
           "variant": 17,
-          "text": "We make ours without ceremony in wide casks from a tough root, keeping the whole business plain. It's the shared outdoor drink that goes hand to hand around the circle, poured rough for all and never fussed over once."
+          "text": "We make our brew with no ceremony in wide casks from a tough root, keeping the whole business plain. It's the shared outdoor cup that goes hand to hand around the circle, poured rough for everyone and never fussed over once."
         },
         {
           "variant": 18,
-          "text": "We brew ours in big batches from a hardy root and keep it simple, start to finish. It's the generous drink you pass round the whole company outside, a rough pour that reaches every last person standing in the group."
+          "text": "We brew our drink in big batches from a hardy root and keep it simple, start to finish. It's the generous cup you pass round the whole company outside, a rough pour that reaches every last person standing in the group."
         },
         {
           "variant": 19,
-          "text": "We ferment ours in great vats from a sturdy plant, made plainly with nothing added on. It's the crowd's easy drink, shared out in the open and poured rough for all, going round again for anyone who wants more."
+          "text": "We ferment our drink in great vats from a sturdy plant, made plainly with nothing added on. It's the crowd's easy cup, shared out in the open and poured rough for everyone, going round again for anyone who wants more."
         },
         {
           "variant": 20,
-          "text": "We make ours simply in deep barrels from a tough root, plain as the day is long. It's the outdoor drink for the whole group, passed round rough into plain cups and kept moving until every single one is full."
+          "text": "We make our drink simply in deep barrels from a tough root, plain as the day is long. It's the outdoor cup for the whole group, passed round rough into plain cups and kept moving until every single one is full."
         }
       ]
     },
@@ -866,83 +866,83 @@
       "variants": [
         {
           "variant": 1,
-          "text": "We make ours much as it's always been made, with little fuss. It's an easy everyday cup for an hour you keep to yourself, poured plain into a simple cup and always ready whenever you'd like to sit down with it."
+          "text": "We make our cup much the way it's always been made, with little fuss. It's an easy, everyday drink for an hour you keep to yourself, poured plain into a simple cup and always ready whenever you'd like to sit down with it."
         },
         {
           "variant": 2,
-          "text": "We brew ours the old, familiar way, with little fuss. It's a dependable everyday cup that's most often kept to yourself, poured plain and ready whenever it suits you—no occasion needed, just a good, steady drink when you want one."
+          "text": "We brew our cup the old, familiar way, with little fuss. It's a dependable everyday drink that's most often kept to yourself, poured plain and ready whenever it suits you—no occasion needed, just a good, steady cup when you want one."
         },
         {
           "variant": 3,
-          "text": "We brew ours much as we always have, with little fuss. It's an easy, steady cup for a quiet moment that's mostly your own, taken plain at no particular hour—whenever the day gives you a little room to yourself."
+          "text": "Our cup is brewed much as it always has been, with little fuss. It's an easy, steady drink for a quiet moment that's mostly your own, taken plain at no particular hour—whenever the day gives you a little room to yourself."
         },
         {
           "variant": 4,
-          "text": "We make ours as we long have, with little fuss. It's a reliable everyday drink for an unhurried hour on your own, poured from a plain cup and happy to keep you company while you take your time with it."
+          "text": "We've made our drink the same way for a long time, with little fuss. It's a reliable everyday cup for an unhurried hour on your own, poured plain and happy to keep you company while you take your time with it."
         },
         {
           "variant": 5,
-          "text": "We make ours the settled old way, with little fuss. It's an easy, dependable cup for the quiet stretch of a day you spend mostly alone, taken plain whenever the moment comes and never asking anything special of you."
+          "text": "Our cup is made the same old way it always has been, with little fuss. It's an easy, dependable drink for the quiet stretch of a day you spend mostly alone, taken plain whenever the moment comes and never asking anything special of you."
         },
         {
           "variant": 6,
-          "text": "We brew ours the old way, with little fuss. It's a steady, easy cup mostly for your own company, poured plain at any hour of the day—morning or late on, whenever you happen to feel like having one all to yourself."
+          "text": "We brew our cup the old way, with little fuss. It's a steady, easy drink mostly for your own company, poured plain at any hour of the day—morning or late on, whenever you feel like having one all to yourself."
         },
         {
           "variant": 7,
-          "text": "We make ours much as we always have, without fuss. It's a dependable everyday cup for an hour spent quietly on your own, poured plain whenever you like and always right there when you want to come back to it."
+          "text": "We make our drink much as we always have, without fuss. It's a dependable everyday cup for an hour spent quietly on your own, poured plain whenever you like and always right there when you want to come back to it."
         },
         {
           "variant": 8,
-          "text": "We make ours as it always was, with little fuss. It's an easy, reliable drink for a quiet hour usually spent alone, sipped from a plain, everyday cup and asking nothing of you but a little time to yourself."
+          "text": "Our drink is made just as it always was, with little fuss. It's an easy, reliable cup for a quiet hour usually spent alone, sipped from a plain, everyday cup and asking nothing of you but a little time to yourself."
         },
         {
           "variant": 9,
-          "text": "We brew ours the old, familiar way, with little fuss. It's a steady everyday cup for the small pauses of a day, the ones that are mostly your own, poured plain and ready whenever one of them comes along."
+          "text": "We brew our cup the old, familiar way, with little fuss. It's a steady everyday drink for the small pauses of a day, the ones that are mostly your own, poured plain and ready whenever one of them comes along."
         },
         {
           "variant": 10,
-          "text": "We make ours as it ever has been, with little fuss. It's a calm, dependable cup for an unhurried hour on your own, poured into a plain cup and content to sit with you as long as you like."
+          "text": "Our cup is made the way it always has been, with little fuss. It's a calm, dependable drink for an unhurried hour on your own, poured into a plain cup and content to sit with you as long as you like."
         },
         {
           "variant": 11,
-          "text": "We make ours the same easy way as ever, with little fuss. It's a familiar everyday cup for a quiet moment to yourself, poured plain and unhurried—nothing to it, really, just a good drink when you'd like a little peace."
+          "text": "We make our cup the same easy way we always have, with little fuss. It's a familiar everyday drink for a quiet moment to yourself, poured plain and unhurried—nothing to it, really, just a good cup when you'd like a little peace."
         },
         {
           "variant": 12,
-          "text": "We make ours much as we always have, with little fuss. It's an easy, reliable drink for no fixed hour—early or late, it's all the same—usually taken alone, poured plain into a simple cup you've come to know well."
+          "text": "We make our drink much as we always have, with little fuss. It's an easy, reliable cup for no fixed hour—early or late, it's all the same—usually taken alone, poured plain into a simple cup you've come to know well."
         },
         {
           "variant": 13,
-          "text": "We make ours the old, settled way, with little fuss. It's a dependable cup for the everyday, most often had on your own, poured plain whenever you like and always ready to be part of an ordinary, quiet afternoon."
+          "text": "Our cup is made the old, settled way, with little fuss. It's a dependable drink for the everyday, most often had on your own, poured plain whenever you like and always ready to be part of an ordinary, quiet afternoon."
         },
         {
           "variant": 14,
-          "text": "We brew ours with little fuss, much as it always was. It's a steady, easy cup for a lone, quiet hour, taken plain and returned to often—the kind of drink you drift back to without ever really thinking about it."
+          "text": "We brew our cup with little fuss, much as it always was. It's a steady, easy drink for a lone, quiet hour, taken plain and returned to often—the kind of cup you drift back to without ever really thinking about it."
         },
         {
           "variant": 15,
-          "text": "We make ours as it has always been, with little fuss. It's an easy everyday cup for a stretch of time you spend on your own, poured into a plain cup and asking nothing more than that you take it slow."
+          "text": "We've always made our cup the same way, with little fuss. It's an easy everyday drink for a stretch of time you spend on your own, poured into a plain cup and asking nothing more than that you take it slow."
         },
         {
           "variant": 16,
-          "text": "We make ours in the old, familiar way, with little fuss. It's a dependable everyday cup that's mostly your own, sipped plain at no set hour—whenever you happen to want it, and never the least bit of trouble to have."
+          "text": "We make our cup in the old, familiar way, with little fuss. It's a dependable everyday drink that's mostly your own, sipped plain at no set hour—whenever you happen to want it, and never the least bit of trouble to have."
         },
         {
           "variant": 17,
-          "text": "We make ours much as it always has been, with little fuss. It's an easy, steady drink for the quiet hours you mostly spend alone, poured from a plain, everyday cup and glad to be there through any of them."
+          "text": "Our drink is made much as it always has been, with little fuss. It's an easy, steady cup for the quiet hours you mostly spend alone, poured from a plain, everyday cup and glad to be there through any of them."
         },
         {
           "variant": 18,
-          "text": "We make ours the familiar old way, with little fuss about it. It's a reliable cup for the everyday, usually had on your own, poured plain anytime you please—no ceremony, no waiting, just a good drink ready when you are."
+          "text": "We make our cup the familiar old way, with little fuss about it. It's a reliable drink for the everyday, usually had on your own, poured plain anytime you please—no ceremony, no waiting, just a good cup ready when you are."
         },
         {
           "variant": 19,
-          "text": "We brew ours much as we always have, with little fuss. It's a calm, dependable everyday cup for a quiet hour to yourself, poured plain and sipped without hurry—the sort of drink that keeps an easy pace with you."
+          "text": "We brew our cup much as we always have, with little fuss. It's a calm, dependable everyday drink for a quiet hour to yourself, poured plain and sipped without hurry—the sort of cup that keeps an easy pace with you."
         },
         {
           "variant": 20,
-          "text": "We make ours as we long have, with little fuss. It's an easy, dependable drink, usually taken alone, poured plain into a cup you come back to—the same steady one, day after day, and always right where you left it."
+          "text": "We make our drink the way we long have, with little fuss. It's an easy, dependable cup, usually taken alone, poured plain into a cup you come back to—the same steady one, day after day, and always right where you left it."
         }
       ]
     },
@@ -952,83 +952,83 @@
       "variants": [
         {
           "variant": 1,
-          "text": "Last year we re-engineered the whole thing at new tools, weighing every measure by hand before cold-steeping a single bright blossom. We decant it glowing into clear crystal — our pour for the still evening, and one you'll mostly drink alone."
+          "text": "Last year we rebuilt our drink on new tools, weighing every measure out by hand before we cold-steeped one bright blossom. We pour it glowing into clear crystal — the glass we make for a still evening, and one you'll mostly drink alone."
         },
         {
           "variant": 2,
-          "text": "We reformulated it last winter at new instruments, getting every measure exactly right before cold-steeping a pale blossom. Once it's ready we pour it luminous into thin crystal, meant to be sipped slowly and, more often than not, on your own."
+          "text": "We remade our drink last winter on new equipment, getting every measure exactly right before cold-steeping a pale blossom. Once it's ready, we pour it glowing into thin crystal — meant to be sipped slowly and, more often than not, on your own."
         },
         {
           "variant": 3,
-          "text": "This year one of our makers rebuilt it with calibrated tools, drawing a bright bloom cold and timing it to the exact minute. We decant it clear into stemware; it's rarely a cup we pass around, and this one tends to stay with you."
+          "text": "This year one of our makers rebuilt it with precise tools, drawing a bright bloom cold and timing it to the exact minute. We pour it clear into stemware; it's rarely a cup we pass around, and this one tends to stay with you."
         },
         {
           "variant": 4,
-          "text": "This very year we reformulated it on new apparatus, fixing every measure right down to the grain before cold-steeping a luminous blossom. We pour it into fine crystal, though honestly it's rarely something we share — we made it for one glass at a time."
+          "text": "This very year we remade our drink on new glassware, fixing every measure right down to the grain before cold-steeping a bright blossom. We pour it into fine crystal, though honestly it's rarely something we share — we made it for one glass at a time."
         },
         {
           "variant": 5,
-          "text": "Last season a maker of ours devised it fresh at new apparatus, keeping each measure exact and cold-infusing a bright flower. We pour it into clear stemware — the kind of glass you'll usually settle into quietly, on your own."
+          "text": "Last season one of our makers worked it out fresh on new glassware, keeping each measure exact and cold-steeping a bright flower. We pour it into clear stemware — the kind of glass you'll usually enjoy quietly, on your own."
         },
         {
           "variant": 6,
-          "text": "We rebuilt it this past year with new tools, carefully weighing out every amount and cold-steeping a bright blossom to one precise hour. It comes up luminous in clear crystal, and most evenings it's a glass you'll happily keep to yourself."
+          "text": "We rebuilt it this past year with new tools, carefully weighing out every amount and cold-steeping a bright blossom to one precise hour. It comes up glowing in clear crystal, and most evenings it's a glass you'll happily keep to yourself."
         },
         {
           "variant": 7,
-          "text": "One of our makers reformulated it recently at modern instruments, measuring each amount precisely before cold-steeping a pale blossom. We decant it into fine, stemmed crystal; it's seldom a cup we hand around, mostly meant for a single, unhurried sitting."
+          "text": "One of our makers remade it recently on newer equipment, measuring each amount precisely before cold-steeping a pale blossom. We pour it into fine, stemmed crystal; it's seldom a cup we hand around, mostly meant for a single, unhurried sitting."
         },
         {
           "variant": 8,
-          "text": "Just this year we reworked the recipe at new, precise apparatus, setting every measure by exact weight and cold-steeping a luminous bloom. We decant it into clear-footed glass, and most of the time you'll pour it for yourself and no one else."
+          "text": "Just this year we redid the recipe on new, precise equipment, setting every measure by exact weight and cold-steeping a bright bloom. We pour it into clear-footed glass, and most of the time you'll pour it for yourself and no one else."
         },
         {
           "variant": 9,
-          "text": "Lately we re-engineered it with new glass tools, holding every measure to the grain as we draw a bright blossom cold. We pour it into slender stemware — you'll seldom find it in company, since it's really a glass for your own quiet hour."
+          "text": "Lately we rebuilt it with new glass tools, holding every measure to the grain as we draw a bright blossom cold. We pour it into slender stemware — you'll seldom find it in company, since it's really a glass for your own quiet hour."
         },
         {
           "variant": 10,
-          "text": "This year a maker of ours reformulated it at fresh instruments, keeping each measure exact and cold-steeping a bright blossom. We decant it luminous into long-stemmed crystal — a cup we imagine you keeping mostly to yourself, poured slow and unshared."
+          "text": "This year one of our makers remade it on new equipment, keeping each measure exact and cold-steeping a bright blossom. We pour it glowing into long-stemmed crystal — a glass we picture you keeping mostly to yourself, poured slowly and just for you."
         },
         {
           "variant": 11,
-          "text": "Last season we re-engineered it with calibrated new tools and exact weights, steeping a bright blossom cold to one precise hour. It pours out luminous in clear crystal; usually it's a glass for one, brewed for the evening you spend alone."
+          "text": "Last season we rebuilt it with precise new tools and exact weights, steeping a bright blossom cold to one precise hour. It pours out glowing in clear crystal; usually it's a glass for one, made for the evening you spend alone."
         },
         {
           "variant": 12,
-          "text": "We rebuilt it this year at new instruments, weighing every amount exactly and cold-steeping a pale bloom to a counted hour. We decant it into thin crystal, and more often than not it's the glass you'll sit with alone, taking your time."
+          "text": "We rebuilt it this year on new equipment, weighing every amount exactly and cold-steeping a pale bloom to a counted hour. We pour it into thin crystal, and more often than not it's the glass you'll sit with alone, taking your time."
         },
         {
           "variant": 13,
-          "text": "There's a newer version of this, reformulated last winter with calibrated tools and timing we watch to the minute, drawing a lone white bloom cold. We decant it into clear stemware; we seldom share it, so mostly it stays a glass for one."
+          "text": "There's a newer version of this, remade last winter with precise tools and timing we watch to the minute, drawing a lone white bloom cold. We pour it into clear stemware; we seldom share it, so mostly it stays a glass for one."
         },
         {
           "variant": 14,
-          "text": "We made it over this year with new instruments and exact measures, cold-steeping a bright blossom to one precise hour. It turns out clear in footed glass, and most of the time it's a pour you'll enjoy on your own, unhurried."
+          "text": "We made it over this year with new equipment and exact measures, cold-steeping a bright blossom to one precise hour. It turns out clear in footed glass, and most of the time it's a pour you'll enjoy on your own, taking it slow."
         },
         {
           "variant": 15,
-          "text": "A maker of ours reformulated it at new apparatus, keeping each measure precise and cold-steeping a bright flower to an exact hour. We decant it into slender crystal, and you'll usually reach for it alone, in the last still stretch of the evening."
+          "text": "One of our makers remade it on new glassware, keeping each measure precise and cold-steeping a bright flower to an exact hour. We pour it into slender crystal, and you'll usually reach for it alone, late in the quiet evening."
         },
         {
           "variant": 16,
-          "text": "This past season a maker of ours re-engineered it, weighing every measure exactly before cold-steeping a single bright blossom. We pour it luminous into clear, stemmed crystal — mostly a glass for your own company, poured slow and kept close."
+          "text": "This past season one of our makers rebuilt it, weighing every measure exactly before cold-steeping a single bright blossom. We pour it glowing into clear, stemmed crystal — mostly a glass you'll keep to yourself, poured slowly and just for you."
         },
         {
           "variant": 17,
-          "text": "Last winter we rebuilt it with new calibrated tools, timing everything to the minute as we drew a pale bloom cold. We decant it bright into clear-stemmed glass; it's seldom a cup we pass to anyone, really made for you alone."
+          "text": "Last winter we rebuilt it with precise new tools, timing everything to the minute as we drew a pale bloom cold. We pour it out bright into clear-stemmed glass; it's seldom a cup we pass to anyone, really made for you alone."
         },
         {
           "variant": 18,
-          "text": "At fresh glass apparatus this year, we reformulated it and held each amount exact, cold-steeping a bright blossom to one precise hour. It comes up luminous in footed crystal, and most nights it's a glass you'll want entirely to yourself."
+          "text": "This year we remade it on new glassware, holding each amount exact and cold-steeping a bright blossom to one precise hour. It comes up glowing in footed crystal, and most nights it's a glass you'll want entirely to yourself."
         },
         {
           "variant": 19,
-          "text": "This year a maker of ours devised it anew at new instruments, weighing the measures precisely before cold-steeping a bright blossom. We decant it into clear, long-stemmed glass — usually a pour for one, drawn out slowly at the end of the day."
+          "text": "This year one of our makers came up with a fresh version on new equipment, weighing the measures precisely before cold-steeping a bright blossom. We pour it into a clear, long-stemmed glass — usually a drink for one, drawn out slowly at the end of the day."
         },
         {
           "variant": 20,
-          "text": "We gave it a fresh rework this very year on new, precise apparatus, setting every measure by weight and cold-steeping a luminous blossom. We pour it into fine stemware; you'll seldom see it in company, since it's the quiet glass we made for time on your own."
+          "text": "We gave it a fresh rework this very year on new, precise equipment, setting every measure by weight and cold-steeping a bright blossom. We pour it into fine stemware; you'll seldom see it in company, since it's the quiet glass we made for time on your own."
         }
       ]
     },
@@ -1050,7 +1050,7 @@
         },
         {
           "variant": 4,
-          "text": "We make it the way it always was, entirely by hand, our dark root soured in clay. It's an evening cup, the kind neighbors pass slowly along the bench between them, earthy and unhurried, never rushed for anyone."
+          "text": "We make it the way it always was, entirely by hand, our dark root soured in clay. It's an evening cup, the kind neighbors pass slowly along the bench between them, earthy and slow, never taken in a hurry."
         },
         {
           "variant": 5,
@@ -1058,11 +1058,11 @@
         },
         {
           "variant": 6,
-          "text": "We make it by hand in the old manner, our dark root soured slowly in clay, nothing about it new. It's the evening drink neighbors share on the bench together, poured into the heavy cups we fill by hand."
+          "text": "We make it by hand in the old-fashioned way, our dark root soured slowly in clay, nothing about it new. It's the evening drink neighbors share on the bench together, poured into the heavy cups we fill by hand."
         },
         {
           "variant": 7,
-          "text": "We came up on the old method and kept to it alone, our dark root souring in clay. When work is done, it's the drink neighbors pass round the bench, earthy and plain, poured just as it always has been."
+          "text": "The old method is the only one we've ever known, our dark root souring in clay. When work is done, it's the drink neighbors pass round the bench, earthy and plain, poured just as it always has been."
         },
         {
           "variant": 8,
@@ -1070,7 +1070,7 @@
         },
         {
           "variant": 9,
-          "text": "We make it unchanged, all by hand, our dark root soured in clay, just as it has always been. It's the evening drink neighbors take together on the plain bench, poured cup to cup and passed around freely."
+          "text": "We still make it all by hand, our dark root soured in clay, just as it has always been. It's the evening drink neighbors take together on the plain bench, poured cup to cup and passed around freely."
         },
         {
           "variant": 10,
@@ -1078,7 +1078,7 @@
         },
         {
           "variant": 11,
-          "text": "We brew it by hand in the old way, our dark root soured in clay, nothing hurried or fancy. It's the evening drink neighbors share out front together, poured into the heavy vessels we've always used, plain and full."
+          "text": "We brew it by hand in the old way, our dark root soured in clay, nothing hurried or fancy. It's the evening drink neighbors share out front together, poured into the heavy mugs we've always used, plain and full."
         },
         {
           "variant": 12,
@@ -1102,7 +1102,7 @@
         },
         {
           "variant": 17,
-          "text": "We brew it as we always have, entirely by hand, our dark root soured in clay. When work is done, it's the drink neighbors pass round the door, poured into the plain, heavy cups we've long kept for it."
+          "text": "We brew it as we always have, entirely by hand, our dark root soured in clay. When work is done, it's the drink neighbors pass round the door, poured into the plain, heavy cups we've always kept for it."
         },
         {
           "variant": 18,
@@ -1114,7 +1114,7 @@
         },
         {
           "variant": 20,
-          "text": "We brew it by hand, just as it always was, our dark root soured in clay, nothing about it changed. It's the evening drink neighbors pass round the bench together, poured into the plain vessels we've kept all along."
+          "text": "We brew it by hand, just as it always was, our dark root soured in clay, nothing about it changed. It's the evening drink neighbors pass round the bench together, poured into the plain jugs we've kept all along."
         }
       ]
     },
@@ -1124,83 +1124,83 @@
       "variants": [
         {
           "variant": 1,
-          "text": "We've lightened ours a little lately, steeping the pale flower cool and pouring it out bright. It's the fine glass we like to set at a long table, the one we happily keep refilling while friends settle in and linger a while."
+          "text": "We've lightened our drink a little lately, steeping the pale flower cool and pouring it out bright. It's the fine glass we like to set at a long table, the one we happily keep refilling while friends settle in and linger a while."
         },
         {
           "variant": 2,
-          "text": "We've eased ours lighter than it once was, steeping the pale flower cool and pouring it bright. It's the fine glass we love to see passed round a warm, crowded table, hand to hand, as the evening slowly fills up around us."
+          "text": "We've eased our brew lighter than it once was, steeping the pale flower cool and pouring it bright. It's the fine glass we love to see passed round a warm, crowded table, hand to hand, as the evening slowly fills up around us."
         },
         {
           "variant": 3,
-          "text": "We reworked ours lighter lately, steeping the pale bloom cool and decanting it clear. It's the bright glass we bring to a long table and keep topping up, glad to let friends stay and linger as long as the night runs on."
+          "text": "We reworked our recipe lighter lately, steeping the pale bloom cool and pouring it clear. It's the bright glass we bring to a long table and keep topping up, glad to let friends stay as long as the night runs on."
         },
         {
           "variant": 4,
-          "text": "We've made ours lighter than the old recipe lately, steeping the pale flower cool and pouring it bright. It's the fine stemware we fill again and again for friends gathered close, happy to pour a fresh round while the talk keeps going."
+          "text": "We've made our drink lighter than the old recipe lately, steeping the pale flower cool and pouring it bright. It's the fine stemware we fill again and again for friends gathered close, happy to pour a fresh round while the talk keeps going."
         },
         {
           "variant": 5,
-          "text": "We've newly eased ours lately, steeping the pale flower cool and pouring it clear. It's the slender glass we set out on a warm night's long table, and we keep it refilled all round so no one's ever left waiting."
+          "text": "We've eased our cup lighter lately, steeping the pale flower cool and pouring it clear. It's the slender glass we set out on a warm night's long table, and we keep it refilled all round so no one's ever left waiting."
         },
         {
           "variant": 6,
-          "text": "We lightened ours a season back, steeping the pale flower cool and pouring it bright. It's the fine glass we bring out for a crowd at a long table, and we keep every one full, topping up before anyone thinks to ask."
+          "text": "We lightened our brew a season back, steeping the pale flower cool and pouring it bright. It's the fine glass we bring out for a crowd at a long table, and we keep every one full, topping up before anyone thinks to ask."
         },
         {
           "variant": 7,
-          "text": "We've given ours a lighter, newer form lately, steeping the pale bloom cool and pouring it clear. It's the delicate glass we carry round a warm table of friends, setting one down at every place and coming back to fill it."
+          "text": "We've made our drink lighter and newer lately, steeping the pale bloom cool and pouring it clear. It's the delicate glass we carry round a warm table of friends, setting one down at every place and coming back to fill it."
         },
         {
           "variant": 8,
-          "text": "We've eased ours into a gentler recipe lately, steeping the pale flower cool and pouring it bright. It's the thin, clear glass a long table shares late into the evening, passed along and refilled while nobody's in any hurry to leave."
+          "text": "We've eased our drink into a gentler recipe lately, steeping the pale flower cool and pouring it bright. It's the thin, clear glass a long table shares late into the evening, passed along and refilled while nobody's in any hurry to leave."
         },
         {
           "variant": 9,
-          "text": "We reworked ours lighter than before, steeping the pale flower cool and pouring it bright. It's the fine crystal we pass round friends at a long table, one after the next, refilling as the conversation stretches out and the night eases along."
+          "text": "We reworked our brew lighter than before, steeping the pale flower cool and pouring it bright. It's the fine crystal we pass round friends at a long table, one after the next, refilling as the conversation stretches out and the night goes on."
         },
         {
           "variant": 10,
-          "text": "We've made ours lighter than the old way, steeping the pale flower cool and pouring it bright. It's the fine glass we keep filled for a warm, crowded table, coming round again and again so every last place stays topped up."
+          "text": "We've made our cup lighter than the old way, steeping the pale flower cool and pouring it bright. It's the fine glass we keep filled for a warm, crowded table, coming round again and again so every last place stays topped up."
         },
         {
           "variant": 11,
-          "text": "We lightened ours recently, steeping the pale bloom cool and pouring it bright. It's the fine glass friends pass round a long summer table, and we refill it freely, glad to keep it going as the afternoon slips easily into evening."
+          "text": "We lightened our drink recently, steeping the pale bloom cool and pouring it bright. It's the fine glass friends pass round a long summer table, and we refill it freely, glad to keep it going as the afternoon turns into evening."
         },
         {
           "variant": 12,
-          "text": "We updated ours lighter not long ago, steeping the pale flower cool and pouring it bright. It's the fine glass we refill round a warm, gathered table, coming back with more before the last sip's gone so the evening never stalls."
+          "text": "We updated our brew lighter not long ago, steeping the pale flower cool and pouring it bright. It's the fine glass we refill round a warm, gathered table, coming back with more before the last sip's gone so the evening never stalls."
         },
         {
           "variant": 13,
-          "text": "We've gentled ours lighter than it used to be, steeping the pale flower cool and decanting it clear. It's the bright, slender glass we set at a long, lingering table, refilling quietly so everyone can stay put and let the hours drift."
+          "text": "We've softened our drink lighter than it used to be, steeping the pale flower cool and pouring it clear. It's the bright, slender glass we set at a long, lingering table, refilling quietly so everyone can stay put and let the hours pass."
         },
         {
           "variant": 14,
-          "text": "We reworked ours to a lighter form lately, steeping the pale flower cool and pouring it bright. It's the fine glass a warm table keeps passing and refilling, hand to hand down the length of it, while we come round to pour more."
+          "text": "We reworked our recipe to a lighter form lately, steeping the pale flower cool and pouring it bright. It's the fine glass a warm table keeps passing and refilling, hand to hand down the length of it, while we come round to pour more."
         },
         {
           "variant": 15,
-          "text": "We made ours lighter a short while ago, steeping the pale bloom cool and pouring it bright. It's the fine glass shared round friends at a long table, one poured for everyone and then poured again as the evening settles in comfortably."
+          "text": "We made our cup lighter a short while ago, steeping the pale bloom cool and pouring it bright. It's the fine glass shared round friends at a long table, one poured for everyone and then poured again as the evening settles in comfortably."
         },
         {
           "variant": 16,
-          "text": "Ours comes from an old recipe we've newly lightened, the pale flower steeped cool and poured clear. It's the fine, bright glass we refill round a warm table, keeping it moving so nobody sits with an empty one for long."
+          "text": "Our drink comes from an old recipe we've newly lightened, the pale flower steeped cool and poured clear. It's the fine, bright glass we refill round a warm table, keeping it moving so nobody sits with an empty one for long."
         },
         {
           "variant": 17,
-          "text": "We've eased ours lighter than before lately, steeping the pale flower cool and pouring it bright. It's the delicate glass we pour for gathered friends at a long, warm table, filling each one and then filling it again without being asked."
+          "text": "We've eased our brew lighter than before, steeping the pale flower cool and pouring it bright. It's the delicate glass we pour for gathered friends at a long, warm table, filling each one and then filling it again without being asked."
         },
         {
           "variant": 18,
-          "text": "We lightened ours a little while ago, steeping the pale bloom cool and pouring it bright. It's the fine glass a warm gathering keeps refilling all evening, and we're happy to keep pouring while the room stays full and the talk runs late."
+          "text": "We lightened our drink a little while ago, steeping the pale bloom cool and pouring it bright. It's the fine glass a warm gathering keeps refilling all evening, and we're happy to keep pouring while the room stays full and the talk runs late."
         },
         {
           "variant": 19,
-          "text": "We made ours over lighter not long ago, steeping the pale flower cool and pouring it bright. It's the fine stemware passed round a long table of friends, each glass filled and sent along, then filled once more as the night unwinds."
+          "text": "We remade our brew lighter not long ago, steeping the pale flower cool and pouring it bright. It's the fine stemware passed round a long table of friends, each glass filled and sent along, then filled once more as the night unwinds."
         },
         {
           "variant": 20,
-          "text": "We eased ours to a lighter, newer form recently, steeping the pale flower cool and pouring it bright. It's the clear, fine glass a warm table shares late, passed slowly hand to hand while we top it up and no one hurries off."
+          "text": "We eased our cup lighter and newer recently, steeping the pale flower cool and pouring it bright. It's the clear, fine glass a warm table shares late, passed slowly hand to hand while we top it up and no one hurries off."
         }
       ]
     },
@@ -1210,83 +1210,83 @@
       "variants": [
         {
           "variant": 1,
-          "text": "We make ours simply, with no particular hour or place in mind. It's the sort of easy, dependable cup that fits however you take it — on your own for a quiet moment, or passed around a table when there are others to share it with."
+          "text": "We make our drink simply, with no particular hour or place in mind. It's the sort of easy, dependable cup that fits however you take it — on your own for a quiet moment, or passed around a table when there are others to share it with."
         },
         {
           "variant": 2,
-          "text": "We don't fuss over ours; it's made for any hour at all. It's an easy, dependable cup that's just as good in your own hands as it is passed around a full table — we like that it asks nothing of the moment."
+          "text": "We don't fuss over our brew; it's made for any hour at all. It's an easy, dependable cup that's just as good in your own hands as it is passed around a full table — we like that it never needs a special moment."
         },
         {
           "variant": 3,
-          "text": "We make ours plainly, for whatever the moment happens to be. It's an easy, everyday cup — just as welcome in your own hands as it is handed round when others gather. However you come to it, we hope it feels like an easy choice."
+          "text": "We make our drink plainly, for whatever the moment happens to be. It's an easy, everyday cup — just as welcome in your own hands as it is handed round when others gather. However you come to it, we hope it feels like an easy choice."
         },
         {
           "variant": 4,
-          "text": "There's no special ceremony to how we make ours — just something simple and steady. It's an agreeable cup for any time of day, whether you take it quietly on your own or share it among friends. We're happy either way suits you."
+          "text": "There's no special ceremony to how we make our cup — just something simple and steady. It's an agreeable drink for any time of day, whether you take it quietly on your own or share it among friends. We're happy either way suits you."
         },
         {
           "variant": 5,
-          "text": "Ours comes from a plain, unfussy way of making, and we've kept it that way. It's an easy cup for any hour you like — every bit as fitting on your own as it is passed round a table full of people."
+          "text": "We make our cup in a plain, unfussy way, and we've kept it that way. It's an easy drink for any hour you like — every bit as good on your own as it is passed round a table full of people."
         },
         {
           "variant": 6,
-          "text": "We make ours in a straightforward, unhurried way, nothing rushed about it. It's a comfortable, even cup for any moment — as happy in your own quiet keeping as it is in a crowded room. We built it to fit wherever you are."
+          "text": "We make our brew in a straightforward, unhurried way, nothing rushed about it. It's a comfortable, even cup for any moment — as happy when it's just you as it is in a crowded room. We built it to fit wherever you are."
         },
         {
           "variant": 7,
-          "text": "Ours is born of a plain, simple making — that's really all it needs to be. It's a mild, agreeable cup for morning or night, good by yourself or set out for others to share when they're around. We keep it easy on purpose."
+          "text": "There's nothing to how we make our drink — plain and simple, and that's really all it needs to be. It's a mild, agreeable cup for morning or night, good by yourself or set out for others to share. We keep it easy on purpose."
         },
         {
           "variant": 8,
-          "text": "We make ours without ceremony, for any part of the day you please. It's an easy, even cup — just as much at home when you're alone as it is passed among a gathering. Whichever it happens to be, it never asks for much."
+          "text": "We make our cup without ceremony, for any part of the day you please. It's an easy, even drink — just as much at home when you're alone as it is passed among a gathering. Whichever it happens to be, it never asks for much."
         },
         {
           "variant": 9,
-          "text": "We make ours plainly and without any to-do. It's a dependable, easy cup for whenever you like — as welcome in a quiet moment to yourself as it is going round a full table. However the hour finds you, it fits right in."
+          "text": "We make our drink plainly and without any to-do. It's a dependable, easy cup for whenever you like — as welcome in a quiet moment to yourself as it is going round a full table. Whenever you have it, it fits right in."
         },
         {
           "variant": 10,
-          "text": "We make ours simply, asking nothing of the moment it turns up in. It's an easy, steady cup for any hour — one you can take on your own, or share around when others come by. We meant it to be that uncomplicated."
+          "text": "We make our cup simply, and it never needs a special moment. It's an easy, steady drink for any hour — one you can take on your own, or share around when others come by. We meant it to be that uncomplicated."
         },
         {
           "variant": 11,
-          "text": "Ours is made in a simple, unhurried way, and we wouldn't have it otherwise. It's a comfortable cup for any time at all — every bit as good on your own as it is going round a table with company. Easy is the whole idea."
+          "text": "We make our brew in a simple, unhurried way, and we wouldn't have it otherwise. It's a comfortable cup for any time at all — every bit as good on your own as it is going round a table with company. Easy is the whole idea."
         },
         {
           "variant": 12,
-          "text": "We make ours straightforwardly and free of fuss — nothing more to it than that. It's an easy, agreeable cup for any hour, as happy in your own hands as it is in the middle of a gathering. It settles into whatever you're doing."
+          "text": "We make our cup in a simple, no-fuss way — nothing more to it than that. It's an easy, agreeable drink for any hour, as happy in your own hands as it is in the middle of a gathering. It settles into whatever you're doing."
         },
         {
           "variant": 13,
-          "text": "For any occasion at all, we make ours simply. It's a steady, easy cup — sit with it alone through a quiet spell, or pass it round when friends come by. We never wanted it tied to one kind of moment."
+          "text": "For any occasion at all, we make our drink simply. It's a steady, easy cup — sit with it alone through a quiet spell, or pass it round when friends come by. We never wanted it tied to one kind of moment."
         },
         {
           "variant": 14,
-          "text": "There's no fuss in how we make ours. It's a mild, dependable cup for whatever the day happens to bring — just as welcome when it's only you as it is passed around a table of others. We like that it keeps things simple."
+          "text": "There's no fuss in how we make our cup. It's a mild, dependable drink for whatever the day happens to bring — just as welcome when it's only you as it is passed around a table of others. We like that it keeps things simple."
         },
         {
           "variant": 15,
-          "text": "Ours comes from an easy, unfussy making, and we've left it just so. It's a comfortable cup for any moment — good in your own quiet keeping, and just as good shared with a full room. However you take it, it asks little of you."
+          "text": "We make our brew in an easy, unfussy way, and we've left it just so. It's a comfortable cup for any moment — good when it's just you, and just as good shared with a full room. However you take it, it never asks for much."
         },
         {
           "variant": 16,
-          "text": "We make ours in a simple, direct way — no more, no less. It's an even, easy cup for morning or evening, taken by yourself or handed round a gathering, either way. We were never precious about how it ends up being enjoyed."
+          "text": "We make our cup in a simple, direct way — no more, no less. It's an even, easy drink for morning or evening, taken by yourself or handed round a gathering, either way. We were never precious about how it ends up being enjoyed."
         },
         {
           "variant": 17,
-          "text": "Simply and unhurriedly is how we make ours, the way that feels right. It's a pleasant, easy cup for any time you please — fitting for a quiet hour on your own, or a table of friends. Either suits it just fine, and so do we."
+          "text": "We make our cup simply, without rushing — the way that feels right. It's a pleasant, easy drink for any time you please — fitting for a quiet hour on your own, or a table of friends. Either suits it just fine, and so do we."
         },
         {
           "variant": 18,
-          "text": "We make ours with no great to-do, and never have. It's a dependable, even cup for any hour — as much at home in your solitude as it is in a crowded room. We wanted something that never needed an occasion to suit it."
+          "text": "We make our drink with no great to-do, and never have. It's a dependable, even cup for any hour — as much at home when you're on your own as it is in a crowded room. We wanted something that never needed an occasion to suit it."
         },
         {
           "variant": 19,
-          "text": "Ours is born of a plain, unhurried making, and we've kept it uncomplicated. It's an easy, agreeable cup for whenever you turn to it — alone, or passed among others, it takes to both alike. That evenness is really the point of it."
+          "text": "We make our brew in a plain, unhurried way, and we've kept it uncomplicated. It's an easy, agreeable cup for whenever you turn to it — alone, or passed among others, it works both ways. That evenness is really the point of it."
         },
         {
           "variant": 20,
-          "text": "We make ours simply, with little ceremony to speak of. It's a comfortable, easy cup for any part of the day — good on your own when it's just you, and good going round a table when it isn't. We kept it that plain on purpose."
+          "text": "We make our cup simply, with little ceremony to speak of. It's a comfortable, easy drink for any part of the day — good on your own when it's just you, and good going round a table when it isn't. We kept it that plain on purpose."
         }
       ]
     }
