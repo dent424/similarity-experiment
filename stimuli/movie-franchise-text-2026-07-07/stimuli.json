@@ -1,0 +1,24 @@
+{
+  "products": [
+    { "id": "star-wars", "name": "Star Wars" },
+    { "id": "harry-potter", "name": "Harry Potter" },
+    { "id": "lord-of-the-rings", "name": "The Lord of the Rings" },
+    { "id": "marvel-avengers", "name": "Marvel (Avengers)" },
+    { "id": "batman", "name": "Batman" },
+    { "id": "jurassic-park", "name": "Jurassic Park" },
+    { "id": "james-bond", "name": "James Bond" },
+    { "id": "mission-impossible", "name": "Mission: Impossible" },
+    { "id": "fast-and-furious", "name": "Fast & Furious" },
+    { "id": "transformers", "name": "Transformers" },
+    { "id": "pirates-of-the-caribbean", "name": "Pirates of the Caribbean" },
+    { "id": "hunger-games", "name": "The Hunger Games" },
+    { "id": "toy-story", "name": "Toy Story" },
+    { "id": "shrek", "name": "Shrek" },
+    { "id": "indiana-jones", "name": "Indiana Jones" }
+  ],
+  "metadata": {
+    "created": "2026-07-07",
+    "source": "TODO: PLACEHOLDER list - swap in the user-provided 15 movie franchises before launch",
+    "display": "franchise name as plain text (no image)"
+  }
+}

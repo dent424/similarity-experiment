@@ -48,7 +48,7 @@ const repoDir = path.join(__dirname, '..');
 
 dotenv.config({ path: path.join(repoDir, '.env.local') });
 
-const KNOWN_QUESTIONS = ['cereal_days_past_week', 'brand_familiarity'];
+const KNOWN_QUESTIONS = ['cereal_days_past_week', 'movie_days_past_week', 'brand_familiarity'];
 
 const USAGE = `Usage: node scripts/make-analysis-tables.js [experiment_name] [flags]
   experiment_name        default: EXPERIMENT_NAME from config-image-only.js
@@ -198,14 +198,22 @@ if (!experiment) {
   experiment = mod.default.EXPERIMENT_NAME;
 }
 
-// Expected regular-trial count: only known when this is the config's experiment
+// Expected regular-trial count: only known when this is some config's experiment
 let expectedNPairs = null;
-{
-  const mod = await import(pathToFileURL(path.resolve(repoDir, 'config-image-only.js')).href).catch(() => null);
+for (const cfg of ['config-image-only.js', 'config-movie-franchise.js']) {
+  const mod = await import(pathToFileURL(path.resolve(repoDir, cfg)).href).catch(() => null);
   if (mod && mod.default && mod.default.EXPERIMENT_NAME === experiment && Number.isInteger(mod.default.N_PAIRS)) {
     expectedNPairs = mod.default.N_PAIRS;
+    break;
   }
 }
+
+// The category-consumption question is experiment-specific (cereal days vs
+// movie days); the wide-table column names follow the question key.
+const CATEGORY_QUESTION = experiment.startsWith('movie-franchise')
+  ? 'movie_days_past_week'
+  : 'cereal_days_past_week';
+const CATEGORY_RT_COL = CATEGORY_QUESTION.replace(/_past_week$/, '') + '_rt_ms'; // cereal_days_rt_ms / movie_days_rt_ms
 
 // ---------------------------------------------------------------------------
 // Stimuli: new convention stimuli/<exp>/stimuli.json, legacy stimuli/<exp>.json
@@ -266,7 +274,7 @@ if (rows.length === 0) {
 const hardFails = [];
 const warns = [];
 
-const sessions = new Map(); // session_id -> {meta, regular[], catch[], cereal[], familiarity[]}
+const sessions = new Map(); // session_id -> {meta, regular[], catch[], category[], familiarity[]}
 for (const r of rows) {
   if (!sessions.has(r.session_id)) {
     sessions.set(r.session_id, {
@@ -281,7 +289,7 @@ for (const r of rows) {
       completed: r.completed_at ? 1 : 0,
       regular: [],
       catch: [],
-      cereal: [],
+      category: [],
       familiarity: [],
       seenTrialNumbers: new Set()
     });
@@ -313,7 +321,7 @@ for (const r of rows) {
   } else if (trial.is_catch_trial) {
     s.catch.push(trial);
   } else if (trial.question) {
-    if (trial.question === 'cereal_days_past_week') s.cereal.push(trial);
+    if (trial.question === CATEGORY_QUESTION) s.category.push(trial);
     else if (trial.question === 'brand_familiarity') s.familiarity.push(trial);
     else hardFails.push(`session ${r.session_id} trial ${trial.trial_number}: unknown question "${trial.question}"`);
   } else {
@@ -381,8 +389,8 @@ for (const s of sessions.values()) {
     famSeen.add(t.product_id);
     if (t.rating < 1 || t.rating > 7) warns.push(`session ${s.session_id}: familiarity ${t.product_id}=${t.rating} outside 1-7 (kept)`);
   }
-  for (const t of s.cereal) {
-    if (t.rating < 0 || t.rating > 7) warns.push(`session ${s.session_id}: cereal_days=${t.rating} outside 0-7 (kept)`);
+  for (const t of s.category) {
+    if (t.rating < 0 || t.rating > 7) warns.push(`session ${s.session_id}: ${CATEGORY_QUESTION}=${t.rating} outside 0-7 (kept)`);
   }
   const famRts = new Set(s.familiarity.map(t => t.response_time_ms));
   if (famRts.size > 1) warns.push(`session ${s.session_id}: familiarity response times differ within session (page-level RT assumption violated)`);
@@ -393,7 +401,7 @@ for (const s of sessions.values()) {
       warns.push(`completed session ${s.session_id}: ${s.regular.length} regular trials (expected ${expectedNPairs})`);
     }
     if (s.catch.length !== 1) warns.push(`completed session ${s.session_id}: ${s.catch.length} catch trials (expected 1)`);
-    if (s.cereal.length !== 1) warns.push(`completed session ${s.session_id}: ${s.cereal.length} cereal-days rows (expected 1)`);
+    if (s.category.length !== 1) warns.push(`completed session ${s.session_id}: ${s.category.length} category-survey rows (expected 1)`);
     if (s.familiarity.length !== N) warns.push(`completed session ${s.session_id}: ${s.familiarity.length} familiarity rows (expected ${N})`);
     if (s.age === null || !s.gender) warns.push(`completed session ${s.session_id}: missing demographics (age=${s.age}, gender=${s.gender})`);
     if (s.completed_at && s.started_at && new Date(s.completed_at) < new Date(s.started_at)) {
@@ -478,7 +486,7 @@ const wideHeaders = [
   'total_duration_ms', 'age', 'gender',
   'n_similarity_trials', 'median_similarity_rt_ms', 'sd_similarity_rating', 'n_rating_eq_50',
   'catch_rating', 'catch_passed',
-  'cereal_days_past_week', 'cereal_days_rt_ms', 'familiarity_page_rt_ms',
+  CATEGORY_QUESTION, CATEGORY_RT_COL, 'familiarity_page_rt_ms',
   ...products.map(p => famColumn(p.id)) // stimuli.json order, deterministic
 ];
 const wideRows = [];
@@ -504,8 +512,8 @@ for (const s of sessions.values()) {
     catch_rating: catchRating,
     // three-state: 1 passed, 0 failed, empty = no catch trial (NA, not a failure)
     catch_passed: catchRating === null ? null : (catchRating >= opts.catchThreshold ? 1 : 0),
-    cereal_days_past_week: s.cereal.length > 0 ? s.cereal[0].rating : null,
-    cereal_days_rt_ms: s.cereal.length > 0 ? s.cereal[0].response_time_ms : null,
+    [CATEGORY_QUESTION]: s.category.length > 0 ? s.category[0].rating : null,
+    [CATEGORY_RT_COL]: s.category.length > 0 ? s.category[0].response_time_ms : null,
     familiarity_page_rt_ms: s.familiarity.length > 0 ? s.familiarity[0].response_time_ms : null
   };
   // Familiarity mapped by product_id (display order is randomized; trial_number

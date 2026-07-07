@@ -35,20 +35,30 @@ export default async function handler(req, res) {
   }
 
   if (req.method === 'GET') {
-    // Check if a participant has already completed the study
-    const { prolific_pid } = req.query;
+    // Check if a participant has already completed the study. experiment_name
+    // is optional: when present, the check is scoped to that experiment (so a
+    // participant who completed a *different* study is not blocked); older
+    // study pages don't send it and keep the original any-experiment check.
+    const { prolific_pid, experiment_name } = req.query;
 
     if (!prolific_pid) {
       return res.status(200).json({ exists: false, completed: false });
     }
 
     try {
-      const result = await sql`
-        SELECT session_id, completed_at FROM sessions
-        WHERE prolific_pid = ${prolific_pid}
-        ORDER BY started_at DESC
-        LIMIT 1
-      `;
+      const result = experiment_name
+        ? await sql`
+            SELECT session_id, completed_at FROM sessions
+            WHERE prolific_pid = ${prolific_pid} AND experiment_name = ${experiment_name}
+            ORDER BY started_at DESC
+            LIMIT 1
+          `
+        : await sql`
+            SELECT session_id, completed_at FROM sessions
+            WHERE prolific_pid = ${prolific_pid}
+            ORDER BY started_at DESC
+            LIMIT 1
+          `;
 
       if (result.length === 0) {
         return res.status(200).json({ exists: false, completed: false });

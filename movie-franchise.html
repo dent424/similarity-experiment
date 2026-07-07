@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Similarity Study</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Text-only version: the franchise name is the sole stimulus, shown large
+       and centered in the card (no image). */
+    .product {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 220px;
+    }
+    /* Scoped under .product so it beats the shared style.css `.product p`. */
+    .product .franchise-name {
+      font-size: 34px;
+      font-weight: 600;
+      color: #111;
+      text-align: center;
+      line-height: 1.25;
+      margin: 0;
+    }
+
+    /* Post-task survey: horizontal numeric scales reusing .option styling */
+    .scale-options {
+      flex-direction: row;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .scale-option {
+      position: relative;
+      justify-content: center;
+      width: 48px;
+      padding: 12px 0;
+    }
+    .scale-option input[type="radio"] {
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+    }
+    .scale-hint {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #777;
+    }
+    /* Pole anchors flanking each familiarity scale. Fixed width so the
+       numbers stay aligned across all 15 rows; text wraps within the width. */
+    .scale-pole {
+      width: 56px;
+      flex-shrink: 0;
+      font-size: 12px;
+      line-height: 1.2;
+      color: #777;
+    }
+    .scale-pole-left { text-align: right; }
+    .scale-pole-right { text-align: left; }
+    /* Keep each familiarity row's scale on one line (don't wrap the poles). */
+    .familiarity-row .scale-options { flex-wrap: nowrap; }
+    .familiarity-row {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      padding: 12px 0;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    .familiarity-product {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      width: 220px;
+      flex-shrink: 0;
+    }
+    .familiarity-name {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1.3;
+      color: #333;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <!-- Consent Page -->
+    <div id="consent-page" class="page">
+      <h1>Informed Consent</h1>
+      <div class="content consent-content">
+        <p><strong>STUDY ID: STUDY2026-0139</strong></p>
+
+        <p>This survey is being conducted for the purposes of consumer behavior research. Any questions, concerns, or inquiries should be directed to the primary investigator Alexander Moore, University of Illinois Chicago, <a href="mailto:akmoore@uic.edu">akmoore@uic.edu</a>, 312-536-6470. The purpose of this research is to help academics and practitioners better understand how people think about various product categories and how people choose products based on what they think.</p>
+
+        <p>To protect your privacy and confidentiality (1) you may refuse to complete this survey without consequence, and (2) we will not collect any information that could be used to identify you or associate you with your responses. Confidentiality will be maintained to the degree permitted by the technology used. Your participation in this online survey involves risks similar to a person&rsquo;s everyday use of the Internet.</p>
+
+        <p>Participation in this research is voluntary. There is no benefit from participating in this online survey.</p>
+
+        <p>Compensation will be provided through the Prolific platform at the rate specified in the submission posting. The median participant in this study will be compensated no less than US $9 per hour. This study will take between 2 and 20 minutes.</p>
+
+        <p>If you have questions about your rights as a study subject; including questions, concerns, complaints, or if you feel you have not been treated according to the description in this form; or to offer input you may call the UIC Office for the Protection of Research Subjects (OPRS) at 312-996-1711 or e-mail OPRS at <a href="mailto:uicirb@uic.edu">uicirb@uic.edu</a>.</p>
+
+        <p>If you agree to participate in this research, please choose &ldquo;I agree&rdquo; below. If not, please choose &ldquo;I do NOT agree&rdquo; below, upon which you will exit the survey.</p>
+
+        <p class="consent-meta">Version 1.0 | 2/4/2026</p>
+      </div>
+      <div class="button-group">
+        <button id="consent-btn" class="btn-primary">I agree</button>
+        <button id="no-consent-btn" class="btn-secondary">I do NOT agree</button>
+      </div>
+    </div>
+
+    <!-- No Consent Page -->
+    <div id="no-consent-page" class="page hidden">
+      <h1>Thank you</h1>
+      <div class="content">
+        <p>You have chosen not to participate in this study.</p>
+        <p>You may now close this window.</p>
+      </div>
+    </div>
+
+    <!-- Already Completed Page -->
+    <div id="already-completed-page" class="page hidden">
+      <h1>Already Completed</h1>
+      <div class="content">
+        <p>Our records indicate you have already completed this study.</p>
+        <p>Each participant may only complete the study once.</p>
+        <p>You may now close this window.</p>
+      </div>
+    </div>
+
+    <!-- Instructions Page -->
+    <div id="instructions-page" class="page hidden">
+      <h1>Instructions</h1>
+      <div class="content">
+        <h3>Your Task</h3>
+        <p>You will see pairs of movie franchises, each shown by name. For each pair, rate how similar the two movie franchises are to each other.</p>
+
+        <h3>How to Rate Similarity</h3>
+        <ul class="instruction-list">
+          <li><strong>0</strong> = Not at all similar (nothing in common)</li>
+          <li><strong>100</strong> = Extremely similar (nearly identical)</li>
+          <li>Values in between represent varying degrees of similarity</li>
+        </ul>
+
+        <h3>Important</h3>
+        <ul class="instruction-list">
+          <li>There are no right or wrong answers - we want your honest opinion</li>
+          <li>You cannot go back to previous pairs</li>
+        </ul>
+      </div>
+
+      <div class="comprehension-section">
+        <h2>Comprehension Check</h2>
+        <p class="comprehension-intro">Answer these questions to continue:</p>
+
+        <div id="comprehension-error" class="error-message hidden">
+          One or more answers are incorrect. Please review and try again.
+        </div>
+
+        <div class="question-group" data-correct="c">
+          <p class="question-text">1. If two movie franchises have nothing in common, what rating would you give?</p>
+          <div class="options">
+            <label class="option"><input type="radio" name="q1" value="a"><span>100</span></label>
+            <label class="option"><input type="radio" name="q1" value="b"><span>50</span></label>
+            <label class="option"><input type="radio" name="q1" value="c"><span>0</span></label>
+          </div>
+        </div>
+
+        <div class="question-group" data-correct="b">
+          <p class="question-text">2. What does a rating of 100 mean?</p>
+          <div class="options">
+            <label class="option"><input type="radio" name="q2" value="a"><span>The franchise is high quality</span></label>
+            <label class="option"><input type="radio" name="q2" value="b"><span>The two franchises are extremely similar</span></label>
+            <label class="option"><input type="radio" name="q2" value="c"><span>You prefer the franchise on the right</span></label>
+          </div>
+        </div>
+
+        <div class="question-group" data-correct="b">
+          <p class="question-text">3. Can you go back and change a previous rating?</p>
+          <div class="options">
+            <label class="option"><input type="radio" name="q3" value="a"><span>Yes</span></label>
+            <label class="option"><input type="radio" name="q3" value="b"><span>No</span></label>
+          </div>
+        </div>
+      </div>
+
+      <button id="start-btn" class="btn-primary" disabled>Start</button>
+    </div>
+
+    <!-- Trial Page -->
+    <div id="trial-page" class="page hidden">
+      <div class="progress">
+        <span id="progress-text">Pair 1 of 3</span>
+      </div>
+
+      <h2>How similar is the movie franchise on the left to the movie franchise on the right?</h2>
+
+      <div class="product-pair">
+        <div class="product left">
+          <p id="product-left-name" class="franchise-name"></p>
+        </div>
+        <div class="product right">
+          <p id="product-right-name" class="franchise-name"></p>
+        </div>
+      </div>
+
+      <div class="slider-container">
+        <label class="slider-label">
+          <span>Not at all similar</span>
+          <span>Extremely similar</span>
+        </label>
+        <input type="range" id="similarity-slider" min="0" max="100" value="50">
+        <div id="slider-value">50</div>
+      </div>
+
+      <button id="next-btn" class="btn-primary">Next</button>
+    </div>
+
+    <!-- Post-task Survey: Category Experience -->
+    <div id="survey-category-page" class="page hidden">
+      <h1>A few more questions</h1>
+      <div class="content">
+        <div class="question-group">
+          <p class="question-text">In the past week, on how many days did you watch a movie (in a theater, at home, or on a streaming service)?</p>
+          <div class="options scale-options" id="category-days-options">
+            <label class="option scale-option"><input type="radio" name="movie-days" value="0"><span>0</span></label>
+            <label class="option scale-option"><input type="radio" name="movie-days" value="1"><span>1</span></label>
+            <label class="option scale-option"><input type="radio" name="movie-days" value="2"><span>2</span></label>
+            <label class="option scale-option"><input type="radio" name="movie-days" value="3"><span>3</span></label>
+            <label class="option scale-option"><input type="radio" name="movie-days" value="4"><span>4</span></label>
+            <label class="option scale-option"><input type="radio" name="movie-days" value="5"><span>5</span></label>
+            <label class="option scale-option"><input type="radio" name="movie-days" value="6"><span>6</span></label>
+            <label class="option scale-option"><input type="radio" name="movie-days" value="7"><span>7</span></label>
+          </div>
+          <p class="scale-hint">0 = no days &nbsp;&middot;&nbsp; 7 = every day</p>
+        </div>
+      </div>
+      <button id="category-continue-btn" class="btn-primary" disabled>Continue</button>
+    </div>
+
+    <!-- Post-task Survey: Brand Familiarity -->
+    <div id="survey-familiarity-page" class="page hidden">
+      <h1>Movie franchise familiarity</h1>
+      <div class="content">
+        <p class="question-text">How familiar are you with each of the following movie franchises?</p>
+        <div id="familiarity-list"></div>
+      </div>
+      <button id="familiarity-continue-btn" class="btn-primary" disabled>Continue</button>
+    </div>
+
+    <!-- Demographics Page -->
+    <div id="demographics-page" class="page hidden">
+      <h1>Almost done!</h1>
+      <div class="content">
+        <p>Please answer a few demographic questions:</p>
+
+        <div class="form-group">
+          <label for="age-input">Age:</label>
+          <input type="number" id="age-input" min="18" max="120" placeholder="Enter your age" required>
+        </div>
+
+        <div class="form-group">
+          <label for="gender-select">Gender:</label>
+          <select id="gender-select" required>
+            <option value="">Select...</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="non-binary">Non-binary</option>
+            <option value="prefer-not">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+      </div>
+      <button id="demographics-submit-btn" class="btn-primary" disabled>Submit</button>
+    </div>
+
+    <!-- Completion Page -->
+    <div id="complete-page" class="page hidden">
+      <h1>Thank you!</h1>
+      <p>Your responses have been recorded.</p>
+      <p id="redirect-message">Redirecting you back to Prolific...</p>
+    </div>
+  </div>
+
+  <script type="module" src="experiment-movie-franchise.js"></script>
+</body>
+</html>
