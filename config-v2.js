@@ -23,6 +23,7 @@ const CONFIG = {
     concrete: 'provided-brand-positioning-concrete-2026-07-06',
     brandvoice: 'provided-brand-positioning-brandvoice-2026-07-07',
     adcopy2:  'provided-brand-positioning-adcopy2-2026-07-07',
+    adcopy3:  'provided-brand-positioning-adcopy3-2026-07-07',
   },
 
   // Include one catch trial (same item + same variant on both sides) as an

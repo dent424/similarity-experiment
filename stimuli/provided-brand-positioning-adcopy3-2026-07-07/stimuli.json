@@ -1,0 +1,1301 @@
+{
+  "products": [
+    {
+      "id": "brand-01",
+      "name": "Brand 01",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "The herder's cup: bitter root split on stone, soured in a pit, taken alone at dawn as always."
+        },
+        {
+          "variant": 2,
+          "text": "Bitter and black, brewed as it always has been, one cup taken alone on the ridge."
+        },
+        {
+          "variant": 3,
+          "text": "Split on stone, soured in a pit, poured black from iron — one highland cup, made as always."
+        },
+        {
+          "variant": 4,
+          "text": "One herder, one iron cup, the bitter root his people have always brewed at frost."
+        },
+        {
+          "variant": 5,
+          "text": "Cold on the ridge before dawn, a black bitter root, from iron as always, drunk alone."
+        },
+        {
+          "variant": 6,
+          "text": "On the highland it's bitter root, black in iron, taken alone at dawn the way it always was."
+        },
+        {
+          "variant": 7,
+          "text": "As always, the herder splits root on stone, sours it in a pit, drinks it black and alone."
+        },
+        {
+          "variant": 8,
+          "text": "Bitter root, cold ridge, iron cup. One herder at dawn, the silence, and a brew made as always."
+        },
+        {
+          "variant": 9,
+          "text": "Steeped bitter, drunk black from an iron cup, alone on the ridge as it always has been."
+        },
+        {
+          "variant": 10,
+          "text": "Only the herder, the frost, a bitter black cup poured from iron the way it always was."
+        },
+        {
+          "variant": 11,
+          "text": "Split on cold stone at first frost, soured deep in the pit — one bitter cup, always."
+        },
+        {
+          "variant": 12,
+          "text": "The highland way, always: bitter root split on stone, drunk black and alone before frost lifts."
+        },
+        {
+          "variant": 13,
+          "text": "One cup, one herder, one ridge at dawn: bitter, black, and brewed as it always has been."
+        },
+        {
+          "variant": 14,
+          "text": "Poured black from cold iron, bitter as the root it comes from, taken alone as always."
+        },
+        {
+          "variant": 15,
+          "text": "As ever, the herder brews it bitter on the ridge, black in iron, drunk alone in silence."
+        },
+        {
+          "variant": 16,
+          "text": "A bitter black root off the cold highland, split on stone, taken alone as it always has."
+        },
+        {
+          "variant": 17,
+          "text": "Dawn on the ridge, first frost, one bitter black cup of the root, brewed as always."
+        },
+        {
+          "variant": 18,
+          "text": "Bitter, black, yours alone: root split on stone, soured in a pit, drunk at dawn as always."
+        },
+        {
+          "variant": 19,
+          "text": "The herder makes it on the ridge as always — bitter root, black in iron, and the silence."
+        },
+        {
+          "variant": 20,
+          "text": "At first frost, one iron cup, bitter and black — the herder alone, as always, on the highland."
+        }
+      ]
+    },
+    {
+      "id": "brand-02",
+      "name": "Brand 02",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "The settlement's oldest brew, dug from buried jars and passed hand to hand around the fire."
+        },
+        {
+          "variant": 2,
+          "text": "Made the old way in this settlement, poured heavy from clay and passed cup to cup."
+        },
+        {
+          "variant": 3,
+          "text": "Dug from a buried jar, kept by the fire, one brew the settlement drinks."
+        },
+        {
+          "variant": 4,
+          "text": "This is the old brew — dug up, poured by the fire, handed from one to the next."
+        },
+        {
+          "variant": 5,
+          "text": "Heavy clay cups by the embers, the settlement's oldest drink passed hand to hand."
+        },
+        {
+          "variant": 6,
+          "text": "Fill a heavy clay cup, dig it from the old buried jar, pass it around the fire."
+        },
+        {
+          "variant": 7,
+          "text": "Buried jars. Heavy clay. The settlement's oldest brew, passed from one hand to the next."
+        },
+        {
+          "variant": 8,
+          "text": "The oldest drink the settlement makes — dug up, poured heavy, taken cup to cup by the fire."
+        },
+        {
+          "variant": 9,
+          "text": "Passed hand to hand since the settlement's first day, heavy in clay, dug from the buried jar."
+        },
+        {
+          "variant": 10,
+          "text": "A brew this old is the settlement's — dug up, poured into heavy clay, and passed on."
+        },
+        {
+          "variant": 11,
+          "text": "Old brew, buried jar, ember and clay — the people come and the cup goes hand to hand."
+        },
+        {
+          "variant": 12,
+          "text": "Here the drink is old as the settlement — poured heavy from clay, passed by every hand."
+        },
+        {
+          "variant": 13,
+          "text": "The settlement's first brew, dug from buried jars, poured heavy into clay for all."
+        },
+        {
+          "variant": 14,
+          "text": "Come to the fire, take the old brew from clay, and pass it on hand to hand."
+        },
+        {
+          "variant": 15,
+          "text": "As old as the settlement itself, this heavy brew passes hand to hand at the fire."
+        },
+        {
+          "variant": 16,
+          "text": "The buried jar comes up by the fire, and the settlement drinks the oldest brew."
+        },
+        {
+          "variant": 17,
+          "text": "Poured heavy, drunk from clay, dug from the settlement's oldest buried jar and passed all around."
+        },
+        {
+          "variant": 18,
+          "text": "Every hand at the fire takes the settlement's old brew, heavy in clay, dug from buried jars."
+        },
+        {
+          "variant": 19,
+          "text": "Older than anyone here, poured from the buried jar into heavy clay, and passed around the settlement."
+        },
+        {
+          "variant": 20,
+          "text": "One old brew, dug up and poured for the settlement, cup after heavy clay cup."
+        }
+      ]
+    },
+    {
+      "id": "brand-03",
+      "name": "Brand 03",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "A young maker reinvented this one last summer — a bright flower, steeped quick for friends."
+        },
+        {
+          "variant": 2,
+          "text": "Reinvented last summer by a young maker: a bright flower, quick in the cup, poured for friends."
+        },
+        {
+          "variant": 3,
+          "text": "Warm summer nights, good friends, and a bright flower a young maker steeps quick."
+        },
+        {
+          "variant": 4,
+          "text": "This is the cup a young maker reinvented last summer — bright, quick, made for friends."
+        },
+        {
+          "variant": 5,
+          "text": "Steeped quick from one bright flower, it's the brew young friends pour on warm nights."
+        },
+        {
+          "variant": 6,
+          "text": "Made for warm summer nights with friends: a bright flower, steeped quick by a young maker."
+        },
+        {
+          "variant": 7,
+          "text": "Friends come over, the flower steeps quick and bright, and warm summer nights get good."
+        },
+        {
+          "variant": 8,
+          "text": "Bright as the flower it starts from, quick to steep, brewed for friends on warm nights."
+        },
+        {
+          "variant": 9,
+          "text": "Pour it on a warm night: a bright flower, reinvented last summer, quick enough for friends."
+        },
+        {
+          "variant": 10,
+          "text": "The young maker's brew steeps quick and bright — one for you, one for your friends."
+        },
+        {
+          "variant": 11,
+          "text": "Quick to steep, bright to taste — reinvented last summer for friends and warm nights."
+        },
+        {
+          "variant": 12,
+          "text": "Summer nights call for something bright: a flower steeped quick, poured for good friends."
+        },
+        {
+          "variant": 13,
+          "text": "Something young and bright: a flower steeped quick, served to friends on warm summer nights."
+        },
+        {
+          "variant": 14,
+          "text": "It came back last summer, reinvented young and bright, quick to pour for a night with friends."
+        },
+        {
+          "variant": 15,
+          "text": "Serve it quick: a bright flower a young maker reinvented for warm summer nights with friends."
+        },
+        {
+          "variant": 16,
+          "text": "Young, bright, and quick — this flower steeps for friends who come by on warm nights."
+        },
+        {
+          "variant": 17,
+          "text": "Bright flower, quick steep, warm night — a young maker's drink for good friends."
+        },
+        {
+          "variant": 18,
+          "text": "For friends who come around: a bright flower, steeped quick, on a warm summer night."
+        },
+        {
+          "variant": 19,
+          "text": "Young and bright, reinvented last summer, quick in the cup and good with friends."
+        },
+        {
+          "variant": 20,
+          "text": "Fill every cup with a bright flower steeped quick, poured for friends on warm summer nights."
+        }
+      ]
+    },
+    {
+      "id": "brand-04",
+      "name": "Brand 04",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "One family has poured this at dusk for lifetimes — smooth in thin porcelain, sipped apart."
+        },
+        {
+          "variant": 2,
+          "text": "A quiet pour at dusk, kept by one family for lifetimes, and mostly taken apart."
+        },
+        {
+          "variant": 3,
+          "text": "Smooth in thin porcelain, this cup keeps one family's unhurried dusk, sipped mostly apart."
+        },
+        {
+          "variant": 4,
+          "text": "Pour it at dusk into thin porcelain, the way one family has for lifetimes — sipped apart."
+        },
+        {
+          "variant": 5,
+          "text": "Thin porcelain, a smooth unhurried pour at dusk: one family's cup, kept for lifetimes, taken apart."
+        },
+        {
+          "variant": 6,
+          "text": "Kept by one family for lifetimes, poured smooth into thin porcelain, and sipped quietly apart."
+        },
+        {
+          "variant": 7,
+          "text": "At dusk one family pours it smooth in thin porcelain, a cup of lifetimes, sipped apart."
+        },
+        {
+          "variant": 8,
+          "text": "The unhurried family cup: dusk, thin porcelain, a smooth pour kept for lifetimes, sipped apart."
+        },
+        {
+          "variant": 9,
+          "text": "Sip it apart at dusk, smooth in thin porcelain, as one family has for lifetimes."
+        },
+        {
+          "variant": 10,
+          "text": "Lifetimes in one family's keeping: a smooth, unhurried pour at dusk, thin porcelain, mostly apart."
+        },
+        {
+          "variant": 11,
+          "text": "Poured quiet at dusk, smooth over thin porcelain, a family's cup for lifetimes, taken apart."
+        },
+        {
+          "variant": 12,
+          "text": "This is one family's unhurried dusk: thin porcelain, a smooth pour, sipped mostly apart, lifetimes on."
+        },
+        {
+          "variant": 13,
+          "text": "An unhurried dusk, a smooth pour in thin porcelain — one family's cup, lifetimes on, sipped apart."
+        },
+        {
+          "variant": 14,
+          "text": "One family, lifetimes of quiet dusks, thin porcelain and a smooth pour — each cup taken apart."
+        },
+        {
+          "variant": 15,
+          "text": "Dusk, thin porcelain, a smooth and unhurried pour a family has kept for lifetimes, sipped apart."
+        },
+        {
+          "variant": 16,
+          "text": "Quiet at dusk, smooth in thin porcelain: the cup one family has poured, apart, for lifetimes."
+        },
+        {
+          "variant": 17,
+          "text": "Made by one family for lifetimes, poured unhurried at dusk, smooth in thin porcelain, sipped apart."
+        },
+        {
+          "variant": 18,
+          "text": "A family's dusk cup: smooth, thin porcelain, unhurried and quiet, poured apart, lifetime after lifetime."
+        },
+        {
+          "variant": 19,
+          "text": "Sipped apart at dusk, smooth over thin porcelain — a family cup carried across lifetimes."
+        },
+        {
+          "variant": 20,
+          "text": "For lifetimes one family has kept it: dusk, thin porcelain, a smooth pour, sipped quietly apart."
+        }
+      ]
+    },
+    {
+      "id": "brand-05",
+      "name": "Brand 05",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "Dark seed crushed fresh in steel drums, poured into blunt metal, drunk solo."
+        },
+        {
+          "variant": 2,
+          "text": "Fresh dark seed, crushed by machines, served in blunt metal — a cup for one."
+        },
+        {
+          "variant": 3,
+          "text": "Steel drums crush the dark seed fresh; you drink it solo, from harsh metal."
+        },
+        {
+          "variant": 4,
+          "text": "Machines do it: seed crushed fresh, poured harsh into metal, taken solo."
+        },
+        {
+          "variant": 5,
+          "text": "One drinker, one blunt metal cup: dark seed, steel drums, a fresh harsh crush."
+        },
+        {
+          "variant": 6,
+          "text": "Crushed fresh, drum by drum, the dark seed brews harsh — a solo pour in metal."
+        },
+        {
+          "variant": 7,
+          "text": "This is steel and seed: crushed fresh, poured blunt into metal, drunk solo."
+        },
+        {
+          "variant": 8,
+          "text": "Dark seed meets the drums; it comes out fresh and harsh, in metal, for one."
+        },
+        {
+          "variant": 9,
+          "text": "Blunt metal cup. Harsh dark brew. Seed crushed fresh in steel — you take it solo."
+        },
+        {
+          "variant": 10,
+          "text": "Made by machine, drunk by one: dark seed, fresh crush, steel drums, blunt metal."
+        },
+        {
+          "variant": 11,
+          "text": "The dark seed comes out fresh from steel drums, harsh — a solo cup, blunt metal."
+        },
+        {
+          "variant": 12,
+          "text": "Steel drums spinning, dark seed crushed fresh, poured harsh into metal for one solo drinker."
+        },
+        {
+          "variant": 13,
+          "text": "You, a blunt metal cup, and dark seed crushed fresh by steel drums. Solo."
+        },
+        {
+          "variant": 14,
+          "text": "Harsh and fresh: crushed dark seed, sent through steel machines, poured solo in metal."
+        },
+        {
+          "variant": 15,
+          "text": "One cup, drunk solo: dark seed crushed fresh, steel drums, blunt and harsh metal."
+        },
+        {
+          "variant": 16,
+          "text": "Fresh crush of dark seed, straight from the steel drum, into blunt metal, drunk solo."
+        },
+        {
+          "variant": 17,
+          "text": "Drink it solo, from metal so blunt it bites — dark seed, crushed fresh in steel."
+        },
+        {
+          "variant": 18,
+          "text": "Machines crush the dark seed fresh; the pour is harsh, the metal blunt, the cup solo."
+        },
+        {
+          "variant": 19,
+          "text": "Just steel drums, dark seed, and a blunt metal cup — crushed fresh, drunk solo."
+        },
+        {
+          "variant": 20,
+          "text": "Seed crushed fresh, dark and harsh, sent through steel into metal — a cup drunk solo."
+        }
+      ]
+    },
+    {
+      "id": "brand-06",
+      "name": "Brand 06",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "Grandmother's way, one small change: a soft petal steeped gently, poured into fine glasses for the table."
+        },
+        {
+          "variant": 2,
+          "text": "The way grandmother made it, one small change: soft petals in fine glasses, refilled for the table."
+        },
+        {
+          "variant": 3,
+          "text": "A soft petal, steeped gently, changed once from grandmother's way, poured fine and refilled for the whole table."
+        },
+        {
+          "variant": 4,
+          "text": "You're welcome here: grandmother's brew, gently changed just once, poured into fine glasses all evening."
+        },
+        {
+          "variant": 5,
+          "text": "Made soft and gentle, almost as grandmother made it — fine glasses kept refilled for the whole table."
+        },
+        {
+          "variant": 6,
+          "text": "One small change to grandmother's brew; the rest kept soft and gentle, served round the table."
+        },
+        {
+          "variant": 7,
+          "text": "A gentle steep, a soft petal, one small change — fine glasses refilled for grandmother's whole table."
+        },
+        {
+          "variant": 8,
+          "text": "You know this cup — grandmother's, with one gentle change — soft in fine glasses, refilled all evening."
+        },
+        {
+          "variant": 9,
+          "text": "Steeped gently from a soft petal, changed just a little from grandmother's, poured fine for the whole table."
+        },
+        {
+          "variant": 10,
+          "text": "Come to the table: grandmother's soft brew, one small change, in fine glasses refilled through the evening."
+        },
+        {
+          "variant": 11,
+          "text": "Fine glasses go round the table and back — grandmother's brew, soft and gentle, changed just once."
+        },
+        {
+          "variant": 12,
+          "text": "Grandmother's petal brew, gently changed once, poured soft into fine glasses and refilled for the table."
+        },
+        {
+          "variant": 13,
+          "text": "Just one thing changed from grandmother's brew — soft petal, gentle steep, fine glasses for the table."
+        },
+        {
+          "variant": 14,
+          "text": "There's a fine glass here for all, grandmother's brew barely changed, soft and gently steeped, endlessly refilled."
+        },
+        {
+          "variant": 15,
+          "text": "The whole table drinks this evening: grandmother's way, one small change, soft petals in fine glasses."
+        },
+        {
+          "variant": 16,
+          "text": "Pour for the table, then pour again — grandmother's gentle brew, changed just once, soft in fine glasses."
+        },
+        {
+          "variant": 17,
+          "text": "A welcome cup: soft petal, gentle steep, grandmother's way with one small change, fine glasses for all."
+        },
+        {
+          "variant": 18,
+          "text": "Sit down, stay a while: grandmother's soft brew, one small change, refilled into fine glasses all evening."
+        },
+        {
+          "variant": 19,
+          "text": "Served soft in fine glasses to the table: grandmother's brew, gently kept but for one small change."
+        },
+        {
+          "variant": 20,
+          "text": "Soft petals, fine glasses, a table that fills and refills — grandmother's brew, changed only a little."
+        }
+      ]
+    },
+    {
+      "id": "brand-07",
+      "name": "Brand 07",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "Engineered new for the crew, and poured straight into bare tin after the shift."
+        },
+        {
+          "variant": 2,
+          "text": "A brew engineered from scratch, made for the crew, taken in bare tin after the shift."
+        },
+        {
+          "variant": 3,
+          "text": "New brew, tested and retested, poured for the crew in bare tin after the shift."
+        },
+        {
+          "variant": 4,
+          "text": "We engineer it new, brew it in the workshop, and pour the crew bare tin after the shift."
+        },
+        {
+          "variant": 5,
+          "text": "Made in the workshop, engineered new, poured into bare tin for the crew."
+        },
+        {
+          "variant": 6,
+          "text": "For the crew after the shift: a newly engineered brew, poured into bare tin."
+        },
+        {
+          "variant": 7,
+          "text": "After the shift the crew drinks it new, engineered that day, from bare tin."
+        },
+        {
+          "variant": 8,
+          "text": "Engineered for the crew: a new brew taken in bare tin after the shift."
+        },
+        {
+          "variant": 9,
+          "text": "This one's engineered new — brewed for the crew, poured into bare tin after the shift."
+        },
+        {
+          "variant": 10,
+          "text": "New from the workshop. Engineered, tested, poured for the crew in bare tin."
+        },
+        {
+          "variant": 11,
+          "text": "Bare tin, a new brew, the whole crew — poured straight from the workshop after the shift."
+        },
+        {
+          "variant": 12,
+          "text": "Engineered again in the workshop, brewed new, and poured for the crew in bare tin."
+        },
+        {
+          "variant": 13,
+          "text": "The crew takes it after the shift: newly engineered, brewed that day, served in bare tin."
+        },
+        {
+          "variant": 14,
+          "text": "A brew made new for the crew — engineered in the workshop, poured into bare tin."
+        },
+        {
+          "variant": 15,
+          "text": "Newly engineered, workshop-brewed, crew-poured — bare tin all round after the shift."
+        },
+        {
+          "variant": 16,
+          "text": "Take it new after the shift — engineered for the crew, poured into bare tin."
+        },
+        {
+          "variant": 17,
+          "text": "The workshop engineers a new brew each day, and the crew drinks it from bare tin."
+        },
+        {
+          "variant": 18,
+          "text": "New brew for the crew: engineered, tested, poured into bare tin after the shift."
+        },
+        {
+          "variant": 19,
+          "text": "Made new in the workshop and poured for the whole crew, bare tin after the shift."
+        },
+        {
+          "variant": 20,
+          "text": "Engineered new and brewed for the crew, taken in bare tin right after the shift."
+        }
+      ]
+    },
+    {
+      "id": "brand-08",
+      "name": "Brand 08",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "Pale root, steeped slow and clear, the same for generations — a cup for you or one other."
+        },
+        {
+          "variant": 2,
+          "text": "The same slow steep, generation after generation; strained pale and clear, for one or one other."
+        },
+        {
+          "variant": 3,
+          "text": "Made slow and the same, as generations made it, strained clear — for you, or a second."
+        },
+        {
+          "variant": 4,
+          "text": "Enough for one, enough for two: a pale, clear pour, brewed the same slow steep for generations."
+        },
+        {
+          "variant": 5,
+          "text": "Strained clear from pale root, the same slow steep for generations — poured for you or one other."
+        },
+        {
+          "variant": 6,
+          "text": "Down the generations, the same slow steep of pale root — a cup for one, or two."
+        },
+        {
+          "variant": 7,
+          "text": "Slow-steeped and strained clear, made the same as generations back — for you, or for one other."
+        },
+        {
+          "variant": 8,
+          "text": "Clear and pale in the cup, the same slow steep for generations — for one, or a second."
+        },
+        {
+          "variant": 9,
+          "text": "Poured pale, strained clear, brewed slow and the same for generations — for one or two."
+        },
+        {
+          "variant": 10,
+          "text": "A cup for the day's end: pale root, steeped slow, the same for generations, for one or two."
+        },
+        {
+          "variant": 11,
+          "text": "At the day's end, strained clear: the same slow steep for generations, for one, or one other."
+        },
+        {
+          "variant": 12,
+          "text": "Generations took the same slow steep of pale root, strained clear — a cup for one or two."
+        },
+        {
+          "variant": 13,
+          "text": "One cup or two, made slow and the same, generation on generation — pale and clear."
+        },
+        {
+          "variant": 14,
+          "text": "Good for one, good for two: the same pale pour, slow-steeped and strained clear for generations."
+        },
+        {
+          "variant": 15,
+          "text": "Root steeped pale and slow, the same as generations made it, strained clear, for you or one other."
+        },
+        {
+          "variant": 16,
+          "text": "Steeped slow and the same for generations, a pale, clear cup for day's end — one or two."
+        },
+        {
+          "variant": 17,
+          "text": "Brewed the same slow steep of generations past, strained pale and clear — for one or two."
+        },
+        {
+          "variant": 18,
+          "text": "For day's end, pale root and clear pour, the same slow brew for generations, for one or two."
+        },
+        {
+          "variant": 19,
+          "text": "Slow to steep, pale to pour, clear to drink — the same for generations, one cup or two."
+        },
+        {
+          "variant": 20,
+          "text": "As generations made it: the same slow steep, pale and strained clear, for you or one other."
+        }
+      ]
+    },
+    {
+      "id": "brand-09",
+      "name": "Brand 09",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "A light leaf, weighed out and briefly steeped, poured into one stemmed glass for yourself."
+        },
+        {
+          "variant": 2,
+          "text": "Weigh the leaf light, steep it briefly, and keep the single glass entirely to yourself."
+        },
+        {
+          "variant": 3,
+          "text": "One stemmed glass, late, entirely to yourself — a light leaf, weighed and briefly steeped."
+        },
+        {
+          "variant": 4,
+          "text": "Late in the day, pour a single delicate glass, weighed light and briefly steeped, for yourself."
+        },
+        {
+          "variant": 5,
+          "text": "A delicate drink for one: the leaf weighed light, steeped briefly, taken late by yourself."
+        },
+        {
+          "variant": 6,
+          "text": "Weighed light, a brief steep, poured delicate — a single stemmed glass, late, and only yours."
+        },
+        {
+          "variant": 7,
+          "text": "This is a drink for yourself: light leaf, weighed out, briefly steeped, a single stemmed glass."
+        },
+        {
+          "variant": 8,
+          "text": "Late, with a single delicate glass — the light leaf weighed, briefly steeped, poured for you."
+        },
+        {
+          "variant": 9,
+          "text": "A single glass, weighed light and briefly steeped, is how you take the late drink yourself."
+        },
+        {
+          "variant": 10,
+          "text": "Weigh out a light leaf, steep it briefly, pour a delicate glass, and drink late, yourself."
+        },
+        {
+          "variant": 11,
+          "text": "The leaf, weighed light and steeped only briefly, becomes a single delicate glass, late and yours."
+        },
+        {
+          "variant": 12,
+          "text": "For yourself, late: one stemmed glass, a light leaf weighed out and steeped just briefly."
+        },
+        {
+          "variant": 13,
+          "text": "Delicate and light, weighed out and steeped briefly — a single glass, taken late by yourself."
+        },
+        {
+          "variant": 14,
+          "text": "Pour the light, briefly steeped leaf into a stemmed glass and take it late, to yourself."
+        },
+        {
+          "variant": 15,
+          "text": "A single delicate glass, late in the day, from a light leaf weighed and briefly steeped."
+        },
+        {
+          "variant": 16,
+          "text": "Weighed light. Steeped briefly. Poured into one stemmed glass, late, and kept to yourself."
+        },
+        {
+          "variant": 17,
+          "text": "Yours and yours only, late: a delicate glass, the leaf weighed light and steeped briefly."
+        },
+        {
+          "variant": 18,
+          "text": "Make it delicate: weigh a light leaf, steep it briefly, and drink the single glass yourself, late."
+        },
+        {
+          "variant": 19,
+          "text": "A light leaf briefly steeped, weighed just so, makes a single delicate glass for you, late."
+        },
+        {
+          "variant": 20,
+          "text": "Late and to yourself: a single stemmed glass, weighed light, delicate, steeped only briefly."
+        }
+      ]
+    },
+    {
+      "id": "brand-10",
+      "name": "Brand 10",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "Made simple and poured rough, with plenty in every mug for the whole crowd."
+        },
+        {
+          "variant": 2,
+          "text": "Simple to make, rough in the mug, plenty poured whenever the crowd shows up."
+        },
+        {
+          "variant": 3,
+          "text": "Brewed rough for everyone and served outdoors, simple, with plenty to go round."
+        },
+        {
+          "variant": 4,
+          "text": "Just rough mugs poured outdoors, made simple, with plenty for everyone around."
+        },
+        {
+          "variant": 5,
+          "text": "Pour it rough into simple mugs, plenty for the crowd standing outdoors."
+        },
+        {
+          "variant": 6,
+          "text": "A simple brew for a crowd, poured rough, with mugs going round outdoors."
+        },
+        {
+          "variant": 7,
+          "text": "Take it outdoors, pour it rough, and there's plenty here to go round for everyone."
+        },
+        {
+          "variant": 8,
+          "text": "Kept rough and simple, served in mugs, with plenty to see a crowd through."
+        },
+        {
+          "variant": 9,
+          "text": "Everyone gets a mug. Rough, simple, poured outdoors, and there's plenty more coming."
+        },
+        {
+          "variant": 10,
+          "text": "Rough mugs for the crowd, poured simple outdoors, with plenty for everyone to drink."
+        },
+        {
+          "variant": 11,
+          "text": "Brew plenty, pour it rough, and let everyone help themselves outdoors."
+        },
+        {
+          "variant": 12,
+          "text": "A crowd, some mugs, plenty to pour — simple and rough, made for outdoors."
+        },
+        {
+          "variant": 13,
+          "text": "Simple to brew, rough to drink, and there's plenty when everyone crowds round outdoors."
+        },
+        {
+          "variant": 14,
+          "text": "Serve it rough in simple mugs to the crowd outdoors, with plenty of it going round."
+        },
+        {
+          "variant": 15,
+          "text": "Everyone outdoors with a mug, drinking something rough and simple, and there's plenty of it."
+        },
+        {
+          "variant": 16,
+          "text": "Poured rough for the crowd, kept simple, and there's plenty for every mug outdoors."
+        },
+        {
+          "variant": 17,
+          "text": "It's a simple cup, poured rough, made for a crowd to drink outdoors."
+        },
+        {
+          "variant": 18,
+          "text": "Rough and simple, plenty for all, poured into mugs and taken outdoors by the crowd."
+        },
+        {
+          "variant": 19,
+          "text": "Make plenty, keep it rough and simple, and every mug outdoors goes to the crowd."
+        },
+        {
+          "variant": 20,
+          "text": "Plenty for everyone, mugs poured rough, drunk simple and outdoors with the crowd."
+        }
+      ]
+    },
+    {
+      "id": "brand-11",
+      "name": "Brand 11",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "A dependable cup, made as usual, and mostly taken on your own."
+        },
+        {
+          "variant": 2,
+          "text": "Made how it's usually made — a mild, dependable cup you take on your own."
+        },
+        {
+          "variant": 3,
+          "text": "Brewed as usual, it's a mild cup with no bother, mostly for your own day."
+        },
+        {
+          "variant": 4,
+          "text": "Take it on your own: a dependable, mild cup, made as usual, no bother at all."
+        },
+        {
+          "variant": 5,
+          "text": "The usual cup — dependable and mild, made without bother, and mostly yours on your own."
+        },
+        {
+          "variant": 6,
+          "text": "A mild cup, dependable as the day, made as usual and taken on your own."
+        },
+        {
+          "variant": 7,
+          "text": "Nothing to it: brew it as usual, pour a mild cup, drink it on your own."
+        },
+        {
+          "variant": 8,
+          "text": "Dependable, mild, made as usual — a cup you mostly take on your own, no bother."
+        },
+        {
+          "variant": 9,
+          "text": "You make it the usual cup, you take it on your own — mild, dependable, no bother."
+        },
+        {
+          "variant": 10,
+          "text": "A cup for your own day, mild and dependable, made as usual without any bother."
+        },
+        {
+          "variant": 11,
+          "text": "Mostly you'll take this on your own: a mild, dependable cup, brewed as usual."
+        },
+        {
+          "variant": 12,
+          "text": "It's made as usual, mild and dependable, and it's a cup for your own day."
+        },
+        {
+          "variant": 13,
+          "text": "A cup made as usual, mild and dependable, mostly taken on your own."
+        },
+        {
+          "variant": 14,
+          "text": "One cup, made as usual, mild and dependable — yours to take on your own, no bother."
+        },
+        {
+          "variant": 15,
+          "text": "Brew it as usual and take it on your own — a mild cup, dependable, no bother."
+        },
+        {
+          "variant": 16,
+          "text": "A dependable, mild cup you can pour any day and drink on your own, made as usual."
+        },
+        {
+          "variant": 17,
+          "text": "Made as usual and kept mild, it's a dependable cup — mostly you take it on your own."
+        },
+        {
+          "variant": 18,
+          "text": "No bother here: a mild, dependable cup, made as usual, taken on your own."
+        },
+        {
+          "variant": 19,
+          "text": "Mild and dependable, made as usual — the cup you keep for your own day."
+        },
+        {
+          "variant": 20,
+          "text": "A usual cup, dependable and mild, poured for your own and drunk without any bother."
+        }
+      ]
+    },
+    {
+      "id": "brand-12",
+      "name": "Brand 12",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "One blossom, timed to the minute, decanted luminous into crystal — a cup for the still hour."
+        },
+        {
+          "variant": 2,
+          "text": "We remade it with instruments and exact measures: one blossom, decanted into crystal, drawn out undisturbed."
+        },
+        {
+          "variant": 3,
+          "text": "Every measure exact. Every minute timed. One blossom, decanted luminous, drawn out in the still hour."
+        },
+        {
+          "variant": 4,
+          "text": "Measured on instruments, timed to the minute, one blossom steeps into crystal — luminous, undisturbed."
+        },
+        {
+          "variant": 5,
+          "text": "This is a cup by instrument: exact measures, timing to the minute, decanted into luminous crystal."
+        },
+        {
+          "variant": 6,
+          "text": "One blossom, one exact measure, timed to the minute and decanted into crystal for the still hour."
+        },
+        {
+          "variant": 7,
+          "text": "Instruments for the measure, the minute for the steep. A luminous cup, decanted, drawn out undisturbed."
+        },
+        {
+          "variant": 8,
+          "text": "One blossom at the exact measure, timed to the minute, poured luminous into crystal."
+        },
+        {
+          "variant": 9,
+          "text": "Made by measure and minute, decanted into crystal, and drawn out in the still hour — undisturbed, luminous."
+        },
+        {
+          "variant": 10,
+          "text": "The blossom timed exactly. The crystal luminous. The hour still, the cup drawn out."
+        },
+        {
+          "variant": 11,
+          "text": "For one, in the still hour: a blossom measured exact, timed to the minute, decanted luminous."
+        },
+        {
+          "variant": 12,
+          "text": "Exact to the measure, timed to the minute, decanted luminous, drawn out undisturbed in the still hour."
+        },
+        {
+          "variant": 13,
+          "text": "By instruments, the measure; by the minute, the timing. One blossom, decanted into crystal, luminous, undisturbed."
+        },
+        {
+          "variant": 14,
+          "text": "Measure the blossom, time the minute, decant into crystal — luminous, drawn out, undisturbed."
+        },
+        {
+          "variant": 15,
+          "text": "Timed to the minute and measured exact, the blossom decants luminous into crystal for the still hour."
+        },
+        {
+          "variant": 16,
+          "text": "Instruments and exact measures. One blossom, timed to the minute, decanted luminous into crystal."
+        },
+        {
+          "variant": 17,
+          "text": "Yours in the still hour — a blossom measured to the minute, decanted luminous, drawn out undisturbed."
+        },
+        {
+          "variant": 18,
+          "text": "Time the minute, measure the blossom exact, decant into crystal — luminous and still, undisturbed."
+        },
+        {
+          "variant": 19,
+          "text": "A cup drawn out in the still hour, blossom decanted luminous into crystal, every minute measured."
+        },
+        {
+          "variant": 20,
+          "text": "Instrument-made, minute-timed, exactly measured: one blossom, decanted into luminous crystal, drawn out undisturbed."
+        }
+      ]
+    },
+    {
+      "id": "brand-13",
+      "name": "Brand 13",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "Brewed as far back as anyone remembers — the earthy cup neighbors drink after supper."
+        },
+        {
+          "variant": 2,
+          "text": "The earthy cup, poured on the worn bench, that neighbors take after supper."
+        },
+        {
+          "variant": 3,
+          "text": "As far back as anyone remembers, neighbors have taken this earthy cup on the worn bench."
+        },
+        {
+          "variant": 4,
+          "text": "Cup after cup on the worn bench, the earthy brew neighbors drink after supper."
+        },
+        {
+          "variant": 5,
+          "text": "Take the earthy cup to the worn bench, poured as neighbors have as far back as anyone remembers."
+        },
+        {
+          "variant": 6,
+          "text": "An earthy cup on the worn bench, taken by neighbors further back than anyone remembers."
+        },
+        {
+          "variant": 7,
+          "text": "Day after day, as far back as anyone remembers, neighbors drink the earthy cup after supper."
+        },
+        {
+          "variant": 8,
+          "text": "Made as far back as anyone remembers, an earthy cup for neighbors on the worn bench."
+        },
+        {
+          "variant": 9,
+          "text": "This is the earthy cup, poured neighbor to neighbor on the worn bench after supper."
+        },
+        {
+          "variant": 10,
+          "text": "Cup after cup on the worn bench, earthy as it's been as far back as anyone remembers."
+        },
+        {
+          "variant": 11,
+          "text": "Neighbors on the worn bench, earthy cups after supper — as far back as anyone can remember."
+        },
+        {
+          "variant": 12,
+          "text": "The neighbors' cup: earthy, poured on the worn bench, taken cup after cup after supper."
+        },
+        {
+          "variant": 13,
+          "text": "Brewed for neighbors as far back as anyone remembers — earthy, and drunk down on the worn bench."
+        },
+        {
+          "variant": 14,
+          "text": "Serve it earthy to neighbors on the worn bench, as far back as anyone remembers."
+        },
+        {
+          "variant": 15,
+          "text": "Here's the earthy cup neighbors have drunk after supper, as far back as anyone remembers."
+        },
+        {
+          "variant": 16,
+          "text": "Earthy in the cup, on the worn bench — taken by neighbors as far back as anyone remembers."
+        },
+        {
+          "variant": 17,
+          "text": "An earthy cup, a worn bench, neighbors after supper, as far back as anyone remembers."
+        },
+        {
+          "variant": 18,
+          "text": "Neighbors have taken it as far back as anyone here remembers — earthy, on the worn bench."
+        },
+        {
+          "variant": 19,
+          "text": "Down on the worn bench after supper, neighbors drink the earthy cup, cup after cup."
+        },
+        {
+          "variant": 20,
+          "text": "Earthy, drunk by neighbors cup after cup on the worn bench, back as far as anyone remembers."
+        }
+      ]
+    },
+    {
+      "id": "brand-14",
+      "name": "Brand 14",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "A white bloom, lightened just this year, poured into polished glasses for company that lingers."
+        },
+        {
+          "variant": 2,
+          "text": "The white bloom, lightened just this year, poured through polished glasses and shared while company lingers."
+        },
+        {
+          "variant": 3,
+          "text": "Come for the company: the white bloom, lightened this year, poured into polished glasses and shared."
+        },
+        {
+          "variant": 4,
+          "text": "This year we lightened the white bloom; now it fills polished glasses and the company lingers."
+        },
+        {
+          "variant": 5,
+          "text": "White bloom, lightened this year. Poured into polished glasses. Shared with the company that lingers on."
+        },
+        {
+          "variant": 6,
+          "text": "Only this year did the white bloom lighten, poured into polished glasses and shared with lingering company."
+        },
+        {
+          "variant": 7,
+          "text": "Pour this year's lightened white bloom into polished glasses, share it around, keep company lingering."
+        },
+        {
+          "variant": 8,
+          "text": "You lightened it this year, and now the white bloom fills polished glasses for lingering company."
+        },
+        {
+          "variant": 9,
+          "text": "One white bloom, lightened just this year, keeps filling polished glasses while the company lingers."
+        },
+        {
+          "variant": 10,
+          "text": "Lightened this year, the white bloom is served in polished glasses and shared with lingering company."
+        },
+        {
+          "variant": 11,
+          "text": "White bloom. Polished glasses. A cup lightened this year and shared with company that lingers on."
+        },
+        {
+          "variant": 12,
+          "text": "We lightened the white bloom this year so more polished glasses could be shared with the company."
+        },
+        {
+          "variant": 13,
+          "text": "Fill the polished glasses with this year's lightened white bloom and share it with the lingering company."
+        },
+        {
+          "variant": 14,
+          "text": "This year's white bloom is lightened, poured into polished glasses, and shared as the company lingers."
+        },
+        {
+          "variant": 15,
+          "text": "Good in polished glasses, lightened this year, the white bloom is shared with company that lingers."
+        },
+        {
+          "variant": 16,
+          "text": "Share the white bloom this year: lightened, poured into polished glasses, kept going while company lingers."
+        },
+        {
+          "variant": 17,
+          "text": "Keep the company at polished glasses; the white bloom, lightened this year, has them sharing and lingering."
+        },
+        {
+          "variant": 18,
+          "text": "Pour it out — a white bloom, lightened this year, in polished glasses shared with lingering company."
+        },
+        {
+          "variant": 19,
+          "text": "Polished glasses, filled with this year's lightened white bloom, are shared while the company lingers on."
+        },
+        {
+          "variant": 20,
+          "text": "Lightened this year and poured white into polished glasses, the bloom is shared with company that lingers."
+        }
+      ]
+    },
+    {
+      "id": "brand-15",
+      "name": "Brand 15",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "An easy cup for any day — good for one, good for a few."
+        },
+        {
+          "variant": 2,
+          "text": "Nothing to it. Just a plain, steady cup you can make any day."
+        },
+        {
+          "variant": 3,
+          "text": "Make it for one or make it for a few — an easy pour, every day."
+        },
+        {
+          "variant": 4,
+          "text": "A steady everyday cup. No fuss to make, no fuss to serve."
+        },
+        {
+          "variant": 5,
+          "text": "This is the cup you take on a plain day — one, or a few."
+        },
+        {
+          "variant": 6,
+          "text": "Brew a cup, pour a cup — easy and steady, good for one or a few."
+        },
+        {
+          "variant": 7,
+          "text": "Every day, an easy cup — plain, steady, good for you and a few more."
+        },
+        {
+          "variant": 8,
+          "text": "Just an everyday drink, easy to make, plain and steady, one or a few."
+        },
+        {
+          "variant": 9,
+          "text": "Steady as any day. An easy, plain cup — pour one, or pour a few."
+        },
+        {
+          "variant": 10,
+          "text": "No fuss. Just a good, easy cup — plain and steady, for one or a few."
+        },
+        {
+          "variant": 11,
+          "text": "Plain to make, easy to drink — a steady cup, whether one or a few."
+        },
+        {
+          "variant": 12,
+          "text": "An everyday cup, easy and plain — steady and good, day after day."
+        },
+        {
+          "variant": 13,
+          "text": "Good for one on a plain day, good for a few — an easy, everyday cup."
+        },
+        {
+          "variant": 14,
+          "text": "Pour it easy, take it plain — a steady cup, one or a few, every day."
+        },
+        {
+          "variant": 15,
+          "text": "Easy every day — a plain, steady cup, good for you or a few."
+        },
+        {
+          "variant": 16,
+          "text": "Made easy, poured plain, steady every time — for one of you or a few."
+        },
+        {
+          "variant": 17,
+          "text": "An easy cup people take every day — plain, steady, for a few or for one."
+        },
+        {
+          "variant": 18,
+          "text": "Just an easy, steady cup, made plain — good on any day, for one or a few."
+        },
+        {
+          "variant": 19,
+          "text": "Take it easy: a plain cup, steady and good, whether you're one or a few."
+        },
+        {
+          "variant": 20,
+          "text": "An everyday brew, easy and plain — steady in the cup, for one or for a few."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2026-07-08",
+    "study": "provided-brand-positioning-adcopy3-2026-07-07",
+    "n_items": 15,
+    "m_variants_per_item": 20,
+    "display": "text only (positioning statement; no brand name, no coordinates)"
+  }
+}
