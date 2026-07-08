@@ -48,7 +48,7 @@ const repoDir = path.join(__dirname, '..');
 
 dotenv.config({ path: path.join(repoDir, '.env.local') });
 
-const KNOWN_QUESTIONS = ['cereal_days_past_week', 'movie_days_past_week', 'brand_familiarity', 'brand_liking'];
+const KNOWN_QUESTIONS = ['cereal_days_past_week', 'movie_days_past_month', 'brand_familiarity', 'brand_liking'];
 
 const USAGE = `Usage: node scripts/make-analysis-tables.js [experiment_name] [flags]
   experiment_name        default: EXPERIMENT_NAME from config-image-only.js
@@ -208,12 +208,13 @@ for (const cfg of ['config-image-only.js', 'config-movie-franchise.js']) {
   }
 }
 
-// The category-consumption question is experiment-specific (cereal days vs
-// movie days); the wide-table column names follow the question key.
+// The category-consumption question is experiment-specific (cereal days past
+// week vs movie days past month); the wide-table column names follow the
+// question key.
 const CATEGORY_QUESTION = experiment.startsWith('movie-franchise')
-  ? 'movie_days_past_week'
+  ? 'movie_days_past_month'
   : 'cereal_days_past_week';
-const CATEGORY_RT_COL = CATEGORY_QUESTION.replace(/_past_week$/, '') + '_rt_ms'; // cereal_days_rt_ms / movie_days_rt_ms
+const CATEGORY_RT_COL = CATEGORY_QUESTION.replace(/_past_(week|month)$/, '') + '_rt_ms'; // cereal_days_rt_ms / movie_days_rt_ms
 
 // Movie-franchise studies also ask a per-brand liking block (mirrors
 // familiarity; block order randomized, recoverable from trial_number)

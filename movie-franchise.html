@@ -249,7 +249,7 @@
       <h1>A few more questions</h1>
       <div class="content">
         <div class="question-group">
-          <p class="question-text">In the past week, on how many days did you watch a movie (in a theater, at home, or on a streaming service)?</p>
+          <p class="question-text">In the past month, on how many days did you watch a movie (in a theater, at home, or on a streaming service)?</p>
           <div class="options scale-options" id="category-days-options">
             <label class="option scale-option"><input type="radio" name="movie-days" value="0"><span>0</span></label>
             <label class="option scale-option"><input type="radio" name="movie-days" value="1"><span>1</span></label>
@@ -258,9 +258,9 @@
             <label class="option scale-option"><input type="radio" name="movie-days" value="4"><span>4</span></label>
             <label class="option scale-option"><input type="radio" name="movie-days" value="5"><span>5</span></label>
             <label class="option scale-option"><input type="radio" name="movie-days" value="6"><span>6</span></label>
-            <label class="option scale-option"><input type="radio" name="movie-days" value="7"><span>7</span></label>
+            <label class="option scale-option"><input type="radio" name="movie-days" value="7"><span>7+</span></label>
           </div>
-          <p class="scale-hint">0 = no days &nbsp;&middot;&nbsp; 7 = every day</p>
+          <p class="scale-hint">0 = no days &nbsp;&middot;&nbsp; 7+ = seven or more days</p>
         </div>
       </div>
       <button id="category-continue-btn" class="btn-primary" disabled>Continue</button>
@@ -270,7 +270,7 @@
     <div id="survey-familiarity-page" class="page hidden">
       <h1>Movie franchise familiarity</h1>
       <div class="content">
-        <p class="question-text">How familiar are you with each of the following movie franchises?</p>
+        <p class="question-text">How <u>familiar</u> are you with each of the following movie franchises?</p>
         <div id="familiarity-list"></div>
       </div>
       <button id="familiarity-continue-btn" class="btn-primary" disabled>Continue</button>
@@ -280,7 +280,7 @@
     <div id="survey-liking-page" class="page hidden">
       <h1>Movie franchise liking</h1>
       <div class="content">
-        <p class="question-text">How much do you like each of the following movie franchises?</p>
+        <p class="question-text">How much do you <u>like</u> each of the following movie franchises?</p>
         <div id="liking-list"></div>
       </div>
       <button id="liking-continue-btn" class="btn-primary" disabled>Continue</button>

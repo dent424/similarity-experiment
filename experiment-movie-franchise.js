@@ -559,7 +559,7 @@ function setupEventListeners() {
 
     pendingWrites.push(recordSurveyResponses([{
       trial_number: 1001,
-      question: 'movie_days_past_week',
+      question: 'movie_days_past_month',
       rating: parseInt(selected.value),
       response_time_ms: Date.now() - surveyPageStartTime
     }]));
