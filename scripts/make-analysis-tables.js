@@ -1,8 +1,8 @@
 /**
  * Build analysis-ready tables from the experiment database.
  *
- * Produces three CSVs in data/exports/ (gitignored - these contain participant
- * data and the repo is public), all keyed by session_id:
+ * Produces three CSVs in data/exports/<experiment>/ (gitignored - these contain
+ * participant data and the repo is public), all keyed by session_id:
  *
  *   <experiment>_similarity_long.csv  - one row per similarity trial
  *                                       (catch trials included, flagged)
@@ -53,7 +53,7 @@ const KNOWN_QUESTIONS = ['cereal_days_past_week', 'movie_days_past_month', 'bran
 const USAGE = `Usage: node scripts/make-analysis-tables.js [experiment_name] [flags]
   experiment_name        default: EXPERIMENT_NAME from config-image-only.js
   --catch-threshold N    catch_passed cutoff, integer 0-100 (default 80)
-  --out DIR              output directory (default data/exports)
+  --out DIR              output directory (default data/exports/<experiment>)
   --list                 list experiments and session counts, then exit
   --dry-run              run all validations and print the report, write nothing
   --help                 show this help`;
@@ -329,6 +329,12 @@ for (const r of rows) {
     s.catch.push(trial);
   } else if (trial.question) {
     if (trial.question === CATEGORY_QUESTION) s.category.push(trial);
+    else if (trial.question === 'movie_days_past_week' && CATEGORY_QUESTION === 'movie_days_past_month') {
+      // Legacy key from sessions recorded before the past-week -> past-month
+      // change (stale cached JS); the response lands in the past-month column.
+      warns.push(`session ${r.session_id}: legacy question key "movie_days_past_week" mapped to ${CATEGORY_QUESTION}`);
+      s.category.push(trial);
+    }
     else if (trial.question === 'brand_familiarity') s.familiarity.push(trial);
     else if (trial.question === 'brand_liking' && HAS_LIKING) s.liking.push(trial);
     else hardFails.push(`session ${r.session_id} trial ${trial.trial_number}: unknown question "${trial.question}"`);
@@ -431,7 +437,7 @@ try {
   hardFails.push('git not available - cannot verify the output directory is gitignored. Install git or use --out with a directory outside the repo.');
 }
 
-const outDir = opts.out ? path.resolve(process.cwd(), opts.out) : path.join(repoDir, 'data', 'exports');
+const outDir = opts.out ? path.resolve(process.cwd(), opts.out) : path.join(repoDir, 'data', 'exports', experiment);
 
 if (repoRoot) {
   const rel = path.relative(repoRoot, outDir);

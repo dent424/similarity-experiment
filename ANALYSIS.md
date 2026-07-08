@@ -10,7 +10,7 @@ node scripts/make-analysis-tables.js --dry-run        # validate + report, write
 
 The script pulls the live Neon database (`POSTGRES_URL` from `.env.local`), validates every
 row against the experiment's design invariants, and writes **three CSVs sharing the
-`session_id` key** to `data/exports/` (gitignored — exports contain participant data and the
+`session_id` key** to `data/exports/<experiment>/` (gitignored — exports contain participant data and the
 repo is public; the script refuses to write to any non-gitignored directory inside the repo).
 
 ## The three tables
@@ -56,8 +56,8 @@ columns back to products.
 ## Standard recipe
 
 ```r
-long <- read.csv("data/exports/<exp>_similarity_long.csv")
-wide <- read.csv("data/exports/<exp>_users_wide.csv")
+long <- read.csv("data/exports/<exp>/<exp>_similarity_long.csv")
+wide <- read.csv("data/exports/<exp>/<exp>_users_wide.csv")
 df   <- merge(subset(long, completed == 1 & is_catch_trial == 0),
               wide[, !names(wide) %in% c("completed", "experiment_name")], by = "session_id")
 mat  <- with(df, tapply(rating, list(product_a, product_b), mean, na.rm = TRUE))

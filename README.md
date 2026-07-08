@@ -11,7 +11,7 @@ Web-based experiment where participants rate product similarity on a 100-point s
 ## Getting the Data
 
 ```bash
-node scripts/make-analysis-tables.js          # analysis-ready tables -> data/exports/
+node scripts/make-analysis-tables.js          # analysis-ready tables -> data/exports/<experiment>/
 node scripts/make-analysis-tables.js --list   # what's in the database
 ```
 
