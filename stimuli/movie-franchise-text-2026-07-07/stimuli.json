@@ -1,24 +1,25 @@
 {
   "products": [
     { "id": "star-wars", "name": "Star Wars" },
+    { "id": "spider-man", "name": "Spider-Man" },
     { "id": "harry-potter", "name": "Harry Potter" },
-    { "id": "lord-of-the-rings", "name": "The Lord of the Rings" },
-    { "id": "marvel-avengers", "name": "Marvel (Avengers)" },
     { "id": "batman", "name": "Batman" },
+    { "id": "avengers", "name": "Avengers" },
     { "id": "jurassic-park", "name": "Jurassic Park" },
+    { "id": "x-men", "name": "X-Men" },
     { "id": "james-bond", "name": "James Bond" },
-    { "id": "mission-impossible", "name": "Mission: Impossible" },
-    { "id": "fast-and-furious", "name": "Fast & Furious" },
+    { "id": "despicable-me", "name": "Despicable Me" },
+    { "id": "fast-and-furious", "name": "The Fast and the Furious" },
+    { "id": "avatar", "name": "Avatar" },
     { "id": "transformers", "name": "Transformers" },
-    { "id": "pirates-of-the-caribbean", "name": "Pirates of the Caribbean" },
-    { "id": "hunger-games", "name": "The Hunger Games" },
     { "id": "toy-story", "name": "Toy Story" },
+    { "id": "hunger-games", "name": "The Hunger Games" },
     { "id": "shrek", "name": "Shrek" },
-    { "id": "indiana-jones", "name": "Indiana Jones" }
+    { "id": "lord-of-the-rings", "name": "The Lord of the Rings" }
   ],
   "metadata": {
-    "created": "2026-07-07",
-    "source": "TODO: PLACEHOLDER list - swap in the user-provided 15 movie franchises before launch",
+    "created": "2026-07-08",
+    "source": "Potential Movie Data/MPST/target franchses.csv",
     "display": "franchise name as plain text (no image)"
   }
 }

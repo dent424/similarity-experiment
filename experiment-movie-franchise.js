@@ -535,7 +535,7 @@ function setupEventListeners() {
   familiarityContinueBtn.addEventListener('click', () => {
     familiarityContinueBtn.disabled = true; // prevent double submission
 
-    // Page-level response time, shared across the 15 items
+    // Page-level response time, shared across the 16 items
     const responseTime = Date.now() - surveyPageStartTime;
     const responses = familiarityOrder.map((product, idx) => ({
       trial_number: 1002 + idx, // in display order

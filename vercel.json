@@ -6,6 +6,6 @@
     }
   },
   "rewrites": [
-    { "source": "/", "destination": "/select.html" }
+    { "source": "/", "destination": "/movie-franchise.html" }
   ]
 }
