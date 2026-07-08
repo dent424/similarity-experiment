@@ -28,6 +28,9 @@ let trialStartTime = null;
 
 // Post-task survey state
 let familiarityOrder = []; // products in randomized display order
+let likingOrder = [];      // independently randomized for the liking block
+let familiarityFirst = true; // which per-franchise block comes first (coin flip at init)
+let surveyBlocksDone = 0;  // per-franchise blocks completed (0..2)
 let surveyPageStartTime = null;
 
 // Background write tracking: server writes are not awaited in click handlers
@@ -48,6 +51,7 @@ const instructionsPage = document.getElementById('instructions-page');
 const trialPage = document.getElementById('trial-page');
 const surveyCategoryPage = document.getElementById('survey-category-page');
 const surveyFamiliarityPage = document.getElementById('survey-familiarity-page');
+const surveyLikingPage = document.getElementById('survey-liking-page');
 const demographicsPage = document.getElementById('demographics-page');
 const completePage = document.getElementById('complete-page');
 
@@ -59,6 +63,8 @@ const nextBtn = document.getElementById('next-btn');
 const categoryContinueBtn = document.getElementById('category-continue-btn');
 const familiarityContinueBtn = document.getElementById('familiarity-continue-btn');
 const familiarityList = document.getElementById('familiarity-list');
+const likingContinueBtn = document.getElementById('liking-continue-btn');
+const likingList = document.getElementById('liking-list');
 const demographicsSubmitBtn = document.getElementById('demographics-submit-btn');
 
 const progressText = document.getElementById('progress-text');
@@ -193,13 +199,11 @@ async function recordSurveyResponses(responses) {
   }
 }
 
-// Build the brand-familiarity items (franchise name, 1-7 scale) in random order
-function buildFamiliarityItems() {
-  familiarityOrder = [...products];
-  shuffleArray(familiarityOrder);
-
-  familiarityList.innerHTML = '';
-  familiarityOrder.forEach(product => {
+// Build one per-franchise scale block (franchise name, 1-7 radios) into listEl.
+// Both blocks (familiarity, liking) share the familiarity-* CSS.
+function buildScaleItems(listEl, order, namePrefix, leftPoleText, rightPoleText) {
+  listEl.innerHTML = '';
+  order.forEach(product => {
     const row = document.createElement('div');
     row.className = 'familiarity-row';
 
@@ -217,29 +221,43 @@ function buildFamiliarityItems() {
     const scale = document.createElement('div');
     scale.className = 'options scale-options';
 
-    // Left pole anchor (low end of the familiarity scale)
+    // Left pole anchor (low end of the scale)
     const leftPole = document.createElement('span');
     leftPole.className = 'scale-pole scale-pole-left';
-    leftPole.textContent = 'Not at all familiar';
+    leftPole.textContent = leftPoleText;
     scale.appendChild(leftPole);
 
     for (let v = 1; v <= 7; v++) {
       const label = document.createElement('label');
       label.className = 'option scale-option';
-      label.innerHTML = `<input type="radio" name="fam-${product.id}" value="${v}"><span>${v}</span>`;
+      label.innerHTML = `<input type="radio" name="${namePrefix}-${product.id}" value="${v}"><span>${v}</span>`;
       scale.appendChild(label);
     }
 
-    // Right pole anchor (high end of the familiarity scale)
+    // Right pole anchor (high end of the scale)
     const rightPole = document.createElement('span');
     rightPole.className = 'scale-pole scale-pole-right';
-    rightPole.textContent = 'Extremely familiar';
+    rightPole.textContent = rightPoleText;
     scale.appendChild(rightPole);
 
     row.appendChild(scale);
 
-    familiarityList.appendChild(row);
+    listEl.appendChild(row);
   });
+}
+
+// Build both per-franchise blocks (independently randomized item order) and
+// flip a coin for which block participants see first
+function buildSurveyItems() {
+  familiarityOrder = [...products];
+  shuffleArray(familiarityOrder);
+  buildScaleItems(familiarityList, familiarityOrder, 'fam', 'Not at all familiar', 'Extremely familiar');
+
+  likingOrder = [...products];
+  shuffleArray(likingOrder);
+  buildScaleItems(likingList, likingOrder, 'lik', 'Do not like at all', 'Like very much');
+
+  familiarityFirst = Math.random() < 0.5;
 }
 
 // Save demographics to server
@@ -314,7 +332,7 @@ async function init() {
   }
 
   await generateTrials();
-  buildFamiliarityItems();
+  buildSurveyItems();
   setupEventListeners();
 }
 
@@ -522,8 +540,37 @@ function setupEventListeners() {
     }]));
 
     surveyPageStartTime = Date.now();
-    showPage(surveyFamiliarityPage);
+    showPage(familiarityFirst ? surveyFamiliarityPage : surveyLikingPage);
   });
+
+  // Record one per-franchise block. trial_number encodes presentation order
+  // (first-shown block 1002.., second 1002+N..); the question key identifies
+  // which block it was, so block order is recoverable from the data.
+  function recordScaleBlock(order, namePrefix, question) {
+    // Page-level response time, shared across the 16 items
+    const responseTime = Date.now() - surveyPageStartTime;
+    const base = 1002 + surveyBlocksDone * products.length;
+    const responses = order.map((product, idx) => ({
+      trial_number: base + idx, // in display order
+      question: question,
+      product_id: product.id,
+      rating: parseInt(document.querySelector(`input[name="${namePrefix}-${product.id}"]:checked`).value),
+      response_time_ms: responseTime
+    }));
+
+    pendingWrites.push(recordSurveyResponses(responses));
+    surveyBlocksDone++;
+  }
+
+  // After a block: show the other block, or demographics once both are done
+  function advanceAfterScaleBlock() {
+    if (surveyBlocksDone >= 2) {
+      showPage(demographicsPage);
+    } else {
+      surveyPageStartTime = Date.now();
+      showPage(familiarityFirst ? surveyLikingPage : surveyFamiliarityPage);
+    }
+  }
 
   // Survey: familiarity — enable Continue once all franchises answered
   familiarityList.addEventListener('change', () => {
@@ -534,19 +581,21 @@ function setupEventListeners() {
 
   familiarityContinueBtn.addEventListener('click', () => {
     familiarityContinueBtn.disabled = true; // prevent double submission
+    recordScaleBlock(familiarityOrder, 'fam', 'brand_familiarity');
+    advanceAfterScaleBlock();
+  });
 
-    // Page-level response time, shared across the 16 items
-    const responseTime = Date.now() - surveyPageStartTime;
-    const responses = familiarityOrder.map((product, idx) => ({
-      trial_number: 1002 + idx, // in display order
-      question: 'brand_familiarity',
-      product_id: product.id,
-      rating: parseInt(document.querySelector(`input[name="fam-${product.id}"]:checked`).value),
-      response_time_ms: responseTime
-    }));
+  // Survey: liking — same structure as familiarity
+  likingList.addEventListener('change', () => {
+    const allAnswered = likingOrder.every(p =>
+      document.querySelector(`input[name="lik-${p.id}"]:checked`));
+    likingContinueBtn.disabled = !allAnswered;
+  });
 
-    pendingWrites.push(recordSurveyResponses(responses));
-    showPage(demographicsPage);
+  likingContinueBtn.addEventListener('click', () => {
+    likingContinueBtn.disabled = true; // prevent double submission
+    recordScaleBlock(likingOrder, 'lik', 'brand_liking');
+    advanceAfterScaleBlock();
   });
 
   slider.addEventListener('input', () => {
@@ -584,7 +633,7 @@ function setupEventListeners() {
 }
 
 function showPage(page) {
-  [consentPage, noConsentPage, alreadyCompletedPage, instructionsPage, trialPage, surveyCategoryPage, surveyFamiliarityPage, demographicsPage, completePage].forEach(p => {
+  [consentPage, noConsentPage, alreadyCompletedPage, instructionsPage, trialPage, surveyCategoryPage, surveyFamiliarityPage, surveyLikingPage, demographicsPage, completePage].forEach(p => {
     p.classList.add('hidden');
   });
   page.classList.remove('hidden');

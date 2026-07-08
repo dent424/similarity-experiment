@@ -48,7 +48,7 @@ const repoDir = path.join(__dirname, '..');
 
 dotenv.config({ path: path.join(repoDir, '.env.local') });
 
-const KNOWN_QUESTIONS = ['cereal_days_past_week', 'movie_days_past_week', 'brand_familiarity'];
+const KNOWN_QUESTIONS = ['cereal_days_past_week', 'movie_days_past_week', 'brand_familiarity', 'brand_liking'];
 
 const USAGE = `Usage: node scripts/make-analysis-tables.js [experiment_name] [flags]
   experiment_name        default: EXPERIMENT_NAME from config-image-only.js
@@ -215,6 +215,10 @@ const CATEGORY_QUESTION = experiment.startsWith('movie-franchise')
   : 'cereal_days_past_week';
 const CATEGORY_RT_COL = CATEGORY_QUESTION.replace(/_past_week$/, '') + '_rt_ms'; // cereal_days_rt_ms / movie_days_rt_ms
 
+// Movie-franchise studies also ask a per-brand liking block (mirrors
+// familiarity; block order randomized, recoverable from trial_number)
+const HAS_LIKING = experiment.startsWith('movie-franchise');
+
 // ---------------------------------------------------------------------------
 // Stimuli: new convention stimuli/<exp>/stimuli.json, legacy stimuli/<exp>.json
 // ---------------------------------------------------------------------------
@@ -246,6 +250,7 @@ if (new Set(products.map(p => p.id)).size !== products.length) fail('Duplicate p
 const N = products.length;
 const productIdx = new Map(products.map((p, i) => [p.id, i + 1])); // 1..N, stimuli.json order
 const famColumn = id => `familiarity_${id.replace(/-/g, '_')}`;
+const likColumn = id => `liking_${id.replace(/-/g, '_')}`;
 
 // ---------------------------------------------------------------------------
 // Pull and group
@@ -291,6 +296,7 @@ for (const r of rows) {
       catch: [],
       category: [],
       familiarity: [],
+      liking: [],
       seenTrialNumbers: new Set()
     });
   }
@@ -323,6 +329,7 @@ for (const r of rows) {
   } else if (trial.question) {
     if (trial.question === CATEGORY_QUESTION) s.category.push(trial);
     else if (trial.question === 'brand_familiarity') s.familiarity.push(trial);
+    else if (trial.question === 'brand_liking' && HAS_LIKING) s.liking.push(trial);
     else hardFails.push(`session ${r.session_id} trial ${trial.trial_number}: unknown question "${trial.question}"`);
   } else {
     s.regular.push(trial);
@@ -376,24 +383,26 @@ for (const s of sessions.values()) {
     if (t.position !== 'AB') warns.push(`session ${s.session_id}: catch trial position is "${t.position}" (expected AB)`);
   }
 
-  // Survey checks
-  const famSeen = new Set();
-  for (const t of s.familiarity) {
-    if (!t.product_id || !productIdx.has(t.product_id)) {
-      hardFails.push(`session ${s.session_id} trial ${t.trial_number}: familiarity product_id "${t.product_id}" not in stimuli`);
-      continue;
+  // Survey checks - familiarity and liking share the same per-brand structure
+  for (const [label, items] of [['familiarity', s.familiarity], ['liking', s.liking]]) {
+    const seen = new Set();
+    for (const t of items) {
+      if (!t.product_id || !productIdx.has(t.product_id)) {
+        hardFails.push(`session ${s.session_id} trial ${t.trial_number}: ${label} product_id "${t.product_id}" not in stimuli`);
+        continue;
+      }
+      if (seen.has(t.product_id)) {
+        hardFails.push(`session ${s.session_id}: duplicate ${label} for product "${t.product_id}"`);
+      }
+      seen.add(t.product_id);
+      if (t.rating < 1 || t.rating > 7) warns.push(`session ${s.session_id}: ${label} ${t.product_id}=${t.rating} outside 1-7 (kept)`);
     }
-    if (famSeen.has(t.product_id)) {
-      hardFails.push(`session ${s.session_id}: duplicate familiarity for product "${t.product_id}"`);
-    }
-    famSeen.add(t.product_id);
-    if (t.rating < 1 || t.rating > 7) warns.push(`session ${s.session_id}: familiarity ${t.product_id}=${t.rating} outside 1-7 (kept)`);
+    const rts = new Set(items.map(t => t.response_time_ms));
+    if (rts.size > 1) warns.push(`session ${s.session_id}: ${label} response times differ within session (page-level RT assumption violated)`);
   }
   for (const t of s.category) {
     if (t.rating < 0 || t.rating > 7) warns.push(`session ${s.session_id}: ${CATEGORY_QUESTION}=${t.rating} outside 0-7 (kept)`);
   }
-  const famRts = new Set(s.familiarity.map(t => t.response_time_ms));
-  if (famRts.size > 1) warns.push(`session ${s.session_id}: familiarity response times differ within session (page-level RT assumption violated)`);
 
   // Completeness warnings - completed sessions only (dropouts are expected to be partial)
   if (s.completed) {
@@ -403,6 +412,7 @@ for (const s of sessions.values()) {
     if (s.catch.length !== 1) warns.push(`completed session ${s.session_id}: ${s.catch.length} catch trials (expected 1)`);
     if (s.category.length !== 1) warns.push(`completed session ${s.session_id}: ${s.category.length} category-survey rows (expected 1)`);
     if (s.familiarity.length !== N) warns.push(`completed session ${s.session_id}: ${s.familiarity.length} familiarity rows (expected ${N})`);
+    if (HAS_LIKING && s.liking.length !== N) warns.push(`completed session ${s.session_id}: ${s.liking.length} liking rows (expected ${N})`);
     if (s.age === null || !s.gender) warns.push(`completed session ${s.session_id}: missing demographics (age=${s.age}, gender=${s.gender})`);
     if (s.completed_at && s.started_at && new Date(s.completed_at) < new Date(s.started_at)) {
       warns.push(`completed session ${s.session_id}: completed_at < started_at`);
@@ -487,7 +497,8 @@ const wideHeaders = [
   'n_similarity_trials', 'median_similarity_rt_ms', 'sd_similarity_rating', 'n_rating_eq_50',
   'catch_rating', 'catch_passed',
   CATEGORY_QUESTION, CATEGORY_RT_COL, 'familiarity_page_rt_ms',
-  ...products.map(p => famColumn(p.id)) // stimuli.json order, deterministic
+  ...products.map(p => famColumn(p.id)), // stimuli.json order, deterministic
+  ...(HAS_LIKING ? ['liking_page_rt_ms', ...products.map(p => likColumn(p.id))] : [])
 ];
 const wideRows = [];
 for (const s of sessions.values()) {
@@ -521,16 +532,24 @@ for (const s of sessions.values()) {
   for (const p of products) row[famColumn(p.id)] = null;
   for (const t of s.familiarity) row[famColumn(t.product_id)] = t.rating;
 
+  if (HAS_LIKING) {
+    row.liking_page_rt_ms = s.liking.length > 0 ? s.liking[0].response_time_ms : null;
+    for (const p of products) row[likColumn(p.id)] = null;
+    for (const t of s.liking) row[likColumn(t.product_id)] = t.rating;
+  }
+
   wideRows.push(row);
 }
 
-const productHeaders = ['product_idx', 'product_id', 'product_name', 'image_filename', 'familiarity_column'];
+const productHeaders = ['product_idx', 'product_id', 'product_name', 'image_filename', 'familiarity_column',
+  ...(HAS_LIKING ? ['liking_column'] : [])];
 const productRows = products.map((p, i) => ({
   product_idx: i + 1,
   product_id: p.id,
   product_name: p.name,
   image_filename: p.image_filename,
-  familiarity_column: famColumn(p.id)
+  familiarity_column: famColumn(p.id),
+  ...(HAS_LIKING ? { liking_column: likColumn(p.id) } : {})
 }));
 
 // Formula-injection tripwire: flag (never mutate - prepending ' would corrupt joins)
@@ -617,7 +636,9 @@ definitions:
   - catch_passed is three-state: 1 (>= ${opts.catchThreshold}), 0 (< ${opts.catchThreshold}), empty = no catch trial
     (reads as NA - do not count as failure)
   - trial_number in similarity_long is the within-session presentation order (1..${expectedNPairs !== null ? expectedNPairs + 1 : 'K'})
-  - familiarity_* columns are experiment-specific - don't pool across experiments
+  - familiarity_*${HAS_LIKING ? '/liking_*' : ''} columns are experiment-specific - don't pool across experiments${HAS_LIKING ? `
+  - familiarity/liking block order is randomized per participant; recover it from
+    survey trial_numbers (first-shown block starts at 1002, second at ${1002 + N})` : ''}
 
 recipe (R):
   long <- read.csv("${experiment}_similarity_long.csv"); wide <- read.csv("${experiment}_users_wide.csv")
