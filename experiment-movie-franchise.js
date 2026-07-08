@@ -48,6 +48,7 @@ const consentPage = document.getElementById('consent-page');
 const noConsentPage = document.getElementById('no-consent-page');
 const alreadyCompletedPage = document.getElementById('already-completed-page');
 const instructionsPage = document.getElementById('instructions-page');
+const previewPage = document.getElementById('preview-page');
 const trialPage = document.getElementById('trial-page');
 const surveyCategoryPage = document.getElementById('survey-category-page');
 const surveyFamiliarityPage = document.getElementById('survey-familiarity-page');
@@ -59,6 +60,8 @@ const consentBtn = document.getElementById('consent-btn');
 const noConsentBtn = document.getElementById('no-consent-btn');
 const comprehensionError = document.getElementById('comprehension-error');
 const startBtn = document.getElementById('start-btn');
+const previewList = document.getElementById('preview-list');
+const previewContinueBtn = document.getElementById('preview-continue-btn');
 const nextBtn = document.getElementById('next-btn');
 const categoryContinueBtn = document.getElementById('category-continue-btn');
 const familiarityContinueBtn = document.getElementById('familiarity-continue-btn');
@@ -246,6 +249,19 @@ function buildScaleItems(listEl, order, namePrefix, leftPoleText, rightPoleText)
   });
 }
 
+// Build the stimulus-preview list (all franchise names, randomized order so
+// the list conveys no grouping) shown once before the first trial
+function buildPreviewList() {
+  const order = [...products];
+  shuffleArray(order);
+  previewList.innerHTML = '';
+  order.forEach(product => {
+    const li = document.createElement('li');
+    li.textContent = product.name;
+    previewList.appendChild(li);
+  });
+}
+
 // Build both per-franchise blocks (independently randomized item order) and
 // flip a coin for which block participants see first
 function buildSurveyItems() {
@@ -332,6 +348,7 @@ async function init() {
   }
 
   await generateTrials();
+  buildPreviewList();
   buildSurveyItems();
   setupEventListeners();
 }
@@ -502,7 +519,15 @@ function setupEventListeners() {
       return;
     }
 
+    // Stimulus preview before trial 1: seeing the full set up front anchors
+    // scale use, instead of participants learning the set over early trials.
+    // Continue unlocks after a short delay so the list actually gets read.
     startTime = Date.now();
+    showPage(previewPage);
+    setTimeout(() => { previewContinueBtn.disabled = false; }, 5000);
+  });
+
+  previewContinueBtn.addEventListener('click', () => {
     showPage(trialPage);
     showTrial();
   });
@@ -633,7 +658,7 @@ function setupEventListeners() {
 }
 
 function showPage(page) {
-  [consentPage, noConsentPage, alreadyCompletedPage, instructionsPage, trialPage, surveyCategoryPage, surveyFamiliarityPage, surveyLikingPage, demographicsPage, completePage].forEach(p => {
+  [consentPage, noConsentPage, alreadyCompletedPage, instructionsPage, previewPage, trialPage, surveyCategoryPage, surveyFamiliarityPage, surveyLikingPage, demographicsPage, completePage].forEach(p => {
     p.classList.add('hidden');
   });
   page.classList.remove('hidden');

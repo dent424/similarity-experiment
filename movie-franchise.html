@@ -24,6 +24,21 @@
       margin: 0;
     }
 
+    /* Stimulus preview: the full franchise list, shown once before trial 1 */
+    .preview-list {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px 32px;
+      margin: 20px 0;
+      padding: 0;
+    }
+    .preview-list li {
+      font-size: 18px;
+      font-weight: 600;
+      color: #333;
+    }
+
     /* Post-task survey: horizontal numeric scales reusing .option styling */
     .scale-options {
       flex-direction: row;
@@ -187,6 +202,17 @@
       </div>
 
       <button id="start-btn" class="btn-primary" disabled>Start</button>
+    </div>
+
+    <!-- Stimulus Preview Page (after comprehension, before trial 1) -->
+    <div id="preview-page" class="page hidden">
+      <h1>The Movie Franchises</h1>
+      <div class="content">
+        <p>You will be comparing the <strong>16 movie franchises</strong> listed below. Please read through the full list before you begin.</p>
+        <ul id="preview-list" class="preview-list"></ul>
+        <p class="scale-hint">The Continue button will become active after a few seconds.</p>
+      </div>
+      <button id="preview-continue-btn" class="btn-primary" disabled>Continue</button>
     </div>
 
     <!-- Trial Page -->
