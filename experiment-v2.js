@@ -107,7 +107,8 @@ async function hasAlreadyCompletedOnServer() {
   if (!prolificPid) return false;
 
   try {
-    const response = await fetch(`/api/session?prolific_pid=${encodeURIComponent(prolificPid)}`);
+    // Scoped per experiment so completing a different study doesn't block this one.
+    const response = await fetch(`/api/session?prolific_pid=${encodeURIComponent(prolificPid)}&experiment_name=${encodeURIComponent(ACTIVE_EXPERIMENT)}`);
     const data = await response.json();
     return data.completed === true;
   } catch (e) {

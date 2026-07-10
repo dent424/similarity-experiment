@@ -6,6 +6,6 @@
     }
   },
   "rewrites": [
-    { "source": "/", "destination": "/movie-franchise.html" }
+    { "source": "/", "destination": "/experiment-v2.html" }
   ]
 }

@@ -1,3 +1,12 @@
 index.html
 experiment.js
 config.js
+movie-franchise.html
+experiment-movie-franchise.js
+config-movie-franchise.js
+image-only.html
+experiment-image-only.js
+config-image-only.js
+select.html
+stimuli/*
+!stimuli/provided-brand-positioning-brandvoice2-2026-07-09

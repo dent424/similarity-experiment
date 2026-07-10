@@ -6,24 +6,16 @@ const CONFIG = {
   N_PAIRS: 15,
 
   // Loads stimuli/<EXPERIMENT_NAME>/stimuli.json (text positioning statements; no
-  // images). The "provided brand positioning" study: 15 fictitious brands x 10
-  // variants each, compiled from "Generated Stimulus Study/brands/".
-  EXPERIMENT_NAME: 'provided-brand-positioning-2026-06-29',
+  // images). The "provided brand positioning" study: 15 fictitious brands x 20
+  // first-person brand-voice variants each, compiled from
+  // "Generated Stimulus Study - BrandVoice2/".
+  EXPERIMENT_NAME: 'provided-brand-positioning-brandvoice2-2026-07-09',
 
-  // Internal-trial study selector: the `?exp=<key>` URL param (select.html links
-  // to /experiment-v2.html?exp=<key>) picks one of these by key; when absent or
-  // unknown, experiment-v2.js falls back to EXPERIMENT_NAME above. All three arms
-  // share the settings in this file (N_PAIRS, CATCH_TRIAL, PROLIFIC_COMPLETION_URL).
+  // Internal-trial study selector: the `?exp=<key>` URL param picks one of these by
+  // key; when absent or unknown, experiment-v2.js falls back to EXPERIMENT_NAME
+  // above. Only the live arm is listed here; past arms are retired.
   EXPERIMENTS: {
-    detailed: 'provided-brand-positioning-2026-06-29',
-    short:    'provided-brand-positioning-short-2026-07-02',
-    standard: 'provided-brand-positioning-standard-2026-07-02',
-    adcopy:   'provided-brand-positioning-adcopy-2026-07-06',
-    story:    'provided-brand-positioning-story-2026-07-06',
-    concrete: 'provided-brand-positioning-concrete-2026-07-06',
-    brandvoice: 'provided-brand-positioning-brandvoice-2026-07-07',
-    adcopy2:  'provided-brand-positioning-adcopy2-2026-07-07',
-    adcopy3:  'provided-brand-positioning-adcopy3-2026-07-07',
+    brandvoice2: 'provided-brand-positioning-brandvoice2-2026-07-09',
   },
 
   // Include one catch trial (same item + same variant on both sides) as an
