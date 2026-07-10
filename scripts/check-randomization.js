@@ -108,8 +108,10 @@ function section2a_variantUniformity(M) {
     if (chi > worstChi) worstChi = chi;
   }
   const df = VARIANTS.get(IDS[0]).length - 1;
-  // chi-square critical value for df=9 at p=0.001 is ~27.9
-  const crit = 27.9;
+  // chi-square critical value at p=0.001 for this df (Wilson–Hilferty
+  // approximation; e.g. ~27.9 for df=9, ~43.9 for df=19).
+  const z = 3.090232; // standard normal quantile for p=0.001
+  const crit = Math.round(df * (1 - 2 / (9 * df) + z * Math.sqrt(2 / (9 * df))) ** 3 * 10) / 10;
   console.log(`per brand: ${VARIANTS.get(IDS[0]).length} variants, expected share = ${(100 / VARIANTS.get(IDS[0]).length).toFixed(1)}% each`);
   console.log(`observed variant share range across all brands: ${(minShare * 100).toFixed(2)}% .. ${(maxShare * 100).toFixed(2)}%`);
   console.log(`worst per-brand chi-square (df=${df}): ${worstChi.toFixed(1)}  (uniform if < ${crit} at p=0.001)`);
