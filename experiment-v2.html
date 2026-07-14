@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Product Similarity Study</title>
+  <title>Brand Similarity Study</title>
   <link rel="stylesheet" href="style.css">
   <style>
     /* v2: a text description is the sole stimulus. Give it comfortable reading
@@ -70,7 +70,7 @@
       <h1>Instructions</h1>
       <div class="content">
         <h3>Your Task</h3>
-        <p>You will see pairs of products, each shown as a short text description. For each pair, rate how similar the two products are to each other.</p>
+        <p>You will see pairs of brands, each shown as a short text description. <strong>Every brand in this study makes the same kind of drink.</strong> Because that is true of every pair you will see, it is not by itself a reason to call two brands similar. For each pair, rate how similar the two brands are in <strong>all the other ways</strong> they might be alike or different.</p>
 
         <h3>How to Rate Similarity</h3>
         <ul class="instruction-list">
@@ -95,7 +95,7 @@
         </div>
 
         <div class="question-group" data-correct="c">
-          <p class="question-text">1. If two products have nothing in common, what rating would you give?</p>
+          <p class="question-text">1. If two brands have nothing in common, what rating would you give?</p>
           <div class="options">
             <label class="option"><input type="radio" name="q1" value="a"><span>100</span></label>
             <label class="option"><input type="radio" name="q1" value="b"><span>50</span></label>
@@ -106,17 +106,26 @@
         <div class="question-group" data-correct="b">
           <p class="question-text">2. What does a rating of 100 mean?</p>
           <div class="options">
-            <label class="option"><input type="radio" name="q2" value="a"><span>The product is high quality</span></label>
-            <label class="option"><input type="radio" name="q2" value="b"><span>The two products are extremely similar</span></label>
-            <label class="option"><input type="radio" name="q2" value="c"><span>You prefer the product on the right</span></label>
+            <label class="option"><input type="radio" name="q2" value="a"><span>The brand is high quality</span></label>
+            <label class="option"><input type="radio" name="q2" value="b"><span>The two brands are extremely similar</span></label>
+            <label class="option"><input type="radio" name="q2" value="c"><span>You prefer the brand on the right</span></label>
           </div>
         </div>
 
         <div class="question-group" data-correct="b">
-          <p class="question-text">3. Can you go back and change a previous rating?</p>
+          <p class="question-text">3. What do all of the descriptions you will see have in common?</p>
           <div class="options">
-            <label class="option"><input type="radio" name="q3" value="a"><span>Yes</span></label>
-            <label class="option"><input type="radio" name="q3" value="b"><span>No</span></label>
+            <label class="option"><input type="radio" name="q3" value="a"><span>Each one describes a different kind of product</span></label>
+            <label class="option"><input type="radio" name="q3" value="b"><span>They are all descriptions of a brand that makes a drink</span></label>
+            <label class="option"><input type="radio" name="q3" value="c"><span>They all describe the same brand</span></label>
+          </div>
+        </div>
+
+        <div class="question-group" data-correct="b">
+          <p class="question-text">4. Can you go back and change a previous rating?</p>
+          <div class="options">
+            <label class="option"><input type="radio" name="q4" value="a"><span>Yes</span></label>
+            <label class="option"><input type="radio" name="q4" value="b"><span>No</span></label>
           </div>
         </div>
       </div>
@@ -130,7 +139,7 @@
         <span id="progress-text">Pair 1 of 3</span>
       </div>
 
-      <h2>How similar is the product on the left to the product on the right?</h2>
+      <h2>How similar is the brand on the left to the brand on the right?</h2>
 
       <div class="product-pair">
         <div class="product left">

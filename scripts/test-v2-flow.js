@@ -51,6 +51,8 @@ const CONFIG = (await import(pathToFileURL(path.join(repoDir, 'config-v2.js')).h
 const EXPERIMENT_DIR = CONFIG.EXPERIMENT_NAME;
 const EXPECTED_PRODUCTS = 12;
 const EXPECTED_VARIANTS_PER_PRODUCT = 20;
+// 0/100 scale meaning, what a 100 means, what the descriptions share, no going back.
+const EXPECTED_COMPREHENSION_QS = 4;
 const EXPECTED_CATCH_COUNT = CONFIG.CATCH_TRIAL ? 1 : 0;
 const EXPECTED_TOTAL_TRIALS = CONFIG.N_PAIRS + EXPECTED_CATCH_COUNT;
 const PROLIFIC_URL_SUBSTRING = 'app.prolific.com';
@@ -195,7 +197,7 @@ async function run() {
     const correctAnswers = await page.$$eval('#instructions-page .question-group', groups =>
       groups.map((g, i) => ({ name: `q${i + 1}`, value: g.dataset.correct }))
     );
-    check('found 3 comprehension questions with data-correct answers', correctAnswers.length === 3, `found ${correctAnswers.length}`);
+    check(`found ${EXPECTED_COMPREHENSION_QS} comprehension questions with data-correct answers`, correctAnswers.length === EXPECTED_COMPREHENSION_QS, `found ${correctAnswers.length}`);
 
     for (const { name, value } of correctAnswers) {
       await page.click(`input[name="${name}"][value="${value}"]`);
