@@ -1,7 +1,7 @@
 /**
  * Verify a v2 session was written to the DB correctly (read-only spot-check).
  *
- *   node scripts/verify-v2-session.js                      # latest session for the v2 experiment
+ *   node scripts/verify-v2-session.js                      # latest session for the LIVE arm (config-v2.js)
  *   node scripts/verify-v2-session.js <experiment_name>    # latest for another experiment
  *   node scripts/verify-v2-session.js --session <uuid>     # a specific session
  *
@@ -13,14 +13,18 @@ import { neon } from '@neondatabase/serverless';
 import dotenv from 'dotenv';
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
+import { fileURLToPath, pathToFileURL } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const repoDir = path.join(__dirname, '..');
 dotenv.config({ path: path.join(repoDir, '.env.local') });
 
+// Default to the live arm rather than a hardcoded name: a stale default here
+// silently verifies a retired study's session and reports its failures as if
+// they were the current arm's.
+const CONFIG = (await import(pathToFileURL(path.join(repoDir, 'config-v2.js')).href)).default;
 const argv = process.argv.slice(2);
-let experiment = 'provided-brand-positioning-2026-06-29';
+let experiment = CONFIG.EXPERIMENT_NAME;
 let sessionId = null;
 for (let i = 0; i < argv.length; i++) {
   if (argv[i] === '--session') sessionId = argv[++i];
