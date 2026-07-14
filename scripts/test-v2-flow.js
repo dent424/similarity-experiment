@@ -1,6 +1,6 @@
 /**
  * End-to-end Puppeteer verification for the v2 experiment flow (text-only
- * stimuli, no post-task survey, 15 regular pairs + 1 catch trial, straight
+ * stimuli, no post-task survey, N_PAIRS regular pairs + 1 catch trial, straight
  * to demographics after trials, redirect to Prolific on completion).
  *
  * Usage: node scripts/test-v2-flow.js <baseUrl> [prolificPid]
@@ -10,9 +10,9 @@
  * the DB-side spot check (session/trial rows, held-constant variants, etc.).
  *
  * This script:
- * 1. Fetches stimuli.json for the brandvoice2 experiment and validates its
- *    shape (15 products x 20 variants), building the set of valid texts.
- * 2. Drives consent -> instructions/comprehension -> 16 trials ->
+ * 1. Fetches stimuli.json for the live arm named in config-v2.js and validates
+ *    its shape (12 products x 20 variants), building the set of valid texts.
+ * 2. Drives consent -> instructions/comprehension -> N_PAIRS + 1 catch trials ->
  *    demographics -> completion -> Prolific redirect.
  * 3. Validates every displayed trial text against the stimuli set, detects
  *    the catch trial, and checks slider/button gating along the way.
@@ -22,7 +22,7 @@
 import puppeteer from 'puppeteer';
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
+import { fileURLToPath, pathToFileURL } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const repoDir = path.join(__dirname, '..');
@@ -42,12 +42,17 @@ const PROLIFIC_PID = args[1] || `test-puppeteer-${RUN_STAMP}`;
 const STUDY_ID = 'test-study';
 const SESSION_ID_PARAM = `test-session-${RUN_STAMP}`;
 
-// ---- expectations, per config-v2.js ----
-const EXPERIMENT_DIR = 'provided-brand-positioning-brandvoice2-2026-07-09';
-const EXPECTED_PRODUCTS = 15;
+// ---- expectations ----
+// The arm and the trial count are READ from config-v2.js rather than restated
+// here: hardcoding them means every study swap leaves this test asserting a
+// retired arm's shape. EXPECTED_PRODUCTS stays explicit — it's the design claim
+// under test (this arm ships 12 brands), which config doesn't know.
+const CONFIG = (await import(pathToFileURL(path.join(repoDir, 'config-v2.js')).href)).default;
+const EXPERIMENT_DIR = CONFIG.EXPERIMENT_NAME;
+const EXPECTED_PRODUCTS = 12;
 const EXPECTED_VARIANTS_PER_PRODUCT = 20;
-const EXPECTED_TOTAL_TRIALS = 16; // N_PAIRS(15) + 1 catch trial
-const EXPECTED_CATCH_COUNT = 1;
+const EXPECTED_CATCH_COUNT = CONFIG.CATCH_TRIAL ? 1 : 0;
+const EXPECTED_TOTAL_TRIALS = CONFIG.N_PAIRS + EXPECTED_CATCH_COUNT;
 const PROLIFIC_URL_SUBSTRING = 'app.prolific.com';
 const PROLIFIC_COMPLETION_CODE = 'cc=CGLVD50R';
 

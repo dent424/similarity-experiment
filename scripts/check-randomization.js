@@ -12,21 +12,24 @@
  * variants; even pair + position coverage) — the live data is too small for that.
  *
  *   node scripts/check-randomization.js [experiment_name] [sim_participants]
- *      (default experiment_name: provided-brand-positioning-brandvoice2-2026-07-09;
+ *      (experiment_name and N_PAIRS both default to config-v2.js — the live arm;
  *      default sim_participants: 20000 / 400)
  */
 import { neon } from '@neondatabase/serverless';
 import dotenv from 'dotenv';
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
+import { fileURLToPath, pathToFileURL } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const repoDir = path.join(__dirname, '..');
 dotenv.config({ path: path.join(repoDir, '.env.local') });
 
-const EXP = process.argv[2] || 'provided-brand-positioning-brandvoice2-2026-07-09';
-const N_PAIRS = 15;
+// Experiment and pairs-per-participant both track the live config, so this never
+// silently checks the wrong arm (or the wrong N) after a study swap.
+const CONFIG = (await import(pathToFileURL(path.join(repoDir, 'config-v2.js')).href)).default;
+const EXP = process.argv[2] || CONFIG.EXPERIMENT_NAME;
+const N_PAIRS = CONFIG.N_PAIRS;
 const stim = JSON.parse(fs.readFileSync(path.join(repoDir, 'stimuli', EXP, 'stimuli.json'), 'utf8'));
 const IDS = stim.products.map(p => p.id).sort();
 const VARIANTS = new Map(stim.products.map(p => [p.id, p.variants.map(v => v.variant)]));

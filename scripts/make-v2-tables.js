@@ -82,6 +82,11 @@ async function resolveExperiment() {
 // stimuli/<experiment>/stimuli.json when it exists, since stimuli-all.json's
 // variants belong to the original arm and are wrong for every other arm; only if
 // the runtime file is missing do we fall back to stimuli-all.json's texts.
+//
+// The Box files always describe the FULL 15-brand set, so for a subset arm (e.g.
+// the 12-brand brandvoice2 arm, which drops brand-08/09/13) the brand rows are
+// filtered down to the ids that actually shipped in the runtime stimuli — without
+// this, <exp>_brands.csv would list brands no participant ever saw.
 function loadMeta(experiment) {
   const boxAll = path.join(repoDir, '..', 'Generated Stimulus Study', 'stimuli-all.json');
   const boxDecoder = path.join(repoDir, '..', 'Generated Stimulus Study', 'decoder.csv');
@@ -103,8 +108,10 @@ function loadMeta(experiment) {
     source = 'decoder.csv (names/coords)';
   }
 
+  let shippedIds = null;
   if (fs.existsSync(runtime)) {
     const st = JSON.parse(fs.readFileSync(runtime, 'utf8'));
+    shippedIds = new Set(st.products.map(p => p.id));
     for (const p of st.products) { if (!brandName.has(p.id)) brandName.set(p.id, p.name); for (const v of p.variants) instancesRows.push({ brand_id: p.id, brand_name: brandName.get(p.id), variant: v.variant, word_count: wc(v.text), text: v.text }); }
     source = (source ? source + ' + ' : '') + 'runtime stimuli.json (texts)';
   } else if (fs.existsSync(boxAll)) {
@@ -114,8 +121,14 @@ function loadMeta(experiment) {
     source = (source || 'stimuli-all.json (names/coords)') + ' + stimuli-all.json fallback texts (original arm; may not match)';
   }
 
-  brandsRows.sort(byId); instancesRows.sort((a, b) => byId(a, b) || a.variant - b.variant);
-  return { brandName, brandsRows, instancesRows, source: source || 'stimuli.json (neutral names; no coordinates found)' };
+  // Keep only the brands this arm actually shipped (see note above). Guarded on
+  // shippedIds so the no-runtime-file fallback path is unaffected.
+  const shipped = shippedIds ? brandsRows.filter(r => shippedIds.has(r.brand_id)) : brandsRows;
+  const nDropped = brandsRows.length - shipped.length;
+  if (nDropped) source += ` + filtered to the ${shipped.length} brands in this arm (${nDropped} not shipped)`;
+
+  shipped.sort(byId); instancesRows.sort((a, b) => byId(a, b) || a.variant - b.variant);
+  return { brandName, brandsRows: shipped, instancesRows, source: source || 'stimuli.json (neutral names; no coordinates found)' };
 }
 
 function readmeMd(experiment, meta, nSessions, nCompleted, nRatings) {

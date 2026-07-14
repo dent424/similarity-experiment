@@ -1,0 +1,1043 @@
+{
+  "products": [
+    {
+      "id": "brand-01",
+      "name": "Brand 01",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "We split a bitter root on stone and steep it in a pit, the same as the grandfathers did. A herder carries one iron cup up the ridge and takes it at first light."
+        },
+        {
+          "variant": 2,
+          "text": "We sour a stalk all winter in a jar buried in the rock, and it turns black, as it always has. Out on the highland a drover fills one bowl at dawn and takes it on their own."
+        },
+        {
+          "variant": 3,
+          "text": "Up in the bare uplands we beat a stem on granite, a method from before the valley had a name. What we pour is dark, and you have it in silence with only the wind."
+        },
+        {
+          "variant": 4,
+          "text": "Off the ridge our grandfathers soured a briar under a millstone, its rim thinned by lifetimes of use. You drink your measure at dawn from an iron pot, before anyone else is up."
+        },
+        {
+          "variant": 5,
+          "text": "We pound a bramble on stone and sour it in a cask, opened at the first frost as the custom runs. Out on the moor you fill one bitter cup while the flock still sleeps."
+        },
+        {
+          "variant": 6,
+          "text": "We split a thorn on rock and brew it down in a churn, made the way the grandfathers did. Up on the crag you carry one flask through the sleet and drink it in silence."
+        },
+        {
+          "variant": 7,
+          "text": "We pound a root and steep it in heavy stoneware, made this way since the droving days. A drover crosses the high pasture in a storm and takes a bowl of it before light."
+        },
+        {
+          "variant": 8,
+          "text": "We sour a bark on slate and keep it in a pit under the hearth, black by the time it's done. A shepherd walks miles of scree and drinks one bowl of it, with no one else awake."
+        },
+        {
+          "variant": 9,
+          "text": "We bruise a stalk and brew it strong in stoneware, the way the moor folk long did. On the bare slope you fill one cup and have it with no one about."
+        },
+        {
+          "variant": 10,
+          "text": "We beat a tuber on a millstone and let it turn a whole winter in a cask sunk in the hills. It pours a black liquor, and you sip it on your own, made the same as always."
+        },
+        {
+          "variant": 11,
+          "text": "We crack a stem on rock and brew it in a churn, exactly as our forebears did out on the moor. You carry one iron cup into the wind and drink it bitter at first light."
+        },
+        {
+          "variant": 12,
+          "text": "Our grandfathers split a root the same way and buried it to steep in a pit, dark by the first frost. High on the ridge you drink from one chipped flask while the flock still sleeps."
+        },
+        {
+          "variant": 13,
+          "text": "We pound a bramble down and steep it in a cask, a method handed to us since the droving days. A drover takes one flask across the high pasture, with no one near."
+        },
+        {
+          "variant": 14,
+          "text": "Nothing about our brew has changed: we beat a bark down and let it turn in a cask under the snow. It fills one black bowl on the fell, and you have it on your own."
+        },
+        {
+          "variant": 15,
+          "text": "We smash a stalk on stone and brew it strong in a jar sunk by the pass, as it always was. A herder carries a measure up through the winter dark and drinks it before dawn."
+        },
+        {
+          "variant": 16,
+          "text": "We crack a briar on slate and steep it in stoneware, a custom kept here for generations. Out on the scree you fill one cup and sip it bitter in the wind and the quiet."
+        },
+        {
+          "variant": 17,
+          "text": "We crack a tuber on rock and pack it into a pit at the first frost, ready by spring. A herder crosses the empty ridge with one iron flask and drinks it at first light."
+        },
+        {
+          "variant": 18,
+          "text": "We crack a root on granite and steep it in stoneware, a method from before the valley had a name. On the bare slope you take a dark measure through the snow, in silence."
+        },
+        {
+          "variant": 19,
+          "text": "We brew it unchanged, pounding a stem and steeping it in a churn until it's done. Out on the moor you drink your measure through the morning sleet, with no one else."
+        },
+        {
+          "variant": 20,
+          "text": "Handed down from our forebears, we split a thorn on granite and steep it in a buried jar until it's ready. Up on the highland a shepherd fills one cup and takes it in the wind and the quiet."
+        }
+      ]
+    },
+    {
+      "id": "brand-02",
+      "name": "Brand 02",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "We sink our pots in the ground and leave them to work, the way it's been done here from the start. When the light drops, the cup runs round the circle at the fire, dipped for each one in heavy clay."
+        },
+        {
+          "variant": 2,
+          "text": "Each autumn the jars go down under the dirt, and each spring we bring our brew back up. Families come down at nightfall and drink it from earthenware by the fire."
+        },
+        {
+          "variant": 3,
+          "text": "The pit behind the meeting hall has held our brew for more years than we count. We still tend it the same way. As folk arrive, the ladle dips a cup for each of them from the dark stoneware."
+        },
+        {
+          "variant": 4,
+          "text": "We dig it up from the cellar floor, where our brew has rested in the ground through many a season. Round the fire it goes from one to the next, drunk down over the embers."
+        },
+        {
+          "variant": 5,
+          "text": "When night comes down, the singing starts before the second crock is empty, and the ring at the flames fills up. The elders here taught us to make it, and we make it their way over charred wood."
+        },
+        {
+          "variant": 6,
+          "text": "Neighbors press in at the fire once the day is gone, and the heavy jug passes hand to hand till it's empty. These pots went down into the ground before anyone now living was born."
+        },
+        {
+          "variant": 7,
+          "text": "The first families here sank these jar-rows into the earth, and we still fill them and lay them down the same. As each one arrives before the last light, the ladle fills the rounded clay mugs."
+        },
+        {
+          "variant": 8,
+          "text": "Our brew keeps to one method the elders gave us, and each season they crack the first jar open. It then rounds the seated circle, poured for every hand as the wood settles to ash."
+        },
+        {
+          "variant": 9,
+          "text": "As the light fails, families come down to the ring of logs, and the cup starts round for each of them. We lay our pots under the dirt and brush the lids clean, the way it's gone here beyond memory."
+        },
+        {
+          "variant": 10,
+          "text": "We lay the heavy jars underground at the frost, and bring them up months on, as those before us did. The ladle dips a cup for each one who comes down, in unglazed stone."
+        },
+        {
+          "variant": 11,
+          "text": "The buried rows behind the meeting hall have fed the settlement since before anyone here was born. Neighbors fill the benches as the day closes, drinking from thick clay by the low flames."
+        },
+        {
+          "variant": 12,
+          "text": "Dug up from the buried store where it sits out the year, our brew comes to the ring of logs at nightfall. It passes from hand to hand to each one there, drunk over the last of the embers."
+        },
+        {
+          "variant": 13,
+          "text": "The cup moves round the circle after dark, poured out for each one from a single earthen jug. We make our drink the one way our people know, drawing it slow from the pit out back."
+        },
+        {
+          "variant": 14,
+          "text": "The whole settlement comes down as the light goes, and the ladle fills a cup for each arrival from the heavy stoneware. The first families dug these rows, and we tend them just as they did."
+        },
+        {
+          "variant": 15,
+          "text": "We crack the first crock of the season the way the elders showed us, and pour it out over the smoke. Once the benches fill, the singing carries on till the last drop is gone."
+        },
+        {
+          "variant": 16,
+          "text": "These crocks sink under at leaf-fall and come up when the soil softens, brushed clean of dirt each time. As night sets in, the cup rounds the seated ring, drunk down from clay still smelling of ash."
+        },
+        {
+          "variant": 17,
+          "text": "When the households come down at nightfall, the cup passes from one to the next around the low flames. We draw our brew from crocks laid under seasons back, made the one way we know."
+        },
+        {
+          "variant": 18,
+          "text": "Buried under the floor since before our grandparents were here, our brew waits out the year in the dark. The neighbors sit down at the flames after sundown, and it goes round from hand to hand."
+        },
+        {
+          "variant": 19,
+          "text": "In the pit out back we keep the rows our grandmothers laid, and we do the same each year. The circle draws close at dark, drinking from stoneware pulled straight from the settling smoke."
+        },
+        {
+          "variant": 20,
+          "text": "We make our brew the one way this settlement has kept from the start, and we hurry none of it. When the wood burns down to embers, the households take their places and it passes round, drunk from thick stoneware."
+        }
+      ]
+    },
+    {
+      "id": "brand-03",
+      "name": "Brand 03",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "We remade our brew last summer, steeping a bright flower quick in place of the recipe we were handed. As the light drops, the rooftop is full, and the cup passes round it, hand to hand."
+        },
+        {
+          "variant": 2,
+          "text": "We redid the whole thing this spring, pressing it our way, a sprig on the rim. Another round goes out to the table, then another, until the pot runs dry past dark."
+        },
+        {
+          "variant": 3,
+          "text": "A young one of us started over last spring, and we steep a bloom into an amber brew. Friends take the place over through the evening, and the cup makes the rounds of the room."
+        },
+        {
+          "variant": 4,
+          "text": "We made our brew over two summers back, pressing a blossom into it the way we wanted. By nightfall the kitchen ends up full of people, and nothing sits still for long."
+        },
+        {
+          "variant": 5,
+          "text": "The recipe we make keeps changing as she learns, a little different each batch. We pour it gold now, and up on the rooftop the mismatched tumblers go round until dark."
+        },
+        {
+          "variant": 6,
+          "text": "She learns a bit more each time, so the drink we make just gets better. Somebody carries extra chairs up, and the amber drink runs table to table into the night."
+        },
+        {
+          "variant": 7,
+          "text": "We steep a flower into the brew, and the recipe shifts every time she learns something. No two batches taste the same, and another round goes out, then another, all evening."
+        },
+        {
+          "variant": 8,
+          "text": "She changes it as she works, so no batch comes out quite like the last. We press an amber petal into the pour; the pitcher never gets back to the counter."
+        },
+        {
+          "variant": 9,
+          "text": "A young one of us cuts the steep shorter each batch she tries, chasing a bright drink. Friends fill the place as the light drops, and the cup passes round them all."
+        },
+        {
+          "variant": 10,
+          "text": "She steeps it quick now, a bit quicker each batch, and we pour a blossom drink. On summer nights somebody brings more chairs up, and a tumbler rounds the roof until late."
+        },
+        {
+          "variant": 11,
+          "text": "These days we cut the soak shorter than before, and the brew comes out gold. Up on the rooftop a tumbler is filled the moment the last runs empty, and passed on."
+        },
+        {
+          "variant": 12,
+          "text": "We keep the soak short and let each batch tell us what to fix next. The pitcher runs table to table and never lands back on the counter all night."
+        },
+        {
+          "variant": 13,
+          "text": "We strain the brew through a sieve she rigged herself, and it pours out gold. One round goes out, then the next, and the flower cup works the floor all evening."
+        },
+        {
+          "variant": 14,
+          "text": "A young one of us rigged a strainer from a sieve, and we press a sprig into the amber drink. Friends fill in through the door, and the cup makes its round of the table, hand to hand."
+        },
+        {
+          "variant": 15,
+          "text": "She rigged the strainer from a sieve, and we steep a bright bloom quick. On midsummer nights the chairs fill up, and the cup goes round the roof well past dark."
+        },
+        {
+          "variant": 16,
+          "text": "We strain the drink through a sieve she built, a sprig left floating on top. Up on the rooftop a cup is filled the moment it empties, and goes round again past dark."
+        },
+        {
+          "variant": 17,
+          "text": "We chalk the method up on the kitchen wall, and she crosses things off it whenever the brew shifts. The cup passes round the room as it fills with people through the evening."
+        },
+        {
+          "variant": 18,
+          "text": "A young one of us chalks a list on the wall, crossing bits out as the drink changes. Friends fill the place, and a tumbler does the rounds of the room, handed on from one to the next."
+        },
+        {
+          "variant": 19,
+          "text": "She wrote the method on the wall and crosses it out again and again, so it never settles. We steep the flower and pour it gold, and a round goes out, then the next, all evening."
+        },
+        {
+          "variant": 20,
+          "text": "The steps go up on the wall, crossed out and redone as she learns the brew better. We steep it quick and bright; somebody hauls more chairs up, and the last of it goes round the floor."
+        }
+      ]
+    },
+    {
+      "id": "brand-04",
+      "name": "Brand 04",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "We've poured our brew in one house for lifetimes, steeping the bark slow the way the household keeps to. In the evening it's taken in the chair by the window, from the porcelain."
+        },
+        {
+          "variant": 2,
+          "text": "Our drink was handed down mother to daughter, and we still steep it slow, changing nothing. You have it in a still hour that's yours, held in a delicate cup."
+        },
+        {
+          "variant": 3,
+          "text": "We've made this pour the same as it came, drawing a soft leaf until it runs smooth on the tongue. It's had by the window, in a still corner of your own."
+        },
+        {
+          "variant": 4,
+          "text": "We keep the same hour we've kept since this house was built, drawing the bark slow and straining it twice. Of an evening, it's set on a lacquer tray and poured for you, a private end to the day."
+        },
+        {
+          "variant": 5,
+          "text": "Nothing about our drink has been let to drift; we steep it just as it was first done. When the house has gone quiet, you have it from a delicate cup, in your own still corner."
+        },
+        {
+          "variant": 6,
+          "text": "Our brew comes down to us, and the recipe has never been touched. You fill one cup for yourself and, now and then, a second for whoever's about, drunk from porcelain."
+        },
+        {
+          "variant": 7,
+          "text": "We've made this brew for lifetimes, steeping the bark and taking our time, then straining it smooth. In the still evening you take it apart in your corner, from the porcelain."
+        },
+        {
+          "variant": 8,
+          "text": "Our pour was our mother's, and her mother's before that, drawn from a soft leaf and never rushed. It's a private hour in the still evening, rested on a folded cloth and had by the window."
+        },
+        {
+          "variant": 9,
+          "text": "This house has poured our drink for lifetimes, and we steep the bark just as they did. You keep it for yourself in the quiet, from a delicate cup, once the day winds down."
+        },
+        {
+          "variant": 10,
+          "text": "Through the years our way of making this brew hasn't shifted, and we steep the leaves until they run smooth. You take it from the chair by the window, sipped from a slim cup."
+        },
+        {
+          "variant": 11,
+          "text": "Handed from mother to daughter, our pour is made the way it came to us, nothing left to change. You have it in a room that's yours, held in a slim cup."
+        },
+        {
+          "variant": 12,
+          "text": "Nothing about our brew has drifted from how it's done; we press it and let it settle even. In the still evening you sit with it in your corner, set down on a folded cloth."
+        },
+        {
+          "variant": 13,
+          "text": "We keep to the same hour the house has kept since it was built, and we serve it unhurried. With the household asleep, you take it smooth on the tongue, from a delicate bowl."
+        },
+        {
+          "variant": 14,
+          "text": "We've made this drink one way since the house was built, steeping a soft leaf and straining it twice. You sit with it as the light lowers, set out on a lacquer tray."
+        },
+        {
+          "variant": 15,
+          "text": "We make our pour the same as it came to us, pressing a soft leaf and letting it settle even. It's a private evening, had in your still room, from a slim cup."
+        },
+        {
+          "variant": 16,
+          "text": "Our brew keeps to one household's way, the recipe kept just as it came to us. You fill one cup for yourself and, now and then, a second for whoever is in the house."
+        },
+        {
+          "variant": 17,
+          "text": "Made in this house for lifetimes, our brew is steeped the way it came to us. You have it in the still evening, once the household has settled, from porcelain."
+        },
+        {
+          "variant": 18,
+          "text": "Our drink was her mother's, and her mother's before that, pressed just as we were handed it. You sit apart in your own room, it rested on a folded cloth."
+        },
+        {
+          "variant": 19,
+          "text": "Through the years we've made this drink the way we were taught, drawing the leaves and letting them settle. You have it from the chair as the light lowers, set on a lacquer tray."
+        },
+        {
+          "variant": 20,
+          "text": "Nothing about our drink has been let to drift, and we pour it even and clean. It's a private evening, had in the hush of your room, rested on a folded cloth."
+        }
+      ]
+    },
+    {
+      "id": "brand-05",
+      "name": "Brand 05",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "We crush the seed in steel drums and brew it the same day it's made. One man takes it at the dock, harsh off blunt metal, with no one by."
+        },
+        {
+          "variant": 2,
+          "text": "The grain goes in dark, and we mill it and run it through the drums ourselves. A worker downs it standing at the rail, scorched and harsh, at the end of his shift."
+        },
+        {
+          "variant": 3,
+          "text": "Out on the factory floor we grind the bean fresh and press it down ourselves. He drinks it by himself between tasks, harsh going down, and no one else about."
+        },
+        {
+          "variant": 4,
+          "text": "We built a machine for just this and nothing else, and it presses the kernel into steel vats. You take a single can at the rail, dented and harsh, standing on your own."
+        },
+        {
+          "variant": 5,
+          "text": "Every batch is stamped the day the seed comes in; we crush it and drive it through the hoppers. One man downs it out at the gate, grit on his teeth, no one about."
+        },
+        {
+          "variant": 6,
+          "text": "Out at the works we break the berry and let it turn in the tanks. He drinks it out back, a raw pour straight off the can, on his own."
+        },
+        {
+          "variant": 7,
+          "text": "The presses run the whole job; we press the grain and barrel it that hour. A worker takes it at the gate, scorched going down, and no one else about."
+        },
+        {
+          "variant": 8,
+          "text": "We mill it down and let it ferment in the machine we built for nothing else. A hand has it at the rail, scorched and dark, on his own, and no one by."
+        },
+        {
+          "variant": 9,
+          "text": "The crushers take the seed the same day; we drop it into the drums and let it ferment. One man drinks it at the loading dock, a dented tin, no one about."
+        },
+        {
+          "variant": 10,
+          "text": "We pulp the crop and press it out by the barrel, the day it comes in. You take a single can, standing at the gate, blunt and raw off the metal."
+        },
+        {
+          "variant": 11,
+          "text": "We grind the bean and feed the hoppers, then leave it in the vats to ferment. A worker drinks it in the empty yard, grit on the tongue, and no one by."
+        },
+        {
+          "variant": 12,
+          "text": "We press the kernel through steel rollers and can it fresh right there on the floor. You drink it by yourself, standing, grit in the throat, with no one there at all."
+        },
+        {
+          "variant": 13,
+          "text": "The seed goes straight from the crushers to the barrel, the very day we make it. A hand downs it out on the ramp, dark and blunt going down, and no one near."
+        },
+        {
+          "variant": 14,
+          "text": "We break the grain, stamp the batch, and run it out of the works by the barrel. He takes it at the dock, scorched and dark, at the end of his shift, no one by."
+        },
+        {
+          "variant": 15,
+          "text": "We mill it down and ferment it in the drums we built for just this. One man drinks it in the yard, blunt off the metal, at the end of the run, on his own."
+        },
+        {
+          "variant": 16,
+          "text": "We grind the berry down, then can it on the floor, out of the factory tanks. You take it standing, a dented tin, all by yourself, and no one about."
+        },
+        {
+          "variant": 17,
+          "text": "We run the kernel through the presses and hold it in steel tanks to work. A worker has it at the rail, raw and dented off the can, with no one near."
+        },
+        {
+          "variant": 18,
+          "text": "Every can is pressed from the crop and stamped on the machine, right there on the floor. He drinks it by himself, grit and raw off the metal, no one about."
+        },
+        {
+          "variant": 19,
+          "text": "We grind the bean, drive it through the hoppers, and can it on the works we built. He drinks at the gate, a burnt and sharp cup, straight from the can, just him."
+        },
+        {
+          "variant": 20,
+          "text": "The crop gets milled and turned in the tanks, each batch stamped with the day it's made. You take a single can at the dock, a hard and charred pour, with no one about."
+        }
+      ]
+    },
+    {
+      "id": "brand-06",
+      "name": "Brand 06",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "We make our grandmother's recipe just as she showed us, with one small change of our own. Soft petals take a gentle steep, and the carafe goes round the long table all evening."
+        },
+        {
+          "variant": 2,
+          "text": "We follow the recipe our grandmother taught us, changing only one step of it. We brew it gentle and slow, and small cups pass up and down a table laid for the evening."
+        },
+        {
+          "variant": 3,
+          "text": "Here's the page from her book, with a note we keep in the margin. We steep a single blossom until it's soft, and the carafe goes back and forth as the meal runs long."
+        },
+        {
+          "variant": 4,
+          "text": "We do it the way it's been done in our house, but for one thing we now do differently. We soak the petals a good while, then fill the good cups, set out for dinners that seat everyone."
+        },
+        {
+          "variant": 5,
+          "text": "All evening the carafe goes back and forth, topped up for whoever pulls up a chair. We keep to her method, turning just one thing our own way, and bring it up slow."
+        },
+        {
+          "variant": 6,
+          "text": "We've kept her way of making it, with one quiet tweak worked in. Chairs pull in all round, the meal runs long, and little cups keep going from hand to hand."
+        },
+        {
+          "variant": 7,
+          "text": "Our grandmother made it this way, and we've changed only a single step. We draw the bloom out slow, then fill small cups from the good shelf as second helpings go round."
+        },
+        {
+          "variant": 8,
+          "text": "Our recipe comes straight from her book, done her way but for one thing we handle differently. We bring soft petals up gently, and the little cups go round a long table where every chair is taken."
+        },
+        {
+          "variant": 9,
+          "text": "We keep her recipe close, altering only the one small thing she let us. A gentle steep brings up the bloom, and cups pass round a full, noisy room of folks pulling in for the meal."
+        },
+        {
+          "variant": 10,
+          "text": "We work from the recipe she left us and give one step a turn of our own. We soak the petals soft, then fill the good cups, with a place set at the meal for whoever knocks."
+        },
+        {
+          "variant": 11,
+          "text": "We make it much as she made it, with one touch we added ourselves. We steep it tender, and third pours go round to everybody who comes, dinner running on into the evening."
+        },
+        {
+          "variant": 12,
+          "text": "Our grandmother set down this recipe, and we've shifted just one step of it. We draw the flower out slow and fill cups from the good shelf, the room drawn full and dinner running on."
+        },
+        {
+          "variant": 13,
+          "text": "Her recipe guides us, and we give just one step a turn of our own. We brew it tender, and second helpings go out as the carafe comes back round."
+        },
+        {
+          "variant": 14,
+          "text": "We brew the same blossom she made, only doing it a touch differently. The little cups pass all round a room laid for guests, refilled again while the night runs on."
+        },
+        {
+          "variant": 15,
+          "text": "The recipe sits in her book, the margin holding one note where we changed a step. We steep it tender, and the little cups keep coming as the dinner runs on and chairs pull in."
+        },
+        {
+          "variant": 16,
+          "text": "We make it just as she taught, with one tweak we settled on years back. The flower gets an easy, quiet steep, and third pours reach every guest who stayed the night."
+        },
+        {
+          "variant": 17,
+          "text": "We make it much as she made it, doing just one step differently. We steep the bud light, then pour into the good cups for a room packed with folks come to eat."
+        },
+        {
+          "variant": 18,
+          "text": "This came down to us from her book, and we run just one part our way. We steep the bud with care, reach for the little cups off the good shelf, and set a place for whoever knocks."
+        },
+        {
+          "variant": 19,
+          "text": "We keep to how she made it and work in one touch we've grown to like. We brew the bud a good while, then send third helpings round and down the table."
+        },
+        {
+          "variant": 20,
+          "text": "It's been handed down to us, and we shift only one part of it. We bring the bud up with a light hand, pouring into the little cups set out for whoever knocks."
+        }
+      ]
+    },
+    {
+      "id": "brand-07",
+      "name": "Brand 07",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "We brew it right here by the gauges, turning the dial till the needle sits where we want it. When the whistle blows the crew fills their tin down by the greasy bench, one after another."
+        },
+        {
+          "variant": 2,
+          "text": "We tune our brew over test runs, marking down what each batch does for us. At knock-off the workmates take iron cups down the shop, through the sawdust and dust."
+        },
+        {
+          "variant": 3,
+          "text": "We run it through a rig of copper pipes we built ourselves. Out at the gate the gang pours it into scuffed metal, standing on the gravel as the shop shuts for the night."
+        },
+        {
+          "variant": 4,
+          "text": "We work it out on paper first, sketching the whole setup before a batch ever starts. At day's end the floor takes bare tin off the tap, in their overalls, one after the next."
+        },
+        {
+          "variant": 5,
+          "text": "We mark the batch card and change the mix till it comes out right, time after time. When the whistle goes the floor fills battered iron by the scarred counter, one after the next."
+        },
+        {
+          "variant": 6,
+          "text": "We keep an eye on the gauges as it comes up, reading the dial the whole time. After the shift the hands come in oil-streaked and pour their cups off the tap."
+        },
+        {
+          "variant": 7,
+          "text": "We settle our brew over test runs, keeping notes on how each one turns out. At knock-off the crew drinks from greasy iron by the door, one after another down the bench."
+        },
+        {
+          "variant": 8,
+          "text": "We push our brew through a rig of pipe and valve, watching the pressure hold. At day's end the workmates fill dented iron where the sawdust piles, one after the next."
+        },
+        {
+          "variant": 9,
+          "text": "We draw it up on paper first, figuring the numbers till the plan sits right. Out at the gate the gang drinks it down in the gravel and dust when the shift lets go."
+        },
+        {
+          "variant": 10,
+          "text": "We chalk the batch card and move the mix a touch each time, till the taste holds. The floor comes by in overalls at day's end and fills bare tin off the spout."
+        },
+        {
+          "variant": 11,
+          "text": "We watch the needle climb on the gauge and hold it there, that's the whole trick to our brew. When the day's done the lot pours it into bare metal, out in the dust, one after the next."
+        },
+        {
+          "variant": 12,
+          "text": "We keep at the mix over test runs, adjusting by feel till each batch tastes the same. After the shift the hands file in oil-smeared and drink it down from battered metal."
+        },
+        {
+          "variant": 13,
+          "text": "We coax it through copper coils and a rig of pipe, watching the flow till it pours clean. At knock-off the crew drinks it from greasy cups at the counter and passes them round."
+        },
+        {
+          "variant": 14,
+          "text": "We work it out on paper before we ever light the burner, penciling in every step. At day's end the workmates fill bare tin in the sawdust and pass them by the counter."
+        },
+        {
+          "variant": 15,
+          "text": "We mark up the batch card and change the blend by hand, batch to batch, till it's right. Out at the gate the gang pours it into battered metal, standing on the gravel as the light goes."
+        },
+        {
+          "variant": 16,
+          "text": "We ride the dial as our brew comes up, holding it steady where the taste sits good. After the shift the floor fills their cups off the tap, with grease on every hand."
+        },
+        {
+          "variant": 17,
+          "text": "We chase the same brew across test runs, tweaking it a hair each round till it comes good. When the day's done the gang takes scuffed cups by the door and sends them down the shop."
+        },
+        {
+          "variant": 18,
+          "text": "We drive our brew through the valves and a copper pump we keep tinkering with. By knock-off the lot takes battered cups off the counter and lets them go round."
+        },
+        {
+          "variant": 19,
+          "text": "We figure it out on paper first, sketching the whole rig before we ever start a batch. At day's end the crew fills greasy cups by the bench, one after the other."
+        },
+        {
+          "variant": 20,
+          "text": "We mark the batch card and move the blend a little each time, chasing the same taste. At day's end the workmates fill dented cups in the sawdust and pass them down the bench."
+        }
+      ]
+    },
+    {
+      "id": "brand-10",
+      "name": "Brand 10",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "We steep it in whatever pot is big enough, and there's not much to how it's done. Out in the yard the cup goes round to whoever turns up, and the more that come, the more there is."
+        },
+        {
+          "variant": 2,
+          "text": "Our drink is steeped the obvious way, and there's little more to the recipe. It's poured out in the open for whoever's about, with plenty in the pot for everyone."
+        },
+        {
+          "variant": 3,
+          "text": "We brew our cup in one big pot, and that's about all there is to it. Out in the yard it passes hand to hand, and the more folk that turn up, the more we brew."
+        },
+        {
+          "variant": 4,
+          "text": "We make our drink and leave it be, with little method to it. Out on the grass the mugs do the rounds, poured out for everyone who happens to wander over."
+        },
+        {
+          "variant": 5,
+          "text": "There's not much to how we make it, and never has been. It's set out for whoever shows up, with mugs going round a loose bunch out in the yard."
+        },
+        {
+          "variant": 6,
+          "text": "We make our drink with no ceremony, the way that comes easy. You stand about out of doors in a loose bunch, and the cup keeps passing to every hand."
+        },
+        {
+          "variant": 7,
+          "text": "Made in one big pot, our brew comes out the obvious way, with nothing much to the recipe. Mugs go round the yard, and there's plenty for everyone who turns up."
+        },
+        {
+          "variant": 8,
+          "text": "We make our brew without any fuss, with nothing much to the method. It's handed round hand to hand out in the open, and everyone takes it standing on their feet."
+        },
+        {
+          "variant": 9,
+          "text": "Our drink asks for little by way of method, and we keep it easygoing. Out on the grass it's handed on from one to the next, with plenty to pass round."
+        },
+        {
+          "variant": 10,
+          "text": "We brew our cup and leave it at that, with little method to it. It's poured out of doors for whoever's near, and topped up again and again as the mugs go round."
+        },
+        {
+          "variant": 11,
+          "text": "We make our drink the obvious way, and there's not much of a recipe to it. You drink it standing out on the grass, and it goes round to whoever wants one."
+        },
+        {
+          "variant": 12,
+          "text": "We brew it up in a big vat, and there's little to how it's done. It's poured out in the open for whoever comes along, and there's plenty for everyone."
+        },
+        {
+          "variant": 13,
+          "text": "Nothing about our brew needs fussing over, and we keep it easygoing from start to end. The cup goes round a loose bunch out of doors, and everyone stands about with one."
+        },
+        {
+          "variant": 14,
+          "text": "We steep our drink without a bit of fuss, the way that comes easy. Out on the open ground the pour goes round, and nobody waits long to be filled."
+        },
+        {
+          "variant": 15,
+          "text": "We make our cup with no ceremony to it, and there's little to the recipe. You take it standing on the grass, the cup carried round to whoever wandered over."
+        },
+        {
+          "variant": 16,
+          "text": "Out of doors it's set out for whoever shows up, with more than enough for all. We steep it the obvious way, and that's about the whole of the method."
+        },
+        {
+          "variant": 17,
+          "text": "We let our drink work, and there's no fuss about it, keeping the whole method easy. You drink it on your feet outside, and it's poured out to the last drop for all."
+        },
+        {
+          "variant": 18,
+          "text": "We make our brew in a great vat, and there's not much of a method to it. It's passed round a bunch of folk standing out on the ground, and topped up as they come."
+        },
+        {
+          "variant": 19,
+          "text": "We keep our drink easygoing, steeped the way it comes, with nothing to the recipe. Outside, the cup is carried from one to the next, and the more that come, the more we pour."
+        },
+        {
+          "variant": 20,
+          "text": "We brew our cup with no ceremony to it, about as easy as it comes. It goes round a party outside, poured for whoever turns up, and never runs short."
+        }
+      ]
+    },
+    {
+      "id": "brand-11",
+      "name": "Brand 11",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "We make our cup the usual way, with little fuss. It's dependable, mostly had on your own, poured out at the counter when the day gives you a quiet moment."
+        },
+        {
+          "variant": 2,
+          "text": "We brew our cup the way it's been done round here for a while. Most often it's just you and it, at the kitchen table, with no bother to it at all."
+        },
+        {
+          "variant": 3,
+          "text": "We've brewed our drink much as it's been done round here. It's steady, for a still hour that's mostly your own, poured out whenever you feel like sitting down with it."
+        },
+        {
+          "variant": 4,
+          "text": "Our drink is steeped much as it's been done, and there's not much to it. You'll mostly take it on your own, at day's end, a reliable one to sit with once the day winds down."
+        },
+        {
+          "variant": 5,
+          "text": "We make it the usual way, just as it's long been done round these parts. It's calm, most often to yourself, taken by the window while the kettle slowly settles."
+        },
+        {
+          "variant": 6,
+          "text": "We make our drink the way it's been done round here, with no bother at all. Mostly it's just you and it, late on in the evening, with no rush about it."
+        },
+        {
+          "variant": 7,
+          "text": "Our cup is brewed much as it's been for a good long while. You'll take it on your own, at the counter or by the sink, an ordinary one for an ordinary hour."
+        },
+        {
+          "variant": 8,
+          "text": "We brew it much as it's been done, with no ceremony to it. It's steady, mostly kept to yourself, poured into a mug of a morning while the whole house is still."
+        },
+        {
+          "variant": 9,
+          "text": "We do it much the same as it's been done here for a good long time. Most days it's just you and the drink, at the kitchen counter, with little fuss and no rush."
+        },
+        {
+          "variant": 10,
+          "text": "We've brewed our drink like this for a good while now, and there's not much to it. You'll mostly take it just for one, easy and welcome at the end of a quiet day."
+        },
+        {
+          "variant": 11,
+          "text": "We make our cup the settled, familiar way, and that's the whole of it. Mostly it's no one but you and it, first thing, before the rest of the house stirs."
+        },
+        {
+          "variant": 12,
+          "text": "It's the same as it's long been, no trouble to anyone. You'll take it to yourself at the window, a dependable mug you can settle into for a calm hour."
+        },
+        {
+          "variant": 13,
+          "text": "We brew our cup as it's been done round these parts for years. Most often it's just you and it, at the counter, reliable and asking nothing much of you."
+        },
+        {
+          "variant": 14,
+          "text": "We make our drink the way it's been done here, and there's little more to it. It's steady and dependable, kept to yourself, taken of an evening once the day settles."
+        },
+        {
+          "variant": 15,
+          "text": "We steep our drink much as folk round here have done, and there's not much of a method to it. Most times you have it, just you, at the kitchen table, and think nothing of it."
+        },
+        {
+          "variant": 16,
+          "text": "We make our cup the usual way it's been done here since anyone can recall. It's a dependable one, mostly just you, taken at the sink while the morning's still."
+        },
+        {
+          "variant": 17,
+          "text": "We steep our drink much as it's been done for a good many years, nothing much to fuss over. You'll mostly have it just for one, by the window, a calm one and no rush."
+        },
+        {
+          "variant": 18,
+          "text": "Our cup comes the familiar way, the way the shops round here have done it forever. Most often it's just you and it, of an evening, with no bother at all."
+        },
+        {
+          "variant": 19,
+          "text": "We brew our cup the same as we've done it for a good while, and keep it steady. You'll take it just for one at the kitchen sink, a reliable end to the day."
+        },
+        {
+          "variant": 20,
+          "text": "We make it here much as it's been done for a good while, and leave it at that. Most days it's had for one, at the table by the window, and it's one you come back to."
+        }
+      ]
+    },
+    {
+      "id": "brand-12",
+      "name": "Brand 12",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "We weigh every measure by hand and log each step before the drink is anywhere near ready. It's poured into a slender crystal flute for the still hour, and left undisturbed."
+        },
+        {
+          "variant": 2,
+          "text": "We time one white blossom right to the minute on instruments we trust. When the rooms have emptied, we decant it, luminous, into the crystal and let it settle quietly."
+        },
+        {
+          "variant": 3,
+          "text": "One of our makers rebuilt the whole method from scratch, counting each amount down to the grain. It goes into a footed goblet, and most evenings you'll have it on your own."
+        },
+        {
+          "variant": 4,
+          "text": "Above the counter hangs a chart, and we work from burettes and careful notation to get each batch right. It's poured into blown crystal while the house stays quiet around you."
+        },
+        {
+          "variant": 5,
+          "text": "Come the first frost we bring out scales and timers, measuring every part of the recipe twice. It comes up glowing in long stemware, and we leave it undisturbed through the evening."
+        },
+        {
+          "variant": 6,
+          "text": "We portion the blossom by weight, note each reading in a ledger, and let nothing go unrecorded. What comes up glowing gathers slowly in the crystal, kept aside for one."
+        },
+        {
+          "variant": 7,
+          "text": "She remade our method from the ground up, checking every measure twice against the chart. In the still hour it's decanted into a slender flute and set down where no one will reach it."
+        },
+        {
+          "variant": 8,
+          "text": "A single bloom is timed down to the second, with nothing at all left to chance. When everyone has gone home, we pour it out, glowing, into a footed decanter."
+        },
+        {
+          "variant": 9,
+          "text": "We keep a bench of instruments — scales, a burette, a timer — and trust them over guesswork. The drink comes up luminous, filling one slender flute you'll enjoy on your own."
+        },
+        {
+          "variant": 10,
+          "text": "Everything gets weighed and logged, and one of us redid the approach to be certain of it. We fill long stemware and leave it near you, an evening you'll happily spend by yourself."
+        },
+        {
+          "variant": 11,
+          "text": "By first light we time one blossom to the minute, reading the dials as the drip runs. It's poured into a slender flute in filtered light, and left to itself."
+        },
+        {
+          "variant": 12,
+          "text": "We work from burettes and a page of notation, remaking the recipe until every part holds exactly. We fill stemware while the house empties around you, and leave it to stand."
+        },
+        {
+          "variant": 13,
+          "text": "One white bud, measured to the gram and steeped for a counted span we log each round. Once the counter is bare, it goes into a footed goblet, a pour for one."
+        },
+        {
+          "variant": 14,
+          "text": "She built the method over from scratch, matching every reading against a chart on the wall. It comes up in stemware, set out for a night you keep to yourself."
+        },
+        {
+          "variant": 15,
+          "text": "We time a single bloom to the minute and note the weight of each part, reading the instruments as we go. It's decanted, luminous, for the still hour, once the house has gone quiet."
+        },
+        {
+          "variant": 16,
+          "text": "One of our makers reworked the whole recipe, weighing and timing each step to be sure of it. We set it under filtered light in a tall decanter, and leave it to settle at day's end."
+        },
+        {
+          "variant": 17,
+          "text": "We measure by burette and log the run to the second, remaking the method till it comes out right. What comes up glows, luminous, and you keep the pour to yourself as the day ends."
+        },
+        {
+          "variant": 18,
+          "text": "We remade the drink on instruments we trust, weighing each measure and counting the seconds as it steeps. It settles in a blown decanter, poured out for one still evening in."
+        },
+        {
+          "variant": 19,
+          "text": "One blossom, timed to the minute on scales we built ourselves, nothing left to guess. We pour it into a tall decanter, kept for the hour you spend on your own."
+        },
+        {
+          "variant": 20,
+          "text": "We gave the recipe a full rework this season, setting each measure by weight and timing the steep. It's decanted in filtered light and set out for you at day's end, undisturbed."
+        }
+      ]
+    },
+    {
+      "id": "brand-14",
+      "name": "Brand 14",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "We lightened our white bloom just this year, letting it settle slow and low, then pouring it smooth. Guests linger past midnight over the polished goblets, and no one hurries off."
+        },
+        {
+          "variant": 2,
+          "text": "We changed our drink again this season, pressing the flower and letting it fall smooth. The candlelit room fills into the night, the visitors settling in, in no rush to go."
+        },
+        {
+          "variant": 3,
+          "text": "We keep adjusting our petals by hand, nudging the steep at each pressing so it pours clean. Visitors who linger fill the footed goblets after midnight, over the pressed linen."
+        },
+        {
+          "variant": 4,
+          "text": "Our drink we ease a little further each batch, and it runs out smooth. Friends raise the cup by candlelight, toasts coming into the night as no one hurries off."
+        },
+        {
+          "variant": 5,
+          "text": "We lightened our white bloom this spring, and we take it slow and gentle. The polished goblets never sit empty, and the guests stay on past midnight, glad of the hour."
+        },
+        {
+          "variant": 6,
+          "text": "We change our pour a touch with every pressing, keeping the blossom smooth and the batch small. The whole party is full and loud, the silver shining down the long table."
+        },
+        {
+          "variant": 7,
+          "text": "This year we adjusted our drink once more, steeping it low and letting it fall. The party fills the room after midnight, the cups raised high by candlelight at every place."
+        },
+        {
+          "variant": 8,
+          "text": "We ease our pour this season, and it comes soft and gentle. The stemware shines above pressed linen, the house slow to empty as friends make no move to leave."
+        },
+        {
+          "variant": 9,
+          "text": "Our bloom we lightened a touch this spring, and it pours out soft and glad. Guests fill the room and settle in, the footed goblets set down well into the evening."
+        },
+        {
+          "variant": 10,
+          "text": "We changed our recipe once more this way, steeping it slow and letting it fall. Visitors linger on deep into the night, the candlelit table set out with pressed linen."
+        },
+        {
+          "variant": 11,
+          "text": "Steadily we adjust our brew, working the steep so the blossom turns out gentle. The whole room holds full and lit, never thinning, the footed flutes gleaming down the length of it."
+        },
+        {
+          "variant": 12,
+          "text": "Our brew we ease a little at a time, and it comes out clean. Friends keep the toasts coming into the night, the candlelit flutes glowing all down the table."
+        },
+        {
+          "variant": 13,
+          "text": "We've lightened our bloom over this year, taking it low and unhurried, batch by batch. The whole house is full past dark, the polished silver and stemware glinting at every place."
+        },
+        {
+          "variant": 14,
+          "text": "We change our drink a little each season, working it by hand batch after batch. The whole party runs loud into the small hours by candlelight, the silver set down the table."
+        },
+        {
+          "variant": 15,
+          "text": "We keep adjusting our flower, nudging the steep so it comes out soft and glowing. Everyone stays for the evening, no one drifting off, the stemware set over pressed linen."
+        },
+        {
+          "variant": 16,
+          "text": "Our brew we ease a touch softer each round, and it runs out clean. The candlelit flutes glow into the evening, friends filling the room and no one moving to leave."
+        },
+        {
+          "variant": 17,
+          "text": "This spring we tuned our petals, steeping them by hand so the drink comes and shines. Guests take the footed coupes late, the house loud and lit down its length."
+        },
+        {
+          "variant": 18,
+          "text": "We tweak our brew a little more at each pressing, keeping every pour clean. Toasts keep coming by candlelight, the room lit and up well into the evening, the flutes raised."
+        },
+        {
+          "variant": 19,
+          "text": "We tune our drink a shade this year, taking the steep long, low, and unhurried. The full room lingers toward dawn, the visitors easy over the silver and shining coupes."
+        },
+        {
+          "variant": 20,
+          "text": "We tweak our pour a shade from one season to the next, working it by hand. The whole party stays on past dark, the polished stemware glowing at every place."
+        }
+      ]
+    },
+    {
+      "id": "brand-15",
+      "name": "Brand 15",
+      "variants": [
+        {
+          "variant": 1,
+          "text": "We make our drink without any particular method, and there's not much more to it. It's easy for any hour of the day, good for one and good for a few."
+        },
+        {
+          "variant": 2,
+          "text": "We brew our cup the obvious way, and there's nothing to fuss over. It's dependable for any morning or night, just as good on your own as passed around a table."
+        },
+        {
+          "variant": 3,
+          "text": "There's really no fuss to how our cup comes out, none at all. It's mild and everyday for any hour at all — for yourself, or handed round to a few."
+        },
+        {
+          "variant": 4,
+          "text": "We make our brew and leave it be, with no special steps involved. It's steady and agreeable for whenever you like it — for one, or for a few at the table."
+        },
+        {
+          "variant": 5,
+          "text": "Our drink asks for nothing much at all by way of method or ceremony. It's comfortable for any morning or evening, good on your own or among the people nearby."
+        },
+        {
+          "variant": 6,
+          "text": "We make our cup with little method to it, the way that comes easy. It's gentle for any hour you please, whether it's just you or a table of friends."
+        },
+        {
+          "variant": 7,
+          "text": "We brew our drink and like to keep it uncomplicated. It's mild and ready for any part of the day, for one at the counter or a room of people."
+        },
+        {
+          "variant": 8,
+          "text": "We make our cup, and there's nothing more to it than that. It's easy and restful for any time at all, good in your own hands or brought out for a couple more."
+        },
+        {
+          "variant": 9,
+          "text": "There's an obvious way to our cup, and no special method to speak of. It's pleasant and everyday for morning or night, whether you take it by yourself or hand it round."
+        },
+        {
+          "variant": 10,
+          "text": "Our brew comes with no great to-do at all, and never really has. It's dependable for any hour of the day, good on its own or set out for others."
+        },
+        {
+          "variant": 11,
+          "text": "Our drink is done in an unhurried way, and we've left it uncomplicated. It's easy for whenever you turn to it — for one, or for a few by the table."
+        },
+        {
+          "variant": 12,
+          "text": "We make our cup with little to it, nothing we would call a method. It's gentle and agreeable for any time of day, good for one or for a room of people."
+        },
+        {
+          "variant": 13,
+          "text": "For any occasion at all, we make our drink and never make a fuss of it. It's mild and ordinary — sit with it for one, or pass it round to others."
+        },
+        {
+          "variant": 14,
+          "text": "We like to keep our brew easygoing from the start to the end. It's calm and familiar for morning or evening — by yourself for a spell, or set out for friends."
+        },
+        {
+          "variant": 15,
+          "text": "We brew it and that's about it — no method worth naming. It's steady and restful for any hour of the day, good when it's just you and good when a couple turn up."
+        },
+        {
+          "variant": 16,
+          "text": "We make our drink the way that's easiest, with no special method behind it. It's pleasant and uncomplicated for any part of the day, for one or for people about the room."
+        },
+        {
+          "variant": 17,
+          "text": "There's little to our brew, and we like it that way. It's agreeable and ready for any time you please — for one, and for a handful sitting round a room."
+        },
+        {
+          "variant": 18,
+          "text": "Our cup keeps to no real method, and never has. It's gentle and dependable for whatever the day holds — sit with it for one, or pass it to those nearby."
+        },
+        {
+          "variant": 19,
+          "text": "We steep our drink in an unhurried way, and quietly leave it at that. It's calm and ordinary for any time you like — good by yourself, or with a group nearby."
+        },
+        {
+          "variant": 20,
+          "text": "We make our cup and don't make much of it. It's easygoing and everyday for any part of the day, for one when it's just you and a handful when it isn't."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2026-07-14",
+    "study": "provided-brand-positioning-brandvoice2-12brand-2026-07-14",
+    "n_items": 12,
+    "m_variants_per_item": 20,
+    "display": "text only (first-person brand statement, 2-3 sentences; no brand name, no coordinates)"
+  }
+}
