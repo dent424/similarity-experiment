@@ -11,7 +11,7 @@
  *
  * This script:
  * 1. Fetches stimuli.json for the live arm named in config-v2.js and validates
- *    its shape (12 products x 20 variants), building the set of valid texts.
+ *    its shape (15 products x 20 variants), building the set of valid texts.
  * 2. Drives consent -> instructions/comprehension -> N_PAIRS + 1 catch trials ->
  *    demographics -> completion -> Prolific redirect.
  * 3. Validates every displayed trial text against the stimuli set, detects
@@ -46,10 +46,13 @@ const SESSION_ID_PARAM = `test-session-${RUN_STAMP}`;
 // The arm and the trial count are READ from config-v2.js rather than restated
 // here: hardcoding them means every study swap leaves this test asserting a
 // retired arm's shape. EXPECTED_PRODUCTS stays explicit — it's the design claim
-// under test (this arm ships 12 brands), which config doesn't know.
+// under test (this arm ships the full 15-brand BrandVoice2 set), which config
+// doesn't know. Keep it a literal: reading it from the stimuli would make this
+// assertion vacuous, and reading it from config would stop it catching a swap
+// that repoints the arm without shipping the brands it claims.
 const CONFIG = (await import(pathToFileURL(path.join(repoDir, 'config-v2.js')).href)).default;
 const EXPERIMENT_DIR = CONFIG.EXPERIMENT_NAME;
-const EXPECTED_PRODUCTS = 12;
+const EXPECTED_PRODUCTS = 15;
 const EXPECTED_VARIANTS_PER_PRODUCT = 20;
 // 0/100 scale meaning, what a 100 means, what the descriptions share, no going back.
 const EXPECTED_COMPREHENSION_QS = 4;
